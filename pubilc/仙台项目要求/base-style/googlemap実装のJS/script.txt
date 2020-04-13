@@ -1,0 +1,24 @@
+■</head>内に配置
+<script type="text/javascript" src="http://www.google.com/jsapi?key="></script>
+<script type="text/javascript" src="./js/gmap.js?auto"></script>
+
+
+■下記ソースを配置したい所に入れる
+==============================================
+<div class="gMap gMapZoom16" style="width: 690px; height: 480px;">
+	<div class="gMapCenter">
+		<p class="gMapLatLng">35.20499488213666,136.9880762888855</p>
+	</div>
+	<div class="gMapMarker">
+		<div class="gMapInfoWindow">
+		<span style="font-weight: bold">会社名</span><br />
+		住所<br />
+		〒000-000-0000<br />
+		愛知県名古屋市守山区喜多山南20-12<br />
+		TEL: 000-000-0000<br />
+		FAX: 000-000-0000
+		</div>
+		<p class="gMapLatLng">35.2037325,136.9885269</p>
+	</div>
+</div>
+==============================================

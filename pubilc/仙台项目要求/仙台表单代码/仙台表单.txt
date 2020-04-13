@@ -1,0 +1,122 @@
+<form class="mailForm" action="./" method="post">
+  <fieldset>
+    <table class="comTable" cellpadding="0" cellspacing="0" summary="お問い合わせフォーム">
+      <col width="23%" />
+      <col width="77%" />
+      <tbody>
+        <tr>
+          <th>
+            <label for="fName">お名前</label>
+            <span><img src="/img/contact/img.png" width="30" height="16" alt="必須" /></span></th>
+          <td>
+            <input type="text" value="" id="fName" name="name" />
+            <span class="notes">例）山田太郎</span></td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fPhonetic">ふりがな</label>
+            <span><img src="/img/contact/img.png" width="30" height="16" alt="必須" /></span></th>
+          <td>
+            <input type="text" value="" id="fPhonetic" name="phonetic" />
+            <span class="notes">例）やまだたろう</span></td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fAge">年齢</label>
+            <span><img src="/img/contact/img.png" width="30" height="16" alt="必須" /></span></th>
+          <td>
+            <select name="age" id="fAge">
+              <option value="選択して下さい">選択して下さい</option>
+              <option value="～3才">～3才</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fEmail">メールアドレス</label>
+            <span><img src="/img/contact/img.png" width="30" height="16" alt="必須" /> </span> </th>
+          <td>
+            <input type="text" value="" id="fEmail" name="email" />
+            <span class="notes">例）info@example.jp</span></td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fCheck">ご確認用<br />
+              メールアドレス</label>
+            <span><img src="/img/contact/img.png" width="30" height="16" alt="必須" /> </span> </th>
+          <td>
+            <input type="text" value="" id="fCheck" name="check" />
+            <span class="notes">入力間違いを防ぐため、再度メールアドレスをご入力お願いいたします。</span></td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fExperience">楽器の経験の<br />
+              有無</label>
+          </th>
+          <td>
+            <select name="experience" id="fExperience ">
+              <option value="選択してください">選択してください</option>
+              <option value="有り">有り</option>
+              <option value="無り">無し</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fYears">ご希望レッスン<br />
+              日時</label>
+          </th>
+          <td>
+            <input type="text" value="" id="fYears" name="years" />
+            年
+            <input type="text" value="" id="fMonth" name="month" />
+            月
+            <input type="text" value="" id="fDay" name="day" />
+            日</td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fFatalog01">ご希望のカタログ</label>
+          </th>
+          <td>
+            <ul>
+              <li>
+                <label for="fFatalog01">
+                  <input type="checkbox" value="" name="fatalog01" id="fFatalog01" />
+                  グリス定量スイッチ</label>
+              </li>
+              <li>
+                <label for="fFatalog02">
+                  <input type="checkbox" value="" name="fatalog02" id="fFatalog02" />
+                  フロースイッチ</label>
+              </li>
+              <li>
+                <label for="fFatalog03">
+                  <input type="checkbox" value="" name="fatalog03" id="fFatalog03" />
+                  潤滑装置</label>
+              </li>
+              <li>
+                <label for="fFatalog04">
+                  <input type="checkbox" value="" name="fatalog04" id="fFatalog04" />
+                  シール剤塗布</label>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="fContent">お問い合わせ内容</label>
+            <span><img src="/img/contact/img.png" width="30" height="16" alt="必須" /></span></th>
+          <td>
+            <textarea name="content" id="fContent" cols="5" rows="5"></textarea>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+  <ul class="submit">
+    <li>
+      <input type="image" src="/img/contact/button_out.jpg" alt="送信する" value="送信/ Send" name="__send__" onmouseover="this.src='/img/contact/button_over.jpg'" onmouseout="this.src='/img/contact/button_out.jpg'" />
+    </li>
+  </ul>
+</form>

@@ -1,0 +1,109 @@
+/*-----------comTable------------*/
+#conts .comTable {
+	margin-bottom: 30px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#conts .comTable th,
+#conts .comTable td {
+	font-weight: normal;
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #CCC;
+}
+
+#conts .comTable th {
+	background-color: #EFE0BC;
+	font-size: 1.3em;
+}
+
+#conts .comTable td {
+	font-size: 1.2em;
+}
+
+/*-----------submit------------*/
+#conts .mailForm .submit {
+	text-align: center;
+}
+
+#conts .mailForm .submit li {
+	display: inline;
+	margin: 0 8px;
+}
+
+#conts .mailForm .submit li input {
+	vertical-align: top;
+}
+
+/*-----------mailForm------------*/
+#conts .mailForm .content {
+	margin-bottom: 20px;
+	padding: 8px 12px;
+	width: 620px;
+	height: 140px;
+	overflow-y: scroll;
+	border: 1px solid #E7E7E7;
+	border-top: 1px solid #ACACAC;
+}
+
+#conts .mailForm .content .title {
+	margin-bottom: 0;
+	color: #E0799D;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#conts .mailForm .content p {
+	margin-bottom: 15px;
+	font-size: 1.3em;
+	line-height: 1.5;
+}
+
+#conts .mailForm .submit {
+	text-align: center;
+}
+
+#conts .mailForm td input {
+	margin: -3px 0 0;
+	width: 245px;
+	vertical-align: middle;
+	color: #666;
+}
+
+#conts .mailForm .notes {
+	margin-top: 6px;
+	display: block;
+}
+
+#conts .mailForm select {
+	color: #666;
+}
+
+#conts .mailForm #fAge {
+	width: 120px;
+}
+
+#conts .mailForm #fYears {
+	margin-top: 0;
+	width: 65px;
+}
+
+#conts .mailForm #fMonth,
+#conts .mailForm #fDay {
+	margin-top: 0;
+	width: 30px;
+}
+
+#conts .mailForm #fContent {
+	width: 415px;
+	height: 111px;
+	color: #666;
+}
+
+#conts .comTable td li {
+	margin: 5px 0;
+	width: 300px;
+	font-size: 1.16em;
+}

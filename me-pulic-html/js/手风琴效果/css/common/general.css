@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	conts
+------------------------------------------------------------*/
+.comTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.comTable th,
+.comTable td {
+	border: 1px solid #d6d6d6;
+	vertical-align: top;
+}
+
+#conts .mainContent .comTit {
+	margin: 0 5px 7px;
+	clear: both;
+}
+
+#conts .mainContent .title {
+	padding-right: 9px;
+	margin-bottom: 9px;
+	float: right;
+}
+
+#conts .mainContent .comSection {
+	margin: 0 0 60px 11px;
+	padding: 16px 22px 11px 16px;
+	clear: both;
+	background: url(../../img/common/comsection_bg.jpg) no-repeat left top;
+}
+
+#conts .mainContent .comSection dl {
+	width: 440px;
+	float: left;
+}
+
+#conts .mainContent .comSection dl dt {
+	margin: 0 0 10px 6px;
+}
+
+#conts .mainContent .comSection dl dd {
+	font-size: 1.3em;
+}
+
+#conts .mainContent .comSection .photoBox {
+	padding-top: 1px;
+	float: right;
+}
+

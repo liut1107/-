@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/navi.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+	//下拉1
+	$(".naviBox1 .gNavi li:has(ul)").hover(function(){
+		$(this).children("a").toggleClass("on").next().toggle();
+	});	
+	
+	//下拉2
+	$(".naviBox2 .gNavi li:has(ul)").hover(function(){
+		$(this).children("a").toggleClass("on").next().stop().slideToggle(300);
+	});	
+});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="main">
+		<div class="jsBox naviBox1">
+			<p>gNavi下拉1</p>
+			<ul class="gNavi clearfix">
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="jsBox naviBox2">
+			<p>gNavi下拉2</p>
+			<ul class="gNavi clearfix">
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	
+		
+	</div>
+</div>
+</body>
+</html>

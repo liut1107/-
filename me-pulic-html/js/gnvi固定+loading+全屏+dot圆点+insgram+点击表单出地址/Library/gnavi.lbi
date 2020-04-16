@@ -1,0 +1,30 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<nav id="gNavi">
+	<ul class="clearfix">
+		<li class="navi01"><a href="../index.html">HOME</a></li>
+		<li class="navi02"><a href="../about.html" class="accordion">ここすもハウスとは</a>
+			<ul class="subNavi">
+				<li><a href="#">L私たちの想い</a></li>
+				<li><a href="#">Lコンセプト</a></li>
+				<li><a href="#">Lこだわり</a></li>
+				<li><a href="#">L完成までの流れ</a></li>
+				<li><a href="#">Lアフターフォロー＋保証</a></li>
+			</ul>
+		</li>
+		<li class="navi03"><a href="#">ニュース・イベント</a></li>
+		<li class="navi04"><a href="#">施工事例</a></li>
+		<li class="navi05"><a href="#">お客様の声</a> </li>
+		<li class="navi06"><a href="#">ブログ</a></li>
+		<li class="navi07"><a href="#" class="accordion">会社案内</a>
+			<ul class="subNavi">
+				<li><a href="../profile.html">L会社概要</a></li>
+				<li><a href="#">Lスタッフ紹介</a></li>
+			</ul>
+		</li>
+		<li class="navi08"><a href="../contact/">お問い合わせ</a></li>
+	</ul>
+</nav>
+<ul class="fixLink clearfix">
+	<li><a href="#"><img src="../img/common/fix_link01.png" alt="資料請求はこちら"></a></li>
+	<li><a href="#"><img src="../img/common/fix_link02.png" alt="モデルハウスへ行く"></a></li>
+</ul>

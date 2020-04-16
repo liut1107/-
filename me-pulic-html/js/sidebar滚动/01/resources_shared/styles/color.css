@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* COLOR SETTING for ALL PAGES */
+/* 背景色・ボーダーカラーを変更したいときは、下記を変更してください。ベースの設定を上書きます。 */
+
+
+/************コンテンツ背景色*************/
+#CONTAINER{
+	background-color:#fff;
+}
+
+
+/************テキストカラー*************/
+
+/* デフォルトテキストカラー */
+
+/* 背景：コンテンツ背景色 */
+.baseColor *{
+	color:#333;
+}
+/* 背景：白 */
+.floatWin *,.floatWin2 *,#MOBQR .box .bd *{
+	color:#333 !important;
+}
+
+/* サブテキストカラー */
+
+/* 背景：コンテンツ背景色 */
+.h1Area ul li,
+.h1Article p span,
+.newsList dl dt span,
+.articleList ul li dl dt,
+div.articleList2 ul li div.inner dl dt,
+.articleList ul li dl dt span.date,
+.articleList ul li dl dt span.category,
+div.articleList2 ul li div.inner dl dt span,
+div.newsIdx dl dt,
+.mediaList ul li .left .page,
+.mediaList ul li .data table th,
+.mediaList ul li .data table td,
+.bnS .data .date{
+	color:#747474 !important;
+}
+/* 背景：白 */
+
+ul.col3List li dl.price dd,
+.stylingData .data table dl.price dd,
+.stylingData .data table ul li{
+	color:#747474 !important;
+}
+
+
+/* スタイリングフロートウィンドウ 表組みタイトル（背景黒） */
+#SIZECHART table.sizeChart thead th,
+#SIZECHART table.sizeChart thead td,
+.stylingData .data table thead th,
+.stylingData .data table thead td{
+	color:#fff !important;
+}
+
+
+/************リンクテキストカラー*************/
+/* デフォルト */
+#CONTENTSAREA a,
+#CONTENTSAREA a:link {
+	color:#333;
+}
+#CONTENTSAREA a:visited {
+	color:#333;
+}
+#CONTENTSAREA a:active {
+	color:#747474;
+}
+#CONTENTSAREA a:hover {
+	color:#747474;
+}
+
+/* グローバルサブナビテキストリンク（背景白） */
+#GNAVI ul.cateLink li ul li ul li a,
+#GNAVI ul.cateLink li ul li ul li a:link,
+#GNAVI ul.cateLink li ul li ul li a:visited,
+#GNAVI ul.funcLink li ul li ul li a,
+#GNAVI ul.funcLink li ul li ul li a:link,
+#GNAVI ul.funcLink li ul li ul li a:visited{
+	color:#333;
+}
+#GNAVI ul.cateLink li ul li ul li a:active,
+#GNAVI ul.cateLink li ul li ul li a:hover,
+#GNAVI ul.cateLink li ul li ul li a:active,
+#GNAVI ul.cateLink li ul li ul li a:hover,
+#GNAVI ul.funcLink li ul li ul li a:active,
+#GNAVI ul.funcLink li ul li ul li a:hover{
+	color:#747474;
+}
+
+/* ページングover/curテキストリンク（背景黒） */
+.paging ul li.num a:active,
+.paging ul li.num a:hover,
+.paging ul li.num a.cur{
+	color:#fff !important;
+}
+
+
+/************ボーダーカラー*************/
+
+/* 3px solid border コンテンツ上 区切り線 */
+
+/* 背景：コンテンツ背景色 */
+#SNAVI,
+.blogNav h2,
+h1.h1Bar,
+.h1Article,
+h1.h1BarTxt,
+h2.h2Bar,
+h2.h2BarTxt,
+div.bar,
+#SIZECHART table.sizeChart caption,
+.sitemapList .col ul{
+	border-top-color:#333;
+}
+/* 背景：白 */
+/* おすすめアイテム・スタイルリスト */
+ul.col3List li div.inner{
+	border-top-color:#333;
+}
+
+
+/* 1px solid border コンテンツ下・中 区切り線 */
+
+/* 背景：コンテンツ背景色 */
+.blogNav h2,
+h1.h1Bar,
+h1.h1BarTxt,
+.h1Article,
+h2.h2Bar,
+h2.h2BarTxt{
+	border-bottom-color:#ededed !important;
+}
+hr.lineSolid,
+hr.lineDot{
+	border-color:#ededed !important;
+}
+.newsList dl dt,
+.articleList ul li,
+div.newsIdx dl,
+.mediaList ul li,
+.sitemapList .col ul{
+	border-top-color:#ededed !important;
+}
+
+
+/* 1px dotted border 横並びコンテンツ間 */
+
+/* 背景：コンテンツ背景色 */
+.h1Article p span,
+.newsList dl dt span,
+.articleList ul li dl dt span.date,
+.articleList ul li dl dt span.category,
+div.articleList2 ul li div.inner dl dt span,
+ul.col3List li dl.price dt{
+	border-right-color:#c1c1c1 !important;
+}
+/* 背景：白 */
+/* おすすめアイテム・スタイルリスト プライス左ドットライン */
+ul.col3List li dl.price dt{
+	border-right-color:#c1c1c1 !important;
+}
+
+
+
+
+
+
+
+
+
+

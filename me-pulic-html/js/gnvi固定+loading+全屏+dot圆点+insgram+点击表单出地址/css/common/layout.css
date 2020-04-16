@@ -1,0 +1,855 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: 'YuGothM',sans-serif;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+img {
+	vertical-align: top;
+}
+
+a,
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #333;
+	text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'YuGothB';
+    src: url('../../fonts/YuGothB.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/YuGothB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/YuGothB.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/YuGothB.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'YuGothL';
+    src: url('../../fonts/YuGothL.eot');
+    src: url('../../fonts/YuGothL.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/YuGothL.woff') format('woff'),
+    url('../../fonts/YuGothL.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'YuGothM';
+    src: url('../../fonts/YuGothM.eot');
+    src: url('../../fonts/YuGothM.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/YuGothM.woff') format('woff'),
+    url('../../fonts/YuGothM.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'YuGothR';
+    src: url('../../fonts/YuGothR.eot');
+    src: url('../../fonts/YuGothR.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/YuGothR.woff') format('woff'),
+    url('../../fonts/YuGothR.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand_Bold';
+    src: url('../../fonts/Quicksand_Bold.otf'),
+    url('../../fonts/Quicksand_Bold.ttf')  format('truetype');
+}
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #333;
+	font-size: 13px;
+	line-height: 1.5;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	background-color: #FFF;
+	min-width: 1100px;
+}
+
+#container {
+	text-align: left;
+}
+
+#main {
+	margin-bottom: 92px;
+
+}
+
+#cover {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9000;
+	background: #fff url(../../img/common/loading.gif) no-repeat center center;
+	background-size: 50px 50px;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#gHeader .hBox {
+	padding: 6px 0 0;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#gHeader .hBox .ttlBox {
+	width: 660px;
+	float: left;
+}
+
+#gHeader .hBox h1 {
+	margin-top: 20px;
+	width: 410px;
+	float: right;
+	font-size: 14px;
+	line-height: 1.68;
+	font-weight: normal;
+}
+
+#gHeader .hBox .logo {
+	float: left;
+}
+
+#gHeader .hBox .tel {
+	margin-top: 6px;
+	width: 330px;
+	float: right;
+	text-align: right;
+	font-size: 20px;
+	line-height: 1.2;
+    font-family: 'Quicksand_Bold';
+	letter-spacing: 2px;
+}
+
+#gHeader .hBox .tel .num {
+	margin-left: 3px;
+	font-size: 30px;
+}
+
+#gHeader .hBox .tel .time {
+	margin: 7px 0 0 24px;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+    font-family: 'YuGothB';
+}
+
+#gHeader .hBox .tel .time span {
+	font-size: 14px;
+}
+
+#gHeader .menu {
+	display: none;
+}
+
+/*------------------------------------------------------------
+	gNavi
+------------------------------------------------------------*/
+#gNavi {
+	text-align: center;
+}
+
+#gNavi ul {
+	width: 1044px;
+	margin: 0 auto;
+}
+
+#gNavi li {
+	position: relative;
+	float: left;
+	font-size: 14px;
+	letter-spacing: 3px;
+    font-family: 'YuGothB';
+}
+
+#gNavi li a {
+	padding: 24px 0 27px;
+	display: block;
+	text-decoration: none;
+}
+
+#gNavi .navi01 {
+	width: 94px;
+    font-family: 'Quicksand_Bold';
+}
+
+#gNavi .navi02 {
+	width: 174px;
+}
+
+#gNavi .navi03 {
+	width: 204px;
+}
+
+#gNavi .navi04 {
+	width: 96px;
+}
+
+#gNavi .navi05 {
+	width: 146px;
+}
+
+#gNavi .navi06 {
+	width: 80px;
+}
+
+#gNavi .navi07 {
+	width: 116px;
+}
+
+#gNavi .navi08 {
+	width: 134px;
+}
+
+#gNavi a:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#gNavi li .subNavi {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 72px;
+	display: none;
+	border: 1px solid #a0a0a0;
+	border-bottom: none;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+
+#gNavi li .subNavi li {
+	float: none;
+	width: 100%;
+	text-align: left;
+}
+
+#gNavi li .subNavi li a {
+	padding: 12px 10px;
+	color: #333;
+	font-size: 13px;
+	letter-spacing: normal;
+	border-bottom: 1px solid #a0a0a0;
+}
+
+#gNavi.on {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	background-color: #000;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#gNavi.on li a {
+	padding-bottom: 24px;
+	color: #FFF;
+}
+
+#gNavi.on li .subNavi {
+	top: 69px;
+}
+
+/*------------------------------------------------------------
+	conts
+------------------------------------------------------------*/
+#conts {
+
+}
+
+/*------------------------------------------------------------
+	sideBar
+------------------------------------------------------------*/
+#sideBar {
+
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#gFooter {
+	overflow: hidden;
+}
+
+#gFooter .topBox {
+	padding: 45px 0 56px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#gFooter .topBox .ttlBox {
+	margin-right: 24px;
+	width: 210px;
+	float: left;
+}
+
+#gFooter .topBox .ttlBox .fLogo {
+	margin-bottom: 19px;
+}
+
+#gFooter .topBox .ttlBox .link a {
+	padding: 8px 0 7px;
+	display: block;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	background-color: #000;
+	border-radius: 20px;
+    font-family: 'YuGothB';
+	transition: all .8s;
+	-webkit-transition: all .8s;
+}
+
+#gFooter .topBox .ttlBox .link a span {
+	display: inline-block;
+	padding-left: 17px;
+	background: url(../../img/common/icon02.png) no-repeat left center;
+}
+
+#gFooter .topBox .ttlBox .link a:hover {
+	background-color: #C20C34;
+}
+
+#gFooter .topBox .telBox {
+	margin-top: 10px;
+	float: left;
+	width: 283px;
+}
+
+#gFooter .topBox .telBox .tel {
+	margin-bottom: 15px;
+	color: #000;
+	font-size: 20px;
+	line-height: 1.2;
+    font-family: 'Quicksand_Bold';
+	letter-spacing: 2px;
+}
+
+#gFooter .topBox .telBox .tel .num {
+	font-size: 30px;
+}
+
+#gFooter .topBox .telBox .tel .sml {
+	margin-bottom: 13px;
+	display: block;
+	font-size: 14px;
+    font-family: 'YuGothB';
+	letter-spacing: 1px;
+}
+
+
+#gFooter .topBox .telBox .time {
+	color: #000;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+#gFooter .topBox .txtBox {
+	margin-top: 2px;
+	padding: 21px 0 18px 20px;
+	float: left;
+	width: 483px;
+	color: #000;
+	box-sizing: border-box;
+	border: 1px solid #000;
+}
+
+#gFooter .topBox .txtBox .ttl {
+	margin-bottom: 9px;
+	font-size: 14px;
+	letter-spacing: 1px;
+    font-family: 'YuGothB';
+}
+
+#gFooter .topBox .txtBox .txtUl li {
+	width: 148px;
+	float: left;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 1px;
+}
+
+#gFooter .topBox .txtBox .txtUl li:nth-child(3n) {
+	width: 160px;
+}
+
+#gFooter .naviBox {
+	padding: 42px 0 39px;
+	background-color: #F9F9F9;
+}
+
+#gFooter .naviBox .fNavi {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#gFooter .naviBox .fNavi li {
+	float: left;
+	font-size: 14px;
+	line-height: 1.73;
+}
+
+#gFooter .naviBox .fNavi .ttl a {
+	color: #333;
+    font-family: 'YuGothB';
+}
+
+#gFooter .naviBox .fNavi .subNavi li {
+	width: auto;
+	float: none;
+}
+
+#gFooter .naviBox .fNavi li a {
+	color: #666;
+}
+
+#gFooter .naviBox .fNavi .wid01 {
+	width: 135px;
+}
+
+#gFooter .naviBox .fNavi .wid02 {
+	width: 157px;
+}
+
+#gFooter .naviBox .fNavi .wid03 {
+	width: 127px;
+}
+
+#gFooter .naviBox .fNavi .wid04 {
+	width: 117px;
+}
+
+#gFooter .naviBox .fNavi .wid05 {
+	width: 79px;
+}
+
+#gFooter .naviBox .fNavi .wid06 {
+	width: 115px;
+}
+
+#gFooter .naviBox .fNavi .wid07 {
+	width: 124px;
+}
+
+#gFooter .naviBox .fNavi .wid08 {
+	width: 145px;
+}
+
+#gFooter .linkBox {
+	padding: 28px 0 25px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#gFooter .linkBox .fLink {
+	margin-top: -19px;
+}
+
+#gFooter .linkBox .fLink li {
+	margin: 19px 20px 0 0;
+	float: left;
+	width: 184px;
+	overflow: hidden;
+}
+
+#gFooter .linkBox .fLink li:nth-child(5n) {
+	margin-right: 0;
+}
+
+#gFooter .linkBox .fLink li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#gFooter .copyright {
+	padding: 8px 0 9px;
+	text-align: center;
+	color: #FFF;
+	font-size: 14px;
+	background-color: #000;
+}
+
+.sp {
+	display: none !important;
+}
+
+
+@media all and (min-width: 0) and (max-width: 767px) {
+
+	.sp {
+		display: block !important;
+	}
+	
+	.pc {
+		display: none !important;
+	}
+	
+	body {
+		min-width: 320px;
+	}
+	
+	#main {
+		margin-bottom: 30px;
+	}
+	
+	/*------------------------------------------------------------
+		ヘッダー
+	------------------------------------------------------------*/
+	#gHeader {
+		margin-bottom: 0px;
+	}
+	
+	#gHeader .hBox {
+		padding: 8px 10px;
+		width: auto;
+		position: relative;
+	}
+
+	#gHeader .hBox .ttlBox {
+		width: auto;
+		float: none;
+	}
+	
+	#gHeader .hBox h1 {
+		margin-top: 0px;
+		width: auto;
+		float: none;
+		font-size: 12px;
+		display: none;
+	}
+	
+	#gHeader .hBox .logo {
+		float: none;
+	}
+
+	#gHeader .hBox .logo img {
+		width: 120px;
+	}
+	
+	#gHeader .hBox .tel {
+		display: none;
+	}
+
+	#gHeader .menu {
+		position: absolute;
+		top: 18px;
+		right: 10px;
+		display: block;
+		cursor: pointer;
+	}
+
+	#gHeader .menu img {
+		width: 30px;
+	}
+	
+	/*------------------------------------------------------------
+		gNavi
+	------------------------------------------------------------*/
+	#gNavi {
+		position: absolute;
+		left: 0;
+		top: 57px;
+		width: 100%;
+		display: none;
+		text-align: center;
+		background-color: #FFF;
+		z-index: 1000;
+	}
+	
+	#gNavi ul {
+		width: auto;
+	}
+
+	#gNavi li {
+		float: none;
+		width: 100% !important;
+		font-size: 14px;
+	}
+	
+	#gNavi li a {
+		padding: 12px 10px;
+		position: relative;
+		color: #333 !important;
+		text-align: left;
+		border-top: 1px solid #333;
+	}
+
+	#gNavi li:last-child a {
+		border-bottom: 1px solid #333;
+	}
+
+	#gNavi a:hover {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+	
+	#gNavi.on {
+		display: none !important;
+	}
+	
+	#gNavi li .accordion:before {
+		width: 16px;  
+		height: 16px;
+		margin-top: -8px;
+		background: url(../../img/common/icon06.png) no-repeat left top;
+		position: absolute;  
+		top: 50%;  
+		right: 10px;  
+	  
+		content: "";
+	}
+
+	#gNavi li .accordion.on:before {
+		background: url(../../img/common/icon06_o.png) no-repeat left top;
+	}
+	
+	#gNavi li .subNavi {
+		width: 100%;
+		position: inherit;
+		left: 0;
+		top: inherit;
+		display: none;
+		border: none;
+	}
+	
+	#gNavi li .subNavi li {
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	
+	#gNavi li .subNavi li a {
+		padding: 10px 10px;
+		color: #333;
+		border-bottom: none;
+	}
+
+	/*------------------------------------------------------------
+		フッター
+	------------------------------------------------------------*/
+	#gFooter {
+	}
+	
+	#gFooter .topBox {
+		padding: 25px 10px;
+		width: auto;
+	}
+
+	#gFooter .topBox .ttlBox {
+		margin-right: 0;
+		width: auto;
+		float: none;
+		text-align: center;
+	}
+	
+	#gFooter .topBox .ttlBox .fLogo img {
+		width: 160px;
+	}
+
+	#gFooter .topBox .ttlBox .link a {
+		margin: 0 auto;
+		max-width: 250px;
+		transition: none;
+		-webkit-transition: none;
+	}
+	
+	#gFooter .topBox .ttlBox .link a:hover {
+		background-color: #000;
+	}
+
+	#gFooter .topBox .telBox {
+		margin-top: 20px;
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+		
+	#gFooter .topBox .telBox .tel {
+		margin-bottom: 15px;
+		letter-spacing: normal;
+	}
+	
+	#gFooter .topBox .telBox .tel .sml {
+		margin-bottom: 5px;
+	}
+	
+	#gFooter .topBox .txtBox {
+		margin-top: 15px;
+		padding: 15px 10px;
+		float: none;
+		width: auto;
+	}
+
+	#gFooter .topBox .txtBox .ttl {
+		text-align: center;
+	}
+	
+
+	#gFooter .topBox .txtBox .txtUl li {
+		width: 49% !important;
+		font-size: 12px;
+		line-height: 1.7;
+		letter-spacing: 0px;
+	}
+	
+	#gFooter .topBox .txtBox .txtUl li:nth-child(2n) {
+		float: right;
+	}
+	
+	#gFooter .naviBox {
+		padding: 20px 10px;
+	}
+	
+	#gFooter .naviBox .fNavi {
+		width: auto;
+	}
+	
+	#gFooter .naviBox .fNavi li {
+		float: none;
+		width: 100% !important;
+		font-size: 12px;
+	}
+
+	#gFooter .naviBox .fNavi li a {
+		padding: 9px 10px;
+		display: block;
+		position: relative;
+		text-decoration: none;
+		border-bottom: 1px solid #333;
+	}
+
+	#gFooter .naviBox .fNavi li a:before {
+		width: 8px;  
+		height: 12px;
+		margin-top: -6px;
+		background: url(../../img/common/icon03.png) no-repeat;
+		background-size: 8px 12px;
+		position: absolute;  
+		top: 50%;  
+		right: 10px;  
+	  
+		content: "";
+	}
+
+	#gFooter .linkBox {
+		padding: 20px 10px;
+		width: auto;
+	}
+
+	#gFooter .linkBox .fLink {
+		margin-top: -10px;
+	}
+
+	#gFooter .linkBox .fLink li {
+		margin: 10px 0px 0;
+		width: 48%;
+	}
+
+	#gFooter .linkBox .fLink li:nth-child(2n) {
+		float: right;
+	}
+	
+	#gFooter .linkBox .fLink li img {
+		width: 100%;
+	}
+
+	#gFooter .linkBox .fLink li a:hover img {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+		
+	#gFooter .linkBox .fLink li a img {
+		width: 100%;
+		transition: none;
+		-webkit-transition: none;
+	}
+
+	#gFooter .linkBox .fLink li a:hover img {
+		transform: none;
+		-webkit-transform: none;
+		transition: none;
+		-webkit-transition: none;
+	}
+	
+	#gFooter .copyright {
+		font-size: 12px;
+	}
+
+}
+
+@media all and (min-width: 768) {
+	#gNavi{
+		display: block !important;
+	}
+	
+}

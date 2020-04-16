@@ -1,0 +1,170 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.floatL {
+	float: left !important;
+}
+
+.floatR {
+	float: right !important;
+}
+
+a:hover img.imgHover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+img {
+	vertical-align: top;
+}
+
+dl img,
+li img {
+	display: block;
+	vertical-align: baseline;
+}
+
+.pageTop {
+	position: fixed;
+	bottom: 142px;
+	left: 50%;
+	margin-left: 510px;
+	display: none;
+}
+
+/*------------------------------------------------------------
+	mainImg
+------------------------------------------------------------*/
+.mainImg {
+	background-color: #FFF;
+}
+
+.mainImg h2 {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*------------------------------------------------------------
+	h3Head
+------------------------------------------------------------*/
+#conts .h3Head img {
+	margin-top: -2px;
+	position: relative;
+	zoom: 1;
+}
+
+/*------------------------------------------------------------
+	comTable
+------------------------------------------------------------*/
+#conts .comTable {
+	margin-bottom: 50px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#conts .comTable td,
+#conts .comTable th {
+	padding: 7px 10px 11px 18px;
+	font-size: 1.3em;
+	line-height: 1.5;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#conts .comTable th {
+	color: #DF6C63;
+	border-top: 1px solid #F8DCDA;
+	border-bottom: 1px solid #FFF;
+	background-color: #F8DCDA;
+}
+
+#conts .comTable .last {
+	border-bottom: 1px solid #F8DCDA;
+}
+
+#conts .comTable td {
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+
+#conts .comTable td a {
+	color: #5F4C3F;
+}
+
+/*------------------------------------------------------------
+	comImgBox
+------------------------------------------------------------*/
+#conts .comImgBox  {
+	margin-bottom: 38px;
+}
+	
+#conts .comImgBox .photoBox {
+	float: right;
+}
+
+#conts .comImgBox .txtBox {
+	width: 370px;
+	float: left;
+}
+
+#conts .comImgBox .txtBox .title {
+	margin-bottom: 17px;
+}
+
+#conts .comImgBox .txtBox p {
+	margin-bottom: 5px;
+	font-size: 1.3em;
+}
+
+#conts .comImgBox .txtBox .link {
+	text-align: center;
+}

@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+.mr0 { margin-right: 0 !important;}
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+.clear {
+	clear: both;
+}
+
+.dis {
+	display: block;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+.mb20 {
+	margin-bottom: 20px !important;
+}
+
+.mb23 {
+	margin-bottom: 23px !important;
+}
+
+.mb31 {
+	margin-bottom: 31px !important;
+}
+
+.mb50 {
+	margin-bottom: 50px !important; 
+}
+
+.mb69 {
+	margin-bottom: 69px !important; 
+}
+
+.mr0 {
+	margin-right: 0 !important; 
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+.pb10 {
+	padding-bottom: 10px !important;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+#main .section {
+	background: url(../../img/common/section_bg01.png) no-repeat left top;
+	padding: 20px 0 0 11px;
+	zoom: 1;
+}
+
+.pageTop {
+	margin: 32px 10px 0 0;
+	text-align: right;
+}
+
+.pageTop a {
+	background: #462E2F url(../../img/common/page_top.gif) no-repeat left top;
+	padding: 3px 13px 3px 22px;
+	color: #dea3a6 !important;
+}
+

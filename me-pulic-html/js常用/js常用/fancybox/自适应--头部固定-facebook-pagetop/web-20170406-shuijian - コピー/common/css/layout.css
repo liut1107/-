@@ -1,0 +1,532 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family:  "Hiragino Kaku Gothic Pro" ,Meiryo, "小塚ゴシック Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+img {
+	vertical-align: top;
+}
+
+a,
+a:link {
+	color: #202020;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #202020;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #202020;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #202020;
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #202020;
+	font-size: 14px;
+	line-height: 1.5;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	background-color: #fff;
+	min-width: 1040px;	
+}
+
+#container {
+	padding-top: 254px;
+	text-align: left;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+.fixArea {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1999;
+}
+
+#header {
+	background-color: #FFF;
+}
+
+#header .hBox {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#header h1 {
+	margin-top: 12px;
+	float: left;
+}
+
+#header h1 img {
+	width: 312px;
+}
+
+#header .menu {
+	display: none;
+}
+
+/*------------------------------------------------------------
+	gNavi
+------------------------------------------------------------*/
+#gNavi {
+	float: right;
+}
+
+#gNavi li {
+	width: 96px;
+	float: left;
+}
+
+#gNavi a {
+	padding: 24px 5px 26px;
+	display: block;
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	height: 20px;
+}
+
+#gNavi a:hover {
+	color: #fff;
+	background-color: #0c97ba;
+}
+
+/*------------------------------------------------------------
+	conts
+------------------------------------------------------------*/
+#conts {
+	width: 700px;
+	float: left;
+}
+
+/*------------------------------------------------------------
+	sideBar
+------------------------------------------------------------*/
+#sideBar {
+	width: 218px;
+	float: right;
+}
+
+#sideBar .sNavi li {
+	margin-top: 10px;
+	float: left;
+}
+
+#sideBar .sNavi li:first-child {
+	margin-top: 0;
+}
+
+#sideBar .sNavi li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	padding-top: 25px;
+	overflow: hidden;
+	clear: both;
+}
+
+#footer .fNavi {
+	margin-bottom: 27px;
+	font-size: 0;
+	text-align: center;
+}
+
+#footer .fNavi li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+#footer .fNavi a {
+	padding: 0 33px;
+	display: inline-block;
+	color: #000;
+}
+
+#footer .pageTop {
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	display: none;
+}
+
+#footer .pageTop a {
+	display: block;
+}
+
+#footer .pageTop a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#footer .copyright {
+	padding: 10px 0 9px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	background-color: #454545;
+}
+
+.sp {
+	display: none !important;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	img {
+		max-width: 100%;
+	}
+	
+	body {
+		min-width: inherit;
+	}
+	
+	/*------------------------------------------------------------
+		ヘッダー
+	------------------------------------------------------------*/
+	#header {
+		overflow: hidden;
+	}
+	
+	#header .hBox {
+		padding: 0 10px;
+	}
+	
+	#header h1 {
+		margin-top: 18px;
+	}
+	
+	#header h1 img {
+		width: 260px;
+	}
+		
+	/*------------------------------------------------------------
+		conts
+	------------------------------------------------------------*/
+	#conts {
+		padding-right: 210px;
+		width: auto;
+		float: none;
+	}
+
+	/*------------------------------------------------------------
+		sideBar
+	------------------------------------------------------------*/
+	#sideBar {
+		position: absolute;
+		right: 10px;
+		top: 0;
+		width: 200px;
+	}
+	
+	#sideBar .sNavi li a:hover img {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+		
+	/*------------------------------------------------------------
+		フッター
+	------------------------------------------------------------*/
+	#footer .fNavi a {
+		padding: 0 20px;
+	}
+	
+	#footer .pageTop {
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+		display: none;
+	}
+
+	#footer .pageTop img {
+		width: 40px;
+	}
+	
+	#footer .pageTop a:hover img {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	.sp {
+		display: block !important;
+	}
+	
+	.pc {
+		display: none !important;
+	}
+	
+	body {
+		font-size: 12px;
+		min-width: 320px;
+	}
+	
+	#container {
+		padding-top: 42px !important;
+	}
+	
+	#main {
+		margin-bottom: 0;
+	}
+	
+	.fixArea {
+		position: inherit;
+	}
+
+	/*------------------------------------------------------------
+		ヘッダー
+	------------------------------------------------------------*/
+	#header {
+		height: 42px;
+		background: #FFF;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+		background-color: #FFF;
+	}
+	
+	#header .hBox {
+		padding: 0;
+		position: relative;
+	}
+	
+	#header h1 {
+		padding-left: 9px;
+		margin-top: 7px;
+	}
+	
+	#header h1 img {
+		width: 197px;
+	}
+
+	#header .menu {
+		position: absolute;
+		right: 0;
+		top: 0;
+		display: block;
+		background: url(../img/sp_close.gif) no-repeat;
+		background-size: 48px auto;
+	}
+
+	#header .menu.on img {
+		 visibility: hidden;
+	}
+	
+	/*------------------------------------------------------------
+		gNavi
+	------------------------------------------------------------*/
+	#gNavi {
+		position: absolute;
+		left: 0;
+		top: 42px;
+		width: 100%;
+		float: none;
+		z-index: 1000;
+		display: none;
+	}
+
+	#gNavi li {
+		width: auto;
+		float: none;
+	}
+	
+	#gNavi a {
+		padding: 8px 17px 7px;
+		color: #040404;
+		font-size: 16px;
+		text-align: left;
+		position: relative;
+		border: 2px solid #0191B4;
+		border-bottom: none;
+		background-color: #FFF;
+		height: inherit;
+	}
+
+	#gNavi li:last-child a {
+		border-bottom: 2px solid #0191B4;
+	}
+	
+	#gNavi li a:before {
+		width: 7px;  
+		height: 10px;
+		margin-top: -4px;
+		background: url(../img/icon05.png) no-repeat;
+		background-size: 7px 10px;
+		position: absolute;  
+		top: 50%;  
+		right: 11px;  
+	  
+		content: "";
+	}
+	
+	#gNavi a:hover {
+		color: #040404;
+		background-color: #FFF;
+	}
+	
+	/*------------------------------------------------------------
+		conts
+	------------------------------------------------------------*/
+	#conts {
+		width: auto;
+		float: none;
+	}
+
+	/*------------------------------------------------------------
+		sideBar
+	------------------------------------------------------------*/
+	#sideBar {
+		width: 68%;
+		margin: 0 auto;
+		float: none;
+		max-width: 218px;
+	}
+	
+	#sideBar .sNavi li {
+		float: none;
+	}
+	
+	#sideBar .sNavi li img {
+		width: 100%;
+	}
+		
+	#sideBar .sNavi li a:hover img {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+	
+	/*------------------------------------------------------------
+		フッター
+	------------------------------------------------------------*/
+	#footer {
+		padding-top: 0px;
+	}
+		
+	#footer .fNavi {
+		margin-bottom: 0px;
+		border-top: 1px solid #454545;
+	}
+	
+	#footer .fNavi li {
+		float: left;
+		width: 50%;
+		font-size: 11px;
+	}
+	
+	#footer .fNavi a {
+		padding: 4px 0 4px;
+		display: block;
+		font-size: 11px;
+		text-decoration: none;
+		border-bottom: 1px solid #454545;
+	}
+
+	#footer .fNavi li:nth-child(2n) a {
+		border-left: 1px solid #454545;
+	}
+
+	#footer .fNavi .line {
+		display: none;
+	}
+		
+	#footer .pageTop {
+		right: 5px;
+		bottom: 5px;
+	}
+	
+	#footer .pageTop a img {
+		width: 40px;
+	}
+
+	#footer .pageTop a:hover img {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+
+	#footer .copyright {
+		padding: 10px 0 8px;
+		font-size: 9px;
+	}
+
+}
+
+@media all and  (min-width: 768px) {
+	#gNavi {
+		display: block !important
+	}
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#gNavi .navi05 a img {
+	visibility: hidden;
+}
+
+#conts h3 {
+	margin-bottom: 29px;
+}
+
+#conts p {
+	margin-bottom: 25px;
+	font-size: 1.3em;
+}
+
+#conts .step {
+	margin-bottom: 29px;
+}
+
+#conts .comTable th img {
+	float: right;
+}
+
+#conts .comTable td input {
+	width: 370px;
+	height: 17px;
+}
+
+#conts .comTable td .wid01 {
+	width: 140px;
+}
+
+#conts .comTable td .wid02 {
+	width: 70px;
+}
+
+#conts .comTable td .btn {
+	margin: 0 10px;
+	width: 38px;
+	height: 18px;
+	color: #FFF;
+	font-size: 0.8em;
+	text-align: center;
+	border: none;
+	vertical-align: middle;
+	padding: 0;
+	background: url(../img/contact/imgtext03.gif) no-repeat;
+}
+
+#conts .comTable td .address {
+	padding: 10px 0 0;
+}
+
+#conts .comTable td .address .zip {
+	margin-bottom: 10px;
+	color: #999999;
+}
+
+#conts .comTable td .address .zip01 {
+	color: #5f4c3f;
+}
+
+#conts .comTable td .address .zip .wid02 {
+	margin-left: 5px;
+}
+
+#conts .comTable td .notes {
+	color: #999999;
+}
+
+#conts .comTable td textarea {
+	padding: 5px 0;
+	width: 460px;
+	height: 150px;
+	font-size: 1.05em;
+	line-height: 1.2;
+}
+
+#conts .submit {
+	text-align: center;
+}
+
+#conts .submit li {
+	margin: 0 10px;
+	display: inline;
+}
+
+#conts .submit li input {
+	width: 75px;
+	padding: 3px 0;
+	height: 25px;
+	color: #000;
+	font-size: 1.2em;
+	border: 1px solid #939393;
+	border-radius: 2px;
+	behavior: url(../js/pie.htc); 
+	position: relative;
+	background: url(../img/contact/input_bg.gif) repeat-x left bottom;
+}
+
+#conts .comTable td .error {
+	margin-top: 6px;
+	padding: 3px 0 2px;
+	width: 376px;
+	display: block;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FF0000;
+}
+
+#conts .txtBox p {
+	margin-bottom: 13px;
+	color: #000;
+	line-height: 1.6;
+}
+
+#conts .txtBox .pLink {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#conts .txtBox .pLink a {
+	color: #DF6C63;
+	text-decoration: underline;
+}
+
+#conts .txtBox .pLink a:hover {
+	text-decoration: none;
+}

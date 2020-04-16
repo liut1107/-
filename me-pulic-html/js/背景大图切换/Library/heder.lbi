@@ -1,0 +1,22 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="header">
+	<div class="hBox clearfix">
+		<div class="hInner">
+			<div class="topBox clearfix">
+				<h1>新潟は古町の鍋茶屋通りにある居酒屋、魚と酒のたらい舟。<br />
+					新潟の日本酒を40種類以上取り揃え、日本海の新鮮な海の幸や新潟・佐渡の郷土料理が味わえる大人の隠れ家。<br />
+					温もり溢れる店内がお酒と料理を引き立て、寛ぎのひとときを過ごしていただけます。</h1>
+				<h2><a href="/"><img src="../common/img/header/logo.png" alt="魚と酒 たらい舟" width="159" height="55" /></a></h2>
+			</div>
+			<ul id="gNavi"class="clearfix">
+				<li><span><img src="../common/img/gnavi/txt_navi01.png" alt="PREJUDICE たらい舟の「こだわり」" width="67" height="194" /></span><a href="../kodawari/"><img src="../common/img/gnavi/pic_navi01.jpg" alt="" width="140" height="230" /></a></li>
+				<li class="navi02"><span><img src="../common/img/gnavi/txt_navi02.png" alt="COOKING&amp;ALCOHOL 郷土料理 とお酒" width="66" height="139" /></span><a href="../dinner/"><img src="../common/img/gnavi/pic_navi02.jpg" alt="" width="140" height="230" /></a></li>
+				<li class="navi03"><span><img src="../common/img/gnavi/txt_navi03.png" alt="INTRODUCTION&amp;ACCESS 店内紹介 アクセス" width="63" height="155" /></span><a href="../access/"><img src="../common/img/gnavi/pic_navi03.jpg" alt="" width="140" height="230" /></a></li>
+			</ul>
+		</div>
+		<div class="contact clearfix">
+			<div class="link"><a href="#"><img src="../common/img/header/btn_headre01.png" alt="おしらせ" width="65" height="61" /></a><span><a href="#"><img src="../common/img/header/btn_header02.gif" alt="ご予約・お問い合わせ" width="23" height="165" /></a></span></div>
+			<div class="tel"><img src="../common/img/header/txt_header01.png" alt="営業時間] [定休日] 17時22時30分 日曜日(祝前日にあたる場合は営業・月曜振替休) 0252250101 お問い合わせ" width="100" height="260" /></div>
+		</div>
+	</div>
+</div>

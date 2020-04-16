@@ -1,0 +1,26 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<ul class="sNavi clearfix">
+	<li><a href="../about/"><img src="../img/common/s_navi01_off.png" alt="本協会の概要" width="200" height="41" /></a></li>
+	<li><a href="../josei/"><img src="../img/common/s_navi02_off.png" alt="社会貢献広報事業" width="200" height="40" /></a>
+		<ul class="list clearfix">
+			<li><a href="../josei/jisseki.html"><img src="../img/common/s_navi03_off.png" alt="実績" width="200" height="35" /></a></li>
+			<li><a href="../bosyu/"><img src="../img/common/s_navi04_off.png" alt="募集" width="200" height="35" /></a></li>
+			<li><a href="../login/"><img src="../img/common/s_navi05_off.png" alt="採択団体ログイン" width="200" height="35" /></a></li>
+			<li><a href="../login/senyou.html"><img src="../img/common/s_navi06_off.png" alt="採択団体専用ページ" width="200" height="35" /></a></li>
+			<li><a href="../login/hyouji.html"><img src="../img/common/s_navi07_off.png" alt="表示データ" width="200" height="35" /></a></li>
+			<li><a href="../login/youshiki.html"><img src="../img/common/s_navi08_off.png" alt="各種様式" width="200" height="35" /></a></li>
+		</ul>
+	</li>
+	<li><a href="../cyousa"><img src="../img/common/s_navi09_off.png" alt="調査研究事業" width="200" height="40" /></a>
+		<ul class="list clearfix">
+			<li><a href="../cyousa/yoron.html"><img src="../img/common/s_navi10_off.png" alt="宝くじ世論調査（最新版）" width="200" height="35" /></a></li>
+			<li><a href="../cyousa/monitor.html"><img src="../img/common/s_navi11_off.png" alt="モニターアンケート" width="200" height="35" /></a></li>
+		</ul>
+	</li>
+	<li><a href="../dream/"><img src="../img/common/s_navi12_off.png" alt="宝くじドリーム館" width="200" height="40" /></a>
+		<ul class="list clearfix">
+			<li><a href="../dream/tokyo.html"><img src="../img/common/s_navi13_off.png" alt="東京宝くじドリーム館" width="200" height="35" /></a></li>
+			<li><a href="../dream/osaka.html"><img src="../img/common/s_navi14_off.png" alt="大阪宝くじドリーム館" width="200" height="35" /></a></li>
+		</ul>
+	</li>
+</ul>

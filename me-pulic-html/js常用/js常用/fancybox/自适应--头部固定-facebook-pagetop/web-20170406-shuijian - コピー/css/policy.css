@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#header {
+	border-bottom: 3px solid #0C97BA;
+}
+
+#container {
+	padding-top: 69px;
+}
+
+#main .bgBox {
+	padding: 48px 0 47px;
+}
+
+#main .headLine01 {
+	margin-bottom: 28px;
+	padding-bottom: 11px;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+#main p {
+	margin-bottom: 53px;
+	line-height: 1.78;
+}
+
+#main dt {
+	margin-bottom: 2px;
+	color: #0c97ba;
+}
+
+#main dd {
+	margin: 0 13px 27px;
+	line-height: 1.78;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	#main .bgBox {
+		padding: 30px 0;
+	}
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	#main .bgBox {
+		padding: 15px 0;
+	}
+	
+	#main .headLine01 {
+		margin-bottom: 15px;
+		padding-bottom: 5px;
+	}
+	
+	#main p {
+		margin-bottom: 15px;
+		line-height: 1.5;
+	}
+	
+	#main dd {
+		margin-bottom: 15px;
+		line-height: 1.5;
+	}
+
+	#main dd:last-child {
+		margin-bottom: 0;
+	}
+	
+}

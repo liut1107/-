@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/slideshow.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.carouFredSel-6.1.0.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//slider1
+	$(".slider1 .foo ul").carouFredSel({
+		auto: false,  //false 是不自动滑动   每隔5秒切换一次 就替换成 5000
+		width: '100%',
+		items: {
+			visible: 3,	//显示图片的个数
+			width: 1030,//每个图片的宽度  加上左右padding
+			height: 310
+		},
+		scroll: {
+			items: 1	//每次切换1张图片
+		},
+		prev: ".slider1 .prev",
+		next: ".slider1 .next",
+		pagination: '.slider1 .foopage'
+	});
+	//slider2
+	$(".slider2 .foo ul").carouFredSel({
+		auto: false,
+		scroll: {
+			duration: 1000,
+			fx: 'crossfade'
+		},
+		prev: ".slider2 .prev",
+		next: ".slider2 .next",
+		pagination: '.slider2 .foopage'
+	});
+	
+	//slider3
+	$(".slider3 .foo ul").carouFredSel({
+		auto: false,
+		items: 4,
+		scroll: {
+			items: 2
+		},
+		prev: ".slider3 .prev",
+		next: ".slider3 .next",
+		pagination: '.slider3 .foopage'
+	});
+	
+	//slider4
+	$(".slider4 .foo ul").carouFredSel({
+		responsive: true,
+		width: '100%',
+		auto: false,
+		items: {
+			visible: {
+				min: 1,
+				max: 1	
+			},
+			width: 1020,	//宽高比例保持不变
+			height: (31000/1020)+'%'                    // 'variable'
+		},
+		scroll: {
+			items: 1
+		},
+		prev: ".slider4 .prev",
+		next: ".slider4 .next",
+		pagination: '.slider4 .foopage',
+		swipe: {		//手指滑动效果 需要引用touchSwip.js
+			onMouse: true,
+			onTouch: true
+		}
+	});
+	$(window).load(function(){
+		$(window).trigger('resize');
+	});
+	
+	//slider5
+	var toolbar=$('.toolbar').clone();
+	$(".slider5 .foo ul").carouFredSel({
+		auto: false,
+		scroll: {
+			fx: 'directscroll'
+		},
+		prev: ".slider5 .prev",
+		next: ".slider5 .next",
+		pagination:{
+			container:'.toolbar',
+			anchorBuilder:function(nr, item) {
+				return toolbar.find('li').eq(nr-1).clone();
+			}
+		}
+	});
+});
+</script>
+</head>
+<body>
+<div id="container">
+<p>全屏滑动</p>
+<div class="sliderBox slider1">
+	<ul class="arrow">
+		<li class="prev"><img src="img/slideshow/prev.png" width="44" height="44" alt="" /></li>
+		<li class="next"><img src="img/slideshow/next.png" width="44" height="44" alt="" /></li>
+	</ul>
+	<div class="foo">
+		<ul>
+			<li><img src="img/slideshow/main_img01.jpg" width="1020" height="310" alt="" /></li>
+			<li><img src="img/slideshow/main_img02.jpg" width="1020" height="310" alt="" /></li>
+			<li><img src="img/slideshow/main_img03.jpg" width="1020" height="310" alt="" /></li>
+			<li><img src="img/slideshow/main_img04.jpg" width="1020" height="310" alt="" /></li>
+		</ul>
+	</div>
+	<div class="left"></div>
+	<div class="right"></div>
+	<div class="foopage"></div>
+</div>
+
+
+<p>淡入淡出</p>
+<div class="sliderBox slider2">
+	<ul class="arrow">
+		<li class="prev"><img src="img/slideshow/prev.png" width="44" height="44" alt="" /></li>
+		<li class="next"><img src="img/slideshow/next.png" width="44" height="44" alt="" /></li>
+	</ul>
+	<div class="foo">
+		<ul>
+			<li><img src="img/slideshow/main_img01.jpg" width="1020" height="310" alt="" /></li>
+			<li><img src="img/slideshow/main_img02.jpg" width="1020" height="310" alt="" /></li>
+			<li><img src="img/slideshow/main_img03.jpg" width="1020" height="310" alt="" /></li>
+			<li><img src="img/slideshow/main_img04.jpg" width="1020" height="310" alt="" /></li>
+		</ul>
+	</div>
+	<div class="foopage"></div>
+</div>
+
+<p>gallery</p>
+<div class="sliderBox slider3">
+	<ul class="arrow">
+		<li class="prev"><img src="img/slideshow/prev.png" width="44" height="44" alt="" /></li>
+		<li class="next"><img src="img/slideshow/next.png" width="44" height="44" alt="" /></li>
+	</ul>
+	<div class="foo">
+		<ul>
+			<li><img src="img/slideshow/main_img01.jpg" width="220" alt="" /></li>
+			<li><img src="img/slideshow/main_img02.jpg" width="220" alt="" /></li>
+			<li><img src="img/slideshow/main_img03.jpg" width="220" alt="" /></li>
+			<li><img src="img/slideshow/main_img04.jpg" width="220" alt="" /></li>
+			<li><img src="img/slideshow/main_img01.jpg" width="220" alt="" /></li>
+			<li><img src="img/slideshow/main_img02.jpg" width="220" alt="" /></li>
+			<li><img src="img/slideshow/main_img03.jpg" width="220" alt="" /></li>
+			<li><img src="img/slideshow/main_img04.jpg" width="220" alt="" /></li>
+		</ul>
+	</div>
+	<div class="foopage"></div>
+</div>
+
+<p>sp全屏</p>
+<div class="sliderBox slider4">
+	<ul class="arrow">
+		<li class="prev"><img src="img/slideshow/prev.png" width="44" height="44" alt="" /></li>
+		<li class="next"><img src="img/slideshow/next.png" width="44" height="44" alt="" /></li>
+	</ul>
+	<div class="foo">
+		<ul>
+			<li><img src="img/slideshow/main_img01.jpg" width="100%" alt="" /></li>
+			<li><img src="img/slideshow/main_img02.jpg" width="100%" alt="" /></li>
+			<li><img src="img/slideshow/main_img03.jpg" width="100%" alt="" /></li>
+			<li><img src="img/slideshow/main_img04.jpg" width="100%" alt="" /></li>
+		</ul>
+	</div>
+	<div class="foopage"></div>
+</div>
+
+<p>小图 大图</p>
+<div class="sliderBox slider5">
+	<ul class="arrow">
+		<li class="prev"><img src="img/slideshow/prev.png" width="44" height="44" alt="" /></li>
+		<li class="next"><img src="img/slideshow/next.png" width="44" height="44" alt="" /></li>
+	</ul>
+	<div class="foo">
+		<ul>
+			<li><img src="img/slideshow/main_img01.jpg" width="1020" alt="" /></li>
+			<li><img src="img/slideshow/main_img02.jpg" width="1020" alt="" /></li>
+			<li><img src="img/slideshow/main_img03.jpg" width="1020" alt="" /></li>
+			<li><img src="img/slideshow/main_img04.jpg" width="1020" alt="" /></li>
+		</ul>
+	</div>
+	<div class="thumb">
+		<ul class="toolbar clearfix">
+			<li><a href="#"><img src="img/slideshow/main_img01.jpg" width="200" alt="" /></a></li>
+			<li><a href="#"><img src="img/slideshow/main_img02.jpg" width="200" alt="" /></a></li>
+			<li><a href="#"><img src="img/slideshow/main_img03.jpg" width="200" alt="" /></a></li>
+			<li><a href="#"><img src="img/slideshow/main_img04.jpg" width="200" alt="" /></a></li>
+		</ul>
+	</div>
+</div>
+
+<p><a href="http://docs.dev7studios.com/jquery-plugins/caroufredsel" target="_blank">官网使用说明(翻墙看)</a></p>
+<p><a href="http://docs.dev7studios.com/jquery-plugins/caroufredsel-advanced" target="_blank">js各种参数(翻墙看)</a></p>
+
+</div>
+</body>
+</html>

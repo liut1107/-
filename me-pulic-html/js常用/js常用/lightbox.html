@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="js/lightbox/jquery.lightbox-0.5.css"/>
+<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/lightbox/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.light a').lightBox();
+});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="main">
+		<p>lightbox</p>
+		<ul class="light clearfix">
+			<li><a href="img/fancybox/big_photo01.jpg"><img src="img/fancybox/big_photo01.jpg" width="100%" alt="" /></a></li>
+			<li><a href="img/fancybox/big_photo02.jpg"><img src="img/fancybox/big_photo02.jpg" width="100%" alt="" /></a></li>
+			<li><a href="img/fancybox/big_photo03.jpg"><img src="img/fancybox/big_photo03.jpg" width="100%" alt="" /></a></li>
+		</ul>
+		<p>左右箭头关闭按钮的图片路径需要在lightbox-0.5.js里面定义<br />
+		<img src="img/common/lightbox.jpg" width="657" height="199" /></p>
+		
+	</div>
+</div>
+</body>
+</html>

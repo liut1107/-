@@ -1,0 +1,150 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#main .mainImg {
+	padding: 82px 0 130px;
+	background: url(../img/index/main_img_bg.jpg) no-repeat center top;
+}
+
+#main .mainImg h2 {
+	margin: 0 auto;
+	width: 896px;
+}
+
+#main .mainBox {
+	background: url(../img/index/bg01.gif) repeat-x left top;
+	zoom: 1;
+}
+
+#main .mainBox h3 {
+	margin-left: 2px;
+	text-align: center;
+}
+
+#main .mainBox .subBox {
+	margin: 0 auto;
+	padding: 38px 69px 18px;
+	width: 760px;
+	background: url(../img/index/main_box_bg01.gif) no-repeat left top;
+}
+
+#main .mainBox .subBox .listUl {
+	margin-bottom: 14px;
+}
+
+#main .mainBox .subBox .listUl li {
+	padding: 0 0 25px 29px;
+	float: left;
+}
+
+#main .mainBox .subBox .textImg {
+	margin: 0 0 4px 10px;
+	text-align: center;
+}
+
+#main .mainBox .subBox .arrow {
+	text-align: center;
+}
+
+#main .mainBox .subBox .linkList {
+	margin-bottom: 4px;
+}
+
+#main .mainBox .subBox .linkList li {
+	padding: 0 0 17px 17px;
+	float: left;
+}
+
+#main .mainBox .subBox table {
+	margin-bottom: 17px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#main .mainBox .subBox th,
+#main .mainBox .subBox td {
+	padding: 7px 18px;
+	font-size: 1.6em;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #DADADA;
+	background-color: #FFF;
+}
+
+#main .mainBox .subBox th {
+	padding: 10px 12px 5px;
+	font-weight: normal;
+	background-color: #EEE;
+}
+
+#main .mainBox .subBox th span {
+	color: #0D72D0;
+}
+
+#main .mainBox .subBox td .wid01 {
+	width: 380px;
+	height: 23px;
+	border: 1px solid #A9A9A9;
+}
+
+#main .mainBox .subBox td textarea {
+	width: 380px;
+	height: 104px;
+	border: 1px solid #A9A9A9;
+}
+
+#main .mainBox .subBox .submit {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#main .mainBox .subBox .submit li {
+	margin: 0 25px 0 39px;
+	display: inline;
+	vertical-align: top;
+}
+
+#main .mainBox .subBox .submit li input:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#main .mainBox .subBox .notes {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#main .mainBox01 {
+	background: url(../img/index/bg02.gif) repeat-x left top;
+}
+
+#main .mainBox01 .subBox {
+	padding: 20px 52px 19px;
+	width: 794px;
+	background: url(../img/index/main_box_bg02.gif) no-repeat left top;
+}
+
+#main .mainBox02 {
+	background: url(../img/index/bg03.gif) repeat-x left top;
+}
+
+#main .mainBox02 .subBox {
+	padding: 41px 82px 24px;
+	width: 734px;
+	background: url(../img/index/main_box_bg03.gif) no-repeat left top;
+}
+
+#main .mainBox02 .subBox .listUl li {
+	padding: 0 0 24px 67px;
+}
+
+#main .mainBox03 {
+	background: url(../img/index/bg04.gif) repeat-x left top;
+}
+
+#main .mainBox03 .subBox {
+	padding: 18px 88px 19px 106px;
+	width: 701px;
+	background: url(../img/index/main_box_bg04.gif) no-repeat left top;
+}

@@ -1,0 +1,616 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>ご注文情報の入力</title>
+<link href="../css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="../css/cart.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.colorbox-min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".popup").colorbox({width:"720", height:"1000", iframe:true});
+});
+</script>
+</head>
+<body id="input">
+<div class="HtmlBody" id="HtmlBody"><!-- #BeginLibraryItem "/Library/header03.lbi" --><div id="HD">
+		<div class="header clearfix">
+			<div class="innerTop">
+				<p class="logo"><img src="../img/common/head_img01.gif" width="194" height="32" alt="" /> <span><a href="../index.html"><img src="../img/common/logo.gif" width="170" height="40" alt="安心と高品質の花贈り hibiyakadan.com" /></a></span></p>
+			</div>
+		</div>
+	</div><!-- #EndLibraryItem --><div class="comTop">
+        <div class="inner clearfix">
+            <ul id="pagePath">
+                <li><a href="../index.html">ホーム</a> &gt;</li>
+                <li>ご注文情報の入力</li>
+            </ul>
+            <h2><img src="../img/cart/inp_h2_img01.gif" width="186" height="23" alt="ログイン" /></h2>
+        </div>
+    </div>
+    <div class="MB" id="MB">
+        <ul class="comUl clearfix">
+            <li><img src="../img/cart/com_txtimg01.jpg" width="240" height="45" alt="STEP 1 カート" /></li>
+            <li><img src="../img/cart/inp_txtimg01.jpg" width="240" height="45" alt="STEP 2 ご注文情報の入力" /></li>
+            <li><img src="../img/cart/com_txtimg03.jpg" width="240" height="45" alt="STEP 3 ご注文情報の確認" /></li>
+            <li><img src="../img/cart/com_txtimg04.jpg" width="240" height="45" alt="STEP 4 ご注文完了"  /></li>
+        </ul>
+        <p class="pTop">注文や配送に関する情報をご入力いただき、「入力内容の確認」をクリックしてください。</p>
+        <form action="./" method="post" class="mailForm">
+            <h3><img src="../img/cart/inp_h3_img01.gif" width="960" height="39" alt="ご注文者さま情報の入力" /></h3>
+            <p>ご注文する方の情報をご入力ください。</p>
+            <h4><span>ご注文者さま</span></h4>
+            <table cellpadding="0" cellspacing="0" summary="ご注文者さま" class="comTable comTabA">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr>
+                        <th>お名前<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><dl class="dlSpecial clearfix">
+                                <dt>漢字</dt>
+                                <dd>
+                                    <dl class="clearfix">
+                                        <dt>
+                                            <label for="fName">姓</label>
+                                        </dt>
+                                        <dd>
+                                            <input type="text" value="日比谷" name="name" id="fName"  />
+                                        </dd>
+                                        <dt>
+                                            <label for="fName01">名</label>
+                                        </dt>
+                                        <dd>
+                                            <input type="text" value="例)太郎" name="name01" id="fName01"  />
+                                            <span>※外国人の方は、英字でご入力ください。</span> </dd>
+                                    </dl>
+                                </dd>
+                                <dt>フリガナ</dt>
+                                <dd class="pb0">
+                                    <dl class="clearfix">
+                                        <dt>
+                                            <label for="fSay">セイ</label>
+                                        </dt>
+                                        <dd class="pb0">
+                                            <input type="text" value="例)ヒビヤ" name="say" id="fSay"  />
+                                        </dd>
+                                        <dt>
+                                            <label for="fMay">メイ</label>
+                                        </dt>
+                                        <dd class="pb0">
+                                            <input type="text" value="例)タロウ" name="may" id="fMay"  />
+                                        </dd>
+                                    </dl>
+                                </dd>
+                            </dl></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>ご住所<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><p class="textP">郵便番号または都道府県・市区町村などをご入力いただき、「検索」してください。</p>
+                            <dl class="clearfix">
+                                <dt>
+                                    <label for="fSearch">住所検索</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="例)106-0087　例)東京都千代田区" name="search" id="fSearch"  />
+                                    <a href="address.html" class="popup"><img src="../img/common/com_btn.gif" width="72" height="22" alt="検索" /></a> </dd>
+                                <dt>
+                                    <label for="fSearch01">検索した住所</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="港区南麻布" name="search01" id="fSearch01"  />
+                                </dd>
+                                <dt>
+                                    <label for="fSearch03">番地</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="例)1-6-30" name="search03" id="fSearch03"  />
+                                </dd>
+                                <dt>
+                                    <label for="fSearch04">建物名・会社名</label>
+                                </dt>
+                                <dd class="pb0">
+                                    <input type="text" value="例)ヒビヤアパート101号室" name="search04" id="fSearch04"  />
+                                </dd>
+                            </dl></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>電話番号<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><input type="text" value="03" name="tel" class="fTel"  />
+                            ー
+                            <input type="text" value="1111" name="tel01" class="fTel01"  />
+                            ー
+                            <input type="text" value="2345" name="tel02" class="fTel02"  />
+                            <span>(半角数字)</span></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>メールアドレス<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><input type="text" value="hibiya@hibiya.jp" name="email" class="fEmail"  />
+                            <span>(半角英数字)</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3><img src="../img/cart/inp_h3_img02.gif" width="960" height="39" alt="贈り主さま・お届け先情報の入力" /></h3>
+            <p>ご注文いただく商品ごとに、贈り主とお届け先の情報をご入力ください。</p>
+            <h4 class="h4Ttl01"><span>ご注文内容</span></h4>
+            <table cellpadding="0" cellspacing="0" summary="ご注文内容" class="comTable speTab">
+                <col width="15.5%" />
+                <col width="48%" />
+                <col width="36.5%" />
+                <tbody>
+                    <tr>
+                        <th>本体</th>
+                        <td><div class="inner clearfix">
+                                <div class="photoBox"><img src="../img/cart/com_photo.jpg" width="90" height="90" alt="" /></div>
+                                <div class="textBox">
+                                    <p>アレンジメント「カルポス」○○○○○○○○○○○○○○○<br />
+                                        商品番号：TF2527</p>
+                                    <dl class="clearfix">
+                                        <dt>商品価格</dt>
+                                        <dd class="color">10,500円</dd>
+                                        <dd><span class="span01">(本体価格：</span><span>10,000円)</span></dd>
+                                    </dl>
+                                </div>
+                            </div></td>
+                        <td rowspan="3"></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>カスタマイズ</th>
+                        <td><div class="dlBox clearfix">
+                                <dl class="clearfix">
+                                    <dt>無地カードピンク</dt>
+                                    <dd class="color">0円</dd>
+                                    <dd>&nbsp;</dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>フレグランススプレー○○○○○○○○○○</dt>
+                                    <dd class="color">1,260円</dd>
+                                    <dd><span class="span01">(本体価格：</span><span>1,200円)</span></dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>赤ワイン</dt>
+                                    <dd class="color">3,150円</dd>
+                                    <dd><span class="span01">(本体価格：</span><span>3000円)</span></dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>ラッピング(青×赤)</dt>
+                                    <dd class="color">105円</dd>
+                                    <dd><span class="span01">(本体価格：</span><span>100円)</span></dd>
+                                </dl>
+                                <dl class="clearfix none">
+                                    <dt>特別仕様</dt>
+                                    <dd class="color">315円</dd>
+                                    <dd><span class="span01">(本体価格：</span><span>300円)</span></dd>
+                                </dl>
+                            </div></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>商品小計</th>
+                        <td><dl class="clearfix">
+                                <dt>商品小計</dt>
+                                <dd class="color">4,200円</dd>
+                                <dd><span class="span01">(本体価格：</span><span>4,000円)</span></dd>
+                            </dl></td>
+                        <td></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <th>お届け日時</th>
+                        <td colspan="2"><div class="subBox">
+                                <dl>
+                                    <dt>日時</dt>
+                                    <dd class="color">5月13日</dd>
+                                    <dd><a href="#">カートに戻って変更</a></dd>
+                                </dl>
+                                <ul>
+                                    <li>
+                                        <label for="fDate">時間</label>
+                                        <select name="date" id="fDate">
+                                            <option value="">指定なし</option>
+                                        </select>
+                                    </li>
+                                    <li class="liSpecial">※配送状況により、ご希望の時間帯にお届け出来ない場合がございます。</li>
+                                </ul>
+                            </div></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="ttlBox">
+                <h4 class="h4Ttl02"><span>贈り主</span></h4>
+                <div class="ulBox">
+                    <div class="topImg"><img src="../img/cart/inp_ttl_top_bg.gif" width="280" height="2" alt="" /></div>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="fSame" name="same" value="" />
+                            <label for="fSame">ご注文者さまと同じ</label>
+                        </li>
+                        <li><a href="#">アドレス帳から入力</a></li>
+                    </ul>
+                </div>
+            </div>
+            <table cellpadding="0" cellspacing="0" summary="贈り主" class="comTable comTabA comTabA01">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr>
+                        <th>お名前<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><dl class="clearfix">
+                                <dt>
+                                    <label for="fName02">漢字</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="" name="name02" id="fName02"  />
+                                    <span class="span01">※連名の場合には「日比谷太郎・花子」のように「・」で区切ってご入力ください。</span> </dd>
+                                <dt>
+                                    <label for="fMay01">フリガナ</label>
+                                </dt>
+                                <dd class="pb0">
+                                    <input type="text" value="例)ヒビヤ タロウ" name="may01" id="fMay01"  />
+                                </dd>
+                            </dl></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>ご住所<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><p class="textP">郵便番号または都道府県・市区町村などをご入力いただき、「検索」してください。</p>
+                            <dl class="clearfix">
+                                <dt>
+                                    <label for="fSearch06">住所検索</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="例)106-0087　例)東京都千代田区" name="search05" id="fSearch05"  />
+                                    <a href="address.html" class="popup"><img src="../img/common/com_btn.gif" width="72" height="22" alt="検索" /></a> </dd>
+                                <dt>
+                                    <label for="fSearch06">検索した住所</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="港区南麻布" name="search06" id="fSearch06"  />
+                                </dd>
+                                <dt>
+                                    <label for="fSearch07">番地</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="例)1-6-30" name="search07" id="fSearch07"  />
+                                </dd>
+                                <dt>
+                                    <label for="fSearch08">建物名・会社名</label>
+                                </dt>
+                                <dd class="pb0">
+                                    <input type="text" value="例)ヒビヤアパート101号室" name="search08" id="fSearch08"  />
+                                </dd>
+                            </dl></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>電話番号<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><input type="text" value="03" name="tel" class="fTel"  />
+                            ー
+                            <input type="text" value="1111" name="tel01" class="fTel01"  />
+                            ー
+                            <input type="text" value="2345" name="tel02" class="fTel02"  />
+                            <span>(半角数字)</span></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>メールアドレス<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><input type="text" value="hibiya@hibiya.jp" name="email" class="fEmail"  />
+                            <span>(半角英数字)</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="ttlBox">
+                <h4 class="h4Ttl03"><span>お届け先</span></h4>
+                <div class="ulBox">
+                    <div class="topImg"><img src="../img/cart/inp_ttl_top_bg.gif" width="280" height="2" alt="" /></div>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="fSame01" name="same01" value="" />
+                            <label for="fSame01">ご注文者さまと同じ</label>
+                        </li>
+                        <li><a href="#">アドレス帳から入力</a></li>
+                    </ul>
+                </div>
+            </div>
+            <table cellpadding="0" cellspacing="0" summary="お届け先" class="comTable comTabA comTabA01">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr>
+                        <th>お名前<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><dl class="clearfix">
+                                <dt>
+                                    <label for="fName03">漢字</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="例)日比谷太郎" name="name03" id="fName03"  />
+                                    <span class="span01">※連名の場合には「日比谷太郎・花子」のように「・」で区切ってご入力ください。</span> </dd>
+                                <dt>
+                                    <label for="fMay02">フリガナ</label>
+                                </dt>
+                                <dd class="pb0">
+                                    <input type="text" value="例)ヒビヤ タロウ" name="may02" id="fMay02"  />
+                                </dd>
+                            </dl></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>ご住所<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><p class="inputP">
+                                <label for="fSelect">お届け先種別</label>
+                                <select name="select" id="fSelect">
+                                    <option value="">お選びください</option>
+                                </select>
+                            </p>
+                            <p class="textP">郵便番号または都道府県・市区町村などをご入力いただき、「検索」してください。</p>
+                            <dl class="clearfix">
+                                <dt>
+                                    <label for="fSearch11">住所検索</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="例)106-0087　例)東京都千代田区" name="search09" id="fSearch09"  />
+                                    <a href="address.html" class="popup"><img src="../img/common/com_btn.gif" width="72" height="22" alt="検索" /></a></dd>
+                                <dt>
+                                    <label for="fSearch10">検索した住所</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="港区南麻布" name="search10" id="fSearch10"  />
+                                </dd>
+                                <dt>
+                                    <label for="fSearch11">番地</label>
+                                </dt>
+                                <dd>
+                                    <input type="text" value="例)1-6-30" name="search11" id="fSearch11"  />
+                                </dd>
+                                <dt>
+                                    <label for="fSearch12">建物名・会社名</label>
+                                </dt>
+                                <dd class="pb0">
+                                    <input type="text" value="例)ヒビヤアパート101号室" name="search12" id="fSearch12"  />
+                                </dd>
+                            </dl></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>電話番号<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><input type="text" value="03" name="tel" class="fTel"  />
+                            ー
+                            <input type="text" value="1111" name="tel01" class="fTel01"  />
+                            ー
+                            <input type="text" value="2345" name="tel02" class="fTel02"  />
+                            <span>(半角数字)</span></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>メールアドレス<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><input type="text" value="hibiya@hibiya.jp" name="email" class="fEmail"  />
+                            <span>(半角英数字)</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="h4Ttl04"><span>お届けに関する情報</span></h4>
+            <table cellpadding="0" cellspacing="0" summary="お届けに関する情報" class="comTable comTabA">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr>
+                        <th>ご用途<img src="../img/cart/txtimg04.gif" width="28" height="14" alt="必須" /></th>
+                        <td><select name="select01" class="fSelect01">
+                                <option value="">お選びください</option>
+                            </select></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>備考</th>
+                        <td><textarea rows="4" cols="5" name="body" class="fBody">お届けに関するご要望がありましたら、ご記入ください。
+お届け時間のご指定はできません。</textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 class="h3Ttl"><img src="../img/cart/inp_h3_img03.gif" width="960" height="39" alt="決済情報" /></h3>
+            <h4 class="h4Ttl05"><span>クレジットカード</span></h4>
+            <div class="photo"><img src="../img/cart/inp_img01.jpg" width="228" height="24" alt="VISA" /></div>
+            <table cellpadding="0" cellspacing="0" summary="お届け先" class="btmTab btmTab01">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr>
+                        <th colspan="2"><input type="radio" value="" name="card" id="fCard" />
+                            <label for="fCard">ご登録済みクレジットカード</label></th>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><dl>
+                                <dt>種類</dt>
+                                <dd>アメリカンエキスプレス</dd>
+                                <dt>クレジットカード番号</dt>
+                                <dd>************0000</dd>
+                                <dt>名義人</dt>
+                                <dd>TARO HIBIYA</dd>
+                                <dt>有効期限</dt>
+                                <dd class="pb0">10月/ 2013年</dd>
+                            </dl></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" summary="お届け先" class="btmTab">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr>
+                        <th colspan="2"><input type="radio" value="" name="card01" id="fCard01" />
+                            <label for="fCard01">新しいクレジットカード</label></th>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><div class="infoBox">
+                                <div class="infoInner">
+                                    <div class="subInner clearfix">
+                                        <div class="photoBox">
+                                            <p class="text">セキュリティコード</p>
+                                            <div class="photo"><img src="../img/cart/inp_img03.jpg" width="270" height="53" alt="" /></div>
+                                            <p>セキュリティコードとは、クレジットカードの表面や裏面に印刷されている3けた(または4けた)の数字です。　　　　　　　　　　　　　　　　　　　　</p>
+                                        </div>
+                                        <div class="textBox">
+                                            <dl class="clearfix">
+                                                <dt>種類</dt>
+                                                <dd>
+                                                    <select name="select02" class="fSelect02">
+                                                        <option value="">お選びください</option>
+                                                    </select>
+                                                </dd>
+                                                <dt>クレジットカード番号</dt>
+                                                <dd>
+                                                    <input type="text" value="1234567890123456" name="tel" class="fTel"  />
+                                                    <span>「-」は不要です</span><img src="../img/cart/inp_img02.jpg" width="68" height="40" alt="" /></dd>
+                                                <dt>名義人</dt>
+                                                <dd>
+                                                    <input type="text" value="HIBIYA HANAKO" name="nominee" class="fNominee"  />
+                                                    <span>カード表示通りにご記入ください</span></dd>
+                                                <dt>有効期限</dt>
+                                                <dd class="pb0">
+                                                    <select name="month" class="fMonth">
+                                                        <option value="">月</option>
+                                                    </select>
+                                                    ／
+                                                    <select name="year" class="fYear">
+                                                        <option value="">年</option>
+                                                    </select>
+                                                    <span>順序にご注意ください</span></dd>
+                                            </dl>
+                                            <div class="btmImg"><img src="../img/cart/inp_bg02.gif" width="611" height="4" alt="" /></div>
+                                            <div class="bgBox">
+                                                <dl class="clearfix mb0">
+                                                    <dt>セキュリティコード</dt>
+                                                    <dd class="pb0">
+                                                        <input type="text" value="1234" class="fCode" name="code" />
+                                                        <span>3桁もしくは4桁の半角数字</span></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btmImg"><img src="../img/cart/inp_bg03.gif" width="931" height="4" alt="" /></div>
+                            </div></td>
+                    </tr>
+                    <tr class="trSpecial">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr class="trSpecial01">
+                        <td colspan="2"><input type="checkbox" id="fUpdated" name="updated" value="" />
+                            <label for="fUpdated">このカードを登録カードとして更新する</label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="h4Ttl06"><span>後払い</span></h4>
+            <table cellpadding="0" cellspacing="0" summary="&yen; 後払い" class="btmTab btmTab01">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr>
+                        <th colspan="2"><input type="radio" value="" name="bank" id="fBank" />
+                            <label for="fBank">後払い(コンビニ・銀行・郵便局)</label></th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br />
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" summary="&yen; 後払い" class="btmTab btmTab02">
+                <col width="15.5%" />
+                <col width="84.5%" />
+                <tbody>
+                    <tr class="trSpecial02">
+                        <th>Hibiyakadan.com<br />
+                            オンラインeクーポン<br />
+                            記入欄</th>
+                        <td>eクーポンをお持ちの方は、クーポン番号をご記入ください。<br />
+                            <input type="text" class="fCoupon" name="coupon" value="" /></td>
+                    </tr>
+                    <tr class="trSpecial03">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>メールマガジン</th>
+                        <td><input type="checkbox" name="coupon01" class="fCoupon01" value="" />
+                            オンラインショッピング<span>(大切な日に贈りたいフラワーギフトの情報や、花と緑に関するさまざまな話題をお届けします。)</span><span class="note">※メールマガジンは、ご注文主さまのメールアドレスにお送りさせていただきます。</span></td>
+                    </tr>
+                    <tr class="trSpecial04">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <th>カタログ</th>
+                        <td><input type="checkbox" name="coupon02" class="fCoupon02" value="" />
+                            上記の住所にカタログの送付を希望する<span class="note">※ご不要の方はチェックを外してください。</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="h4Ttl"><img src="../img/cart/inp_h4_img01.gif" width="960" height="40" alt="個人情報のお取り扱い" /></h4>
+            <div class="btmBox">
+                <div class="subBox">
+                    <p>日比谷花壇(以下弊社と称します)は、「花とみどりを通じて真に豊かな社会づくりに貢献する」という企業理念のもと、創業以来多くのお客様に愛と感動のシーンのご提供を行ってまいりました。今後とも更にお客様に安心安全な商品・サービスのご提供を行えるよう、以下の個人情報方針を定め、全ての役員・社員等が遵守すべき行動基準として徹底し、お客様からの弊社に対する信頼と期待に応えてまいります。</p>
+                    <ul>
+                        <li>● 弊社は、個人情報を取得する場合、事前に利用目的および提供の有無を明確にし、ご本人の同意を得たうえで、目的の範囲において適切に利用し、目的外利用を行なわない措置を講じます。</li>
+                    </ul>
+                </div>
+                <p>
+                    <input type="checkbox" name="coupon01" class="fCoupon01" value="" />
+                    同意する</p>
+            </div>
+            <ul class="submit">
+                <li>
+                    <input type="image" value="戻る" name="__submit__" src="../img/cart/com_btn01.jpg" alt="戻る" />
+                </li>
+                <li>
+                    <input type="image" value="入力情報の確認に進む" name="__submit__" src="../img/cart/inp_btn01.jpg" alt="入力情報の確認に進む" />
+                </li>
+            </ul>
+        </form>
+    </div><!-- #BeginLibraryItem "/Library/footer03.lbi" -->	<div id="FT" class="FT">
+		<div class="footerBtm clearfix">
+			<ul class="txtUl">
+				<li><a href="#">はじめての方へ</a>｜</li>
+				<li><a href="#">安心お買いものガイド</a>｜</li>
+				<li><a href="#">お問い合わせ</a></li>
+			</ul>
+			<p>Copyright &copy; 2001-2012 株式会社日比谷花壇 All Rights Reserved.</p>
+		</div>
+	</div>
+<!-- #EndLibraryItem --></div>
+</body>
+</html>

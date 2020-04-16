@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts h2 {
+	margin-bottom: 21px;
+}
+
+#conts .mainContent {
+	margin-right: 18px;
+}
+
+#conts .mainContent h3 {
+	margin: 0 0 24px;
+}
+
+#conts .mainContent .section {
+	margin-bottom: 20px;
+}
+
+#conts .mainContent .section p {
+	margin-left: 2px;
+	font-size: 1.5em;
+	line-height: 1.3;
+	text-indent: 16px;
+}
+
+#conts .mainContent .section .mb3 {
+	margin-bottom: 3px;
+}
+
+#conts .mainContent .section .floatR {
+	padding-top: 2px;
+}
+
+#conts .mainContent .photo {
+	margin: 0 auto 28px;
+	width: 570px;
+	clear: both;
+}

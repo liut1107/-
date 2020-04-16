@@ -1,0 +1,6 @@
+$(function(){
+	$('.menu').click(function(){
+		$('.hNavi').toggle();
+		return false;	
+	});	
+});

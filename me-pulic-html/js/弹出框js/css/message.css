@@ -1,0 +1,576 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+
+#main .outer .boBtm01 {
+	border-bottom: 4px solid #333333 !important;
+	margin-bottom: 0;
+	padding-bottom: 9px;
+	position: relative;
+}
+
+#main .outer .boBtm01 a img {
+	display: block;
+}
+
+#main .outer .boBtm01 img.postion {
+	display: none;
+	left: -43px;
+	position: absolute;
+	top: 24px;
+}
+
+#main .outer .bgBox {
+	background-color: #E0F2FB;
+	margin-bottom: 20px;
+	padding: 3px 3px 12px 10px;
+}
+
+#main .outer .bgBox .photoBox {
+	float: left;
+	margin-top: 10px;
+}
+
+#main .outer .bgBox .textBox {
+	float: right;
+	margin-top: 4px;
+	position: relative;
+	width: 632px;
+}
+
+#main .outer .bgBox .textBox .p01 {
+	color: #999;
+	font-weight: normal;
+	font-size: 10px;
+	left: 591px;
+	line-height: 1.0;
+	text-align: right;
+}
+
+#main .outer .bgBox .textBox p {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5;
+	margin:0
+}
+
+#main .outer .img07 {
+	clear: both;
+	display: block;
+	margin-bottom: 14px;
+}
+
+#main .outer .special {
+	font-size: 14px;
+	line-height: 1.9;
+	margin: 0 10px 30px 5px;
+}
+
+#main ul.link01  {
+	margin: 0 auto;
+	width: 518px;
+}
+
+#main ul.link01  li img,
+#main ul.link01  li a {
+	display: block;
+}
+
+
+/*------------------------------------------------------------
+	popup
+------------------------------------------------------------*/
+
+body.popup {
+	background: none;
+}
+
+body.popup #contents {
+	background: none;
+	border: 5px solid #000;
+	margin: 0 auto;
+	text-align: left;
+	width: 860px;
+}
+
+body.popup #contents .formBox {
+	padding: 20px 23px 20px 22px;
+}
+
+body.popup #contents .formBox .inner {
+	margin-bottom: 17px;
+}
+
+body.popup #contents .formBox .inner .textBox {
+	width: 712px;
+}
+
+body.popup #contents .formBox .inner .textBox p {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+body.popup #contents .mailForm {
+	background: url(../images/mes_line02.gif) repeat-x left top;
+	clear: both;
+	margin: 0 0 0 2px;
+	padding: 12px 1px 0 1px;
+}
+
+body.popup #contents .mailForm table {
+ 	border-collapse: collapse;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+label {
+    vertical-align: middle!important;
+}
+
+body.popup #contents .mailForm table th {
+	background-color: #E0EEF5;
+	font-size: 16px;
+	line-height: 1.3;
+	padding: 19px 7px 11px 12px;
+	text-align: left;
+	vertical-align: top;
+}
+
+body.popup #contents .mailForm table td.bg,
+body.popup #contents .mailForm table th.bg {
+	background: url(../images/mes_line02.gif) repeat-x left 9px;
+	line-height: 1.2;
+	padding: 0px 0 1px;
+}
+
+body.popup #contents .mailForm table th img {
+	display: block;
+	float: right;
+	margin-top: 2px;
+}
+
+body.popup #contents .mailForm table td {
+	font-size: 14px;
+	padding: 8px 0 10px 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+body.popup #contents .mailForm table td ul {
+	margin-bottom: 8px;
+}
+
+body.popup #contents .mailForm table td .list li {
+	float: left;
+	width: 177px;
+}
+
+body.popup #contents .mailForm table td li {
+}
+
+
+body.popup #contents .mailForm table td li.last {
+	width: 120px;
+}
+
+body.popup #contents .mailForm table td .ul01 {
+	margin-left: 20px;
+}
+
+body.popup #contents .mailForm table td .ul01 li {
+	float: left;
+	width: 110px;
+}
+
+body.popup #contents .mailForm table td .ul01 li.last {
+	width: 80px;
+}
+
+body.popup #contents .mailForm input {
+	vertical-align: middle;
+}
+
+body.popup #contents .mailForm table td .ul02 {
+	float: right;
+	width: 420px;
+}
+
+body.popup #contents .mailForm table td .ul02 li {
+	float: left;
+	width: 64px;
+}
+
+body.popup #contents .mailForm table td p {
+	float: right;
+	font-weight: bold;
+}
+
+#fDeviation {
+	width: 50px;
+	vertical-align: middle;
+}
+
+#fScoring {
+	width: 140px;
+	vertical-align: middle;
+}
+
+body.popup #contents .mailForm .submit {
+	margin: 0 auto;
+	width: 179px;
+}
+
+body.popup #contents .mailForm .submit li {
+	float: left;
+}
+
+body.popup #contents .mailForm .submit li img {
+	display: block;
+}
+
+/*------------------------------------------------------------
+	popup
+------------------------------------------------------------*/
+
+body.popup02 #contents {
+	width: 920px;
+}
+
+body.popup02 #contents .formBox {
+	padding: 33px 23px 20px 22px;
+}
+
+body.popup02 #contents .formBox .inner .textBox {
+	width: 765px;
+}
+
+body.popup02 #contents .formBox .inner .textBox p {
+	color: #666;
+}
+
+body.popup02 #contents .mailForm table td.td01 {
+	font-size: 14px;
+	padding: 0px 0 0px 11px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+body.popup02 #contents .mailForm table td.td01 ul {
+	clear: both;
+	margin-bottom: 9px;
+}
+
+body.popup02 #contents .mailForm table td li {
+	float: left;
+	margin-right: 10px;
+}
+
+body.popup02 #contents .mailForm table td .special {
+	background-color: #333;
+	color: #FFF;
+	font-weight: bold;
+	margin-right: 9px;
+	padding: 6px 0px 4px;
+	text-align: center;
+	width: 71px;
+}
+
+body.popup02 #contents .mailForm table td li {
+	float: left;
+	margin-right: 10px;
+}
+
+body.popup02 #contents .mailForm table td.td01 select {
+	display: block;
+	margin-top: 5px;
+	padding-left: 4px;
+	vertical-align: middle;
+}
+
+#fLocation01,
+#fLocation02,
+#fLocation03,
+#fLocation04,
+#fLocation05,
+#fLocation06,
+#fLocation07,
+#fLocation08,
+#fLocation09,
+#fLocation10 {
+	width: 140px;
+}
+
+#fName01,
+#fName02,
+#fName03,
+#fName04,
+#fName05,
+#fName06,
+#fName07,
+#fName08,
+#fName09,
+#fName10,
+#fFaculty01,
+#fFaculty02,
+#fFaculty03,
+#fFaculty04,
+#fFaculty05,
+#fFaculty06,
+#fFaculty07,
+#fFaculty08,
+#fFaculty09,
+#fFaculty10 {
+	width: 240px;
+}
+
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+#main .basearea .outer .section01 .link {
+	float: left;
+	width: 364px;
+}
+
+#main .basearea .outer .section01 .link li {
+	float:left;
+	margin-right: 4px;
+}
+
+#main .basearea .outer .section01 .ulBox .icon li.icon02,
+#main .basearea .outer .section01 .ulBox .icon li.icon01,
+#main .basearea .outer .section01 .link li.link02,
+#main .basearea .outer .section01 .link li.link01 {
+	position: relative;
+}
+
+#main .basearea .outer .section01 .link01 .img01 {
+	display: none;
+	left: 32px;
+	position: absolute;
+	top: 47px;
+}
+
+#main .basearea .outer .section01 .link02 .img02 {
+	display: none;
+	left: 29px;
+	position: absolute;
+	top: 47px;
+}
+
+#main .basearea .outer .section01 li a,
+#main .basearea .outer .section01 li a img {
+	display: block;
+}
+
+#main .basearea .outer .section01 .ulBox .icon {
+	float: right;
+	margin-top: 10px;
+}
+
+#main .basearea .outer .section01 .ulBox .icon li {
+	float: right;
+	margin-left: 7px;
+}
+
+#main .basearea .outer .section01 .ulBox .icon li.li01 {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 2px 0 0;
+}
+
+#main .basearea .outer .section01 .ulBox .icon li.icon01 .img03 {
+	left: 2px;
+	display: none;
+	position: absolute;
+	top: 28px;
+}
+
+#main .basearea .outer .section01 .ulBox .icon li.icon02 .img04 {
+	left: 2px;
+	display: none;
+	position: absolute;
+	top: 28px;
+}
+
+#main .basearea .outer .inner {
+	background: #FFFDE8 url(../images/mes_line01.gif) repeat-x left bottom;
+	color: #333;
+	cursor:pointer;
+	padding: 5px 1px 16px 0;	
+}
+
+#main .basearea .outer .inner:hover {
+	background-color: #FFFAC3;
+}
+
+#main .basearea .outer .inner01:hover {
+	background-color: #F6F8F9;
+}
+
+#main .basearea .outer .inner .photoBox {
+	float: left;
+	margin-top: 10px;
+}
+
+#main .basearea .outer .inner .textBox {
+	float: right;
+	width: 646px;
+}
+
+#main .basearea .outer .inner .textBox .time {
+	color: #999;
+	font-size: 10px;
+	line-height: 1.2;
+	text-align: right;
+}
+
+#main .basearea .outer .inner .textBox h2 {
+	font-size: 14px;
+	line-height: 1.0;
+	margin-bottom: 5px;
+}
+
+#main .basearea .outer .inner .textBox h2 img {
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+#main .basearea .outer .inner .textBox p.pNote {
+	color: #555;
+	margin-right: 30px;
+}
+
+#main .basearea .outer .inner .textBox p.pSpecial {
+	font-weight: bold;
+}
+
+#main .basearea .outer .inner01 {
+	background: #FFF url(../images/mes_line01.gif) repeat-x left bottom;
+	padding: 3px 0 12px 0;	
+}
+
+#main .basearea .outer .inner01 .textBox p a {
+	text-decoration: underline;
+}
+
+#main .basearea .outer .inner01 .textBox p a:hover {
+	text-decoration: none;
+}
+
+#main .basearea .outer .inner01 .textBox span {
+	margin-right: 10px;
+}
+
+#main .basearea .outer .box {
+	padding-top: 10px;
+}
+
+#main .basearea .outer .box .icon {
+	float: right;	
+}
+
+#main .basearea .outer .box .icon li {
+	float: right;
+	margin-left: 7px;
+}
+
+#main .basearea .outer .box .icon li.li01 {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 2px 0 0;
+}
+
+#main dl.comDl {
+	margin-left: 60px;
+}
+
+#main dl.comDl dt {
+	float: left;
+	margin-right: 18px;
+}
+
+#main dl.comDl dd {
+	float: left;
+	margin-right: 13px;
+	padding-top: 11px;
+}
+
+#main .basearea .outer .box .icon li.icon04,
+#main .basearea .outer .box .icon li.icon03 {
+	position: relative;
+}
+
+#main .basearea .outer .box .icon li.icon03 .img06 {
+	position: absolute;
+	top: 28px;
+	display: none;
+	left: 2px;
+}
+
+#main .basearea .outer .box .icon li.icon04 .img05 {
+	position: absolute;
+	display: none;
+	top: 28px;
+	left: 2px;
+}
+
+#main .basearea .outer .inner02 {
+	padding: 130px 0 118px 0;
+	text-align: center;
+}
+
+.mb27 { margin-bottom: 27px !important;
+} 
+
+#main .btmInner {
+	background: url(../images/com_top_bg.gif) no-repeat left top;
+	margin: 15px 0 20px 14px;
+	padding: 1px;
+}
+
+#main .btmInner .photoBox {
+	float: left;
+	margin-right: 49px;
+}
+
+#main .btmInner .rBox {
+	float:left ;
+}
+
+#main .btmInner .rBox img {
+	float: left;
+}
+
+#main .basearea .outer .inner02 p {
+	color: #666666;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#main .btmul {
+	float: right;
+	width: 447px;
+}
+
+#main .btmul li {
+	float: left;
+	margin-right: 13px;
+}
+
+#menu .bannerList {
+	margin-left: 17px;
+	padding-top: 6px;
+	width: 180px;
+}
+
+#menu .bannerList li {
+	float: left;
+	margin-bottom: 9px;
+}
+
+#menu .bannerList li img {
+	display: block;
+}

@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* -----------------------------------
+	login
+----------------------------------- */
+
+#main .basearea .outer h1 {
+	margin: 0 0 10px;
+}
+
+#main .basearea .outer .pBox {
+	border: 2px solid #FF3333;
+	margin-bottom: 10px;
+	padding: 15px 0 8px 12px;
+}
+
+#main .basearea .outer .pBox p {
+	background: url(../images/com_icon02.gif) no-repeat left 3px;
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.7;
+	padding: 0 0 0 26px;
+}
+
+#main .basearea .outer .section {
+	background: url(../images/log_line01.gif) repeat-y left top;
+}
+
+#main .basearea .outer .section .subBox {
+	width: 350px;
+}
+
+#main .basearea .outer .section .subBox p.title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 16px;
+	padding: 16px 0 13px;
+	text-align: center;
+}
+
+#main .basearea .outer .section .subBox p.red {
+	background: #FFF0F0;
+	margin-bottom: 52px;
+}
+
+#main .basearea .outer .section .subBox p.p01 {
+	font-size: 14px;
+	line-height: 2.1;
+	margin-bottom: 56px;
+	text-align: center;
+}
+
+#main .basearea .outer .section .subBox p.blue {
+	background: #E0F2FB;
+}
+
+#main .basearea .outer .section .subBox table {
+	border-collapse: collapse;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+#main .basearea .outer .section .subBox table th {
+	color: #666;
+}
+
+#main .basearea .outer .section .subBox table td {
+	color: #666;
+	text-align: right;
+}
+
+#main .basearea .outer .section .subBox table td p {
+	padding: 18px 0 10px;
+}
+
+#main .basearea .outer .section .subBox table td p input {
+	float: right;
+}
+
+#main .basearea .outer .section .subBox table td p span {
+	float: right;
+	margin-left: 7px;
+}
+
+#main .basearea .outer .section .subBox table td.td01 {
+	padding-bottom: 3px;
+}
+
+#fEmail,
+#fPassword {
+	background: #FBFBFB;
+	border: 1px solid #DFDEDE;
+	height: 37px;
+	vertical-align: middle;
+	width: 258px;
+}
+
+#main .basearea .outer .section .subBox ul {
+	margin: 0 auto 14px;
+	width: 240px;
+}
+
+#main .basearea .outer .section .subBox ul li {
+	float: left;
+	text-align: center;
+	width: 240px;
+}
+
+#main .basearea .outer .section .subBox ul li input {
+	margin-bottom: 12px;
+}
+
+#main .basearea .outer .section .subBox a {
+	text-decoration: underline;
+}
+
+#main .basearea .outer .section .subBox a:hover {
+	text-decoration: none;
+}
+
+#main .basearea .outer .section .subBox p.p02 {
+	border-top: 2px solid #ECECEC;
+	clear: both;
+	color: #666;
+	float: right;
+	padding-top: 12px;
+	width: 345px;
+}

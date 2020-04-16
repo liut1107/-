@@ -1,0 +1,518 @@
+﻿<div class="wp-pagenavi"><a class="previouspostslink" rel="prev" href="#"><img src="../img/common/icon02.png" alt=""></a><a class="page smaller" title="Page 2" href="#">1</a><a class="page smaller" title="Page 3" href="#">2</a><span class="current">3</span><a class="page larger" title="Page 5" href="#">4</a><a class="page larger" title="Page 6" href="#">5</a><span class="extend">...</span><a class="nextpostslink" rel="next" href="#"><img src="../img/common/icon03.png" alt=""></a> </div>
+</div>
+@media all and (-ms-high-contrast:none){
+	
+}IE11兼容：
+
+@supports (-ms-ime-align: auto) { //针对edge
+  div { padding-bottom: 1px; } 
+}
+
+
+https://web-bruno.com/css-hover-design/%20Pure%20Css%20Button%20Hover%20effect
+https://www.nxworld.net/tips/css-only-button-design-and-hover-effects.html
+css hover参考网站
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+网站小cion的设置方法：
+https://fontawesome.com/
+
+select居中式样代码：
+text-align-last:center;
+
+@media screen and (orientation: landscape) {
+	.mainVisual .topVisual {
+		min-height: 480px;
+	}
+}
+手机横屏的样式 
+
+placeholder文字颜色变更：
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #666; 
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+color: #666; 
+} 
+input::-moz-placeholder, textarea::-moz-placeholder { 
+color: #666; 
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+color: #666;
+} 
+
+
+@media screen and (max-width: 767px) {
+}
+
+<link rel="apple-touch-icon" href="/custom_icon.png"/> 
+<link rel="apple-touch-icon" sizes="180x180" href="./path/to/icon.png">
+<link rel="apple-touch-icon-precomposed" href="./path/to/icon.png">
+
+<!-- Android標準ブラウザ(一部) -->
+
+<link rel="shortcut icon" href="./path/to/icon.png">
+
+<link rel="icon" sizes="192x192" href="./path/to/icon.png">
+
+https://tinypng.com/
+https://imagecompressor.com/zh/
+这个是压缩网站的备选
+
+
+sp 100%显示pc代码：
+<meta name="viewport" content="width=980">
+<meta name="format-detection" content="telephone=no">
+
+Zplin
+zpl.io/bAvP9xn
+cqtaro
+DkBxW7VX4u3msvTa
+
+
+等高JS：
+<script>
+	$(function(){
+		$('#main .btmList li').matchHeight();
+	});
+</script>
+
+JS-3-dengfen:
+<script>
+$(function(){
+
+$(window).resize(function(){
+$('.phoList').each(function(){
+var w = $(this).width();
+$(this).children('li').width(w/3);	
+});
+
+}).trigger('resize');
+
+});
+</script>  
+
+gooljianrong：
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+#gHeader .hLinkList li {
+font-size: 12.5px;
+transform:scale(0.8);
+}
+}
+#facility .machine .machineList li .phoBox img {
+	transition-duration: 0.3s;
+	width: 100%;
+}
+
+#facility .machine .machineList li .phoBox a:hover img {
+	transform: scale(1.1);
+	transition-duration: 0.3s;
+}
+
+SLECT:
+select::-ms-expand { display: none; } 
+
+appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+
+    
+	writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-rl;
+	-webkit-writing-mode : tb-rl;
+	direction: ltr;
+	-webkit-direction: ltr;
+
+    /* writing-mode: vertical-lr;writing-mode: vertical-rl;*/    
+    /* writing-mode: tb-lr;writing-mode: tb-rl；*/    
+
+    .container{
+    display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+    display: -moz-box; /* Firefox 17- */
+    display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+    display: -moz-flex; /* Firefox 18+ */
+    display: -ms-flexbox; /* IE 10 */
+    display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+    }
+
+    .container{	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+    }
+
+https://googlefonts.github.io/japanese/
+
+
+<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,600,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&amp;subset=japanese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,500,600,700" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:300,400,500,600,700,900" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:300,400,500,600,700,900&amp;subset=japanese" rel="stylesheet">
+ 
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&amp;subset=japanese" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900" rel="stylesheet"> 
+font-family: 'Noto Serif JP', serif;
+font-family: 'Noto Sans JP', sans-serif;
+
+
+
+<script src="https://use.typekit.net/ahx4xhv.js"></script>
+font-family: "heisei-maru-gothic-std",sans-serif;
+
+.wf-mplus1p { font-family: "Mplus 1p"; }
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pragati Narrow', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+
+
+
+
+
+
+background: rgba(0,0,0,.5);
+box-shadow: 3px 3px 3px rgba(0,0,0,.1),-3px -3px 3px rgba(0,0,0,.1);
+
+.wp-pagenavi {
+	font-size: 26px;
+	text-align: center;
+}
+
+.wp-pagenavi span {
+	margin: 0 20px;
+	display: inline-block;
+}
+
+.wp-pagenavi .extend {
+	margin-left: 5px;
+}
+
+.wp-pagenavi a {
+	margin: 0 20px;
+}
+
+.wp-pagenavi a:hover,
+.wp-pagenavi .current {
+	color: #1ca9f7;
+	text-decoration: underline;
+}
+
+.wp-pagenavi img {
+	vertical-align: middle;
+}
+
+.wp-pagenavi a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+
+background-size: contain;
+
+<h1><embed src="https://tokyo-n-dental.jp/wp-content/themes/tokyo/img/common/h1_img.svg" type="image/svg+xml"></embed></h1>
+
+.pageTitle {
+	background: url(../img/shoplist/page_title_bg.jpg) no-repeat center top;
+	background-size: 100% auto;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/shoplist/page_title_bg.jpg',  sizingMethod='scale');
+}
+
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>font-family: 'Lato', sans-serif;
+
+<script>
+$(function(){
+	$(window).resize(function(){
+		$('#main .linkList li').width(($(window).width()-340)/2);
+	}).trigger('resize');
+});
+</script>
+
+
+
+
+
+スタジオコンチーゴ株式会社
+森田卓志
+
+xiangmu目注意点
+style.css（PC用） ----PC用的
+smart.css（スマホ用）-----SP用的
+header.html
+footer.html
+defalult/default.html（トップページ用） -----首ye用的
+page/default.html（内部ページ用） -------下ji面用的
+
+
+
+http://mailrobo.7jp.net/mrobo4.html [仙台?箱js加密]
+
+@media only screen and (max-width: 736px){
+}
+
+
+如果是字做的，在ipod下会?示??，?个?候可以加?句代?
+-webkit-appearance: none;
+border-radius: 0;
+
+
+
+http://shuncweb.eicp.net/schedule/
+
+-webkit-appearance: none;  清除input或textarea?入框在移?版（iphone）下?示示的因影
+
+<link rel="icon" type="image/gif" href="img/common/favicon.ico" />
+
+#contact .mailForm dd input[type="text"] {
+	padding: 5px 10px;
+	color: #C9C9C9;
+	font-size: 13px;
+	height: 20px;
+	box-sizing: border-box;
+	border: 1px solid #CBCBCB;
+
+}
+
+
+#contact .submit li input {
+	box-sizing: border-box;
+	width: 374px;
+	height: 45px;
+	border-radius: 0;
+	color: #E4007F;
+	text-align: center;
+	font-weight: bold;
+	font-size: 21px;
+	cursor: pointer;
+	border: 1px solid #E5007F;
+	-webkit-appearance: none;
+	background: url(img/common/icon10.png) no-repeat 350px center;
+}
+
+#contact .submit li input:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  heightLineParent 
+
+<script type="text/javascript">
+if(((navigator.userAgent.indexOf('iPhone') > 0) || (navigator.userAgent.indexOf('Android') > 0) && (navigator.userAgent.indexOf('Mobile') > 0) && (navigator.userAgent.indexOf('SC-01C') == -1))){
+document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">');
+}
+</script>
+
+(http://www.oschina.net/news/29929/14-highly-useful-online-css3-generators
+http://css3.mikeplate.com/)
+
+http://www.htmllint.net/html-lint/htmllint.html
+http://htmllint.org/htmllintl.html
+
+http://jigsaw.w3.org/css-validator/#validate_by_upload  (ce css)
+
+
+http://gradients.glrzad.com/   <style type="text/css">
+
+shuncinfo@yahoo.co.j
+http://www.iamwawa.cn/emailjiami.asp (jiami)
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { select {……} }
+
+※  ～ &#9312;  word-wrap: break-word; ∞
+white-space: pre-wrap;
+word-wrap: break-word;  (&rArr; ⇒)
+★ ◇  ■ 【】「  」（ ） ◎ ◯ ※ 円 ℃ 『  』  年  月   日  "  ♪  月 火 水 木 金 土 日  ①②③④⑤⑥⑦⑧⑨⑩ 
+
+０ １ ２ ３ ４ ５ ６ ７ ８ ９  お問い合わせ  ご予約・お問合せ  楽天
+
+fいいね！ツイート  m チェック  テキスト wenzi      スライスデータ   qiepian
+
+　kongge    &laquo;   レスポンシブ  leisigongji Responsive
+
+#conts a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+border-collapse: separate;
+border-spacing: 0;
+
+
+background-image: -moz-linear-gradient(top, #6666FF 46%, #8FBC8F);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.46, #6666FF), color-stop(1.0, #8FBC8F));
+
+<!--[if IE 6]>
+	<script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script>
+		DD_belatedPNG.fix('.png_img, .png_bg');
+	</script>
+<![endif]-->
+
+http://www.microsoft.com/ja-jp/download/details.aspx?id=2    IE xiazai
+
+font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif; 
+font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-serif;
+font-family: MS Gothic, "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-serif;
+
+
+
+SP
+font-family: Meiryo, "小塚ゴシック Pro", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+font-family: Meiryo, "小塚ゴシック Pr6N", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+font-family: "ヒラギノ角ゴ Pro W3","メイリオ", sans-serif;
+font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","ＭＳ Ｐ明朝", "MS PMincho",  serif;
+
+font-family: Arial,"宋体", sans-serif;
+
+
+
+font-family: "Ryumin Light KL", "リュウミン L-KL", "游明朝", YuMincho, "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
+font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+font-family: "游明朝",YuMincho,"ヒラギノ明朝 Pro W3",serif;
+font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+
+font-family: "游明朝","YuMincho","Hiragino Mincho Pro","MSPMincho","ＭＳ Ｐ明朝","ヒラギノ明朝 Pro W6",serif;
+
+
+font-family: "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+
+
+font-family:"游ゴシック体", "Yu Gothic", YuGothic, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+font-family: "Libre Baskerville", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+font-family: "ヒラギノ角ゴ Pro W4","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ ProN W4","Hiragino Kaku Gothic ProN","メイリオ","Meiryo","Osaka","Osaka－等幅","Osaka-Mono","MS UI Gothic","ＭＳ Ｐゴシック","MS PGothic","ＭＳ ゴシック","MS Gothic",sans-serif;
+6225 7583 1403 4348
+
+#main h3:before {
+    width: 31px;  
+    height: 31px;
+    background: url(../img/common/icon_01.jpg) no-repeat left top;
+    position: absolute;  
+    top: 7%;  
+    left: 10px;  
+  
+    content: "";
+}
+@media all and (min-width: 0) and (max-width: 640px)  {
+}
+
+@media all and (min-width: 570px) and (max-width: 768px)  {
+}
+
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+
+behavior: url(../../../main_common/js/pie.htc); 	
+
+k9R3#C5s6          254570588
+
+#conts .bg01 {
+background: -moz-linear-gradient(
+top,
+#35436c 0%,                0% 
+#cfd5e7);
+background: -webkit-gradient(
+linear, left top, left bottom, 
+from(#35436c),              
+to(#cfd5e7));
+}
+
+<!-- TemplateBeginEditable name="doctitle" -->  
+<!-- TemplateEndEditable -->
+
+IE11
+@media all and (-ms-high-contrast:none){
+}
+
+
+
+我??今天来了一个修正，之前做的一?自??，客?想要pad下?屏?示sp，横屏?示pc，?有没有好的解决?法,研究了一下最?用了下面?段js判断的pad横屏?屏 
+大家以后遇到的可以?一下~
+
+function orient() {
+	if ( navigator.userAgent.indexOf('iPad') > 0 ) {
+		if (window.orientation == 0 || window.orientation == 180) {
+			$("body").attr("class", "portrait");
+			orientation = 'portrait';
+			document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">');
+			return false;
+		}
+		else if (window.orientation == 90 || window.orientation == -90) {
+			$("body").attr("class", "landscape");
+			orientation = 'landscape';
+			return false;
+		}
+	}
+}
+orient();
+$(window).bind( 'orientationchange', function(e){
+    orient();
+	window.location.reload();
+});
+
+
+
+
+
+表单测试文字：
+件名：（件名）
+これはテスト件名です。
+
+
+会社名：（公司名）
+テスト株式会社
+
+部署名：（部门名）
+テスト部署
+
+担当者：（担当者）
+テスト　太郎
+
+担当者フリガナ：（担当者假名）
+テスト　タロウ
+
+電話番号：（电话）
+0123-4567-8901
+
+メールアドレス：（邮箱）
+测试邮箱
+
+
+お問い合わせ内容：（咨询内容）
+テストのお問い合わせ内容です。
+
+
+ファイル名：（上传文件名）
+テストファイル.jpg
+

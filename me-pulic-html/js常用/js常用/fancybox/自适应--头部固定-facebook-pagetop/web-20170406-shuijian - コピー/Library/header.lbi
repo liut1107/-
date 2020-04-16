@@ -1,0 +1,16 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<header id="header">
+	<div class="hBox clearfix">
+		<h1><a href="./"><img src="../common/img/logo.png" alt="首都高トールサービス東東京 株式会社"></a></h1>
+		<div class="menu"><img src="../common/img/sp_menu.gif" width="48" alt=""></div>
+		<nav id="gNavi">
+			<ul class="clearfix">
+				<li class="navi01"><a href="./">HOME</a></li>
+				<li class="navi02"><a href="../company.html">会社概要</a></li>
+				<li class="navi03"><a href="../managementpolicy.html">経営方針</a></li>
+				<li class="navi04"><a href="../recruit.html">求人情報</a></li>
+				<li class="navi05"><a href="../contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>

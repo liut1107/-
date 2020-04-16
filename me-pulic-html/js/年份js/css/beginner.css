@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#gNavi .navi03 a img {
+	visibility: hidden;
+}
+
+#conts h3 {
+	margin-bottom: 25px;
+}
+
+#conts p .redTxt {
+	color: #E58780;
+	font-weight: bold;
+}
+
+#conts .comImgBox .txtBox p {
+	margin-bottom: 2px;
+}
+
+#conts .txtInner {
+	margin-bottom: 30px;
+	padding: 6px 18px 19px;
+	border: 1px solid #E68A83;
+	border-radius: 8px;
+	background: url(../img/beginner/txt_inner_bg.jpg) repeat-y left top;
+	behavior: url(js/pie.htc); 
+	position: relative;
+}
+
+#conts .txtInner .title {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#conts .txtInner .subTxt {
+	padding: 15px 19px 9px;
+	background: url(../img/beginner/sub_txt_bg.png) repeat;
+	zoom: 1;
+}
+
+#conts .txtInner .subTxt p {
+	font-size: 1.3em;
+}
+
+#conts .txtInner .subTxt .name {
+	margin-top: 2px;
+	color: #7F583B;
+	text-align: right;
+	font-weight: bold;
+}
+
+#conts .txtInner .subTxt .name .redTxt {
+	font-size: 1.2em;
+}

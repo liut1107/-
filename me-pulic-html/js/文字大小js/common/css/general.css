@@ -1,0 +1,191 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+.pb0 { padding-bottom: 0 !important; }
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+#conts a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	h2
+------------------------------------------------------------*/
+#conts h2 {
+	margin-bottom: 20px;
+}
+
+/*------------------------------------------------------------
+	h3
+------------------------------------------------------------*/
+#conts h3 {
+	margin-bottom: 15px;
+}
+
+/*------------------------------------------------------------
+	section
+------------------------------------------------------------*/
+#conts .section {
+	margin: 0 15px;
+}
+
+/*------------------------------------------------------------
+	color
+------------------------------------------------------------*/
+#conts .color {
+	clear: both;
+	color: #ff0000;
+}
+
+/*------------------------------------------------------------
+	comLink
+------------------------------------------------------------*/
+#conts .comLink {
+	float: right;
+}
+
+#conts .comLink li {
+	padding-left: 25px;
+	width: 261px;
+	float: left;
+	font-size: 1.2em;
+	background: url(../../img/common/icon/icon01.gif) no-repeat left 3px;
+}
+
+#conts .comLink li a:hover {
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------
+	comP
+------------------------------------------------------------*/
+#conts .comP img {
+	margin: 0 3px 0 10px;
+	vertical-align: -2px;
+}
+
+    * html #conts .comP img {
+		margin-top: 2px;
+	}
+
+#conts .comP a {
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+#conts .comP a:hover {
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------
+	comSection
+------------------------------------------------------------*/
+#conts .comSection {
+	margin: 0 5px 0 14px;
+}
+
+#conts .comSection .photoBox {
+	width: 335px;
+	float: right;
+}
+
+#conts .comSection .photoBox img {
+	display: block;
+}
+
+#conts .comSection .photoBox span {
+	margin: 3px 3px 0 0;
+	display: block;
+	color: #666;
+	text-align: right;
+}
+
+#conts .comSection .textBox {
+	width: 365px;
+	float: left;
+}
+
+#conts .comSection .textBox dt {
+	font-size: 1.2em;
+	font-weight: bold;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#conts .comSection .textBox dt img {
+	float: left;
+}
+
+#conts .comSection .textBox dt span {
+	width: 346px;
+	float: right;
+}
+
+#conts .comSection .textBox dd {
+	margin: 0 0 18px 2px;
+	font-size: 1.2em;
+}
+
+/*------------------------------------------------------------
+	textIndent
+------------------------------------------------------------*/
+#conts .textIndent {
+	text-indent: 1.3em;
+}

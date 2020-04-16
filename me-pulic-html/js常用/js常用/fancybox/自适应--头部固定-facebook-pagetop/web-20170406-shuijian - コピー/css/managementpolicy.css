@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#container {
+	padding-top: 214px;
+}
+
+#gNavi .navi03 a {
+	color: #fff;
+	background-color: #0c97ba;
+}
+
+.pageTitle {
+	background-image: url(../img/managementpolicy/page_title_bg.jpg);
+}
+
+#main .bgBox {
+	padding: 45px 0 83px;
+}
+
+#main .headLine01 {
+	margin-bottom: 26px;
+}
+
+#main p {
+	margin-bottom: 47px;
+	line-height: 1.78;
+}
+
+#main .imgBox {
+	margin-bottom: 40px;
+}
+
+#main .imgBox .phoBox {
+	margin-top: 16px;
+	float: right;
+}
+
+#main .imgBox .txtBox {
+	width: 477px;
+	float: left;
+}
+
+#main .imgBox .txtBox h3 {
+	margin-bottom: 4px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#main .imgBox .txtBox .cor01 {
+	color: #e67529;
+}
+
+#main .imgBox .txtBox .cor02 {
+	color: #28a95c;
+}
+
+#main .imgBox .txtBox .cor03 {
+	color: #2677ad;
+}
+
+#main .imgBox .txtBox p {
+	margin-bottom: 25px;
+}
+
+#main .imgBox .txtBox .text01 {
+	margin-bottom: 37px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	#main .bgBox {
+		padding: 30px 0;
+	}
+	
+	#main .imgBox .phoBox {
+		padding-left: 10px;
+		width: 40%;
+	}
+
+	#main .imgBox .phoBox img {
+		width: 100%;
+	}
+	
+	#main .imgBox .txtBox {
+		width: auto;
+		float: none;
+	}
+
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	
+	#gNavi .navi03 a {
+		color: #040404;
+		background-color: #FFF;
+	}
+	
+	#main .bgBox {
+		padding: 15px 0;
+	}
+	
+	#main .headLine01 {
+		margin-bottom: 10px;
+	}
+	
+	#main p {
+		margin-bottom: 15px;
+		line-height: 1.5;
+	}
+
+	#main .imgBox {
+		margin-bottom: 0px;
+	}
+	
+	#main .imgBox .phoBox {
+		margin: 0 0 10px;
+		float: none;
+	}
+
+	#main .imgBox .phoBox img {
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		max-width: 444px;
+	}
+	
+	#main .imgBox .txtBox {
+		width: auto;
+		float: none;
+	}
+	
+	#main .imgBox .txtBox h3 {
+		font-size: 15px;
+	}
+
+	#main .imgBox .txtBox p {
+		margin-bottom: 15px;
+	}
+	
+	#main .imgBox .txtBox .text01 {
+		margin-bottom: 15px;
+	}
+
+}

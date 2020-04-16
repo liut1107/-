@@ -1,0 +1,356 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#main .lead {
+	margin-bottom: 21px;
+	clear: both;
+}
+
+#main .lead .photoBox {
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+
+#main .lead .ttlBox {
+	float: left;
+}
+
+#main .lead h4 {
+	position: relative;
+	z-index: 10;
+}
+
+#main .lead h4 img {
+	margin-left: -11px;
+}
+
+#main .lead .ttlBox .bgImg {
+	position: relative;
+}
+
+#main .lead .ttlBox .bgImg img {
+	position: absolute;
+	bottom: -40px;
+	left: -105px;
+}
+
+#main p {
+	font-size: 1.3em;
+	line-height: 2.3;
+}
+
+#main .cuisine {
+	margin-bottom: 21px;
+	clear: both;
+}
+
+#main .cuisine .lTxt {
+	width: 411px;
+	float: left;
+}
+
+#main .cuisine .lTxt .photoBox {
+	margin: -56px 0 14px;
+	text-align: right;
+	position: relative;
+}
+
+#main .cuisine .photoBox p {
+	width: 157px;
+	position: absolute;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	bottom: 9px;
+	left: 0px;
+	text-align: right;
+}
+
+#main .cuisine .photoBox span {
+	padding-left: 15px;
+	display: inline-block;
+	background: url(../../common/img/main/ico_03.gif) no-repeat left 3px;
+}
+
+#main .cuisine .lTxt h5 {
+	margin-bottom: 19px;
+}
+
+#main .cuisine .lTxt dl {
+	margin: 0 35px 0 17px;
+}
+
+#main .cuisine .lTxt dt {
+	float: left;
+}
+
+#main .cuisine .lTxt dd {
+	padding: 6px 0 0 121px;
+	font-size: 1.3em;
+	line-height: 2.3;
+}
+
+#main .cuisine .rTxt {
+	width: 330px;
+	float: right;
+	position: relative;
+}
+
+#main .cuisine .rTxt .mapImg {
+	position: absolute;
+	left: -266px;
+	top: -1px;
+}
+
+#main .cuisine .rTxt p {
+	margin-bottom: 27px;
+	width: 229px;
+	float: right;
+}
+
+#main .cuisine .rTxt .photoBox {
+	clear: both;
+	text-align: right;
+}
+
+#main .cuisine .rTxt .photoBox p {
+	margin-bottom: 0;
+	width: 207px;
+	bottom: -0px;
+	left: -210px;
+}
+
+#main .photoList {
+	margin: 0 -13px 35px 0;
+	width: 972px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#main .photoList li {
+	margin-right: 13px;
+	width: 230px;
+	float: left;
+	font-size: 1.2em;
+}
+
+#main .photoList li img {
+	margin-bottom: 7px;
+	display: block;
+}
+
+#main .photoList li span {
+	padding-left: 16px;
+	display: inline-block;
+	background: url(../../common/img/main/ico_03.gif) no-repeat left 4px;
+}
+
+#main h5 {
+	margin-bottom: 15px;
+	clear: both;
+}
+
+#main .imgBox {
+	margin-bottom: 40px;
+}
+
+#main .imgBox .photoUl {
+	margin-top: -6px;
+	width: 370px;
+	float: left;
+}
+
+#main .imgBox .photoUl li {
+	margin-top: 10px;
+	float: left;
+}
+
+#main .imgBox .photoUl li img {
+	display: block;
+}
+
+#main .imgBox .txtBox {
+	width: 552px;
+	float: right;
+}
+
+#main .imgBox .txtBox li {
+	margin-bottom: 14px;
+	font-size: 1.3em;
+}
+
+#main .imgBox .txtBox li span {
+	display: block;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#main .imgBox .txtBox .specUl {
+	margin-bottom: 24px;
+	width: 315px;
+	padding-bottom: 24px;
+	background: url(../../common/img/main/bg_line02.png) repeat-x left bottom;
+}
+
+#main .section {
+	padding-top: 20px;
+	clear: both;
+	background: url(../img/bg_dinner02.png) no-repeat left top;
+}
+
+#main .section .inner {
+	padding: 8px 49px 63px 45px;
+	background: url(../img/bg_dinner03.png) repeat-y left top;
+}
+
+#main .section .inner h5 {
+	float: right;
+}
+
+#main .section .inner .txtBox {
+	margin-top: 6px;
+	width: 750px;
+	float: left;
+}
+
+#main .section .inner .txtBox .lTxt {
+	width: 355px;
+	float: left;
+}
+
+#main .section .inner .txtBox ul {
+	margin-bottom: 31px;
+}
+
+#main .section .inner .txtBox li {
+	line-height: 2.3;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #333;
+	overflow: hidden;
+	zoom: 1;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { #main .section .inner .txtBox li { letter-spacing: -1px;} }
+
+#main .section .inner .txtBox span {
+	float: left;
+	word-break: break-all;
+}
+
+#main .section .inner .txtBox .txt {
+	width: 252px;
+}
+
+#main .section .inner .txtBox .point {
+	width: 40px;
+	font-weight: normal;
+}
+
+#main .section .inner .txtBox .price {
+	width: 61px;
+	color: #C52600;
+	text-align: right;
+}
+
+#main .section .inner .txtBox .rTxt {
+	width: 344px;
+	float: right;
+}
+
+#main .menu .inner .txtBox .rTxt .txt {
+	width: 219px;
+}
+
+#main .menu .inner .txtBox .rTxt .price {
+	width: 79px;
+}
+
+#main .backImg img {
+	margin: -29px -45px 0 -65px;
+}
+
+#main .contact {
+	margin: 24px 0 37px 65px;
+}
+
+#main .contact li {
+	float: left;
+	font-size: 1.2em;
+	line-height: 1.35;
+}
+
+#main .contact .tel {
+	padding-left: 22px;
+	width: 325px;
+}
+
+#main .contact li a,
+#main .contact li img {
+	display: block;
+}
+
+#main .contact li a:hover img {
+	opacity: 0.7; 	
+	filter: alpha(opacity=70);	
+}
+
+#main .specLead {
+	margin: 0 10px 25px 0;
+	clear: both;
+}
+
+#main .specLead .photoBox {
+	float: left;
+}
+
+#main .specLead .ttlBox {
+	float: right;
+}
+
+#main .specLead h4 img {
+	margin-left: 0;
+	position: relative;
+	z-index: 10;
+}
+
+#main .specLead .ttlBox .bgImg img {
+	bottom: -82px;
+	left: -119px;
+}
+
+#main .pTxt {
+	margin: 0 3px 31px;
+}
+
+#main .imgBox .txtBox p {
+	margin-top: -4px;
+	width: 476px;
+	position: relative;
+}
+
+#main .imgBox .txtBox .price {
+	margin-top: 1px;
+	display: block;
+	font-weight: bold;
+	text-align: right;
+}
+
+#main .brand .inner .txtBox .txt {
+	width: 168px;
+	font-weight: normal;
+}
+
+#main .brand .inner .txtBox .name {
+	width: 79px;
+	font-weight: normal;
+}
+
+#main .brand .inner .txtBox .price {
+	width: 52px;
+}
+
+#main .brand .inner .txtBox .rTxt {
+    width: 340px;
+}

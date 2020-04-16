@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* BASIC SETTING for ALL PAGES - CONTENTS AREA FORMAT - */
+
+/*#CONTENTSAREA *,#CONTENTSAREA input,#CONTENTSAREA select,#CONTENTSAREA textarea,#CONTENTSAREA table,#CONTENTSAREA td,#CONTENTSAREA th{*/
+*{
+	margin:0;
+	padding:0;
+	font-family: verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "小塚ゴシック", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+#CONTENTSAREA br { letter-spacing:0; }
+#CONTENTSAREA img{ border:0 none; }
+#CONTENTSAREA input,#CONTENTSAREA select,#CONTENTSAREA textarea { vertical-align:middle; }
+#CONTENTSAREA textarea{ padding:1px; }
+/*#CONTENTSAREA table,#CONTENTSAREA td,#CONTENTSAREA th{ padding:0;border:none;border-collapse:separate; }*/
+#CONTENTSAREA ul,#CONTENTSAREA ol,#CONTENTSAREA li { list-style:none; }
+a { outline:none;cursor:pointer; }
+
+#CONTENTSAREA{width:960px;margin:0 auto;min-height:300px;text-align:left;padding-bottom:50px;}
+
+#CONTENTSAREA a,
+#CONTENTSAREA a:link {
+	text-decoration:none;
+	color:#333;
+}
+#CONTENTSAREA a:visited {
+	text-decoration:none;
+	color:#333;
+}
+#CONTENTSAREA a:active {
+	text-decoration:none;
+	color:#747474;
+}
+#CONTENTSAREA a:hover {
+	text-decoration:none;
+	color:#747474;
+}
+

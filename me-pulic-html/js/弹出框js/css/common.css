@@ -1,0 +1,2678 @@
+@charset "utf-8";
+
+
+/* ============================================================
+
+	style info : ブラウザごとの初期スタイルをリセット
+
+============================================================ */
+
+/* --------------------------------
+	font-size
+
+		10px ： 84%
+		11px ： 92%
+		12px ： 100%
+		13px ： 109%
+		14px ： 117%
+		15px ： 125%
+		16px ： 134%
+		17px ： 142%
+		18px ： 150%
+		19px ： 159%
+		20px ： 167%
+		22px ： 184%
+		24px ： 200%
+		26px ： 217%
+		28px ： 234%
+		30px ： 250%
+		32px ： 267%
+		36px ： 300%
+		40px ： 334%
+-------------------------------- */
+
+body, div, p,
+dl, dt ,dd,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+form, fieldset, input, textarea,
+pre, blockquote,
+th, td {
+	margin: 0; 
+	padding: 0; 
+}
+table {
+	border-collapse: collapse; 
+	border-spacing: 0; 
+}
+fieldset, input, img {
+	border: 0;
+}
+input, textarea, select {
+	font-size: 100%;
+}
+img {
+	vertical-align: top;
+}
+address, caption, cite, code, dfn, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+em, strong, dt, th {
+	font-style: normal;
+	font-weight: bold;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left; 
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: bold;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+
+
+/* ============================================================
+
+	style info : 全体で汎用的に使用できるスタイルを記述
+
+============================================================ */
+
+/* --------------------------------
+	background-image,
+	image substitute (.sub)
+	サイト全体で使用される要素についてはここでまとめて指定
+-------------------------------- */
+
+
+.bgCmnN {
+	background: transparent url(../images/common_n2.png) no-repeat;
+}
+.dialogTitle .outer .inner,
+.minNextLink a,
+.minPrevLink a,
+.minUpLink a,
+.minDownLink a,
+.minCloseLink a,
+.moreLink a,
+.basicList li a,
+.univRanking ol li,
+#topicPath li a,
+.bgCmnX {
+	background: transparent url(../images/si_icon.gif) no-repeat left top;
+}
+#siteLogo p, 
+#copyright a, 
+#pageTopButton a ,
+#shingakuNet a{
+	display: block;
+	background: transparent url(../images/common_n2.png) no-repeat;
+	font-size: 1px;
+	text-align: left;
+	text-indent: -9999em;
+	/*¥*/
+	overflow: hidden;
+	/**/
+}
+
+
+.subCmnN {
+	display: block;
+	background: transparent url(../images/common_n.png) no-repeat;
+	font-size: 1px;
+	text-align: left;
+	text-indent: -9999em;
+	/*¥*/
+	overflow: hidden;
+	/**/
+}
+#globalNav li.mypage ul li a,
+.subCmnX {
+	display: block;
+	background: transparent url(../images/common_x.png) repeat-x;
+	font-size: 1px;
+	text-align: left;
+	text-indent: -9999em;
+	/*¥*/
+	overflow: hidden;
+	/**/
+}
+/* --------------------------------
+	clearfix (.cf)
+-------------------------------- */
+
+.cf:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+*:first-child+html .cf {
+	display: inline-block;
+	min-height: 1%;
+}
+/*¥*/
+* html .cf {
+	height: 1%;
+}
+.cf {
+	display: block;
+}
+/**/
+
+
+/* --------------------------------
+	property
+-------------------------------- */
+
+/* display: none; */
+.dn { display: none; }
+
+/* width */
+.w30  { width: 30px !important; }
+.w50  { width: 50px !important; }
+.w80  { width: 80px !important;}
+.w100 { width: 100px !important; }
+.w130 { width: 130px !important; }
+.w150 { width: 150px !important; }
+.w200 { width: 200px !important; }
+.w250 { width: 250px !important; }
+.w300 { width: 300px !important; }
+.w350 { width: 350px !important; }
+.w400 { width: 400px !important; }
+.w450 { width: 450px !important; }
+.w500 { width: 500px !important; }
+.w600 { width: 600px !important; }
+
+/* z-index */
+.z01 { z-index: 1; }
+.z02 { z-index: 2; }
+.z03 { z-index: 3; }
+.z04 { z-index: 4; }
+.z05 { z-index: 5; }
+.z06 { z-index: 6; }
+.z07 { z-index: 7; }
+.z08 { z-index: 8; }
+.z09 { z-index: 9; }
+
+
+
+/* ============================================================
+
+	style info : サイト全体で共通のスタイルを記述
+
+============================================================ */
+
+/* -----------------------------------
+	basic
+----------------------------------- */
+
+body {
+	min-width: 960px;
+	background: #00ccff;
+	color: #333;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Meiryo", "MS P Gothic", "ＭＳ Ｐゴシック", Osaka, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1.5;
+}
+th, td {
+	color: #333;
+	line-height: 1.5;
+}
+a {
+	outline: none;
+}
+a:link {
+	color: #06c;
+	text-decoration: none;
+}
+a:visited {
+	color: #06c;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #f33;
+	text-decoration: underline;
+}
+a:hover {
+	cursor: pointer;
+}
+
+
+/* -----------------------------------
+	layout
+----------------------------------- */
+/*
+#header {
+	position: relative;
+	z-index: 200;
+	height: 10px;
+	background: #00ccff left bottom repeat-x;
+}
+*/
+
+#contents {
+	border-top:10px solid #00ccff;
+	position: relative;
+	z-index: 300;
+	background: #fff url(../images/bg.png) left top repeat;
+}
+
+
+#main {
+	float: right;
+	width: 755px;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 0;
+	margin-bottom: 81px;
+}
+
+#menu {
+	display: inline;
+	float: left;
+	text-align: left;
+	z-index: 300;
+	margin-top: -10px;
+	width: 215px;
+}
+
+#footer {
+	position: relative;
+	z-index: 400;
+	padding-bottom: 25px;
+	background: #00ccff;
+}
+
+#header .layoutInner,
+#contents .layoutInner,
+#footer{
+	overflow: visible;
+	position: relative;
+	width: 972px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#footer .layoutInner{
+	width: 960px;
+	margin-left: 12px;
+}
+
+/* -----------------------------------
+	h1 SEO
+----------------------------------- */
+
+h1 {
+	color: #999;
+	font-size: 67%;
+	font-weight: normal;
+	margin: 5px 0 -14px 0;
+}
+/* -----------------------------------
+	#main　仮
+----------------------------------- */
+.basearea {
+    background-position: -750px 0;
+    margin: 0 0 10px;
+	background: #fff;
+}
+.basearea .outer {
+    background-position: -1500px bottom;
+    background-repeat: no-repeat;
+    padding: 13px 15px 10px;
+}
+.basearea .inner {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 16px 30px 6px;
+}
+
+/* -----------------------------------
+	#menu
+----------------------------------- */
+	
+#menu .body{
+	padding: 16px 0 14px 0;
+	background: url(../images/bg_menu.png) top repeat-y;
+	width: 215px; 
+}
+	
+#menu .bottom{
+	background: url(../images/footer_menu.png) bottom no-repeat;
+	padding-bottom: 14px;
+	width: 215px;
+}
+	
+#menu .logo img{
+	margin:0 0 20px 40px;
+}
+	
+#menu ul{
+	padding-bottom: 5px;
+	margin-left: 27px;
+	width: 160px;
+}
+
+#menu ul li {
+	padding-top: 1px;
+}	
+
+#menu .h_menu{
+	font-size: 117%;
+	font-weight: bold;
+	border-bottom: 1px dotted #494e50;
+	border-spacing: 2px 0;
+	padding-bottom: 4px;
+}
+	
+#menu .setting {
+	font-size: 84%;
+	text-align: center;
+	margin-bottom: 26px;
+}
+
+#menu .setting a {
+	text-decoration: underline;
+}
+
+#menu .setting a:hover {
+	text-decoration: none;
+}
+
+#menu .setting .bdr{
+	border-right: 1px solid #ccc;
+	padding-right: 12px;
+}
+	
+#menu .setting .out{
+	padding-left: 12px;
+}
+	
+	
+#menu ul li a{
+	width: 160px;
+	height: 33px;	
+	display: block;
+   	font-size: 1px;
+   	overflow: hidden;
+   	text-align: left;
+   	text-indent: -9999em;
+   	background: url(../images/common_n2.png) no-repeat;
+   	border-bottom: 1px dotted #dbdbdb;
+   	border-spacing: 2px 0;
+   	padding-bottom: 1px;
+}
+   
+#menu ul .message a{
+   	background-position: -200px 0;    	
+}
+  
+#menu ul .message a:hover{
+   	background-position: -200px -50px;    	
+}
+  
+#menu ul .message a.current{
+   	background-position: -200px -100px;    	
+}
+
+#menu ul .plan a{
+   	background-position: -379px 0;    	
+}
+   
+#menu ul .plan a:hover{
+   	background-position: -379px -50px;    	
+}
+   
+#menu ul .plan a.current{
+   	background-position: -379px -100px;    	
+}
+
+#menu ul .ashiato a{
+   	background-position: -560px 0;    	
+}
+   
+#menu ul .ashiato a:hover{
+   	background-position: -560px -50px;    	
+}
+    
+#menu ul .ashiato a.current{
+   	background-position: -560px -100px;    	
+}
+   
+#menu ul .kakomon a{
+   	background-position: -739px 0;    	
+}
+   
+#menu ul .kakomon a:hover{
+   	background-position: -739px -50px;    	
+}
+   
+#menu ul .kakomon a.current{
+   	background-position: -739px -100px;    	
+}
+
+#menu ul .center a{
+   	background-position: -919px 0;    	
+}
+    
+#menu ul .center a:hover{
+   	background-position: -919px -50px;    	
+}
+   
+#menu ul .center a.current{
+   	background-position: -919px -100px;    	
+}
+   
+#menu ul .moshi a{
+   	background-position: -1089px 0;    	
+}
+   
+#menu ul .moshi a:hover{
+   	background-position: -1089px -50px;    	
+}
+   
+#menu ul .moshi a.current{
+   	background-position: -1089px -100px;    	
+}
+    
+#menu ul .search a{
+   	background-position: -1269px 0;    	
+}
+    
+#menu ul .search a:hover{
+  	background-position: -1269px -50px;    	
+}
+    
+#menu ul .search a.current{
+   	background-position: -1269px -100px;    	
+}
+    
+/* -----------------------------------
+	#footer
+----------------------------------- */
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover {
+	color: #fff;
+}
+
+#pageTopButton {
+	position: absolute;
+	top: -30px;
+	right: 0;
+	z-index: 400;
+}
+
+#pageTopButton a {
+	width: 160px;
+	height: 33px;
+	background-position: -1448px 0;
+}
+
+#pageTopButton a:hover {
+	background-position: -1448px -50px;
+}
+
+#footer .linkList {
+	padding: 0 0 15px 0;
+	color: #666;
+}
+
+#footer .linkList p {
+	margin: 20px 0 20px 0;
+}
+
+#footer .linkList ul {
+	color: #fff;
+	font-size: 100%;
+}
+
+#footer .linkList ul.cf li {
+	float: left;
+	margin: 0 0.4em 0.6em 0;
+	padding-right: 0.5em;
+	border-right: solid 1px #bae2ff;
+	line-height: 1.2;
+	white-space: nowrap;
+}
+
+#footer .linkList ul.cf li.last {
+	margin-right: 0;
+	border-right: 0;
+}
+
+#footer .left{
+	float: left;
+	width: 630px;
+}
+
+#footer .right{
+	float: right;
+	width: 250px;
+}
+
+/*
+#siteMap .column {
+	display: inline;
+	overflow: hidden;
+	float: left;
+	width: 230px;
+	margin-right: 20px;
+	text-align: left;
+}*/
+#siteMap .terms {
+	float: right;
+	width: 200px;
+	margin-right: 0;
+}
+
+#siteMap p{
+display: block;
+	border-left: 4px solid #fff;
+	padding-left: 6px;
+	margin-bottom: 14px;
+	color: #fff;
+	line-height: 12px;
+}
+
+.search01 ul{
+	width: 625px;
+}
+
+.search02 ul li{
+	padding: 0 5px;
+	margin-bottom: 14px;
+}
+
+.search01 .clear{
+	clear: both;
+}
+
+.linkList .nobdr{
+	border: none !important;
+}
+
+.search01 .last{
+	display: block;
+	border: none;
+}
+
+
+#footer .linkList .terms ul {
+}
+
+#footer .linkList .terms ul li {
+	margin-bottom: 0.3em;
+}
+
+
+#footer #groupSite {
+	padding-top: 5px;
+	border-top: solid 1px #87e0fd;
+}
+#footer #groupSite p {
+	margin: 10px 0 5px 0;
+}
+
+#fshita{
+	border-top: 3px solid #fff;
+	padding-top: 18px;
+}
+
+#copyright {
+	display: inline;
+	float: left;
+	width: 200px;
+	text-align: left;
+}
+#copyright a {
+	width: 162px;
+	height: 12px;
+	background-position: 0 -50px;
+}
+
+#f_menu{
+	float: right;
+	width: 454px;
+	text-align: right;
+}
+
+#f_menu ul{
+	text-align: right;
+	width: 454px;
+}
+
+#f_menu ul li{
+	float: left;
+	display: block;
+	border-right: 1px solid #fff;
+	padding-right: 9px;
+	padding-left: 8px;
+	font-size: 92%;
+	line-height: 11px;
+	text-align: right;
+}
+
+#f_menu .nopad{
+	padding-left: 0;
+}
+
+#f_menu .last{
+	border: none;
+	padding-right: 0;
+}
+
+#shingakuNet {
+	display: block;
+	float: right;
+	width: 190px;
+}
+
+#shingakuNet a {
+	width: 190px;
+	height: 28px;
+	background-position: -850px -50px;
+}
+
+#footerNav {
+	display: inline;
+	float: right;
+	overflow: hidden;
+	margin: 20px 0 80px 0;
+	color: #fff;
+}
+
+#footerNav ul {
+	margin-left: -11px;
+}
+
+#footerNav ul li {
+	float: left;
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: solid 1px #fff;
+	line-height: 1.2;
+}
+
+/* -----------------------------------
+	popup
+----------------------------------- */
+
+#header .popupInner,
+#contents .popupInner,
+#footer .popupInner {
+	margin: 0 auto;
+	width: 490px;
+}
+
+#header .popupInner {
+	position: relative;
+}
+
+#contents .popupInner {
+	padding: 25px 0;
+}
+
+
+/* -----------------------------------
+	#topicPath
+----------------------------------- */
+
+#topicPath {
+	margin: 0 0 12px 0;
+	padding-top: 18px;
+	font-size: 84%;
+}
+#topicPath li {
+	display: inline;
+}
+#topicPath li a {
+	margin-right: 3px;
+	padding-right: 11px;
+	background-position: right -3847px;
+	background-repeat: no-repeat;
+}
+/* ▼▼2011/11/24 Rで独自追加・修正▼▼ */
+#topicPath li a.nohrefMOC {
+        text-decoration: none;
+        color: black;
+        cursor: text-resize;
+}
+/* ▲▲2011/11/24 Rで独自追加・修正▲▲ */
+
+
+/* コンテンツの先頭へ戻るリンク */
+.contentsTopLink {
+	clear: both;
+	margin-top: 15px;
+	text-align: right;
+}
+
+/* -----------------------------------
+	title
+----------------------------------- */
+
+/* 背景＋上にボーダー */
+.basicTitle {
+	margin-bottom: 15px;
+	padding: 10px;
+	border-top: solid 4px #E0F2FB;
+	background: #E0F2FB;
+	font-size: 167%;
+	line-height: 1.3;
+}
+
+/* 背景のみ */
+.basicTitle02 {
+	margin-bottom: 10px;
+	padding: 10px;
+	background: url(../images/bg_check_blu.png) left top repeat;
+	font-size: 134%;
+	line-height: 1.3;
+}
+
+/* 左にボーダーのみ */
+.basicTitle03 {
+	margin-bottom: 30px;
+	padding-left: 15px;
+	background: url(../images/border_check_blu.png) left top repeat-y;
+	font-size: 200%;
+	line-height: 1.3;
+}
+
+/* 左にボーダー＋下に余白＋点線 */
+.basicTitle04 {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: dotted 1px #a1c7e5;
+}
+.basicTitle04 .title {
+	padding: 2px 0 0 15px;
+	background: url(../images/border_check_blu.png) left top repeat-y;
+	font-size: 200%;
+	line-height: 1.3;
+}
+
+/* 左にボーダー＋点線＋テキスト */
+.basicTitle05 {
+	margin-bottom: 30px;
+	padding-left: 5px;
+	background: url(../images/border_check_blu.png) left top repeat-y;
+}
+.basicTitle05 .title {
+	padding-left: 15px;
+	font-size: 200%;
+	line-height: 1.3;
+}
+.basicTitle05 .subTitle {
+	display: block;
+	color: #333;
+	font-weight: bold;
+}
+.basicTitle05 p {
+	margin-top: 5px;
+	padding: 10px 0 0 15px;
+	border-top: dotted 1px #a1c7e5;
+}
+.basicTitle05 p span {
+	color: #666;
+}
+
+/* 吹き出し風 */
+.dialogTitle {
+	margin-bottom: 15px;
+	padding-bottom: 3px;
+	background: url(../images/bg_dialog_blu_b.png) 15px bottom no-repeat;
+	line-height: 1.3;
+}
+.dialogTitle .outer {
+	margin: 0px 1px;
+	padding: 1px 0px;
+	background: #d6edff;
+}
+.dialogTitle .outer .inner {
+	margin: 0px -1px;
+	padding: 5px 10px 3px 35px;
+	background-color: #d6edff;
+	background-position: 6px -1847px;
+	background-repeat: no-repeat;
+	font-size: 134%;
+	font-weight: bold;
+}
+
+
+/* -----------------------------------
+	link
+----------------------------------- */
+
+/* 矢印付きリンク */
+.moreLink {
+	text-align: right;
+}
+.moreLink a {
+	padding-left: 10px;
+	background-position: 0 -595px;
+	background-repeat: no-repeat;
+}
+
+/* 小さい角丸アイコン付きリンク */
+.minNextLink a {
+	padding-left: 20px;
+	background-position: 0 -2600px;
+	background-repeat: no-repeat;
+}
+.minPrevLink a {
+	padding-left: 20px;
+	background-position: 0 -2700px;
+	background-repeat: no-repeat;
+}
+.minUpLink a {
+	padding-left: 20px;
+	background-position: 0 -2800px;
+	background-repeat: no-repeat;
+}
+.minDownLink a {
+	padding-left: 20px;
+	background-position: 0 -2900px;
+	background-repeat: no-repeat;
+}
+.minCloseLink {
+	text-align: right;
+}
+.minCloseLink a {
+	padding-left: 20px;
+	background-position: 0 -2399px;
+	background-repeat: no-repeat;
+}
+
+/* コンテンツの先頭へ戻るリンク */
+.contentsTopLink {
+	clear: both;
+	margin-top: 15px;
+	text-align: right;
+}
+
+
+/* -----------------------------------
+	button
+----------------------------------- */
+
+.helpButton {
+	/* display: inline-block; */
+	width: 13px;
+	height: 13px;
+	background-position: 0 -2200px;
+	vertical-align: middle;
+}
+a.helpButton:hover {
+	background-position: 0 -2300px;
+}
+
+.dialogCloseButton {
+	display: inline-block;
+	width: 18px;
+	height: 15px;
+	background-position: -1160px -80px;
+	vertical-align: middle;
+}
+.dialogCloseButton:hover {
+	background-position: -1180px -80px;
+}
+
+.minCloseButton {
+	width: 13px;
+	height: 13px;
+	background-position: 0 -2400px;
+}
+.minCloseButton:hover {
+	background-position: 0 -2500px;
+}
+
+.minNextButton {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-position: 0 -2600px;
+	vertical-align: middle;
+}
+.minBottomButton {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-position: 0 -2900px;
+	vertical-align: middle;
+}
+
+.addListButton {
+	width: 147px;
+	height: 32px;
+	background-position: -1850px 0;
+}
+.addListButton:hover {
+	cursor: pointer;
+	background-position: -1850px -40px;
+}
+
+.addListButtonS {
+	width: 97px;
+	height: 22px;
+	background-position: -1500px -40px;
+}
+.addListButtonS:hover {
+	cursor: pointer;
+	background-position: -1500px -70px;
+}
+
+/* ▼▼2011/10/11追加・修正▼▼ */
+.addButton {
+	width: 112px;
+	height: 32px;
+	background-position: -850px 0;
+}
+.addButton:hover {
+	cursor: pointer;
+	background-position: -970px 0;
+}
+/* ▲▲2011/10/11追加・修正▲▲ */
+
+
+.requestDocButton {
+	width: 72px;
+	height: 32px;
+	background-position: -2000px 0;
+}
+.requestDocButton:hover {
+	background-position: -2000px -40px;
+}
+
+.requestAppButton {
+	width: 72px;
+	height: 32px;
+	background-position: -2080px 0;
+}
+.requestAppButton:hover {
+	background-position: -2080px -40px;
+}
+
+.printButton {
+	width: 172px;
+	height: 32px;
+	background-position: -2300px 0;
+}
+.printButton:hover {
+	background-position: -2300px -50px;
+}
+
+.mapButton {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background-position: -1460px -40px;
+	vertical-align: middle;
+}
+.mapButton:hover {
+	background-position: -1460px -70px;
+}
+
+
+
+/* -----------------------------------
+	icon
+----------------------------------- */
+
+/* 入試の種類アイコン */
+.examIcon01 {
+	width: 34px;
+	height: 17px;
+	background-position: -1850px -80px;
+}
+.examIcon02 {
+	width: 34px;
+	height: 17px;
+	background-position: -1890px -80px;
+}
+.examIcon03 {
+	width: 34px;
+	height: 17px;
+	background-position: -1930px -80px;
+}
+.examIcon04 {
+	width: 34px;
+	height: 17px;
+	background-position: -1970px -80px;
+}
+.examIcon05 {
+	width: 34px;
+	height: 17px;
+	background-position: -2010px -80px;
+}
+
+/* 入試の科目アイコン */
+.subjectIcon01 {
+	width: 24px;
+	height: 17px;
+	background-position: -1850px -110px;
+}
+.subjectIcon02 {
+	width: 24px;
+	height: 17px;
+	background-position: -1880px -110px;
+}
+.subjectIcon03 {
+	width: 24px;
+	height: 17px;
+	background-position: -1910px -110px;
+}
+.subjectIcon04 {
+	width: 24px;
+	height: 17px;
+	background-position: -1940px -110px;
+}
+.subjectIcon05 {
+	width: 24px;
+	height: 17px;
+	background-position: -1970px -110px;
+}
+.subjectIcon06 {
+	width: 24px;
+	height: 17px;
+	background-position: -2000px -110px;
+}
+.subjectIcon07 {
+	width: 24px;
+	height: 17px;
+	background-position: -2030px -110px;
+}
+.subjectIcon08 {
+	width: 24px;
+	height: 17px;
+	background-position: -2060px -110px;
+}
+.subjectIcon09 {
+	width: 24px;
+	height: 17px;
+	background-position: -2090px -110px;
+}
+.subjectIcon10 {
+	width: 33px;
+	height: 17px;
+	background-position: -2120px -110px;
+}
+.subjectIcon11 {
+	width: 40px;
+	height: 17px;
+	background-position: -2160px -110px;
+}
+.subjectIcon12 {
+	width: 40px;
+	height: 17px;
+	background-position: -2210px -110px;
+}
+.subjectIcon13 {
+	width: 52px;
+	height: 17px;
+	background-position: -2260px -110px;
+}
+.subjectIcon14 {
+	width: 49px;
+	height: 17px;
+	background-position: -2320px -110px;
+}
+/* ▼▼2011/9/29追加・修正▼▼ */
+.subjectIcon15 {
+	width: 33px;
+	height: 17px;
+	background-position: -2380px -110px;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+
+/* 偏差値・得点率 */
+.deviationIcon {
+	width: 40px;
+	height: 24px;
+	background-position: -1110px -40px;
+}
+.deviationIconS {
+	width: 39px;
+	height: 16px;
+	background-position: -1160px -40px;
+}
+.scoreIcon {
+	width: 40px;
+	height: 24px;
+	background-position: -1110px -70px;
+}
+.scoreIconS {
+	width: 81px;
+	height: 16px;
+	background-position: -1160px -60px;
+}
+
+/* フォーム系 */
+.requiredIcon {
+	width: 25px;
+	height: 15px;
+	background-position: -1210px -40px;
+}
+.okIcon {
+	width: 17px;
+	height: 28px;
+	background-position: -1700px -40px;
+}
+.ngIcon {
+	width: 17px;
+	height: 28px;
+	background-position: -1730px -40px;
+}
+
+/* ローディング */
+.loading {
+	display: none;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.loadingIcon {
+	width: 15px;
+	height: 15px;
+	margin: 0 auto;
+	background: url(../images/icon_loading.gif) left top no-repeat;
+}
+
+
+/* -----------------------------------
+	list
+----------------------------------- */
+
+/* 矢印ありのリスト */
+.basicList {
+	line-height: 1.3;
+}
+.basicList li {
+	margin-bottom: 5px;
+}
+.basicList li a {
+	padding-left: 15px;
+	background-position: 0 -295px;
+	background-repeat: no-repeat;
+}
+
+/* 区切り線ありのインラインリスト */
+.basicInlineList {
+	line-height: 1.3;
+}
+.basicInlineList li {
+	float: left;
+	display: inline;
+	margin: 0.2em 0.5em 0.2em 0;
+	padding-right: 0.5em;
+	border-right: solid 1px #ccc;
+	color: #999;
+	white-space: nowrap;
+}
+.basicInlineList li.last {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+
+/* 区切り線なしのインラインリスト */
+.inlineList li {
+	display: inline;
+	margin-right: 3em;
+}
+
+
+/* -----------------------------------
+	table
+----------------------------------- */
+
+/* dataTable */
+table.dataTable {
+	border-collapse: collapse;
+	border: solid 3px #ddd;
+}
+	table.dataTable, x:-moz-broken { border-bottom-width: 2px; border-right-width: 2px; border-collapse: separate; }
+	table.dataTable, x:-moz-broken, x:last-of-type  { border-bottom-width: 2px; border-right-width: 2px; border-collapse: separate; }
+
+table.dataTable tr th,
+table.dataTable tr td {
+	padding: 8px 8px 6px 8px;
+	text-align: left;
+	vertical-align: top;
+}
+table.dataTable tr th {
+	width: 15%;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	background: #f6f6f6;
+	font-weight: bold;
+}
+table.dataTable tr td {
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	background: #fff;
+	text-align: left;
+}
+table.center tr td,
+table.dataTable tr.center td,
+table.dataTable tr td.center {
+	text-align: center;
+}
+table.dataTable tr td.required {
+	color: #f33;
+}
+table.dataTable thead tr th {
+	width: auto;
+	border-bottom: solid 3px #ddd;
+	padding: 4px 6px 2px 6px;
+	text-align: center;
+}
+
+/* disabledTable */
+table.disabledTable,
+table.disabledTable tr th,
+table.disabledTable tr td,
+table.disabledTable thead tr th {
+	border-color: #eee;
+	color: #ccc;
+}
+
+
+/* -----------------------------------
+	form
+----------------------------------- */
+
+/* parts */
+input.text {
+	padding: 6px;
+	border: solid 2px #b2dafd;
+}
+label {
+	vertical-align: text-top;
+}
+label input {
+	margin-right: 5px;
+	vertical-align: text-top;
+}
+
+/* .formError */
+.formError {
+	margin-bottom: 15px;
+	border: solid 1px #f00;
+	padding: 10px;
+	color: #f00;
+}
+.formError .message {
+	font-size: 117%;
+	font-weight: bold;
+}
+.formError ul li {
+	margin-left: 1.5em;
+	list-style: disc outside;
+}
+
+/* .formTable */
+table.formTable tr th,
+table.formTable tr td {
+	text-align: left;
+	vertical-align: middle;
+}
+table.formTable tr th {
+	padding: 15px 6px;
+	width: 20%;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	background: #dceffe;
+	font-size: 117%;
+	font-weight: bold;
+	line-height: 1.3;
+}
+table.formTable tr.first th {
+	border-top: solid 1px #dceffe;
+}
+table.formTable tr.last th {
+	border-bottom: solid 1px #dceffe;
+}
+table.formTable tr td {
+	padding: 15px 15px;
+	border-bottom: dotted 1px #a1c7e5;
+	background: #fff;
+}
+table.formTable tr.first td {
+	border-top: dotted 1px #a1c7e5;
+}
+table.formTable tr td.status {
+	width: 17px;
+	padding-right: 8px;
+	padding-left: 4px;
+}
+
+table.formTable th .requiredIcon {
+	float: right;
+	margin: 0 0 0 5px;
+}
+
+table.formTable input.text {
+	font-size: 117%;
+}
+table.formTable span.ex {
+	color: #666;
+	margin-left: 15px;
+}
+table.formTable p.ex {
+	color: #666;
+}
+table.formTable p.rule {
+	margin-top: 5px;
+	font-size: 84%;
+}
+
+
+/* -----------------------------------
+    error
+----------------------------------- */
+
+#error #main {
+	width: 100%;
+}
+#error #main .mainMessage {
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+#error #main p.link {
+	margin: 45px 0 0 0;
+	font-size: 100%;
+}
+#error #main p.link a {
+    padding-left: 10px;
+	background-position: 0 -295px;
+    background-repeat: no-repeat;
+}
+
+
+/* -----------------------------------
+	helpTip
+----------------------------------- */
+
+.helpTip {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: solid 1px #ddd;
+	width: 180px;
+	padding: 10px;
+	background: #fff;
+	font-size: 84%;
+	text-align: left;
+}
+
+
+/* -----------------------------------
+	#syllabaryTip
+----------------------------------- */
+
+#syllabaryTip {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1100;
+	width: 360px;
+	padding: 0 6px;
+	border: solid 1px #e1e1e1;
+	background: #fff;
+	font-size: 134%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.3;
+	-moz-box-shadow: 0 0 5px #cccccc;
+	-webkit-box-shadow: 0 0 5px #cccccc;
+}
+#syllabaryTip .header {
+	margin: 0 auto 8px auto;
+	padding: 10px 0 8px 0;
+	border-bottom: 1px dotted #ccc;
+}
+#syllabaryTip .text {
+	text-align: center;
+}
+#syllabaryTip ul {
+	margin: 10px 0;
+	text-align: left;
+}
+#syllabaryTip ul li {
+	margin-bottom: 4px;
+}
+#syllabaryTip ul li.left {
+	display: inline;
+	float: left;
+	margin-right: 25px;
+}
+#syllabaryTip ul li.right {
+	display: inline;
+	float: left;
+}
+#syllabaryTip ul li a {
+	padding: 0 8px 0 8px;
+	border-right: 2px solid #e5e5e5;
+}
+#syllabaryTip ul li a.right {
+	padding-right: 0;
+	border: none;
+}
+
+
+/* -----------------------------------
+	modalPanel
+----------------------------------- */
+
+.modalPanel {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2100;
+	width: 360px;
+	padding: 9px;
+	border: solid 1px #e1e1e1;
+	background: #fff;
+	text-align: left;
+	-moz-box-shadow: 0 0 5px #cccccc;
+	-webkit-box-shadow: 0 0 5px #cccccc;
+}
+
+
+/* -----------------------------------
+	modalPanel
+----------------------------------- */
+
+.modalPanelL {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2200;
+	width: 830px;
+	border: solid 1px #e1e1e1;
+	background: #fff;
+	text-align: left;
+	-moz-box-shadow: 0 0 5px #cccccc;
+	-webkit-box-shadow: 0 0 5px #cccccc;
+}
+.modalPanelL h2 {
+	font-size: 150%;
+	padding: 20px 20px 15px 20px;
+}
+.modalData {
+	padding: 0 20px 20px 20px;
+}
+.modalData .lead {
+	margin: 0 0 10px 0;
+}
+.dataFrame {
+	overflow-y: scroll;
+	height: 400px;
+	padding: 20px 19px 0 19px;
+	border: solid 1px #e1e1e1;
+}
+.dataFrame h3 {
+	margin-bottom: 10px;
+	font-size: 117%;
+}
+.dataFrame table.dataTable {
+	margin-bottom: 30px;
+}
+.dataFrame table.dataTable tr.checked td {
+	background: #fffada;
+}
+/* ▼▼2011/9/29追加・修正▼▼ */
+.modalPanelL .action {
+	position: relative;
+	min-height: 30px;
+	height: auto !important;
+	height: 30px;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+.modalPanelL .close {
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+}
+
+/* ▼▼2011/11/25追加・修正▼▼ */
+body.sp .dataFrame {
+	overflow-y: auto;
+	height: auto;
+}
+/* ▲▲2011/11/25追加・修正▲▲ */
+
+/* -----------------------------------
+	settingPanel
+----------------------------------- */
+
+.settingPanel {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2100;
+	width: 170px;
+	padding: 14px;
+	border: solid 1px #e1e1e1;
+	background: #fff;
+	text-align: left;
+	-moz-box-shadow: 0 0 5px #cccccc;
+	-webkit-box-shadow: 0 0 5px #cccccc;
+}
+.settingPanel .title {
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+.settingPanel input,
+.settingPanel select {
+	font-size: 117%;
+}
+
+/* -----------------------------------
+	#addListPanel
+----------------------------------- */
+
+/* 2011-07-28　*/
+
+#addListPanel {
+	border: solid 1px #ffcaca;
+	background: #ffdedc;
+}
+#addListPanel .action {
+	position: relative;
+	text-align: center;
+}
+
+
+/* complete / error */
+#addListPanel .message {
+	padding: 10px;
+	background: #fff;
+	text-align: center;
+}
+#addListPanel p.selected {
+	margin: 10px 0;
+	font-size: 117%;
+	font-weight: bold;
+}
+#addListPanel p.moreLink {
+	margin-top: 10px;
+	text-align: center;
+}
+#addListPanel p.minCloseLink {
+	position: relative;
+	bottom: -5px;
+	right: auto;
+	text-align: right;
+}
+
+/* error */
+#addListPanel .patternError .message {
+	color: #f33;
+}
+
+/* patternList */
+#addListPanel .title {
+	font-size: 134%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#addListPanel .selectArea {
+	overflow-y: auto;
+	height: 200px;
+	margin: 5px 0 8px 0;
+	padding: 10px;
+	background: #fff;
+}
+#addListPanel .selectArea ul ul {
+	margin-top: 5px;
+	padding-left: 15px;
+	border-top: solid 2px #ccc;
+}
+#addListPanel .selectArea ul ul ul {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: none;
+}
+#addListPanel .selectArea ul ul li {
+	padding: 5px 0;
+	border-bottom: dotted 1px #ccc;
+}
+#addListPanel .selectArea ul ul ul li {
+	padding: 0;
+	border-bottom: none;
+}
+#addListPanel .action input {
+	margin: 0 auto;
+}
+#addListPanel .patternList p.minCloseLink {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+
+/* ▼▼2011/11/25追加・修正▼▼ */
+body.sp #addListPanel .selectArea {
+	overflow-y: auto;
+	height: auto;
+}
+/* ▲▲2011/11/25追加・修正▲▲ */
+
+
+/* -----------------------------------
+	#levelDataPanel
+----------------------------------- */
+
+#levelDataPanel table.dataTable thead th {
+	vertical-align: middle;
+	white-space: nowrap;
+}
+#levelDataPanel table.dataTable thead th {
+	vertical-align: middle;
+}
+#levelDataPanel table.dataTable thead th.level {
+	border-bottom-width: 1px;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+#levelDataPanel .aboutLevel .basicTitle03 {
+	margin-bottom: 5px;
+	font-size: 117%;
+}
+#levelDataPanel .aboutLevel p.lead {
+	margin: 10px 0 20px 0;
+}
+#levelDataPanel .aboutLevel p {
+	margin: 0 0 25px 15px;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+#levelDataPanel p.note {
+	margin: -5px 0 5px 0;
+	text-align: right;
+}
+/* ▼▼2011/9/29削除▼▼
+#levelDataPanel .close {
+	position: relative;
+	margin: 15px 0 0 0;
+	text-align: right;
+}
+▲▲2011/9/29削除▲▲ */
+
+
+/* ▼▼2011/8/2追加・修正▼▼ */
+/* -----------------------------------
+	#requestPanel
+----------------------------------- */
+
+#requestPanel .lead {
+	margin: 30px 30px 0 30px;
+}
+#requestPanel .lead p.fig {
+	float: left;
+	margin: 0 20px 30px 0;
+}
+#requestPanel .lead p.desc {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#requestPanel .lead p.button {
+	clear: both;
+	text-align: center;
+}
+#requestPanel .lead p.button a {
+	margin: 0 auto;
+}
+/* ▼▼2011/9/29削除▼▼
+#requestPanel .close {
+	position: relative;
+	margin: 15px 0 0 0;
+	text-align: right;
+}
+▲▲2011/9/29削除▲▲ */
+
+/* ▼▼2011/8/8追加・修正▼▼ */
+.shingakunetButton {
+	width: 202px;
+	height: 42px;
+	background-position: -640px 0;
+}
+.shingakunetButton:hover {
+	background-position: -640px -50px;
+}
+/* ▲▲2011/8/8追加・修正▲▲ */
+/* ▲▲2011/8/2追加・修正▲▲ */
+
+
+/* -----------------------------------
+	parts
+----------------------------------- */
+
+/* 志望校リストに追加・願書請求・資料請求 */
+ul.basicActionButtons {
+	width: 255px;
+}
+ul.basicActionButtons li {
+	display: inline;
+	float: right;
+	margin: 0 0 2px 3px;
+}
+
+ul.basicActionButtons li a {
+	display: block;
+	background: url(../images/si_btn04_on.jpg) no-repeat;
+}
+
+ul.basicActionButtons li a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+}
+
+/* 偏差値・センター得点率 */
+ul.levelData {
+	position: relative;
+	font-weight: bold;
+	line-height: 1.2;
+	zoom: 1;
+}
+ul.levelData li {
+	display: inline;
+	float: left;
+}
+ul.levelData li.help {
+	width: 13px;
+	margin: 0;
+}
+
+
+/* 偏差値・センター得点率 テキストのみ */
+ul.levelData01 {
+	padding: 5px 15px 2px 10px;
+	background: #fff1c0;
+	font-size: 84%;
+}
+ul.levelData01 li {
+	margin-right: 10px;
+}
+ul.levelData01 li span {
+	margin-right: 5px;
+	color: #f60;
+}
+ul.levelData01 li.help {
+	position: absolute;
+	right: 4px;
+	top: 3px;
+}
+
+
+/* 偏差値・センター得点率 大きめのアイコン */
+ul.levelData02 {
+	font-size: 134%;
+}
+ul.levelData02 li {
+	margin-right: 20px;
+}
+ul.levelData02 li span {
+	float: left;
+	padding-top: 5px;
+}
+ul.levelData02 li span.deviationIcon,
+ul.levelData02 li span.scoreIcon {
+	margin-right: 8px;
+	padding-top: 0;
+}
+ul.levelData02 li.help {
+	margin: 6px 0 -6px 0;
+}
+
+
+/* 偏差値・センター得点率 小さめのアイコン */
+ul.levelData03 li {
+	margin-right: 20px;
+}
+ul.levelData03 li span {
+	float: left;
+	padding-top: 2px;
+}
+ul.levelData03 li span.deviationIconS,
+ul.levelData03 li span.scoreIconS {
+	margin-right: 8px;
+	padding-top: 0;
+}
+ul.levelData03 li.help {
+	margin: 1px 0 -1px 0;
+}
+
+
+/* 基本大学情報 */
+.basicUnivUnit {
+	margin-bottom: 10px;
+}
+.basicUnivUnit h3,
+.basicUnivUnit h4,
+.basicUnivUnit p {
+	margin: 6px 10px 0 10px;
+	line-height: 1.4;
+}
+.basicUnivUnit p.desc {
+	margin-top: 3px;
+}
+
+
+/* .pageInfo */
+.pageInfo {
+	position: relative;
+	margin-bottom: 20px;
+	vertical-align: baseline;
+}
+.pageInfo p.total {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.pageInfo p.total span {
+	margin-right: 5px;
+	font-family: Arial;
+	font-size: 224%;
+	line-height: 1;
+}
+.pageInfo p.display {
+	display: inline;
+	float: left;
+	font-size: 117%;
+	line-height: 270%;
+}
+.pageInfo p.moreLink {
+	display: inline;
+	float: right;
+	line-height: 300%;
+}
+
+.pageInfo dl.sort {
+	float: right;
+	margin-top: 5px;
+	text-align: right;
+	line-height: 1.2;
+}
+.pageInfo dl.sort dt {
+	display: inline-block;
+	padding: 5px;
+	background: #f7f5e8;
+	vertical-align: middle;
+}
+.pageInfo dl.sort dd {
+	display: inline-block;
+	overflow: hidden;
+	padding: 5px 0;
+	color: #666;
+	vertical-align: middle;
+}
+.pageInfo dl.sort dd ul {
+	display: inline-block;
+	margin-left: -5px;
+}
+.pageInfo dl.sort dd ul li {
+	display: inline-block;
+	margin-left: 1px;
+	padding-left: 4px;
+	border-left: solid 1px #999;
+	color: #999;
+}
+
+
+/* ▼▼2011/8/5追加・修正▼▼ */
+/* .pagination */
+ul.pagination {
+	font-size: 117%;
+	text-align: center;
+}
+ul.pagination li {
+	display: inline-block;
+	vertical-align: top;
+}
+ul.pagination li a,
+ul.pagination li span.current {
+	border: solid 1px #ccc;
+	display: block;
+	width: 2.2em;
+	padding-top: 0.2em;
+	line-height: 2.2em;
+}
+ul.pagination li a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+ul.pagination li span.current {
+	background: #ccc;
+	color: #fff;
+}
+ul.pagination li.prev {
+	margin-right: 5px;
+}
+ul.pagination li.next {
+	margin-left: 5px;
+}
+ul.pagination li.prev a,
+ul.pagination li.next a {
+	border: none;
+	width: 65px;
+	height: 40px;
+}
+ul.pagination li.prev a {
+	background-position: -2160px 0;
+}
+ul.pagination li.prev a:hover {
+	background-color: transparent;
+	background-position: -2160px -50px;
+}
+ul.pagination li.next a {
+	background-position: -2230px 0;
+}
+ul.pagination li.next a:hover {
+	background-color: transparent;
+	background-position: -2230px -50px;
+}
+/* ▲▲2011/8/5追加・修正▲▲ */
+
+
+/* .noResultMessage */
+.noResultMessage {
+	padding: 140px 25px;
+	border: solid 1px #f33;
+	color: #f33;
+	text-align: center;
+}
+.noResultMessage p {
+	font-size: 150%;
+}
+
+
+/* #socialButton */
+#socialButton {
+	float: right;
+	margin-bottom: 10px;
+	text-align: right;	
+}
+#socialButton dt {
+	display: inline-block;
+	color: #666;
+	font-weight: bold;
+	vertical-align: top;
+}
+#socialButton li,
+#socialButton dd {
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: top;
+}
+
+
+/* ▼▼2011/8/2追加・修正▼▼ */
+/* .exclusion */
+.exclusion {
+	clear: both;
+	margin: 30px 0;
+	color: #666;
+	font-size: 84%;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+
+
+/* .requestSet */
+.requestSet {
+	clear: both;
+	border-top: solid 5px #00CCFF;
+	padding: 20px 0 30px 0;
+	margin-top: 30px;
+	background: url(../images/si02_bg.gif) repeat-x left bottom;
+}
+.requestSet h3 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 167%;
+}
+.requestSet ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 520px;
+}
+
+.requestSet ul li a {
+	display: block;
+	background: url(../images/si_btn02_on.jpg) no-repeat;
+}
+
+.requestSet ul li a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+}
+
+
+
+/* ▼▼2011/8/8追加・修正▼▼ */
+.requestSet .requestDocButton {
+	width: 202px;
+	height: 42px;
+	margin-right: 20px;
+	background-position: -200px 0;
+}
+.requestSet .requestAppButton {
+	width: 202px;
+	height: 42px;
+	margin-right: 20px;
+	background-position: -420px 0;
+}
+.requestSet .addListButton {
+	width: 202px;
+	height: 42px;
+	margin-right: 0;
+	background-position: -760px 0;
+}
+.requestSet .requestDocButton:hover  {
+	background-position: -200px -50px;
+}
+.requestSet .requestAppButton:hover  {
+	background-position: -420px -50px;
+}
+.requestSet .addListButton:hover  {
+	background-position: -760px -50px;
+}
+/* ▲▲2011/8/8追加・修正▲▲ */
+
+.univLinks {
+	margin: 30px auto;
+	font-size: 117%;
+	text-align: center;
+}
+.univLinks li {
+	display: inline;
+	padding: 0 10px;
+	border-right: solid #ccc 1px;
+}
+.univLinks li.last  {
+	padding-right: 0;
+	border: none;
+}
+
+
+/* select */
+dl.select {
+	margin: 15px 0 5px 0;
+	line-height: 1.2;
+}
+dl.select dt {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+	background: #f7f5e8;
+	vertical-align: middle;
+}
+dl.select dd {
+	display: inline-block;
+	overflow: hidden;
+	padding: 5px 0;
+	color: #666;
+	vertical-align: middle;
+}
+
+
+/* recommendUnivL */
+.recommendUnivL {
+	padding-bottom: 10px;
+	background: #fffada;
+}
+.recommendUnivL h3 {
+	width: 960px;
+	height: 38px;
+	background-position: 0 -100px;
+}
+.basicUnivUnitSet {
+	padding: 10px;
+}
+.recommendUnivL .basicUnivUnit {
+	float: left;
+	width: 300px;
+	margin: 0 20px 0 0;
+	padding-bottom: 10px;
+	background: #fff;
+}
+.recommendUnivL .basicUnivUnit.last {
+	margin: 0;
+}
+.recommendUnivL ul.levelData {
+	margin-bottom: 10px;
+	padding: 10px 10px 8px 10px;
+}
+.recommendUnivL ul.levelData li.help {
+	right: 10px;
+	top: 9px;
+}
+
+
+/* .univSearch */
+.univSearch .unit {
+	margin-bottom: 30px;
+}
+.univSearch .unit .body,
+.univSearch .unit .category {
+	margin: 0 15px;
+}
+.univSearch .basicTitle03 {
+	margin-bottom: 10px;
+	color: #666;
+	font-size: 100%;
+}
+
+.univSearch .mainSearch ul.basicInlineList li {
+	display: inline;
+	float: left;
+	margin: 0 1em 0.6em 0;
+	padding-right: 1em;
+	border-right: solid 2px #e5e5e5;
+	white-space: nowrap;
+}
+.univSearch .mainSearch ul.basicInlineList li.last {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+
+.univSearch .subSearch .dialogTitle {
+	background: url(../images/bg_dialog_gry_b.png) 15px bottom no-repeat;
+}
+.univSearch .subSearch .dialogTitle .outer {
+	background-color: #ebebeb;
+}
+.univSearch .subSearch .dialogTitle .outer .inner {
+	background-position: 6px -1946px;
+	background-color: #ebebeb;
+}
+.univSearch .subSearch ul.basicList li {
+	margin-bottom: 6px;
+	color: #666;
+}
+
+.univSearch .areaSearch,
+.univSearch .typeSearch {
+	clear: both;
+	display: inline;
+	float: left;
+	width: 345px;
+	text-align: left;
+}
+.univSearch .facultySearch,
+.univSearch .examSearch {
+	display: inline;
+	float: right;
+	width: 345px;
+	text-align: left;
+}
+
+.univSearch .areaSearch ul.basicInlineList li {
+	margin: 0 0.5em 0.9em 0;
+	padding-right: 0.5em;
+	border-right: solid 1px #e5e5e5;
+}
+
+.univSearch .facultySearch .category {
+	margin-top: 10px;
+}
+.univSearch .facultySearch ul {
+	margin-left: 15px;
+}
+
+.univSearch .deviationSearch {
+	clear: both;
+}
+.univSearch .deviationSearch .category {
+	display: inline;
+	float: left;
+	width: 200px;
+	text-align: left;
+}
+.univSearch .deviationSearch .type {
+	width: 240px;
+}
+
+
+/* ▼▼2011/10/27追加・修正▼▼ */
+/* .prBanner */
+#main .prBanner {
+    z-index: 1;
+	margin-bottom: 25px;
+	text-align: center;
+}
+#main .prBannerBtm {
+	margin-top: 25px;
+}
+/* ▲▲2011/10/27追加・修正▲▲ */
+
+
+/* -----------------------------------
+	sub
+----------------------------------- */
+
+/* sub common */
+#sub p.update {
+	margin-top: 5px;
+	color: #666;
+	font-size: 84%;
+	text-align: right;
+}
+
+/* .siteData */
+dl.siteData {
+	margin-bottom: 15px;
+	text-align: center;
+}
+dl.siteData dt {
+	display: inline;
+	margin-right: 10px;
+	font-weight: bold;
+}
+dl.siteData dd {
+	margin: 2px 0 10px 0;
+	color: #666;
+	line-height: 1;
+}
+dl.siteData dd span {
+	margin-right: 3px;
+	color: #f33;
+	font-family: Arial;
+	font-size: 217%;
+	font-weight: bold;
+}
+dl.siteData dt.member {
+	padding: 2px 0 2px 18px;
+	background-position: 0 -1550px;
+	background-repeat: no-repeat;
+}
+dl.siteData dt.univ {
+	padding: 2px 0 2px 16px;
+	background-position: 0 -1647px;
+	background-repeat: no-repeat;
+}
+
+/* .memberActivity */
+.memberActivity {
+	margin-bottom: 15px;
+}
+.memberActivity h3 {	
+	width: 180px;
+	height: 29px;
+	background-position: -1460px 0;
+}
+.memberActivity ul li,
+.memberActivity dl {
+	padding: 6px 0;
+	border-bottom: dotted 1px #ccc;
+}
+.memberActivity dl dt {
+	font-weight: bold;
+}
+.memberActivity dl dt .helpButton {
+	display: inline-block;
+	vertical-align: middle;
+}
+.memberActivity ul.recent {
+	color: #666;
+}
+.memberActivity ul.recent li span {
+	font-weight: bold;
+}
+.memberActivity dl.average dt {
+	display: table-cell;
+	vertical-align: middle;
+	width: 130px;
+}
+.memberActivity dl.average dd {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50px;
+	color: #f06;
+	font-family: Arial;
+	font-size: 217%;
+	font-weight: bold;
+	line-height: 1;
+	text-align: right;
+}
+.memberActivity dl.distribution {
+	border-bottom: none;
+}
+.memberActivity dl.distribution dd p {
+	margin-top: 5px;
+}
+.memberActivity dl.distribution dd p.graph img {
+	border: solid 1px #00d0ff;
+}
+
+/* .univRanking */
+.univRanking {
+	margin-bottom: 20px;
+}
+.univRanking h3 {
+	width: 180px;
+	height: 51px;
+	background-position: -1260px -60px;
+}
+.univRanking h4 {
+	margin: 10px 0 3px 0;
+	padding-left: 23px;
+	background-position: 0 -1748px;
+	background-repeat: no-repeat;	
+}
+.univRanking ol li {
+	padding: 4px 0 4px 23px;
+	border-bottom: dotted 1px #ddd;
+	background-repeat: no-repeat;
+}
+.univRanking ol li.no01 {
+	background-position: 0 -1046px;
+}
+.univRanking ol li.no02 {
+	background-position: 0 -1146px;
+}
+.univRanking ol li.no03 {
+	background-position: 0 -1246px;
+}
+.univRanking ol li.no04 {
+	background-position: 0 -1346px;
+}
+.univRanking ol li.no05 {
+	background-position: 0 -1446px;
+}
+
+/* .recommendUniv */
+.recommendUniv h2 {
+	width: 180px;
+	height: 29px;
+	margin-bottom: 7px;
+	background-position: -1650px 0;
+}
+.recommendUniv .basicUnivUnit ul.levelData {
+	padding-left: 5px;
+}
+.recommendUniv .basicUnivUnit ul.levelData li {
+	clear: both;
+	display: block;
+	float: none;
+}
+.recommendUniv .basicUnivUnit ul.levelData li.help {
+	top: 5px;
+}
+.recommendUniv .basicUnivUnit h3,
+.recommendUniv .basicUnivUnit p.desc {
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #666;
+}
+
+/* .twitterFollow */
+.twitterFollow {
+	margin-bottom: 25px;
+}
+.twitterFollow h3 {
+	width: 180px;
+	height: 51px;
+	background-position: -1260px 0;
+}
+.twitterFollow p {
+	margin: 10px 0;
+}
+.twitterFollow .button {
+	text-align: center;
+}
+.twitterFollow .button iframe {
+	width: 71px;
+	margin: 0 auto;
+}
+
+
+/* ▼▼2011/10/27追加・修正▼▼ */
+/* .prBanner */
+#sub .prBanner {
+	margin-top: 20px;
+	text-align: center;
+	line-height: 1.2;
+}
+#sub .prBanner .title {
+	padding: 4px;
+	background: #ddd;
+	color: #777;
+}
+#sub .prBanner p {
+	margin-top: 5px;
+}
+
+#mypage #sub .prBanner {
+	margin-right: 10px;
+	padding: 7px 10px 10px 10px;
+	background: #eee;
+}
+#mypage #sub .title {
+	padding: 0;
+	background: none;
+	color: #777;
+}
+/* ▲▲2011/10/27追加・修正▲▲ */
+
+
+
+/* ============================================================
+
+	style info : 印刷時のスタイルを記述
+
+============================================================ */
+
+@media print {
+
+	body {
+		background: #fff;
+	}
+
+}
+
+/* ============================================================
+
+	common
+
+============================================================ */
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.dis {
+	display: block;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+.taLeft {
+	text-align: left !important;
+}
+
+.taRight {
+	text-align: right !important;
+}
+
+.taCenter {
+	text-align: center !important;
+}
+
+.boBtm {
+	border-bottom: 4px solid #333;
+	margin-bottom: 8px;
+}
+
+.boNone {
+	border: none !important;
+}
+
+.mb0 {
+	margin-bottom: 0 !important;
+}
+
+.mb9 {
+	margin-bottom: 9px !important;
+}
+
+.mb10 {
+	margin-bottom: 10px !important;
+}
+
+.mb11 {
+	margin-bottom: 11px !important;
+}
+
+.mb13 {
+	margin-bottom: 13px !important;
+}
+
+.mb15 {
+	margin-bottom: 15px !important;
+}
+
+.mr0 {
+	margin-right: 0 !important;
+}
+
+#main .topInner {
+	background: url(../images/com_top_bg.gif) no-repeat left top;
+	margin: 0 0 4px 14px;
+	padding: 1px;
+}
+
+#main .topInner .photoBox {
+	float: left;
+	margin-right: 49px;
+}
+
+#main .topInner .rBox {
+	float:left ;
+}
+
+#main .topInner .rBox h1,
+#main .topInner .rBox img {
+	float: left;
+}
+
+#main .topInner .rBox h1 {
+	margin: 0;
+}
+
+#main .comLink {
+	margin: 0 0 8px 15px;
+}
+
+#main .comLink li {
+	background: url(../images/com_icon01.gif) no-repeat left center;
+	padding-left: 10px;
+}
+
+#main .comLink li a {
+	text-decoration: underline;
+}
+
+#main .comLink li a:hover {
+	text-decoration: none;
+}
+
+#main .basearea .outer .tabA {
+	border-collapse: collapse;
+	clear: both;
+	width: 100%;
+}
+
+#main .basearea .outer .tabA thead th {
+	border-bottom: 1px solid #E7E7E7;
+	border-top: 1px solid #E7E7E7;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1px 0;
+}
+
+#main .basearea .outer .tabA thead th p {
+	background: #EBF0F4;
+	padding: 3px 0 2px;
+}
+
+#main .basearea .outer .tabA .boder {
+	border-right: 1px solid #E7E7E7;
+}
+
+#main .basearea .outer .tabA td {
+	border-bottom: 1px solid #E7E7E7;
+}
+
+#main dl.comDl {
+	margin-left: 60px;
+}
+
+#main dl.comDl dt {
+	float: left;
+	margin-right: 18px;
+}
+
+#main dl.comDl dd {
+	float: left;
+	margin-right: 13px;
+	padding-top: 11px;
+}
+
+#contents .comBg {
+	background: #F9F9F7;
+	padding: 20px 0 23px;
+}
+
+#contents .comBg .subBox {
+	background: url(../images/com_box_bg.gif) repeat-y 2px top;
+	margin: 0 auto;
+	padding: 7px 0 7px 12px;
+	width: 960px;
+}
+
+#top {
+	margin-bottom: 20px !important;
+}

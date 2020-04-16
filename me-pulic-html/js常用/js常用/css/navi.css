@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+
+.jsBox {
+	margin-bottom: 100px;
+}
+
+/*------------------------------------------------------------
+	gNavi
+------------------------------------------------------------*/
+
+.gNavi > li {
+	float: left;
+	position: relative;
+}
+
+.gNavi > li > a {
+	display: block;
+	width: 100px;
+	height: 23px;
+	padding-top: 7px;
+	background: #9C9;
+	text-decoration: none;
+	text-align: center;
+}
+
+.gNavi > li > a.on,
+.gNavi > li > a:hover {
+	background: #CCC;
+}
+
+.gNavi > li ul {
+	position: absolute;
+	left: 0;
+	top: 30px;
+	display: none;
+	width: 100%;
+	background: #9CC;
+}
+
+.gNavi > li ul li a {
+	display: block;
+	padding-left: 10px;
+}
+
+.gNavi > li ul li a:hover {
+	background: #09F;
+}
+
+

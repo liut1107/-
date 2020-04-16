@@ -1,0 +1,755 @@
+@charset "utf-8";
+
+
+/* ============================================================
+
+	style info : フォーム系画面で使用するスタイルを記述
+
+============================================================ */
+
+/* --------------------------------
+	font-size
+
+		10px ： 84%
+		11px ： 92%
+		12px ： 100%
+		13px ： 109%
+		14px ： 117%
+		15px ： 125%
+		16px ： 134%
+		17px ： 142%
+		18px ： 150%
+		19px ： 159%
+		20px ： 167%
+		22px ： 184%
+		24px ： 200%
+		26px ： 217%
+		28px ： 234%
+		30px ： 250%
+		32px ： 267%
+		36px ： 300%
+		40px ： 334%
+-------------------------------- */
+
+
+/* --------------------------------
+	background-image,
+	image substitute
+-------------------------------- */
+
+.bgN {
+	background: transparent url(../images/form_n.png) no-repeat;
+}
+.subN {
+	display: block;
+	background: transparent url(../images/form_n.png) no-repeat;
+	font-size: 1px;
+	text-align: left;
+	text-indent: -9999em;
+	/*\*/
+	overflow: hidden;
+	/**/
+}
+
+
+/* -----------------------------------
+	以下に記述してください縲鰀
+----------------------------------- */
+
+#side {
+	float: right;
+	width: 200px;
+	padding: 37px 0 0 0;
+}
+
+/* #registerLogin */
+#registerLogin #main {
+	width: 960px;
+}
+
+.areaLogin {
+	padding: 0 0 30px 0;
+}
+
+.areaLogin .areaNonmember {
+	float: left;
+	width: 417px;
+	padding:20px 28px;
+	text-align: center;
+	background: transparent url(../images/bg_check_pnk.png) left top repeat;
+}
+
+.areaLogin .areaNonmember h3 {
+	padding: 0 0 15px 0;
+	font-size: 167%;
+	border-bottom: 2px solid #ffdbdb;
+}
+
+.areaLogin .areaNonmember p.txt {
+	padding: 45px 0 0 0;
+	border-top: 2px solid #fff;
+	font-weight: bold;
+}
+
+.areaLogin .areaNonmember p.register {
+	padding: 35px 0 130px;
+}
+
+.areaLogin .areaMember {
+	float: right;
+	width: 457px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.areaLogin .areaMember h3 {
+	width: 416px;
+	padding: 0 0 15px 0;
+	font-size: 167%;
+	border-bottom: 2px solid #cce1f1;
+}
+
+.areaLogin .areaMember .areaForm {
+	padding: 25px 0 0 10px;
+}
+
+.areaLogin .areaMember .loginTable {
+	width: 420px;
+}
+
+.areaLogin .areaMember .loginTable th {
+	width: 115px;
+	background: #f0f8ff;
+	text-align: center;
+	border-right: 7px solid #fff;
+}
+
+.areaLogin .areaMember .loginTable td {
+	text-align: left;
+}
+
+.areaLogin .areaMember .loginTable .top th,
+.areaLogin .areaMember .loginTable .top td {
+	border-bottom: 15px solid #fff;
+}
+
+.areaLogin .areaMember .loginTable td input {
+	width: 280px;
+}
+
+.areaLogin .areaMember p.moreLink {
+	width: 420px;
+	padding: 8px 0 0 0;
+}
+
+.areaLogin .areaMember p.loginCheck {
+	padding: 20px 0;
+}
+
+/* #registerConfirm */
+#registerConfirm div.input {
+	margin: 0 0 20px 0;
+}
+
+#registerConfirm tr#formUniversity .innerTable td p span {
+	padding: 0 15px 0 0;
+}
+
+/* #registerConfirmMail */
+/* #registerFinish */
+#registerConfirmMail #main,
+#registerFinish #main {
+	padding-bottom: 200px;
+}
+
+/* #password */
+
+#password div.input {
+	margin: 0 0 13px 0;
+}
+
+
+#password select option {
+	padding: 0 8px;
+}
+
+#password p.moreLink {
+	margin: 0 0 25px 0;
+}
+
+/* #passwordConfirmMail */
+/* #passwordFinish */
+#passwordConfirmMail #main,
+#passwordFinish #main {
+	padding-bottom: 200px;
+}
+
+#passwordFinish #main div.input {
+	margin: 0 0 25px 0;
+}
+
+/* #changeInfoTop */
+#changeInfoTop #main {
+	width: 100%;
+}
+
+#changeInfoTop .areaMessage {
+	padding-bottom: 35px;
+}
+
+#changeInfoTop .ttlLink {
+	padding: 0 0 0 5px;
+	margin: 0 0 40px 0;
+	background: url(../images/bg_check_blu.png) left top repeat;
+}
+
+#changeInfoTop .ttlLink .inner {
+	padding: 6px 0 8px;
+	background: #fff;
+}
+
+#changeInfoTop .ttlLink p {
+	padding: 0 0 0 14px;
+}
+
+#changeInfoTop .ttlLink p.link {
+	padding-bottom: 8px;
+	font-weight: bold;
+	border-bottom: dotted 1px #a1c7e5;
+}
+
+#changeInfoTop .ttlLink p.link a {
+	padding: 0 0 0 30px;
+	font-size: 167%;
+	background-position: 0 -3650px;
+	background-repeat: no-repeat;
+}
+
+#changeInfoTop .ttlLink p.txt {
+	padding-top: 10px;
+	font-size: 117%;
+	color: #666;
+}
+
+/* #changeInfo */
+#changeInfo #main{
+	width:100%;
+}
+
+#changeInfo div.input {
+	margin: 0 0 25px 0;
+}
+
+/* #changeInfoConfirm */
+#changeInfoConfirm #main{
+	width:100%;
+}
+
+#changeInfoConfirm div.input {
+	margin: 0 0 20px 0;
+}
+
+/* #addSchoolPanel */
+#addSchoolPanel .areaForm {
+	padding: 18px 15px 6px;
+}
+
+#addSchoolPanel .areaForm .txtOrder {
+	margin: 0 0 10px 0;
+	padding: 0 0 0 5px;
+	background: url(../images/bg_check_blu.png) left top repeat;
+}
+
+#addSchoolPanel .areaForm .txtOrder p {
+	padding: 0 0 0 10px;
+	background: #fff;
+}
+
+#addSchoolPanel .formSchool p.ttl {
+	padding: 8px 0;
+	font-size: 134%;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px dotted #ccc;
+}
+
+#addSchoolPanel .listSchool {
+	margin: 0 0 28px 0;
+}
+
+#addSchoolPanel form select {
+	width: 100%;
+}
+
+#addSchoolPanel form select option {
+	padding: 6px;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Meiryo", "MS P Gothic", "ＭＳ Ｐゴシック", Osaka, Helvetica, Arial, sans-serif;
+}
+
+#addSchoolPanel p.input {
+	margin: 0 0 12px 0;
+	text-align: center;
+}
+
+/* #changeMail */
+#changeMail #main {
+	padding: 0 0 200px 0;
+	width: 100%;
+}
+
+#changeMail div.input {
+	margin: 0 0 25px 0;
+}
+
+#changeMail #main .barBreak{
+	margin:30px auto;
+}
+
+/* #changePassword */
+#changePassword #main {
+	padding: 0 0 200px 0;
+	width: 100%;
+}
+
+#changePassword #main div.input {
+	margin: 0 0 25px 0;
+}
+
+/* #resign */
+#resign #main {
+	width: 100%;
+	padding: 0 0 200px 0;
+}
+
+#resign #main p {
+	margin: 0 0 20px 0;
+}
+
+
+#resign #main .barBreak{
+	margin:0 auto;
+}
+
+#resign #main .lead{
+	font-size:115%;
+	padding-top:20px;
+	text-align: center;
+}
+
+
+#resign #main .etc{
+	margin-left:15px;
+}
+
+/* -----------------------------------
+	共通パーツ
+----------------------------------- */
+
+/* .areaMessage */
+.areaMessage {
+	padding: 12px 0 22px 8px;
+}
+
+.areaMessage p {
+	font-weight: bold;
+}
+
+.areaMessage p.normal {
+	font-size: 117%;
+}
+
+.areaMessage .top {
+	margin: 0 0 20px 0;
+	font-size: 150%;
+}
+
+.areaMessage .caution {
+	margin: 0 0 15px 0;
+	font-size: 150%;
+	color: #ff3333;
+}
+
+.areaMessage .subMessage {
+	font-size: 100%;
+	color: #666;
+}
+
+/* ▼▼2011/8/29追加・修正▼▼ */
+/* .areaTerm */
+.termTitle {
+	border-left: solid 4px #666;
+	margin: 30px 0 5px 0;
+	padding-left: 8px;
+	font-size: 117%;
+	line-height: 1.3;
+}
+.areaTerm {
+	height: 137px;
+	margin-bottom: 18px;
+	overflow-y: scroll;
+	border: 1px solid #ddd;
+}
+
+.areaTerm p {
+	padding: 18px 10px;
+}
+/* ▲▲2011/8/29追加・修正▲▲ */
+
+/* .areaNext */
+.areaNext {
+	text-align: center;
+}
+
+.areaNext p.txt {
+	margin: 0 0 10px 0;
+}
+
+/* .registerButton */
+.registerButton {
+	display: block;
+	width: 152px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: -370px 0;
+}
+
+.registerButton:hover {
+	background-position: -370px -50px;
+	cursor: pointer;
+}
+
+/* .registerButtonS */
+.registerButtonS {
+	width: 112px;
+	height: 33px;
+	margin: 0 auto;
+	background-position: -540px 0;
+}
+
+.registerButtonS:hover {
+	background-position: -540px -50px;
+	cursor: pointer;
+}
+
+/* .loginButton */
+.loginButton {
+	width: 152px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: -200px 0;
+}
+
+.loginButton:hover {
+	background-position: -200px -50px;
+	cursor: pointer;
+}
+
+
+/* .nextButton */
+.nextButton {
+	display: block;
+	width: 182px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: 0 0;
+}
+
+.nextButton:hover {
+	background-position: 0 -50px;
+	cursor: pointer;
+}
+
+/* ▼▼2011/8/29追加・修正▼▼ */
+/* .agreeNextButton */
+.agreeNextButton {
+	display: block;
+	width: 182px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: -1110px -100px;
+}
+
+.agreeNextButton:hover {
+	background-position: -1110px -150px;
+	cursor: pointer;
+}
+/* ▲▲2011/8/29追加・修正▲▲ */
+
+/* .changeButton */
+.changeButton {
+	display: block;
+	width: 182px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: -700px 0;
+}
+
+.changeButton:hover {
+	background-position: -700px -50px;
+	cursor: pointer;
+}
+
+/* .setButton */
+.setButton {
+	display: block;
+	width: 182px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: -910px 0;
+}
+
+.setButton:hover {
+	background-position: -910px -50px;
+	cursor: pointer;
+}
+
+/* .resignButton */
+.resignButton {
+	display: block;
+	width: 182px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: -1110px 0;
+}
+
+.resignButton:hover {
+	background-position: -1110px -50px;
+	cursor: pointer;
+}
+
+/* .backLink */
+.backLink a {
+	padding-left: 8px;
+	background: transparent url(../images/common_x.png) no-repeat;
+	background-position: 0 -445px;
+}
+
+/* .topLink */
+.topLink a {
+	padding-left: 17px;
+	font-size: 117%;
+	background: transparent url(../images/common_x.png) no-repeat;
+	background-position: 0 -595px;
+}
+
+/* .barBreak */
+.barBreak {
+	width: 730px;
+	height: 12px;
+	margin: 20px 0;
+	background: transparent url(../images/form_n.png) no-repeat;
+	background-position: 0 -100px;
+}
+
+/* .txtIntro */
+p.txtIntro {
+	margin: 0 0 15px 0;
+	font-size:117%;
+	font-weight: bold;
+}
+
+/* .formTable */
+.formTable tr#formSchool p.txtTop {
+	margin: 0 0 10px 0;
+}
+
+.formTable tr#formSchool p.txtBtm {
+	margin: 10px 0 0 0;
+}
+
+.formTable tr#formSchool p.txtBtm span {
+	color: #999;
+}
+
+.formTable tr#formSchool span.arw {
+	padding: 0 10px;
+	background-repeat: no-repeat;
+	background-position: 8px -3450px;
+}
+
+.formTable tr#formSchool input.choose {
+	display: inline-block;
+	width: 104px;
+	height: 27px;
+	background: #f1f2ed;
+	background-position: -720px 0;
+	border: 1px solid #003c73;
+}
+
+.formTable tr#formSchool input.choose:hover {
+	cursor: pointer;
+}
+
+.formTable tr#formMajor td.cont {
+	padding: 15px 0 15px 15px;
+}
+
+.formTable tr#formMajor .fieldSelect .left {
+	float: left;
+	width: 134px;
+}
+
+.formTable tr#formMajor .fieldSelect .left label input {
+	margin: 0;
+}
+
+.formTable tr#formArea .regionSelect .cf {
+	padding: 22px 0 0 15px;
+}
+
+.formTable tr#formArea .regionSelect ul.left {
+	float: left;
+	width: 84px;
+}
+
+.formTable tr#formUniversity .innerTable td {
+	padding: 12px;
+	border-bottom: none;
+}
+
+.formTable tr#formUniversity .innerTable tr.top td {
+	padding: 0 11px;
+}
+
+.formTable tr#formUniversity .innerTable tr.first td {
+	border-top: none;
+	border-bottom: 1px dotted #a1c7e5;
+}
+
+.formTable tr#formUniversity .innerTable td.left {
+	padding-left: 0;
+}
+
+.formTable tr#formUniversity .innerTable td.right {
+	padding-right: 0;
+}
+
+.formTable tr#formUniversity .innerTable td span.choice {
+	padding: 5px 6px;
+	background: #f6f6f6;
+	font-size: 84%;
+	font-weight: bold;
+}
+
+.formTable tr#formUniversity .innerTable td span.requiredIcon {
+	margin: 10px auto 0;
+}
+
+.formTable tr#formUniversity .innerTable td.arw {
+	padding: 0;
+}
+
+.formTable tr#formUniversity .innerTable td.arw span {
+	padding: 0 10px;
+	background-repeat: no-repeat;
+	background-position: 5px -3450px;
+}
+
+.formTable tr#formLevel td .left,
+.formTable tr#formScore td .left {
+	float: left;
+}
+
+.formTable tr#formLevel td .select,
+.formTable tr#formScore td .select,
+.formTable tr#formLevel td p,
+.formTable tr#formLevel td ul li {
+	margin: 0 28px 0 0;
+}
+
+.formTable tr#formLevel td p {
+	padding: 3px 10px;
+	background: #f6f6f6;
+}
+
+/* .backLinkTop */
+.backLinkTop {
+	padding: 20px 0;
+}
+
+.backLinkTop p.button {
+	margin: -30px 0 0 0;
+}
+
+/* #modalWindow */
+#modalWindow {
+	background: none;
+}
+
+#modalWindow #main {
+	width: 100%;
+}
+
+/* #side.password .step */
+#side.password .step dt {
+	width: 200px;
+	height: 65px;
+	background-position: 0 -120px;
+}
+
+#side.password .step dd ul li {
+	width: 200px;
+}
+
+#side.password .step dd ul li.step01 {
+	height: 53px;
+	background-position: 0 -200px;
+}
+#side.password .step dd ul li.step01_on {
+	background-position: -210px -200px;
+}
+#side.password .step dd ul li.step02 {
+	height: 55px;
+	background-position: 0 -260px;
+}
+#side.password .step dd ul li.step02_on {
+	background-position: -210px -260px;
+}
+#side.password .step dd ul li.step03 {
+	height: 43px;
+	background-position: 0 -320px;
+}
+#side.password .step dd ul li.step03_on {
+	background-position: -210px -320px;
+}
+
+/* #side.register */
+#side.register .step dt {
+	width: 200px;
+	height: 75px;
+	background-position: -210px -120px;
+}
+
+#side.register .step dd ul li {
+	width: 200px;
+}
+
+#side.register .step dd ul li.step01 {
+	height: 56px;
+	background-position: -420px -120px;
+}
+#side.register .step dd ul li.step01_on {
+	background-position: -630px -120px;
+}
+#side.register .step dd ul li.step02 {
+	height: 55px;
+	background-position: -420px -180px;
+}
+#side.register .step dd ul li.step02_on {
+	background-position: -630px -180px;
+}
+#side.register .step dd ul li.step03 {
+	height: 55px;
+	background-position: -420px -240px;
+}
+#side.register .step dd ul li.step03_on {
+	background-position: -630px -240px;
+}
+#side.register .step dd ul li.step04 {
+	height: 43px;
+	background-position: -420px -300px;
+}
+#side.register .step dd ul li.step04_on {
+	background-position: -630px -300px;
+}
+

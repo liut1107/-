@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/* -----------------------------------
+	login
+----------------------------------- */
+
+#main .basearea .outer p.p01 {
+	clear: both;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+#main .basearea .outer .tabA td.td01 {
+	border: none;
+	text-align: center;
+	padding: 51px 0 87px;
+}
+
+#main .basearea .outer .tabA td.td01 p.notes {
+	color: #666;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 2;
+}
+
+#main .basearea .outer .tabA td {
+	padding: 10px 0 10px;
+	vertical-align: middle;
+}
+
+#main .basearea .outer .tabA td .box {
+	width: 363px;
+}
+
+#main .basearea .outer .tabA td .box .photoUl {
+	float: left;
+	padding-top: 4px;
+	width: 94px;
+}
+
+#main .basearea .outer .tabA td .box .photoUl li a {
+	display: block;
+}
+
+#main .basearea .outer .tabA td .box .mt21 {
+	margin-top: 21px;
+}
+
+#main .basearea .outer .tabA td .box .rBox {
+	float: right;
+	width: 248px;
+}
+
+#main .basearea .outer .tabA td .box .rBox p.p02 {
+	color: #333;
+	margin-top: 4px;
+}
+
+#main .basearea .outer .tabA td .box .rBox p a {
+	font-size: 14px;
+	line-height: 1.1;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#main .basearea .outer .tabA td .box .rBox p a:hover {
+	text-decoration: none;
+}
+
+#main .basearea .outer .tabA td .box .rBox ul li a {
+	display: block;
+}
+
+#main .basearea .outer .section01 h2 {
+	float: left;
+}
+
+#main .basearea .outer .section01 ul {
+	float: right;
+	width: 200px;
+	height: 47px;
+}
+
+#main .basearea .outer .section01 ul li {
+	float: right;
+}
+
+#main .basearea .outer .section01 ul li.icon {
+	margin-top: 6px;
+	position: relative;
+}
+
+#main .basearea .outer .section01 ul li.icon .pop {
+	top: 26px;
+	left: -14px;
+	position: absolute;
+	display: none;
+}
+
+#main .basearea .outer .section01 ul li a {
+	display: block;
+}
+
+#main .basearea .outer .tabA td .box ul li.icon02,
+#main .basearea .outer .tabA td .box ul li.icon03,
+#main .basearea .outer .tabA td .box ul li.icon04,
+#main .basearea .outer .tabA td .box ul li.icon05 {
+	position: relative;
+}
+
+#main .basearea .outer .tabA td .box ul li.icon02 .pop02,
+#main .basearea .outer .tabA td .box ul li.icon03 .pop03,
+#main .basearea .outer .tabA td .box ul li.icon04 .pop04,
+#main .basearea .outer .tabA td .box ul li.icon05 .pop05 {
+	clear: both;
+	top: 20px;
+	left: -24px;
+	position: absolute;
+	display: none;
+}

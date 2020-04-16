@@ -1,0 +1,584 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#main .sec01 {
+	background: url(../img/index/sec01_bg01.gif) repeat;
+}
+
+#main .sec01 .bg {
+	min-height: 500px;
+	text-align: center;
+	background: url(../img/index/sec_bg02.png) no-repeat center top;
+}
+
+#main .sec01 .content {
+	padding-top: 46px;
+	width: 780px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#main .sec01 .pho01 {
+	position: absolute;
+	top: 73px;
+	left: 1px;
+}
+
+#main .sec01 .pho02 {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+
+#main .sec01 .ttl {
+	margin: 0 15px 22px 0;
+}
+
+#main .sec01 p {
+	width: 404px;
+	margin: 0 auto;
+	color: #FFF;
+	font-size: 1.2em;
+	text-align: left;
+	line-height: 1.9;
+	letter-spacing: 1px;
+    font-family: 'YuGothB';
+}
+
+#main .sec02 {
+	padding: 80px 0 96px;
+	background: url(../img/index/sec02_bg.gif) repeat center top;
+}
+
+#main h2 {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+#main .explainTxt {
+	margin-bottom: 58px;
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.2;
+	letter-spacing: 2px;
+    font-family: 'YuGothB';
+}
+
+#main .sec02 .imgList {
+	margin-right: -40px;
+}
+
+#main .sec02 .imgList li {
+	margin-right: 40px;
+	width: 290px;
+	float: left;
+	font-size: 1.4em;
+	line-height: 1.82;
+	letter-spacing: 1px;
+}
+
+#main .sec02 .imgList li .pho {
+	margin-bottom: 30px;
+}
+
+#main .sec02 .imgList li .pho a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#main .sec02 .imgList li .txtImg {
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+#main .sec02 .imgList li .ttl {
+	margin-bottom: 24px;
+    font-family: 'YuGothB';
+	font-size: 1.14em;
+	text-align: center;
+	line-height: 1.6;
+	display: block;
+	letter-spacing: 2px;
+}
+
+#main .entryWrap {
+	padding: 55px 0 100px;
+	background-color: #47BAA3;
+}
+
+#main .entryWrap .explainTxt {
+	margin-bottom: 38px;
+	color: #FFF;
+}
+
+#main .entryWrap .linkUl {
+	width: 654px;
+	margin: 0 auto;
+}
+
+#main .entryWrap .linkUl li {
+	margin: 0 15px;
+	float: left;
+	width: 297px;
+	text-align: center;
+}
+
+#main .entryWrap .linkUl li a {
+	padding: 8px 0 10px;
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid #CACCCC;
+	background-color: #FFF;
+}
+
+#main .entryWrap .linkUl li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#main .sec03 {
+	padding: 80px 0 60px;
+	background: url(../img/index/sec03_bg.gif) #F094AD repeat-x left top;
+}
+
+#main .sec03 .explainTxt {
+	margin-bottom: 56px;
+	color: #FFF;
+}
+
+#main .sec03 .photoArea {
+	position: relative;
+}
+
+#main .sec03 .photoArea .area {
+	position: absolute;
+	left: 180px;
+	top: 326px;
+}
+
+#main .sec03 .photoArea .area .txtImg {
+	margin-bottom: 12px;
+}
+
+#main .sec03 .photoArea .area .link a {
+	display: block;
+}
+
+#main .sec03 .photoArea .area .link a:hover {
+	background: url(../img/index/sec03_link01_over.png) no-repeat;
+}
+
+#main .sec03 .photoArea .area .link a:hover img {
+	visibility: hidden;
+}
+
+#main .sec03 .photoArea .area .link a:hover img {
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+#main .sec03 .photoArea .area02 {
+	left: 507px;
+	top: 4px;
+}
+
+#main .sec03 .photoArea .area03 {
+	position: absolute;
+	left: 613px;
+	top: 336px;
+}
+
+#main .sec04 {
+	padding: 98px 0 100px;
+	background: url(../img/index/sec04_bg.gif) repeat center top;
+}
+
+#main .sec04 .imgBox .phoBox {
+	float: right;
+}
+
+#main .sec04 .imgBox .phoBox img {
+	margin: 0 43px 0 -70px;
+}
+
+#main .sec04 .imgBox .txtBox {
+	margin-top: -8px;
+	width: 605px;
+	float: left;
+}
+
+#main .sec04 .imgBox .txtBox .txtArea {
+	margin-bottom: 49px;
+	width: 470px;
+}
+
+#main .sec04 .imgBox .txtBox .txtArea p {
+	margin-bottom: 15px;
+	font-size: 1.4em;
+	line-height: 2.1;
+	letter-spacing: 1px;
+}
+
+#main .sec04 .imgBox .txtBox .txtArea .name {
+	margin-bottom: 0;
+	text-align: right;
+	font-size: 1.3em;
+	line-height: 1.2;
+}
+
+#main .sec04 .imgBox .txtBox .txtArea .name span {
+	margin-top: 7px;
+	display: block;
+}
+
+#main .sec04 .imgBox .txtBox .noArea {
+	padding: 22px 0px 33px 5px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px #DDD,1px 1px 8px #DDD;
+	-webkit-box-shadow: 1px 1px 8px #DDD,1px 1px 8px #DDD;
+	-moz-box-shadow: 1px 1px 8px #DDD,1px 1px 8px #DDD;
+	position: relative;
+	behavior: url(js/pie.htc); 
+}
+
+#main .sec04 .imgBox .txtBox .noArea .ttl {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#main .sec04 .imgBox .txtBox .noArea .imgList li {
+	width: 200px;
+	float: left;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#main .sec04 .imgBox .txtBox .noArea .imgList li .mark {
+	margin-bottom: 10px;
+}
+
+#main .sec04 .imgBox .txtBox .noArea .imgList li p {
+	margin-bottom: 8px;
+	font-size: 1.4em;
+	letter-spacing: 1px;
+}
+
+#main .sec04 .imgBox .txtBox .noArea .imgList li p .sml {
+	display: block;
+	font-size: 0.85em;
+}
+
+#main .sec05 {
+	padding: 80px 0 99px;
+	background-color: #54B65F;
+}
+
+#main .sec05 .explainTxt {
+	margin-bottom: 53px;
+	color: #FFF;
+}
+
+#main .sec05 .area {
+	margin-bottom: 72px;
+	clear: both;
+}
+
+#main .sec05 .area .num {
+	margin-top: 3px;
+	float: left;
+}
+
+#main .sec05 .area .txtBox {
+	width: 790px;
+	float: right;
+}
+
+#main .sec05 .area .txtBox h3 {
+	margin-bottom: 20px;
+}
+
+#main .sec05 .area .txtBox p {
+	color: #FFF;
+	font-size: 1.4em;
+	line-height: 2.1;
+	letter-spacing: 2px;
+}
+
+#main .sec05 .area .txtBox .dlTxt dt {
+	margin-bottom: 2px;
+	padding: 4px 0 5px;
+	color: #FFF;
+	font-size: 1.8em;
+    font-family: 'YuGothB';
+	border-bottom: 1px solid #FFF;
+	letter-spacing: 2px;
+}
+
+#main .sec05 .area .txtBox .dlTxt dd {
+	margin-bottom: 5px;
+	color: #FFF;
+	font-size: 1.4em;
+	line-height: 2.1;
+	letter-spacing: 2px;
+}
+
+#main .sec05 .area02 .txtBox .dlBox {
+	padding-top: 4px;
+}
+
+#main .sec05 .area02 .txtBox .dlBox .lBox {
+	width: 396px;
+	float: left;
+}
+
+#main .sec05 .area02 .txtBox .dlBox dl {
+	margin-bottom: 9px;
+	padding: 15px 18px 10px;
+	border-radius: 5px;
+	background-color: #FFF;
+	font-size: 1.4em;
+	position: relative;
+	behavior: url(js/pie.htc); 
+}
+
+#main .sec05 .area02 .txtBox .dlBox dl:last-child {
+	margin-bottom: 0;
+}
+
+#main .sec05 .area02 .txtBox .dlBox dt {
+	margin-bottom: 5px;
+	padding-left: 25px;
+    font-family: 'YuGothB';
+    letter-spacing: 3px;
+	background: url(../img/common/icon02.gif) no-repeat left center;
+}
+
+#main .sec05 .area02 .txtBox .dlBox dd {
+	line-height: 2.15;
+    letter-spacing: 2.3px;
+}
+
+#main .sec05 .area02 .txtBox .dlBox .rBox {
+	width: 386px;
+	float: right;
+}
+
+#main .sec05 .area03 {
+	margin-bottom: 0;
+	padding-top: 5px;
+}
+
+#main .sec05 .area03 .txtBox h3 {
+	margin-bottom: 28px;
+}
+
+#main .sec05 .area03 .txtBox .txtUl {
+	background: url(../img/index/sec05_bg01.png) no-repeat left top;
+}
+
+#main .sec05 .area03 .txtBox .txtUl li {
+	padding-top: 9px;
+	width: 250px;
+	float: left;
+	height: 70px;
+	font-size: 1.3em;
+	line-height: 1.25;
+	text-align: center;
+}
+
+#main .sec05 .area03 .txtBox .txtUl .wid01 {
+	width: 208px;
+}
+
+#main .sec05 .area03 .txtBox .txtUl .wid02 {
+	width: 260px;
+}
+
+#main .sec05 .area03 .txtBox .txtUl li .ttl {
+	margin-bottom: 5px;
+	display: block;
+	color: #54B55E;
+	font-size: 18px;
+    font-family: 'YuGothB';
+}
+
+#main .sec06 {
+	padding: 80px 0 100px;
+	background: url(../img/index/sec06_bg01.gif) repeat center top;
+}
+
+#main .sec06 h2 {
+	margin-bottom: 58px;
+}
+
+#main .sec06 table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#main .sec06 td,
+#main .sec06 th {
+	padding: 10px 20px 10px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 1.4em;
+	line-height: 2.1;
+	border: 2px solid #DAF1ED;
+	background-color: #FFF;
+	letter-spacing: 2px;
+}
+
+#main .sec06 th {
+	width: 28%;
+	font-size: 1.6em;
+	letter-spacing: 2px;
+	background-color: #DAF1ED;
+    font-family: 'YuGothB';
+}
+
+#main .sec06 td .ttl {
+    font-family: 'YuGothB';
+}
+
+#main .sec06 td .numList li {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#main .sec06 td .map {
+	color: #47baa3;
+	text-decoration: underline;
+    font-family: 'YuGothB';
+}
+
+#main .sec06 td .map:hover {
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------
+	pouop
+------------------------------------------------------------*/
+/*#pouop {
+	padding: 41px 0;
+	display: none;
+	background: url(../img/index/pop_bg.png) repeat;
+}
+
+#pouop .inner {
+	width: 910px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#pouop .inner .close {
+	position: absolute;
+	top: -39px;
+	right: 0;
+}
+*/
+
+.popBox {
+	display: none;
+}
+
+ .popup {
+	width: 910px;
+	margin: 0 auto;
+	position: relative;
+}
+
+ .popup .inner {
+	padding: 50px 30px 40px;
+	position: relative;
+	behavior: url(js/pie.htc); 
+}
+
+.popup .phoBox {
+	margin: 0 52px 10px 0;
+	float: left;
+}
+
+.popup .ttl {
+	margin-bottom: 26px;
+}
+
+.popup .ttl img {
+	margin: 0 -22px;
+}
+
+.popup dt {
+	padding-left: 22px;
+    font-family: 'YuGothB';
+	font-size: 1.6em;
+}
+
+.popup dt .bg {
+	position: relative;
+	display: inline-block;
+}
+
+.popup dt .bg:before {
+    width: 18px;  
+    height: 18px;
+	background: url(../img/index/pop01_icon01.gif) no-repeat left top;
+    position: absolute;  
+    top: 3px;  
+    left: -22px;  
+  
+    content: "";
+}
+
+.popup dd {
+	margin-bottom: 6px;
+	padding-left: 22px;
+	font-size: 1.4em;
+	line-height: 2.05;
+	letter-spacing: 0.5px;
+}
+
+.popup dd .bg {
+	position: relative;
+	display: inline-block;
+}
+
+.popup dd .bg:before {
+    width: 19px;  
+    height: 16px;
+	background: url(../img/index/pop01_icon02.gif) no-repeat left top;
+    position: absolute;  
+    top: 6px;  
+    left: -22px;  
+  
+    content: "";
+}
+
+.pop02 dt .bg:before {
+	background: url(../img/index/pop02_icon01.gif) no-repeat left top;
+}
+
+.pop02 dd .bg:before {
+	background: url(../img/index/pop02_icon02.gif) no-repeat left top;
+}
+
+.pop03 dt .bg:before {
+	background: url(../img/index/pop03_icon01.gif) no-repeat left top;
+}
+
+.pop03 dd .bg:before {
+	background: url(../img/index/pop03_icon02.gif) no-repeat left top;
+}
+
+.pop04 .inner {
+	padding: 0;
+}
+
+.pop04 iframe {
+	width: 100%;
+	height: 500px;
+	vertical-align: top;
+	border-radius: 5px;
+	position: relative;
+	behavior: url(js/pie.htc); 
+}

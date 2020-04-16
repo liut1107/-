@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+/* -----------------------------------
+	index
+----------------------------------- */
+
+#main {
+	margin-bottom: 18px;
+}
+
+#main .basearea {
+	margin-bottom: 20px;
+}
+
+#main .basearea .outer {
+	padding: 35px 25px 21px;
+}
+
+#main .basearea .outer h1 {
+	margin: 0 0 19px;
+	position: relative;
+}
+
+#main .basearea .outer .img01 {
+	position: absolute;
+	top: -60px;
+	right: -53px;
+}
+
+#main .basearea .outer table {
+	border-collapse: collapse;
+	width: 705px;
+}
+
+#main .basearea .outer table th {
+	background: #F9FAF5;
+	border: 1px solid #fff;
+	vertical-align: middle;
+	text-align: center;
+	padding: 30px 0 21px 5px;
+}
+
+#main .basearea .outer table th p {
+	position: relative;
+}
+
+#main .basearea .outer table th a {
+	display: block;
+	position: absolute;
+	top: -55px;
+	left: -5px;
+}
+
+#main .basearea .outer table th.color {
+	background: #F5F6F0;
+}
+
+#main .basearea .outer table td {
+	background: #F9FAF5;
+	border: 1px solid #fff;
+	vertical-align: top;
+	text-align: left;
+	padding: 21px 0 0 19px;
+}
+
+#main .basearea .outer table td p {
+	color: #666;
+	line-height: 1.6;
+	margin: 10px 0 0 8px;
+	width: 160px;
+}
+
+.boLeft {
+	border-left: none !important;
+}
+
+.boRight {
+	border-right: none !important; 
+}
+
+#main .basearea02 {
+	margin-bottom: 16px;
+}
+
+#main .basearea02 .outer {
+	padding: 21px 25px 15px;
+}
+
+#main .basearea02 .leftContent {
+	background: #fff;
+	float: left;
+	width: 510px;
+}
+
+#main .basearea02 .leftContent h2 {
+	margin-bottom: 12px;
+}
+
+#main .basearea02 .leftContent p {
+	border-bottom: 1px solid #EEEDE8;
+	font-size: 14px;
+	margin-bottom: 12px;
+	padding-bottom: 9px;
+}
+
+#main .basearea02 .leftContent p span {
+	font-weight: bold;
+}
+
+#main .basearea02 .leftContent p a {
+	color: #ff3333;
+	text-decoration: underline;
+}
+
+#main .basearea02 .leftContent p a:hover {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+#main .basearea02 .leftContent p.none {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main .basearea02 .rightContent {
+	background: #fff;
+	float: right;
+	padding: 14px 0 9px;
+	width: 225px;
+}
+
+#main .basearea02 .rightContent p.number {
+	border-bottom: 1px solid #EEEDE8;
+	color: #ff526f;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 14px;
+	padding-bottom: 8px;
+}
+
+#main .basearea02 .rightContent table {
+	border-collapse: collapse;
+	margin: 13px 0 0 10px;
+	width: 205px;
+}
+
+#main .basearea02 .rightContent table th {
+	background: #F0EDE8;
+	border-bottom: 1px solid #fff;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 4px 0 3px;
+	width: 34px;
+}
+
+#main .basearea02 .rightContent table th.yellow {
+	background: #FFF000;
+}
+
+#main .basearea02 .rightContent table td {
+	background: #FAF9F7;
+	border-bottom: 1px solid #fff;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 13px;
+}
+
+#main .basearea02 .rightContent table td a {
+	color: #333;
+	text-decoration: underline;
+}
+
+#main .basearea02 .rightContent table td a:hover {
+	text-decoration: none;
+}
+
+#menu .bottom .body form {
+	width: 160px;
+	margin: 0 auto;
+}
+
+#menu .bottom .body form dl {
+	margin-bottom: 8px;
+}
+
+#menu .bottom .body form dt {
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 2px;
+}
+
+#menu .bottom .body form dd {
+	margin-bottom: 10px;
+}
+
+#menu .bottom .body form dd.special {
+	color: #666;
+	font-size: 10px;
+	margin: 0 0 0 30px;
+}
+
+#fRemember {
+	vertical-align: middle;
+	border: 1px solid #DFDEDE;
+}
+
+#fPassword,
+#fAddress {
+	background-color: #FBFBFB;
+	border: 1px solid #DFDEDE;
+	height: 37px;
+	vertical-align: middle;
+	width: 158px;
+}
+
+#menu .bottom .body form .submit {
+	margin: 0;
+}
+
+#menu .bottom .body form .submit li {
+	float: left;
+}
+
+#menu .bottom .body form .submit li img {
+	display:block;
+}
+
+#menu .bottom .body p {
+	text-align: right;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	width: 160px;
+}
+
+#menu .bottom .body p a {
+	color: #0066cc;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+#menu .bottom .body p a:hover {
+	text-decoration: none;
+}

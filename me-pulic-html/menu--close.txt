@@ -1,0 +1,25 @@
+[1--close]
+
+$(function(){
+	$('.menu').click(function(){
+		$('.menuArea').slideToggle();
+		return false;	
+	});
+	$('.menuArea .close').click(function(){
+		$('.menuArea').slideUp();
+		return false;	
+	});	
+});
+
+
+
+
+
+[2-menu]
+$(function(){
+	$('#header .menu').click(function(){
+		$('#header .menu').toggleClass('on');
+		$('#header .dropMenu').slideToggle(300);
+		return false;	
+	});	
+});

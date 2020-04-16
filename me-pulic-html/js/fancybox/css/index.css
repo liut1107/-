@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#main {
+	margin: 0 auto;
+	padding: 10px 16px 26px;
+	width: 930px;
+}
+
+#main .mainBox {
+	background: url(../img/common/main_box_bg.gif) repeat-y left top;
+	margin: 0;
+	zoom: 1;
+}
+
+#sideBar .banner {
+	margin-bottom: 10px;
+}
+
+#sideBar .banner li {
+	margin-bottom: 8px;
+}
+
+
+#conts {
+	padding-left: 0;
+}
+
+#conts h2 {
+	margin-bottom: 0;
+}
+
+#conts .link {
+	margin-right: -9px;
+	overflow: hidden;
+	width: 624px;
+}
+
+#conts .link li {
+	float: left;
+	padding: 0 9px 10px 0;
+}
+
+#conts .link li a,
+#conts .link li img {
+	display: block;
+}
+
+#conts dl {
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	font-size: 1.2em;
+	height: 86px;
+	margin-right: 6px;
+	overflow-y: scroll;
+	padding: 6px 0 0 11px;
+}
+
+#conts dt {
+	float: left;
+}
+
+#conts dd {
+	padding: 0 0 3px 5.6em;
+}
+
+	* html #conts dd {
+		text-indent: -3px;
+	}
+	
+
+#conts dd a {
+	text-decoration: none;
+}
+
+#conts dd a:hover {
+	text-decoration: underline;
+}
+
+.mailForm01 {
+	margin: 0 auto;
+	width: 652px;
+}
+
+.mailForm01 .subBox {
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	padding-bottom: 1px;
+}
+
+.mailForm01 .subBox p {
+	margin-bottom: 8px;
+}
+
+.mailForm01 .subBox ul {
+	clear: both;
+	font-size: 1.2em;
+	padding: 0 0 3px 6px;
+	text-align: left;
+}
+
+.mailForm01 .subBox ul li {
+	float: left;
+	width: 161px;
+}
+
+.mailForm01 .subBox ul li input {
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+.mailForm01 .submit {
+	text-align: center;
+}
+
+.mailForm01 .submit li {
+	display: inline;
+}
+
+.box .text02 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-top: 130px;
+	text-align: center;
+}
+
+.box .text03 {
+	font-size: 1.2em;
+	text-align: center;
+}

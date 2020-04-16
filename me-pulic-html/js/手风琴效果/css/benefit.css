@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts h2 {
+	margin-bottom: 19px;
+}
+
+
+#conts .comTable {
+	margin: 0 0 10px 18px;
+	width: 580px;
+}
+
+#conts .comTable th,
+#conts .comTable td {
+	padding: 7px 5px;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+#conts .comTable .red {
+	background-color: #ffebde;
+}
+
+#conts .comTable .red01 {
+	background-color: #ffc1e0;
+}
+
+#conts .comTable .red02 {
+	background-color: #fff3ff;
+}
+
+#conts .comTable .orage {
+	background-color: #ffa163;
+}
+
+#conts .comTable .orage01 {
+	background-color: #db8963;
+}
+
+#conts .comTable .orage02 {
+	background-color: #fff2de;
+}
+
+#conts .comTable .yellow {
+	background-color: #ffffed;
+}
+
+#conts .comTable .blue {
+	background-color: #a1c1ff;
+}
+
+#conts .comTable th {
+	padding: 7px 2px 7px 5px;
+	font-size: 1.3em;
+}
+
+#conts .comTable .bold {
+	text-align: center;
+	font-weight: bold;
+}
+
+#conts .comTable .center {
+	text-align: center;
+}
+
+#conts .comTable td {
+	font-size: 1.2em;
+}
+
+#conts .comTable01 td {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#conts .comTable td span {
+	color: #33c;
+	display: inline-block;
+}
+
+#conts .comTable td dl dt {
+	color: #33c;
+}
+
+#conts .comTable td dl dd {
+	text-align: right;
+}
+
+#conts .comTable td .dl01 dt,
+#conts .comTable td dl dt span {
+	color: #333;
+}
+
+#conts .comTable td .mb20 {
+	margin-bottom: 20px;
+}
+
+#conts .text {
+	margin: 0 30px 10px;
+	font-size: 1.2em;
+}
+
+#conts .text dt {
+	float: left;
+}
+
+#conts .text dd {
+	padding-left: 3em;
+}
+
+*html #conts .text dd {
+	text-indent: -3px;
+}
+
+#conts .imgText {
+	margin: 10px 20px 20px;
+}
+
+#conts .mainContent .comSection {
+	margin-bottom: 20px;
+}

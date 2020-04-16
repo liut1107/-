@@ -1,0 +1,9 @@
+<script>
+$(function(){
+	$('.navList li:has(ul) > span').click(function(){
+		$(this).toggleClass('on');
+		$(this).next('ul').slideToggle();
+		return false;
+	});	
+});
+</script>

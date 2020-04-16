@@ -1,0 +1,157 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#gNavi .navi02 a img {
+	visibility: hidden;
+}
+
+#conts h3 {
+	margin-bottom: 20px;
+}
+
+#conts .linkList {
+	margin: -10px -20px 29px 0;
+	width: 710px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#conts .linkList li {
+	margin: 10px 20px 0 0;
+	float: left;
+}
+
+#conts h4 {
+	margin-bottom: 14px;
+	clear: both;
+}
+
+#conts .dlTxt {
+	margin-bottom: 35px;
+}
+
+#conts .dlTxt dt {
+	margin-bottom: 11px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#conts .dlTxt dt img {
+	margin-right: 10px;
+	float: left;
+}
+
+#conts .dlTxt dd {
+	clear: both;
+	color: #604D3F;
+	font-size: 1.3em;
+}
+
+#conts h5 {
+	margin-bottom: 25px;
+}
+
+#conts .comImgBox {
+	margin-bottom: 19px;
+}
+
+#conts .comImgBox .photoUl {
+	width: 301px;
+	float: right;
+}
+
+#conts .comImgBox .photoUl li {
+	margin-bottom: 20px;
+	float: left;
+}
+
+#conts .comImgBox .txtBox .text {
+	margin-bottom: 28px;
+}
+
+#conts .comImgBox .txtBox .subTxt {
+	margin-bottom: 20px;
+	padding: 17px 0 8px;
+	background: url(../img/item/p_box_bg.gif) repeat;
+	border-radius: 45px;
+	behavior: url(../js/pie.htc); 
+	position: relative;
+}
+
+#conts .comImgBox .txtBox .subTxt .title {
+	margin-bottom: 8px;
+}
+
+#conts .comImgBox .txtBox .subTxt .txt {
+	margin: 0 33px;
+	line-height: 1.2;
+}
+
+#conts .txtInner01 {
+	margin-bottom: 20px;
+	padding: 10px 17px 18px;
+	border: 3px solid #BE9073;
+	border-radius: 8px;
+	background-color: #FDF7F7;
+	behavior: url(../js/pie.htc);
+	position: relative;
+}
+
+#conts .txtInner01 .title {
+	margin-bottom: 12px;
+}
+
+#conts .txtInner01 .listBox {
+	margin-left: 7px;
+}
+
+#conts .txtInner01 .txtList {
+	padding-right: 10px;
+	width: 360px;
+	float: left;
+}
+
+#conts .txtInner01 .txtList01 {
+	padding-right: 0;
+	width: 265px;
+}
+
+#conts .txtInner01 .txtList li {
+	padding: 0 0 2px 25px;
+	color: #7F5839;
+	font-size: 1.4em;
+	background: url(../img/common/icon/icon03.gif) no-repeat left 4px;
+}
+
+#conts .txtInner02 {
+	margin-bottom: 50px;
+	padding-bottom: 15px;
+	border: 1px solid #E7D6CB;
+}
+
+#conts .txtInner02 .title {
+	margin-bottom: 12px;
+	padding: 3px 0 4px;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
+	background-color: #E7D6CB;
+}
+
+#conts .txtInner02 .listBox {
+	margin-left: 12px;
+}
+
+#conts .txtInner02 .txtList {
+	padding-left: 10px;
+	width: 210px;
+	float: left;
+}
+
+#conts .txtInner02 .txtList li {
+	padding-left: 14px;
+	color: #5F4C3F;
+	font-size: 1.3em;
+	background: url(../img/common/icon/icon04.gif) no-repeat left 7px;
+}

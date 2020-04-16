@@ -1,0 +1,522 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#main p {
+	font-size: 1.3em;
+	line-height: 1.4;
+}
+
+#main table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#main th,
+#main td {
+	font-size: 1.3em;
+	vertical-align: top;
+	word-break: break-all;	
+	text-align: left;
+}
+
+#main .menu {
+	margin: 0 auto 44px;
+	padding-left: 21px;
+	width: 981px;
+}
+
+#main .menu li {
+	float: left;
+	padding-right: 21px;
+}
+
+#main li img {
+	display: block;
+}
+
+#main .teiBox {
+	margin-bottom: 18px;
+}
+
+#main .teiBox .inner {
+	margin-bottom: 38px;
+}
+
+#main .teiBox .inner h2 {
+	float: left;
+}
+
+#main .teiBox .inner .textBox h1 {
+	margin-bottom: 25px;
+}
+
+#main .teiBox .inner .textBox {
+	float: right;
+	margin-top: 17px;
+	width: 634px;
+}
+
+#main .teiBox .inner .textBox p {
+	margin-bottom: 7px;
+}
+
+#main .teiBox .inner .textBox p span {
+	font-weight: bold;
+}
+
+#main .teiBox .inner .textBox ul {
+	padding: 17px 0 0 1px;
+	position: relative;
+}
+
+#main .teiBox .inner .textBox li {
+	margin-bottom: 20px;
+}
+
+#main .teiBox .inner .textBox li span {
+	color: #796357;
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.45;
+	margin-top: 8px;
+	width: 230px;
+}
+
+#main .teiBox .inner .textBox .liPhoto {
+	left: 264px;
+	top: 313px;
+	margin-bottom: 0;
+	position: absolute;
+}
+
+#main .teiBox .impressBox {
+	background-color: #FFEFE5;
+	margin-bottom: 31px;
+	padding: 40px 40px 35px;
+}
+
+#main .teiBox .impressBox .photoUl {
+	margin-bottom: 12px;
+}
+
+#main .teiBox .impressBox .photoUl li {
+	float: left;
+	position: relative;
+}
+
+#main .teiBox .impressBox .photoUl li span {
+	right: 17px;
+	top: -18px;
+	position: absolute;
+}
+
+#main .teiBox .impressBox .ulList {
+	clear: both;
+	margin-right: -20px;
+	overflow: hidden;
+	width: 900px;
+	position: relative;
+	zoom: 1;
+}
+
+#main .teiBox .impressBox .ulList li {
+	float: left;
+	margin-right: 20px;
+	width: 280px;
+}
+
+#main .teiBox .impressBox .ulList li span {
+	display: block;
+	font-size: 1.3em;
+	line-height: 1.3;
+	margin-top: 8px;
+}
+
+#main .teiBox .impressBox .textImg {
+	margin: 0 0 -30px -22px;
+	position: relative;
+	zoom: 1;
+	z-index: 10;
+}
+
+#main .teiBox .banner {
+	margin-right: -21px;
+	overflow: hidden;
+	position: relative;
+	width: 981px;
+	zoom: 1;
+}
+
+#main .teiBox .banner li {
+	float: left;
+	padding: 0 21px 20px 0;
+}
+
+#main .teiBox .banner li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#main .menuBox {
+	background: url(../images/index/menu_box_bg.jpg) repeat center top;
+	margin-bottom: 34px;
+	padding: 31px 0 37px;
+}
+
+#main .menuBox .text {
+	margin-bottom: 29px;
+}
+
+#main .menuBox .photo {
+	margin-bottom: 40px;
+}
+
+#main .menuBox .section {
+	background-color: #FFF;
+	clear: both;
+	margin-bottom: 30px;
+	padding: 21px 18px 31px 20px;
+}
+
+#main .menuBox .section h2 {
+	margin-bottom: 7px;
+}
+
+#main .menuBox .section p {
+	line-height: 1.6;
+	margin-bottom: 17px;
+}
+
+#main .menuBox .section p span {
+	color: #E30000;
+	font-weight: bold;
+}
+
+#main .menuBox .section .lBox {
+	float: left;
+	width: 445px;
+}
+
+#main .menuBox .section .rBox {
+	float: right;
+	width: 445px;
+}
+
+#main .menuBox .section h3 {
+	margin-bottom: 13px;
+}
+
+#main .menuBox .section .note {
+	color: #402110;
+	clear: both;
+	font-size: 1.2em;
+	margin-bottom: 19px;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#main .menuBox .section .notes {
+	margin-bottom: 38px;
+}
+
+#main .menuBox .section .pTitle {
+	background-color: #402110;
+	color: #FFF;
+	margin-bottom: 9px;
+	font-size: 1.2em;
+	line-height: 2;
+	padding: 2px 11px 0;
+	width: 178px;
+}
+
+#main .menuBox .section .rBox .pTitle {
+	line-height: 1.3;
+	padding: 5px 12px 4px;
+	width: 176px;
+}
+
+#main .menuBox .section table {
+	margin-bottom: 8px;
+}
+
+#main .menuBox .section .tableA {
+	margin-bottom: 20px;
+}
+
+#main .menuBox .section th,
+#main .menuBox .section td {
+	background-color: #ECE8E7;
+	font-weight: bold;
+	padding: 8px 9px 3px;
+	vertical-align: middle;
+}
+
+#main .menuBox .section .bgColor th,
+#main .menuBox .section .bgColor td {
+	background-color: #F5F4F3;
+}
+
+#main .menuBox .section td {
+	padding: 3px 19px 0 9px;
+	text-align: right;
+}
+
+#main .menuBox .section th span {
+	background: url(../images/common/icon/icon01.gif) no-repeat left 6px;
+	display: block;
+	padding-left: 11px;
+}
+
+#main .menuBox .section .text01 {
+	font-size: 1.2em;
+	line-height: 1.45;
+	margin-bottom: 41px;
+}
+
+#main .menuBox .section .text02 {
+	margin-bottom: 7px;
+}
+
+#main .menuBox .section .rBox .h3Ttl {
+	margin-bottom: 16px;
+	position: relative;
+}
+
+#main .menuBox .section .rBox .h3Ttl a {
+	left: 309px;
+	position: absolute;
+	top: 10px;
+}
+
+#main .menuBox .section .rBox .h3Ttl a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#main .menuBox .section dl {
+	padding: 12px 11px 14px;
+}
+
+#main .menuBox .section .food {
+	background: #FBF7E9 url(../images/index/dl_bg01.jpg) no-repeat left top;
+	margin-bottom: 15px;
+	padding-bottom: 12px;
+}
+
+#main .menuBox .section .food dd {
+	line-height: 1.5;
+}
+
+#main .menuBox .section .dessert {
+	background: #FBF7E9 url(../images/index/dl_bg02.jpg) no-repeat left top;
+	margin-bottom: 7px;
+}
+
+#main .menuBox .section dt {
+	background: url(../images/common/icon/icon02.gif) no-repeat left 2px;
+	color: #3F2010;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.3;
+	margin-bottom: 7px;
+	padding-left: 10px;
+}
+
+
+#main .menuBox .section dd {
+	color: #3F2010;
+	font-size: 1.2em;
+	line-height: 1.4;
+}
+
+#main .menuBox .section dd span {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#main .menuBox .section .rBox .drink {
+	border: 3px solid #402110;
+	padding: 17px 17px 13px;
+}
+
+#main .menuBox .section .rBox .drink .ttl {
+	border-top: 2px solid #402110;
+	padding: 0 18px 0 10px;
+	border-bottom: 2px solid #402110;
+	margin-bottom: 3px;
+}
+
+#main .menuBox .section .rBox .drink .ttl img {
+	float: left;
+}
+
+#main .menuBox .section .rBox .drink .ttl span {
+	color: #3F2010;
+	display: block;
+	float: right;
+	font-size: 1.1em;
+	line-height: 2.3;
+	margin-top: 5px;
+	text-align: right;
+	word-break: break-all;
+	width: 200px;
+}
+
+#main .menuBox .section .rBox .drink .note {
+	margin-bottom: 9px;
+}
+
+#main .menuBox .section .rBox .drink .pTitle {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.2em;
+	line-height: 1.7;
+	margin-bottom: 3px;
+	padding: 0 5px 0 20px;
+	width: 95px;
+}
+
+#main .menuBox .section .rBox .drink p {
+	color: #3F2010;
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+
+#main .menuBox .section .tableC th,
+#main .menuBox .section .tableC td {
+	background-color: #DAD4D1;
+}
+
+#main .menuBox .section .tableC .bgColor th,
+#main .menuBox .section .tableC .bgColor td {
+	background-color: #ECE9E7;
+}
+
+#main .menuBox .section .tableB {
+	border: 3px solid #402110;
+}
+
+#main .menuBox .section .tableB th,
+#main .menuBox .section .tableB td {
+	background-color: #FFF;
+	padding: 4px 17px 0;
+}
+
+#main .menuBox .section .tableB th {
+	font-size: 1.2em;
+	line-height: 2;
+}
+
+#main .menuBox .section .drink01 {
+	margin-bottom: 20px;
+}
+
+#main .menuBox .section .photoList {
+	margin-right: -21px;
+	overflow: hidden;
+	width: 466px;
+	zoom: 1;
+}
+
+#main .menuBox .section .photoList li {
+	float: left;
+	margin-right: 21px;
+}
+
+#main .menuBox .photoUl {
+	clear: both;
+	margin: 0 -30px 0 18px;
+	overflow: hidden;
+	position: relative;
+	width: 972px;
+	zoom: 1;
+}
+
+#main .menuBox .photoUl li {
+	float: left;
+	padding: 21px 32px 0 0;
+	position: relative;
+	width: 445px;
+}
+
+#main .menuBox .photoUl li span {
+	left: 25px;
+	top: 0;
+	position: absolute;
+}
+
+#main .shopBox h2 {
+	margin-bottom: 20px;
+}
+
+#main .shopBox .lBox {
+	float: left;
+	width: 465px;
+}
+
+#main .shopBox .rBox {
+	float: right;
+	width: 465px;
+}
+
+#main .shopBox h3 {
+	background: #40210F url(../images/index/h3_bg.gif) no-repeat 16px 8px;
+	color: #FFF;
+	font-size: 1.5em;
+	line-height: 1.3;
+	margin-bottom: 12px;
+	padding: 9px 48px 7px;
+}
+
+#main .shopBox p {
+	margin-bottom: 15px;
+}
+
+#main .shopBox .tabBox {
+	margin-bottom: 17px;
+}
+
+#main .shopBox table {
+	border-left: 1px solid #C5BCB7;
+	border-right: 1px solid #C5BCB7;
+}
+
+#main .shopBox th,
+#main .shopBox td {
+	border-top: 1px solid #C5BCB7;
+	border-bottom: 1px solid #C5BCB7;
+	background-color: #ECE8E7;
+	line-height: 1.3;
+	padding: 7px 5px 7px 10px;
+}
+
+#main .shopBox td {
+	background-color: #FFF;
+}
+
+#main .shopBox .photoList {
+	margin: 0 -11px 17px 0;
+	overflow: hidden;
+	width: 476px;
+	zoom: 1;
+}
+
+#main .shopBox .photoList li {
+	color: #796357;
+	float: left;
+	font-size: 1.2em;
+	line-height: 1.35;
+	margin-right: 11px;
+	text-align: center;
+	width: 227px;
+}
+
+#main .shopBox .photoList span {
+	display: block;
+	margin-top: 8px;
+}
+
+#main .shopBox .map {
+	clear: both;
+}

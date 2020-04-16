@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+
+.jsBox {
+	margin-bottom: 100px;
+}
+
+
+
+/*------------------------------------------------------------
+	tabBox
+------------------------------------------------------------*/
+.tabUl li {
+	float: left;
+	width: 80px;
+	margin-right: 10px;
+}
+
+.tabUl li a {
+	display: block;
+	width: 80px;
+	height: 23px;
+	padding-top: 7px;
+	background: #9C9;
+	text-decoration: none;
+	text-align: center;
+}
+
+.tabUl li.on a,
+.tabUl li a:hover {
+	background: #ccc;	
+}
+
+.tabBox {
+	width: 300px;
+	height: 100px;
+	background: #39C;
+	display: none;
+}
+
+.tabBox02 {
+	background: #963;
+}
+
+.tabBox03 {
+	background: #C6C;
+}

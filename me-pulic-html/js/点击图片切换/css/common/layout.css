@@ -1,0 +1,551 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: Meiryo, "メイリオ", "小塚ゴシック Pr6N", sans-serif;
+}
+
+table,
+input, textarea, select, option {
+	line-height: 1.1;
+	border-collapse: collapse;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #666;
+	text-decoration: none;
+}
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	text-align: center;
+	line-height: 1.5;
+}
+
+#container{
+
+}
+
+#main {
+	margin: 0 auto 11px;
+	width: 960px;
+	clear: both;
+
+	text-align: left;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+#container .mainImg {
+	margin: 0 auto 1px;
+	width: 970;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header {
+	background: url(../../img/common/header02_bg.gif) repeat-x left bottom;
+}
+
+#header .headerBox {
+	margin: 0 auto;
+	width: 960px;
+
+	text-align: left;
+}
+
+#header .headerBox .rBox {
+	float: right;
+	width: 500px;
+}
+
+#header .headerBox .rBox ul.comLink {
+	float: right;
+	margin: 7px 0 39px;
+}
+
+	* html #header .headerBox .rBox ul.comLink {
+		margin: 11px 0 38px;
+	}
+	
+	*+html #header .headerBox .rBox ul.comLink {
+		margin: 11px 0 38px;
+	}
+
+#header .headerBox .rBox ul.comLink li {
+	background: url(../../img/common/icon/icon01.gif) no-repeat left 6px;
+	display: inline;
+	font-size: 1em;
+	line-height: 1.3;
+	margin-left: 19px;
+	padding: 0 0 0 8px;
+}
+
+	* html #header .headerBox .rBox ul.comLink li {
+		background: url(../../img/common/icon/icon01.gif) no-repeat left 1px;
+		font-size: 0.9em;
+	}
+	
+	*+html #header .headerBox .rBox ul.comLink li {
+		background: url(../../img/common/icon/icon01.gif) no-repeat left 1px;
+		font-size: 0.9em;
+	}
+	
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#header .headerBox .rBox ul.comLink li {
+		background: url(../../img/common/icon/icon01.gif) no-repeat left 3px;
+	}
+}
+
+#header .headerBox .lBox {
+	float: left;
+	padding-top: 7px;
+}
+
+#header .headerBox .logo {
+	float: left;
+}
+	
+
+/*------------------------------------------------------------
+	グローバルナビ
+------------------------------------------------------------*/
+
+#gNavi ul {
+	margin: 0 auto 19px;
+	width: 960px;
+
+	text-align: left;	
+}
+
+#gNavi ul li {
+	float: left;
+}
+
+#gNavi ul li a {
+	display: block;
+}
+
+/*------------------------------------------------------------
+	パンクズリスト
+------------------------------------------------------------*/
+#pagePath {
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #211713;
+	margin: 0 0 4px 2px;
+}
+
+#pagePath li {
+	display: inline;
+	font-size: 1.2em;
+	line-height: 1.2;
+	margin-right: 1px;
+}
+
+#pagePath a {
+	color: #211713;
+	margin-right: 2px;
+}
+
+/*------------------------------------------------------------
+	コンテンツ
+------------------------------------------------------------*/
+#conts {
+	width: 650px;
+	padding-bottom: 40px;
+
+	float: right;
+}
+
+/*------------------------------------------------------------
+	サイドバー
+------------------------------------------------------------*/
+#sideBar {
+	width: 270px;
+	background: url(../../img/common/s02_bg.gif) repeat-y left top;
+
+	float: left;
+}
+
+#sideBar .ulBox {
+	background: #fff;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	padding: 19px 0 30px 0;
+}
+
+#sideBar .ulBox img {
+	margin-bottom: 6px;
+}
+
+#sideBar .ulBox ul li {
+	background: url(../../img/common/line01.gif) repeat-x left bottom;
+	font-size: 1.4em;
+	margin-bottom: 5px;
+	padding: 0 0 4px 20px;
+}
+
+#sideBar .ulBox ul li a {
+	background: url(../../img/common/icon/icon06.gif) no-repeat left center;
+	color: #666;
+	text-decoration: underline;
+	padding: 0 0 0 24px;
+}
+
+#sideBar .ulBox ul li a:hover {
+	color: #FF3366;
+	text-decoration: none;
+}
+
+#sideBar .ulBox ul li.on a {
+	color: #FF3366;
+	text-decoration: none;
+}
+
+#sideBar .sBanner {
+	margin: 0 0 1px 10px;
+}
+
+#sideBar .sBanner01 {
+	padding-top: 13px;
+}
+
+#sideBar .sBanner img {
+	display: block;
+}
+
+#sideBar p.p01 {
+	background: url(../../img/common/icon/icon02.gif) no-repeat left 4px;
+	color: #666;
+	font-size: 1.2em;
+	line-height: 1.4;
+	margin: 0 10px 17px 10px;
+	padding: 0 0 0 8px;
+}
+
+#sideBar .box {
+	background: url(../../img/common/s_box02_bg.gif) repeat-y left top;
+	margin: 0 0 30px 10px;
+	zoom: 1;
+}
+
+#sideBar .box .subBox {
+	background: url(../../img/common/s_box01_bg.gif) no-repeat left top;
+	padding: 10px 0 5px 0;
+	zoom: 1;
+}
+
+#sideBar .box .bg01 {
+	background: url(../../img/common/s_box06_bg.gif) no-repeat left top;
+
+}
+
+#sideBar .box .subBox dl {
+	line-height: 1.2;
+	margin: 0 20px 0 10px;
+}
+
+#sideBar .box .subBox ul {
+	margin-left: 27px;
+	width: 188px;
+}
+
+#sideBar .box .subBox ul li {
+	float: left;
+}
+
+#sideBar .box .subBox ul li a {
+	display: block;
+}
+
+#sideBar .box .subBox dt {
+	background: url(../../img/common/icon/icon03.gif) no-repeat left 4px;
+	font-size: 1.4em;
+	margin-bottom: 2px;
+	padding: 0 0 0 15px;
+}
+
+	* html #sideBar .box .subBox dt {
+		background: url(../../img/common/icon/icon03.gif) no-repeat left 2px;
+	}
+	
+	*+html #sideBar .box .subBox dt {
+		background: url(../../img/common/icon/icon03.gif) no-repeat left 2px;
+	}
+	
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#sideBar .box .subBox dt {
+		background: url(../../img/common/icon/icon03.gif) no-repeat left 2px;
+	}
+}	
+
+#sideBar .box .subBox dt a {
+	color: #E3017E;
+	text-decoration: none;
+}
+
+#sideBar .box .subBox dt a:hover {
+	text-decoration: underline;
+}
+
+#sideBar .box .subBox dd {
+	color: #666;
+	margin: 0 0 9px 15px;
+}
+
+	* html #sideBar .box .subBox dd {
+		font-size: 0.9em;
+	}
+	
+	*+html #sideBar .box .subBox dd {
+		font-size: 0.9em;
+	}
+
+#sideBar .box02 {
+	background: #fff;
+	clear: both;
+	margin: 0 0 42px 10px;
+	width: 250px;
+}
+
+#sideBar .box02 .subBox {
+	padding: 0 9px 0 10px;
+}
+
+#sideBar .box02 .photoBox {
+	border: 1px solid #ccc;
+	float: right;
+	padding: 5px;
+}
+
+#sideBar .box02 .textBox {
+	float: left;
+	width: 130px;
+}
+
+#sideBar .box02 .textBox img {
+	margin-bottom: 6px;
+}
+
+#sideBar .box02 .textBox p {
+	color: #666;
+	line-height: 1.2;
+}
+
+	* html #sideBar .box02 .textBox p {
+		font-size: 0.9em;
+	}
+	
+	*+html #sideBar .box02 .textBox p {
+		font-size: 0.9em;
+	}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	background: url(../../img/common/footer_bg.gif) repeat-x left top;
+	padding: 9px 0 20px 0;
+}
+
+#footer .footerBox {
+	margin: 0 auto;
+	width: 960px;
+	clear: both;
+	position: relative;
+
+	text-align: left;	
+}
+
+#footer .footerBox .pageTop {
+	position: absolute;
+	top: -44px;
+	right: 0;
+}
+
+#footer .footerBox .subBox {
+	margin-bottom: 6px;
+}
+
+#footer .footerBox ul.ul01 li {
+	float: left;
+	margin-right: 12px;
+}
+
+#footer .footerBox ul.ul01 li.li01 {
+	margin-top: 16px;
+}
+
+#footer .footerBox ul.comLink {
+	float: right;
+	margin-top: 30px;
+	width: 380px;
+	text-align: right;
+}
+
+	* html #footer .footerBox ul.comLink {
+		margin-top: 34px;
+	}
+	
+	*+html #footer .footerBox ul.comLink {
+		margin-top: 34px;
+	}
+
+#footer .footerBox ul.comLink li {
+	background: url(../../img/common/icon/icon05.gif) no-repeat left 6px;
+	display: inline;
+	font-size: 1em;
+	line-height: 1.3;
+	margin-left: 19px;
+	padding: 0 0 0 8px;
+}
+
+	* html #footer .footerBox ul.comLink li {
+		background: url(../../img/common/icon/icon01.gif) no-repeat left 1px;
+		font-size: 0.9em;
+	}
+	
+	*+html #footer .footerBox ul.comLink li {
+		background: url(../../img/common/icon/icon01.gif) no-repeat left 1px;
+		font-size: 0.9em;
+	}
+	
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#footer .footerBox ul.comLink li {
+		background: url(../../img/common/icon/icon01.gif) no-repeat left 2px;
+	}
+}	
+
+#footer .footerBox .fNav {
+	background: url(../../img/common/f_ul_bg.gif) no-repeat left top;
+	margin-bottom: 8px;
+	padding: 8px 0 8px 13px;
+}
+
+#footer .footerBox .fNav li {
+	float: left;
+	margin-right: 21px;
+}
+
+#footer .footerBox .fNav li a {
+	display: block;
+}
+
+#footer .footerBox .fNav li.nav01 a {
+	background: url(../../img/common/f_nav01_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li.nav02 a {
+	background: url(../../img/common/f_nav02_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li.nav03 a {
+	background: url(../../img/common/f_nav03_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li.nav04 a {
+	background: url(../../img/common/f_nav04_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li.nav05 a {
+	background: url(../../img/common/f_nav05_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li.nav06 a {
+	background: url(../../img/common/f_nav06_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li.nav07 a {
+	background: url(../../img/common/f_nav07_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li.nav08 a {
+	background: url(../../img/common/f_nav08_over.jpg) no-repeat
+}
+
+#footer .footerBox .fNav li a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+}
+
+#footer .footerBox p.copyRight {
+	color: #F57872;
+	text-align: center;
+	line-height: 1.2;
+}

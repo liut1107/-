@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#gNavi .navi06 a img {
+	visibility: hidden;
+}
+
+#conts {
+	padding-top: 15px;
+}
+
+#conts h2 {
+	margin-bottom: 33px;
+}
+
+#conts h3 {
+    background: url(../img/faq/h3_bg_off.jpg) no-repeat left top;
+	clear: both;
+	margin-bottom:0;
+    padding: 0 0 0 20px;
+}
+
+#conts h3.bord {
+	background: url(../img/faq/h3_bg_on.jpg) no-repeat left top;
+	display: block;
+}
+
+#conts .comSection {
+	padding: 20px 0 0;
+}
+
+#conts .comSection dl {
+	clear: both;
+	margin-bottom: 18px;
+}
+
+#conts .comSection dt {
+	float: left;
+}
+
+#conts .comSection dt img {
+	display: block;
+}
+
+#conts .comSection dd {
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 4px 0 0 3.9em;
+}
+
+#conts .comSection .inner {
+	margin: 0 0 35px 30px;
+}
+
+#conts .comSection .inner .textBox {
+	float: right;
+	margin-top: 5px;
+	width: 550px;
+}
+
+#conts .comSection .inner .textBox h4 {
+	margin: 0 0 2px 4px;
+}
+
+#conts .comSection .inner .textBox .h401 {
+	color: #333;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+#conts .comSection p {
+	font-size: 1.2em;
+}
+
+#conts .comSection .inner .textBox p {
+	line-height: 1.8;
+	margin: 0 0 23px 4px;
+}
+
+#conts .comSection .comBox {
+	margin-bottom: 0px;
+}
+
+#conts .comSection .comBox .bg {
+	background: url(../img/faq/com_box_bg02.gif) repeat-y left top;
+	padding: 0 20px 0 19px;
+}
+
+#conts .comSection .comBox .bg .title {
+	background:url(../img/faq/title_bg.jpg) no-repeat left bottom;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 13px;
+	padding: 11px 0 14px 59px;
+}
+
+#conts .comSection ul {
+	margin-left: 4px;
+}
+
+#conts .comSection li {
+	font-size: 1.2em;
+	line-height: 1.8em;
+}

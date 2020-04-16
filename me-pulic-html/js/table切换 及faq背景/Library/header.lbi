@@ -1,0 +1,42 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="header">
+	<div class="hBox">
+		<div class="topBox clearfix">
+			<div class="logo floatL"><a href="../"><img src="../img/common/logo.jpg" alt="フィリピン留学.jp" width="375" height="67" class="imgHover"></a></div>
+			<div class="dlBox">
+				<dl>
+					<dt><img src="../img/common/imgtext01.jpg" alt="ご相談窓口" width="125" height="33"></dt>
+					<dd><img src="../img/common/imgtext07.gif" alt="050-5532-7292" width="233" height="33"></dd>
+				</dl>
+				<dl class="mb0">
+					<dt><img src="../img/common/imgtext02.jpg" alt="Eメール" width="125" height="27" class="imgHover"></dt>
+					<dd><a href="mailto:ryugaku@foreign-partners.com"><img src="../img/common/imgtext08.gif" class="imgHover" alt="ryugaku@foreign-partners.com" width="233" height="27"></a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="inner clearfix clear">
+			<div class="textBox">
+				<p><img src="../img/common/imgtext03.png" alt="授業料＋滞在費＋毎日3食込みで￥30,000台～!! ※手配・相談手数料無料＋セブ島長期在住スタッフの充実サポート!!「結果が出せる」格安フィリピン留学で、未来に繋がる語学留学を!!" width="487" height="137"></p>
+				<ul class="clearfix">
+					<li><img src="../img/common/imgtext04.png" alt="メリット1 1週間￥30,000台～。格安でも授業、3食、宿泊費全て込みの料金。" width="581" height="33"></li>
+					<li><img src="../img/common/imgtext05.png" alt="メリット2 基本のマンツーマン授業は「実践で使える」英語が身につく。" width="546" height="33"></li>
+					<li><img src="../img/common/imgtext06.png" alt="メリット3 TOEIC900点以上が最低基準の、韓国式TOEIC戦略を学べる。" width="551" height="43"></li>
+				</ul>
+			</div>
+			<ul class="link clearfix">
+				<li><a href="../order/"><img src="../img/common/link01.jpg" alt="申込み・資料請求はこちら" width="333" height="92"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="gNavi">
+		<ul class="clearfix">
+			<li class="navi01"><a href="../basic.html"><img src="../img/common/g_navi01.jpg" alt="フィリピン留学の基礎知識" width="146" height="65"></a></li>
+			<li class="navi02"><a href="../area.html"><img src="../img/common/g_navi02.jpg" alt="フィリピン留学地域別比較" width="135" height="65"></a></li>
+			<li class="navi03"><a href="../budget.html"><img src="../img/common/g_navi03.jpg" alt="フィリピン留学予算と持ち物" width="135" height="65"></a></li>
+			<li class="navi04"><a href="../flow.html"><img src="../img/common/g_navi04.jpg" alt="目的別学校選びフロー" width="135" height="65"></a></li>
+			<li class="navi05"><a href="../guide.html"><img src="../img/common/g_navi05.jpg" alt="実際に留学するまでの流れ" width="141" height="65"></a></li>
+			<li class="navi06"><a href="../faq.html"><img src="../img/common/g_navi06.jpg" alt="フィリピン留学Q&amp;A" width="135" height="65"></a></li>
+			<li class="navi07"><a href="../campaign.html"><img src="../img/common/g_navi07.jpg" alt="帰国後サポート" width="123" height="65"></a></li>
+		</ul>
+	</div>
+</div>

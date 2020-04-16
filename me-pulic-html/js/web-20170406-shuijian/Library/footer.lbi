@@ -1,0 +1,11 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<footer id="footer">
+	<ul class="fNavi clearfix">
+		<li><a href="#">サイトマップ</a><span class="line">|</span></li>
+		<li><a href="../contact.html">お問い合わせ</a><span class="line">|</span></li>
+		<li><a href="#">グループ会社等情報</a><span class="line">|</span></li>
+		<li><a href="../policy.html">個人情報の取り扱いについて</a></li>
+	</ul>
+	<div class="pageTop"><a href="#container"><img src="../common/img/page_top.gif" alt=""></a></div>
+	<p class="copyright">Copyright 首都高トールサービス東東京株式会社　All right Reserved</p>
+</footer>

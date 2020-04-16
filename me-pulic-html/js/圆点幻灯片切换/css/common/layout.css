@@ -1,0 +1,337 @@
+@charset "shift_jis";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: "小塚ゴシック Pro",Meiryo,  "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #231815;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #231815;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #231815;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #231815;
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #231815;
+	line-height: 1.5;
+	text-align: center;
+}
+
+#container{
+	margin: 0 auto;
+	text-align: left;
+	width: 802px;
+}
+
+#main {
+	clear: both;
+	margin-bottom: 50px;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header {
+	padding: 23px 15px 15px 29px;
+}
+
+#header h1 {
+	float: left;
+}
+
+#header .tel {
+	float: right;
+	padding-top: 13px;
+}
+
+/*------------------------------------------------------------
+	グローバルナビ
+------------------------------------------------------------*/
+#gNavi {
+	clear: both;
+}
+
+#gNavi li {
+	float: left;
+}
+
+#gNavi li a,
+#gNavi li img {
+	display: block;
+}
+
+#gNavi li a:hover img {
+	opacity: 0; 	
+	filter: alpha(opacity=0);	
+　　-moz-opacity:0; 
+}
+
+#gNavi .navi01 a {
+	background: url(../../img/common/g_navi01_over.gif) no-repeat;
+}
+
+#gNavi .navi02 a {
+	background: url(../../img/common/g_navi02_over.gif) no-repeat;
+}
+
+#gNavi .navi03 a {
+	background: url(../../img/common/g_navi03_over.gif) no-repeat;
+}
+
+#gNavi .navi04 a {
+	background: url(../../img/common/g_navi04_over.gif) no-repeat;
+}
+
+#gNavi .navi05 a {
+	background: url(../../img/common/g_navi05_over.gif) no-repeat;
+}
+
+#gNavi .navi06 a {
+	background: url(../../img/common/g_navi06_over.gif) no-repeat;
+}
+
+#gNavi .navi07 a {
+	background: url(../../img/common/g_navi07_over.gif) no-repeat;
+}
+
+/*------------------------------------------------------------
+	パンクズリスト
+------------------------------------------------------------*/
+#pagePath {
+
+}
+
+/*------------------------------------------------------------
+	コンテンツ
+------------------------------------------------------------*/
+#conts {
+	float: left;
+	width: 576px;
+}
+
+/*------------------------------------------------------------
+	サイドバー
+------------------------------------------------------------*/
+#sideBar {
+	float: right;
+	width: 155px;
+}
+
+#sideBar .sNavi li {
+	float: left;
+}
+
+#sideBar .sNavi li a,
+#sideBar .sNavi li img {
+	display:  block;
+}
+
+#sideBar .sNavi01 .navi01 a {
+	background: url(../../img/about/s_navi01_over.gif) no-repeat left top;
+}
+
+#sideBar .sNavi01 .navi02 a {
+	background: url(../../img/about/s_navi02_over.gif) no-repeat left top;
+}
+
+#sideBar .sNavi01 .navi03 a {
+	background: url(../../img/about/s_navi03_over.gif) no-repeat left top;
+}
+
+#sideBar .sNavi01 .navi04 a {
+	background: url(../../img/about/s_navi04_over.gif) no-repeat left top;
+}
+
+#sideBar .sNavi01 .navi05 a {
+	background: url(../../img/about/s_navi05_over.gif) no-repeat left top;
+}
+
+#sideBar .sNavi02 .navi01 a {
+	background: url(../../img/shinka/s_navi01_over.gif) no-repeat;
+}
+
+#sideBar .sNavi02 .navi02 a {
+	background: url(../../img/shinka/s_navi02_over.jpg) no-repeat;
+}
+
+#sideBar .sNavi02 .navi03 a {
+	background: url(../../img/shinka/s_navi03_over.gif) no-repeat;
+}
+
+#sideBar .sNavi02 .navi04 a {
+	background: url(../../img/shinka/s_navi04_over.gif) no-repeat;
+}
+
+#sideBar .sNavi02 .navi05 a {
+	background: url(../../img/shinka/s_navi05_over.jpg) no-repeat;
+}
+
+#sideBar .sNavi02 .navi06 a {
+	background: url(../../img/shinka/s_navi06_over.gif) no-repeat;
+}
+
+#sideBar .sNavi03 .navi01 a {
+	background: url(../../img/bewell/s_navi01_over.gif) no-repeat;
+}
+
+#sideBar .sNavi03 .navi02 a {
+	background: url(../../img/bewell/s_navi02_over.gif) no-repeat;
+}
+
+#sideBar .sNavi03 .navi03 a {
+	background: url(../../img/bewell/s_navi03_over.gif) no-repeat;
+}
+
+#sideBar .sNavi03 .navi04 a {
+	background: url(../../img/bewell/s_navi04_over.gif) no-repeat;
+}
+
+#sideBar .sNavi03 .navi05 a {
+	background: url(../../img/bewell/s_navi05_over.gif) no-repeat;
+}
+
+#sideBar .sNavi01 li a:hover img,
+#sideBar .sNavi02 li a:hover img,
+#sideBar .sNavi03 li a:hover img {
+	opacity: 0; 	
+	filter: alpha(opacity=0);	
+　　-moz-opacity:0; 
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+#footer .fNavi {
+	border-bottom: 1px solid #C0C0C0;
+	margin-bottom: 19px;
+	padding: 0 0 8px 27px;
+}
+
+#footer .fNavi li {
+	display: inline;
+	font-size: 0.9em;
+}
+
+#footer .fNavi li a {
+	margin: 0 5px;
+}
+
+#footer .title {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0 0 10px 25px;
+}
+
+#footer .fBox {
+	padding-left: 26px;
+}
+
+#footer .fBox ul {
+	float: left;
+	margin-right: 5px;
+	width: 145px;
+}
+
+#footer .fBox .style {
+	width: 224px;
+}
+
+#footer .fBox ul li a {
+	background: url(../../img/common/icon/icon02.gif) no-repeat left 2px;
+	display: inline-block;
+	padding-left: 9px;
+}
+
+#footer .fBox ul li ul {
+	float: none;
+	margin: 0 0 15px;
+	width: auto;
+}
+
+#footer .fBox ul li ul li a {
+	background: none;
+}

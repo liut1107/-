@@ -1,0 +1,59 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="sideBar"> <img src="../img/common/sidebar_top.png" alt="" width="216" height="9" />
+	<h3><img src="../img/common/side_h3_img.jpg" alt="各項目を表示します" width="195" height="35" /></h3>
+	<ul class="sideNavi clearfix">
+		<li><a href="#" class="title">健康と生活保障</a>
+			<ul class="clearfix">
+				<li><a href="#">総合共済</a></li>
+				<li><a href="../assurance/insurance.html">建設国保</a></li>
+				<li><a href="#">健康診断</a></li>
+			</ul>
+		</li>
+		<li><a href="#" class="title">楽しい生活と将来</a>
+			<ul class="clearfix">
+				<li><a href="#">どけんドリームカード</a></li>
+				<li><a href="#">建退共</a></li>
+				<li><a href="#">国民年金基金</a></li>
+				<li><a href="#">青年部</a></li>
+				<li><a href="#">主婦の会</a></li>
+				<li><a href="#">シニアの会</a></li>
+				<li><a href="#">平和運動</a></li>
+			</ul>
+		</li>
+		<li><a href="#" class="title">仕事づくり</a>
+			<ul class="clearfix">
+				<li><a href="#">仕事と賃金</a></li>
+				<li><a href="#">営業支援</a></li>
+				<li><a href="#">地域の取り組み</a></li>
+				<li><a href="#">資格・技術</a></li>
+				<li><a href="#">建設業許可</a></li>
+			</ul>
+		</li>
+		<li class="mb0"><a href="#" class="title">事業支援</a>
+			<ul class="clearfix">
+				<li><a href="#">労災保険</a></li>
+				<li><a href="#">雇用保険</a></li>
+				<li><a href="../support/fire_aid.html">火災共済</a></li>
+				<li><a href="#">総合賠償責任保険</a></li>
+				<li><a href="#">自動車共済</a></li>
+				<li><a href="#">税金相談</a></li>
+				<li><a href="#">法人設立・登記</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="sideBanner clearfix">
+		<li><a href="../benefit/"><img src="../img/common/sidebnr01_off.jpg" alt="ぜび知っておこう！ 組合の保険・共済等給付一覧" width="195" height="92" /></a></li>
+		<li class="mb0"><a href="#"><img src="../img/common/sidebnr02_off.jpg" alt="組合費国保料計算" width="195" height="70" /></a></li>
+	</ul>
+	<ul class="sideBanner clearfix">
+		<li><a href="#"><img src="../img/common/sidebnr03_off.jpg" alt="近くの建設職人一発検索 かながわ職人NAVI" width="195" height="57" /></a></li>
+		<li><a href="#"><img src="../img/common/sidebnr04_off.jpg" alt="どけんドリームカード 遊園地や飲食店の特典一杯" width="195" height="57" /></a></li>
+		<li><a href="#"><img src="../img/common/sidebnr05_off.jpg" alt="野丁場で働く仲間ブログ 神奈川土建PAL" width="195" height="57" /></a></li>
+		<li><a href="#"><img src="../img/common/sidebnr06_off.jpg" alt="facebook 神奈川土建公式ページ" width="195" height="57" /></a></li>
+		<li class="mb0"><a href="#"><img src="../img/common/sidebnr07_off.jpg" alt="You Tube Broadcast Yourself 神奈川土建に関連した映像などをご覧頂けます。" width="195" height="57" /></a></li>
+	</ul>
+	<ul class="sideBanner btmUl clearfix">
+		<li><a href="#"><img src="../img/common/sidebnr08_off.png" alt="バナースペース" width="195" height="57" /></a></li>
+		<li class="mb0"><a href="#"><img src="../img/common/sidebnr08_off.png" alt="バナースペース" width="195" height="57" /></a></li>
+	</ul>
+	<img src="../img/common/sidebar_btm.png" alt="" width="216" height="12" class="clear" /> </div>

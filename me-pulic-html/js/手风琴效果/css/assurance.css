@@ -1,0 +1,295 @@
+@charset "utf-8";
+@import "common/0-import.css";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts h2 {
+	margin-bottom: 12px;
+}
+
+#conts .bold {
+	margin: 0 2px 5px;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+#conts .section {
+	margin-bottom: 15px;
+}
+
+#conts .section .ml10 {
+	margin-left: 10px;
+}
+
+#conts .section .textUl {
+	margin-bottom: 38px;
+	padding-top: 3px;
+}
+
+#conts .section .textUl,
+#conts .textUl01 {
+	padding-left: 3px;
+}
+
+#conts .textUl01 {
+	margin-bottom: 15px;
+}
+
+#conts .section .textUl li {
+	padding-left: 15px;
+	font-size: 1.5em;
+	background: url(../img/common/icon/icon11.gif) no-repeat left 2px;
+}
+
+#conts .section .textUl li span {
+	margin: 2px 0 0 0;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+#conts .section p {
+	margin-bottom: 13px;
+}
+
+#conts .textUl01 li {
+	padding-left: 12px;
+	font-size: 1.3em;
+	background: url(../img/common/icon/icon08.gif) no-repeat left 2px;
+}
+
+#conts .imgText {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#conts .imgText img {
+	display: inline-block;
+}
+
+#conts h3 {
+	margin-bottom: 18px;
+}
+
+#conts .small {
+	margin: 0 30px 13px;
+	font-size: 1.1em;
+}
+
+#conts .comTable {
+	margin: 0 20px 15px;
+	width: 570px;
+	clear: both;
+}
+
+#conts .comTable th,
+#conts .comTable td {
+	font-size: 1.3em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#conts .comTable th img,
+#conts .comTable td img {
+	display: inline-block;
+}
+
+#conts .comTable td {
+	padding: 15px 0;
+}
+
+#conts .comTable th {
+	padding: 7px 0;
+}
+
+#conts .comTable .yellow {
+	background-color: #ffffed;
+}
+
+#conts .comTable td span {
+	display: block;
+}
+
+#conts .comTable td .black {
+	font-size: 1.23em;
+}
+
+#conts .comTable td .red {
+	color: #f00;
+}
+
+#conts .comTable td .red,
+#conts .comTable td .black01 {
+	font-size: 1.38em;
+	font-weight: bold;
+}
+
+#conts .comTable .black02 {
+	font-size: 1.69em;
+	font-weight: bold;
+	background-color: #ffe5f2;
+}
+
+#conts .comTable .red01 {
+	background-color: #ffc1e0;
+}
+
+#conts .comTable .red01 span {
+	font-size: 0.77em;
+	font-weight: normal;
+}
+
+#conts .comTable .left {
+	padding-left: 15px;
+	text-align: left;
+}
+
+#conts .comTable .right {
+	padding-right: 22px;
+	text-align: right;
+}
+
+#conts .text {
+	margin: 3px 0 5px 0;
+	font-size: 2.2em;
+	color: #ff6a6a;
+	text-align: center;
+}
+
+#conts .center {
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#conts .dlBox {
+	margin: 0 10px 20px;
+}
+
+#conts .dlBox dt,
+#conts .dlBox dd {
+	margin-bottom: 10px;
+	font-size: 1.3em;
+}
+
+#conts .dlBox dt {
+	width: 130px;
+	float: left;
+	clear: both;
+}
+
+#conts .dlBox dd {
+	padding-top: 4px;
+	width: 450px;
+	float: right;
+}
+
+.comTable01 {
+	margin: 0 0 5px 19px;
+	width: 550px;
+	font-size: 1.1em;
+	clear: both;
+	border-collapse: collapse;
+}
+
+.comTable01 th,
+.comTable01 td {
+	padding: 3px 0 1px;
+	color: #666;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: normal;
+	border: 1px solid #d6d6d6;
+}
+
+.comTable01 th {
+	background-color: #ffffd6;
+}
+
+.comTable01 .right {
+	padding-right: 10px;
+	text-align: right;
+}
+
+.comTable01 .yellow {
+	background-color: #ffffed;
+}
+
+#conts .pdf {
+	margin: 0 auto 15px;
+	width: 392px;
+	padding: 5px 5px 5px 45px;
+	font-size: 1.3em;
+	background-color: #cedef4;
+}
+
+#conts .pdf .pt10 {
+	padding: 7px 0 0 7px;
+}
+
+#conts .pdf span {
+	float: left;
+	display: block;
+	vertical-align: middle;
+}
+
+#conts .pdf span img {
+	display: inline-block;
+}
+
+#conts .last {
+	margin: 0 5px 10px;
+	font-size: 1.3em;
+}
+
+#conts h4 {
+	margin-bottom: 10px;
+}
+
+#conts .special {
+	margin-bottom: 5px;
+	font-size: 1.3em;
+}
+
+#conts .lastDl dd span,
+#conts .special span {
+	margin: 0 20px 0 5px;
+	color: #f00;
+	font-weight: bold;
+	font-size: 1.54em;
+	display: inline-block;
+}
+
+#conts .list li,
+#conts .lastDl {
+	font-size: 1.3em;
+}
+
+#conts .list li,
+#conts .lastDl dt {
+	padding-left: 12px;
+	background: url(../img/common/icon/icon08.gif) no-repeat left 1px;
+}
+
+#conts .lastDl dd {
+	margin-bottom: 5px;
+	padding-left: 12px;
+}
+
+#conts .lastDl .dd01 {
+	color: #f272ae;
+	padding: 0;
+}
+
+#conts .list {
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+#conts .list li {
+	margin-right: 10px;
+	display: inline;
+}
+
+#conts h5 {
+	padding: 10px 0;
+}

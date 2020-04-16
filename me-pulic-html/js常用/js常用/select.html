@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.customSelect.min.js"></script>
+<script type="text/javascript" src="js/select.js"></script>
+<script type="text/javascript">
+$(function(){
+	//select模拟1
+	$('select.styled').customSelect();
+	
+	//select模拟2	引用select.js
+	
+	
+});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="main">
+		<div class="jsBox01">
+			<p>select模拟1(customSelect.js)</p>
+			<select class="styled">
+				<option>one</option>
+				<option>two</option>
+				<option>something</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			<p>说明：还是用的默认select 只改变了初始的样式   下拉部分没变</p>
+		</div>
+		
+		<div class="jsBox02">
+			<p>select模拟2(select.js)</p>
+			<div class="select">
+				<input type="hidden" value="1" name="individual" class="selectValHidden" />
+				<div onclick="selectVal(this)" class="selectVal">1</div>
+				<ul>
+					<li onclick="changeVal(this)">1</li>
+					<li onclick="changeVal(this)">2</li>
+					<li onclick="changeVal(this)">3</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+	</div>
+</div>
+</body>
+</html>

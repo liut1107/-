@@ -1,0 +1,276 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi .navi01 a {
+	color: #fff;
+	background-color: #0c97ba;
+}
+
+#container {
+	padding-top: 0px;
+}
+
+#header {
+	background: url(../common/img/h_bg.png) repeat;
+}
+
+.mainvVisual {
+	margin-bottom: 34px;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+
+.mainvVisual .sp-image {
+	width: 100%;
+}
+
+.mainvVisual .phoList li {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.mainvVisual .phoList li img {
+	width: 100%;
+}
+
+.mainvVisual .txtImg {
+	position: absolute;
+	left: 0;
+	bottom: 18px;
+	width: 100%;
+	z-index: 10;
+}
+
+.mainvVisual .txtImg .txt {
+	max-width: 960px;
+	margin: 0 auto;
+	display: block;
+	text-align: right;
+}
+
+.mainvVisual .txtImg .txt img {
+	width: auto;
+}
+
+.foopage {
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.foopage a {
+	margin: 0 5px;
+	display: inline-block;
+	background: url(../common/img/icon04.png)no-repeat;
+	width: 13px;
+	height: 13px;
+	border: 0;
+}
+
+.foopage a.selected {
+	background: url(../common/img/icon04_o.png)no-repeat;
+}
+
+.foopage a span {
+	display: none;
+}
+
+#main {
+	margin-bottom: 43px;
+}
+
+#conts .phoList {
+	margin-bottom: 38px;
+}
+
+#conts .phoList li {
+	width: 340px;
+	float: left;
+	text-align: center;
+}
+
+#conts .phoList li a {
+	display: block;
+	text-decoration: none;
+}
+
+#conts .phoList li .pho {
+	margin-bottom: 9px;
+	position: relative;
+	display: block;
+}
+
+#conts .phoList li .pho .ov {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: url(../img/index/li_bg.png) repeat;
+}
+
+#conts .phoList li a:hover .pho .ov {
+	display: block;
+}
+
+#conts h2 {
+	margin-bottom: 22px;
+	padding: 5px 0 5px;
+	clear: both;
+	color: #FFF;
+	font-size: 16px;
+	text-align: center;
+	background-color: #0C97BA;
+}
+
+#conts .newsList {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+#conts .newsList dt {
+	padding: 4px 0 3px;
+	width: 91px;
+	float: left;
+	color: #0087a8;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #0C97BA;
+}
+
+#conts .newsList dd {
+	padding: 0 0 24px 114px;
+	line-height: 1.7;
+}
+
+#conts .newsList dd a {
+	text-decoration: underline;
+}
+
+#conts .newsList dd a:hover {
+	text-decoration: none;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	#conts .phoList li {
+		width: 48%;
+	}
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	#gNavi .navi01 a {
+		color: #040404;
+		background-color: #FFF;
+	}
+
+	#header {
+		background: #FFF;
+	}
+	
+	#container {
+		padding-top: 42px;
+	}
+
+	.mainvVisual {
+		margin-bottom: 15px;
+	}
+
+	.mainvVisual .txtImg {
+		bottom: 4px;
+	}
+
+	.mainvVisual .txtImg .txt {
+		padding-right: 30px;
+		max-width: inherit;
+	}
+	
+	.mainvVisual .txtImg .txt img {
+		width: auto;
+		height: 7px;
+		display: block;
+		float: right;
+	}
+
+	.foopage {
+		bottom: 8px;
+	}
+	
+	.foopage a {
+		margin: 0 3px;
+		background-size: 9px 9px;
+		width: 9px;
+		height: 9px;
+		border: 0;
+	}
+
+	.foopage a.selected {
+		width: 9px;
+		height: 9px;
+		background-size: 9px 9px;
+	}
+
+	#main {
+		margin-bottom: 20px;
+	}
+	
+	#main .content {
+		padding: 0;
+	}
+	
+	#conts .phoList {
+		margin: 0 52px 15px;
+	}
+	
+	#conts .phoList li {
+		margin-bottom: 17px;
+		width: 100%;
+		float: none;
+		font-size: 16px;
+	}
+
+	#conts .phoList li:last-child {
+		margin-bottom: 0;
+	}
+	
+	#conts .phoList li .pho {
+		margin-bottom: 2px;
+	}
+
+	#conts .phoList li .pho img {
+		width: 100%;
+	}
+	
+	#conts .phoList li a:hover .pho .ov {
+		display: none;
+	}
+
+	#conts h2 {
+		margin-bottom: 10px;
+	}
+
+	#conts .newsList {
+		padding: 0 7px;
+		border-bottom: none;
+	}
+	
+	#conts .newsList dt {
+		margin-bottom: 8px;
+		padding: 1px 0 3px;
+		width: 70px;
+		float: none;
+		font-size: 12px;
+	}
+	
+	#conts .newsList dd {
+		padding: 0 0 17px;
+		font-size: 15px;
+		line-height: 1.5;
+	}
+}
+

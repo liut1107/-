@@ -1,0 +1,26 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="header">
+	<div class="section">
+		<div class="hBox clearfix">
+			<h1><a href="../"><img src="../img/common/logo.png" alt="財団法人日本宝くじ協会" width="354" height="41" /></a></h1>
+			<div class="rBox clearfix">
+				<ul class="link">
+					<li><a href="../">ホーム</a>|</li>
+					<li><a href="../sitemap/">サイトマップ</a></li>
+				</ul>
+				<ul class="fontChange clearfix">
+					<li><img src="../img/common/imgtext01.png" alt="文字サイズ" width="63" height="21" /></li>
+					<li class="fs"><a href="#" id="fs" onclick="font('1')"><img src="../img/common/imgtext02_off.png" alt="小" width="21" height="21" /></a></li>
+					<li class="fm"><a href="#" id="fm" onclick="font('2')" class="on"><img src="../img/common/imgtext03_off.png" alt="中" width="21" height="21" /></a></li>
+					<li class="fl"><a href="#" id="fl" onclick="font('3')"><img src="../img/common/imgtext04_off.png" alt="大" width="21" height="21" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<ul id="gNavi" class="clearfix">
+			<li class="navi01"><a href="../about/"><img src="../img/common/g_navi01_off.png" alt="本協会の概要" width="240" height="52" /></a></li>
+			<li class="navi02"><a href="../josei/"><img src="../img/common/g_navi02_off.png" alt="社会貢献広報事業" width="240" height="52" /></a></li>
+			<li class="navi03"><a href="../cyousa/"><img src="../img/common/g_navi03_off.png" alt="調査研究事業" width="240" height="52" /></a></li>
+			<li class="navi04"><a href="../dream/"><img src="../img/common/g_navi04_off.png" alt="宝くじドリーム館" width="240" height="52" /></a></li>
+		</ul>
+	</div>
+</div>

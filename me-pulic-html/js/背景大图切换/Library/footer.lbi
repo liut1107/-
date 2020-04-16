@@ -1,0 +1,37 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="footer">
+	<div class="fContact">
+		<div class="contact">
+			<ul class="clearfix">
+				<li class="tel"><img src="../common/img/footer/txt_footer01.png" alt="025-225-0101" width="220" height="26" /></li>
+				<li class="txt">[営業時間]　17:00～22:30<br />
+					[定休日]　　日曜(祝前日にあたる場合は営業・月曜振替休)</li>
+				<li><a href="#"><img src="../common/img/footer/btn_footer01.gif" alt="ご予約・お問い合わせ" width="240" height="26" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="fBox">
+		<div class="fInner">
+			<ul class="fNavi">
+				<li><a href="/">HOME</a></li>
+				<li><a href="../kodawari/">たらい舟の「こだわり」</a></li>
+				<li><a href="../dinner/">郷土料理とお酒</a></li>
+				<li><a href="../access/">店内紹介・アクセス</a></li>
+				<li><a href="#">おしらせ</a></li>
+				<li><a href="#">ご予約・お問い合わせ</a></li>
+			</ul>
+			<div class="section clearfix">
+				<div class="txtBox">
+					<div class="fLogo"><a href="/"><img src="../common/img/footer/logo.png" alt="魚と酒 たらい舟" width="156" height="58" /></a></div>
+					<p>〒951-8065　新潟県新潟市中央区東堀通8番町1411<br />
+						TEL:025-225-0101　Mail：●●●●@●●.●●</p>
+				</div>
+				<ul class="clearfix">
+					<li><img src="../common/img/footer/txt_footer02.png" alt="姉妹店" width="15" height="60" /></li>
+					<li class="floatR"><a href="#"><img src="../common/img/footer/btn_footer02.jpg" alt="伊 鮨・割烹 丸伊" width="250" height="60" /></a></li>
+				</ul>
+			</div>
+			<p class="copyright">Copyright (C) 2013Taraibune. All Rights Reserved.  produced by NIIGATA ZANMAI Corporation.</p>
+		</div>
+	</div>
+</div>

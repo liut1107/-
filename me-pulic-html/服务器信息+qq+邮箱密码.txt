@@ -1,0 +1,212 @@
+﻿http://www.luft.co.jp/cgi/coding.php
+https://www.google.com/get/noto/help/cjk/
+【note字体下载】
+
+个人所得税账号：
+900502Lt
+liut婷
+密码：Lt15095134609
+
+LINE帐号：
+账号：15095134609
+密码：lt15095134609
+邮箱：768735457@qq.com
+
+twitter
+邮箱：768735457@qq.com
+密码：1015039644
+账号：@lt768735457
+手机：15095134609
+
+Figma账号：
+名字 81bridge
+密码 htmlshunc
+邮箱 html@81bridge.com 
+
+
+FLEX不同兼容：
+/*------------------------------------------------------------
+	flex
+------------------------------------------------------------*/
+.flex {
+	display: flex;
+		display: -webkit-flex;
+	justify-content: space-between;
+		-webkit-justify-content: space-between;
+	flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.flex.left {
+	justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+}
+.flex.center {
+	justify-content: center;
+		-webkit-justify-content: center;
+}
+.flex.right {
+	justify-content: right;
+		-webkit-justify-content: right;
+}
+
+
+https://www.npmjs.com/package/reset-css
+【reset.css官网】
+
+nulab账号：
+用户名：lt
+ID：1429809140
+邮箱：1429809140@qq.com
+
+
+
+Google账号：
+用户名：liutingt1114@gmail.com
+密码：liutingt
+账号安全：199052
+
+81表单人机认证v2的码：
+6Lezo3UUAAAAAOBkbM229-UXPlg2wSs6Eh36xsp9
+secret_key:
+6Lezo3UUAAAAAASJjkPburyqE86zEwKSG08nNKaC
+
+v3的码：
+6Lcpn8IUAAAAAGcrMED_YLk2QRZmHV1igMPwkaFq
+secret_key:
+6Lcpn8IUAAAAAMBsFiORKqp6BMmFpH_6u4gi_bl5
+
+
+
+03-WP主题数据及WP信息
+01-项目数据
+02-编码数据
+04-修正数据
+
+GitHub账号：
+用户名：liut1107
+密码：5s8f7x3a
+邮箱：1429809140@qq.com
+https://github.com/liut1107/xiangm1119
+
+4.google帐号：
+86coding@gmail.com
+Shunc-55237691
+
+Aode帐号：
+1429809140@qq.com
+86CODing
+
+ZPLIN帐号：
+html@81bridge.com
+62841781B
+
+Accept Invite帐号：
+cq_system01@81bridge.com
+81bridge
+053681bridge
+
+CQ邮箱：
+cq_reception_test@81bridge.com
+z71BbFXsfck3iXvm
+
+
+远程信息：
+  远程1： 826 536 482 
+  远程3： 172 778 136
+  远程2： 111086424
+  pass：86coding
+
+
+邮箱密码：q1W2-0P9o_8k6M
+
+公司管理系统密码：k9R3#C5s6 k9R3#C5s6 k9R3#C5s6
+[k@QahuT!]
+
+Qq  ：  1429809140 
+密码：5s8f7x3a
+
+cq_reception_test@81bridge.com
+z71BbFXsfck3iXvm
+
+
+表单测试服务器：
+ ftp.81bridge.sub.jp
+ ID:sub.jp-81bridge
+ PW:3b83U1v8QXM8fSkm
+
+ http://81bridge.sub.jp/
+
+顺城FTP信息：
+http://www.shunc.com.cn/【访问连接】
+shunclb.gotoftp2.com
+shunclb
+b3Z&2j6E*6x8
+
+诚成FTP信息：【新1018】
+http://0536cc.cn
+0536cc.gotoftp5.com
+0536cc
+jbv5dpbh
+
+诚成FTP信息：【新】
+0536cc.gotoftp5.com
+0536cc
+0536$Cheng-2503
+
+
+诚成FTP信息：【旧】
+qxu1192080058.my3w.com
+qxu1192080058
+0536$Cheng-2503
+
+
+86网站服务器信息：
+ 86coding.com 
+ 86coding
+ Jr^?#*U>6H~4{dz;
+
+ 
+81网站服务器信息：
+主机：81bridge.sakura.ne.jp                                                       
+ ID：81bridge
+ PW：3pyh65w32g
+ 路径：/home/81bridge/www/completion
+
+
+ WP---WP：
+ http://81bridge.com/wp/wp-admin 
+
+ admin
+ bJ4fVxIZ
+
+
+仙台用的是git bitbucket
+
+git bitbucket的账号密码：
+用户名--html@shunc.cn
+账号--html@shunc.cn
+密码--htmlshunc1q2w3e
+
+
+github的账号密码：
+用户名--htmlshunc
+账号：html@shunc.cn
+密码：htmlshunc1q2w3e
+
+gitlab的账号密码：
+账号：html@shunc.cn
+密码：htmlshunc
+
+
+高野友花这个公司的项目：
+
+客户说他们公司的要加wp的项目，下面的页面是一定会加wp管理功能的，如果【指示书】文件夹中没有指示的话，可以看一下设计稿里有没有指示。
+
+①お知らせ
+②よくある質問
+③求人情報・採用情報
+
+如果没有指示说明的话，记得和客户确认下
+
+
+

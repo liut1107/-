@@ -1,0 +1,206 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: Meiryo, "小塚ゴシック Pr6N", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+img {
+	vertical-align: top;
+}
+
+li img,
+dl img {
+	display: block;
+	vertical-align: baseline;
+}
+
+a:link {
+	color: #CCC;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #CCC;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #CCC;
+	text-decoration: none;
+}
+
+a:active {
+	color: #CCC;
+	text-decoration: none;
+}
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	min-width: 900px;
+	color: #232323;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#container {
+	text-align: left;
+}
+
+#main {
+	padding-top: 144px;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #FFF;
+	width: 100%;
+}
+
+#header .hInner {
+	margin: 0 auto;
+	padding: 19px 0 0 1px;
+	width: 897px;
+}
+
+#header .hBox {
+	margin-bottom: 5px;
+}
+
+h1 {
+	float: left;
+}
+
+#header .hBox ul {
+	padding: 14px 1px 0 0;
+	float: right;
+	width: 333px;
+}
+
+#header .hBox li {
+	padding-left: 3px;
+	float: left;
+}
+
+#header .hBox .btn {
+	margin-top: 22px;
+}
+
+#header a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	グローバルナビ
+------------------------------------------------------------*/
+#gNavi {
+}
+
+#gNavi li {
+	margin-right: 1px;
+	float: left;
+}
+
+/*------------------------------------------------------------
+	パンクズリスト
+------------------------------------------------------------*/
+#pagePath {
+}
+
+/*------------------------------------------------------------
+	コンテンツ
+------------------------------------------------------------*/
+#conts {
+	width: 580px;
+	float: left;
+}
+
+/*------------------------------------------------------------
+	サイドバー
+------------------------------------------------------------*/
+#sideBar {
+	width: 200px;
+	float: right;
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 898px;
+}
+
+#footer .copyright {
+	color: #6d6d6d;
+	font-size: 1.3em;
+	text-align: center;
+}

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/common/layout.css">
+<link rel="stylesheet" type="text/css" href="css/common/general.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.page-scroller.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery.backstretch.js"></script>
+<script src="js/jquery.dotdotdot.js"></script>
+<script src="js/instafeed.js"></script>
+<script>
+	$(function(){
+		$('.dot').dotdotdot({
+			watch: 'window'
+		});
+		$('#main .sec01 .newList li a').matchHeight();
+		$('#main .sec02 .imgList li a').matchHeight();
+		$('#main .sec03 .worksList li a').matchHeight();
+		$('#main .sec04 .voiceList li a').matchHeight();
+		$('#main .sec05 .blogList li a').matchHeight();
+		
+		if($('#cover').length){
+			$(window).bind('load', function(){
+				openFade();
+				
+			});
+		}
+		//OPEN FADE
+		function openFade(){
+			$('#cover').fadeOut(1500,function(){
+				$('#gHeader').addClass("fadeInDown");
+				setTimeout(function(){
+					$('.mainVisual .ttl').addClass("fadeIn");
+				},800);
+				setTimeout(function(){
+					$('.mainVisual .scroll').addClass("fadeIn");
+				},1600);
+				
+				
+			});
+		}
+		
+		$(".pcBg").backstretch([
+			"../img/index/main_visual_img01.jpg",
+			"../img/index/main_visual_img02.jpg",
+			], 
+			{	fade: 1500,
+				duration: 3000
+		});
+		
+		$(".spBg").backstretch([
+			"../img/index/main_visual_img01.jpg",
+			"../img/index/main_visual_img02.jpg",
+			], 
+			{	fade: 1500,
+				duration: 3000
+		});
+		/*$(window).resize(function(){
+			$('.mainVisual').height($(window).height());
+		}).trigger('resize');	*/
+	});
+
+</script>
+
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="cover"></div>
+<div id="container">
+	<header id="gHeader">
+		<div class="hBox clearfix">
+			<div class="ttlBox clearfix">
+				<h1>豊橋・豊川・豊田の新築一戸建て<br>
+					注文住宅はあなたの街の「ここすも」</h1>
+				<div class="logo"><a href="./"><img src="img/index/logo.png" alt="ここすも"></a></div>
+			</div>
+			<p class="tel">tel <span class="num">0533-75-6905</span><span class="time">受付時間　<span>9:00 - 18:00</span></span></p>
+			<div class="menu"><img src="img/index/menu.png" alt=""></div>
+		</div>
+		<!-- #BeginLibraryItem "/Library/gnavi.lbi" -->
+		<nav id="gNavi">
+			<ul class="clearfix">
+				<li class="navi01"><a href="index.html">HOME</a></li>
+				<li class="navi02"><a href="about.html" class="accordion">ここすもハウスとは</a>
+					<ul class="subNavi">
+						<li><a href="#">L私たちの想い</a></li>
+						<li><a href="#">Lコンセプト</a></li>
+						<li><a href="#">Lこだわり</a></li>
+						<li><a href="#">L完成までの流れ</a></li>
+						<li><a href="#">Lアフターフォロー＋保証</a></li>
+					</ul>
+				</li>
+				<li class="navi03"><a href="#">ニュース・イベント</a></li>
+				<li class="navi04"><a href="#">施工事例</a></li>
+				<li class="navi05"><a href="#">お客様の声</a> </li>
+				<li class="navi06"><a href="#">ブログ</a></li>
+				<li class="navi07"><a href="#" class="accordion">会社案内</a>
+					<ul class="subNavi">
+						<li><a href="profile.html">L会社概要</a></li>
+						<li><a href="#">Lスタッフ紹介</a></li>
+					</ul>
+				</li>
+				<li class="navi08"><a href="contact">お問い合わせ</a></li>
+			</ul>
+		</nav>
+		<ul class="fixLink clearfix">
+			<li><a href="#"><img src="img/common/fix_link01.png" alt="資料請求はこちら"></a></li>
+			<li><a href="#"><img src="img/common/fix_link02.png" alt="モデルハウスへ行く"></a></li>
+		</ul>
+		<!-- #EndLibraryItem --></header>
+	<div class="mainVisual">
+		<div class="pcBg pc"></div>
+		<div class="spBg sp"></div>
+		<p class="ttl animation"><span class="en">cocosumo no ie</span>家を建てるならあなたの街の「ここすも」で</p>
+		<div class="scroll animation"> <a href="#main"><img src="img/index/main_visual_link.png" alt=""></a></div>
+	</div>
+	<section id="main">
+		<div class="sec01">
+			<div class="content">
+				<h2 class="h2Head"> <span class="en">INFORMATION</span> イベント情報・お知らせ </h2>
+				<ul class="newList clearfix">
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec01_photo01.jpg" alt=""><span class="new">NEW</span></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark01">現地見学会</span></p>
+							<p class="txt dot">9月10日に現地見学会を開催いたします。</p>
+						</div>
+						</a></li>
+					<li><a href="#">
+						<div class="pho"><img src="img/index/sec01_photo02.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark02">お知らせ</span></p>
+							<p class="txt dot">9月10日に現地見学会を開催いたします。お知らせが入ります。お知らせが入ります.....</p>
+						</div>
+						</a></li>
+					<li><a href="#">
+						<div class="pho"><img src="img/index/sec01_photo03.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark03">イベント</span></p>
+							<p class="txt dot">9月10日に現地見学会を開催いたします。</p>
+						</div>
+						</a></li>
+					<li><a href="#">
+						<div class="pho"><img src="img/index/sec01_photo04.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark04">その他</span></p>
+							<p class="txt dot">9月10日に現地見学会を開催いたします。</p>
+						</div>
+						</a></li>
+				</ul>
+				<div class="comLink"><a href="#">一覧でもっと見る</a></div>
+			</div>
+		</div>
+		<div class="sec02">
+			<div class="content">
+				<h2><span>夢や理想が必ず叶う</span><br>
+					「ここすもハウス」のマイホーム</h2>
+				<p>ここすもハウスは注文住宅からリフォームまで地域の皆様の住宅会社です。<br>
+					理想のマイホームを建てたい・リフォームしたいならここすもハウスまで。</p>
+				<ul class="imgList clearfix">
+					<li><a href="#"> <span class="num">1</span>
+						<div class="pho"><img src="img/index/sec02_photo01.jpg" alt=""></div>
+						ちょっと<span class="corTxt">カッコイイ家</span>を<br>
+						より安くご提供！ </a></li>
+					<li><a href="#"> <span class="num">2</span>
+						<div class="pho"><img src="img/index/sec02_photo02.jpg" alt=""></div>
+						<span class="corTxt">住んでからの快適</span>さも抜群<br>
+						性能・品質にこだわってます！ </a></li>
+					<li><a href="#"> <span class="num">3</span>
+						<div class="pho"><img src="img/index/sec02_photo03.jpg" alt=""></div>
+						お客様が<span class="corTxt">ご納得いくまで</span><br>
+						とことんお付き合いします！ </a></li>
+				</ul>
+				<div class="comLink"><a href="#">もっと詳しく見る</a></div>
+			</div>
+		</div>
+		<div class="sec03">
+			<div class="content">
+				<h2 class="h2Head"><span class="en">WORKS</span>施工事例</h2>
+				<ul class="worksList clearfix">
+					<li> <a href="#">
+						<div class="pho"><span class="new">NEW</span><img src="img/index/sec03_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="ttl"><span class="mark mark01">注文住宅</span>豊橋市 A様邸</p>
+							<p class="txt">余暇を楽しむ平屋建ての家施工事
+								例のタイトルが入ります施工.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec03_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="ttl"><span class="mark mark02">リフォーム</span>豊橋市 A様邸</p>
+							<p class="txt">余暇を楽しむ平屋建ての家施工事
+								例のタイトルが入ります施工.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec03_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="ttl"><span class="mark mark03">ゼロキューブ</span>豊橋市 A様邸</p>
+							<p class="txt">余暇を楽しむ平屋建ての家施工事
+								例のタイトルが入ります施工.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec03_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="ttl"><span class="mark mark01">注文住宅</span>豊橋市 A様邸</p>
+							<p class="txt">余暇を楽しむ平屋建ての家施工事
+								例のタイトルが入ります施工.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec03_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="ttl"><span class="mark mark02">リフォーム</span>豊橋市 A様邸</p>
+							<p class="txt">余暇を楽しむ平屋建ての家施工事
+								例のタイトルが入ります施工.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec03_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="ttl"><span class="mark mark03">ゼロキューブ</span>豊橋市 A様邸</p>
+							<p class="txt">余暇を楽しむ平屋建ての家施工事
+								例のタイトルが入ります施工.....</p>
+						</div>
+						</a></li>
+				</ul>
+				<div class="comLink"><a href="#">一覧でもっと見る</a></div>
+			</div>
+		</div>
+		<div class="sec04">
+			<div class="content">
+				<h2 class="h2Head"><span class="en">VOICE</span>お客様の声</h2>
+				<ul class="voiceList clearfix">
+					<li> <a href="#">
+						<div class="pho"><span class="new">NEW</span><img src="img/index/sec04_photo01.jpg" alt=""></div>
+						<p class="txt">コストパフォーマンスとセンスの高さで理想の家づくりができました！</p>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec04_photo01.jpg" alt=""></div>
+						<p class="txt">コストパフォーマンスとセンスの高さで理想の家づくりができました！</p>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec04_photo01.jpg" alt=""></div>
+						<p class="txt">コストパフォーマンスとセンスの高さで理想の家づくりができました！</p>
+						</a></li>
+				</ul>
+				<div class="comLink"><a href="#">一覧でもっと見る</a></div>
+			</div>
+		</div>
+		<div class="sec05">
+			<h2 class="h2Head"><span class="ico"><span class="en">BLOG</span>ブログ</span></h2>
+			<div class="content">
+				<ul class="blogList clearfix">
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec05_photo01.jpg" alt=""><span class="new">NEW</span></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark01">住まいのこだわり</span></p>
+							<p class="ttl dot">Facebookはじめました！</p>
+							<p class="txt dot">突然ですが、家づくりは、「建てる」と決意したは
+								いいものの、何から始めればいいのかわからない
+								という経験ありませんか？一生で多くて.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec05_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark02">ここすもとは</span></p>
+							<p class="ttl dot">建築家と創る家づくり”は楽しい時間建築家と創る家づくり”は楽しい.....</p>
+							<p class="txt dot">突然ですが、家づくりは、「建てる」と決意したは
+								いいものの、何から始めればいいのかわからない
+								という経験ありませんか？一生で多くて.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec05_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark03">お客様の声</span></p>
+							<p class="ttl dot">Facebookはじめました！</p>
+							<p class="txt dot">突然ですが、家づくりは、「建てる」と決意したは
+								いいものの、何から始めればいいのかわからない
+								という経験ありませんか？一生で多くて.....</p>
+						</div>
+						</a></li>
+					<li> <a href="#">
+						<div class="pho"><img src="img/index/sec05_photo01.jpg" alt=""></div>
+						<div class="txtBox">
+							<p class="date">2017.08.09<span class="mark mark04">スタッフ紹介</span></p>
+							<p class="ttl dot">建築家と創る家づくり”は楽しい時間建築家と創る家づくり”は楽しい.....</p>
+							<p class="txt dot">突然ですが、家づくりは、「建てる」と決意したは
+								いいものの、何から始めればいいのかわからない
+								という経験ありませんか？一生で多くて.....</p>
+						</div>
+						</a></li>
+				</ul>
+				<div class="comLink"><a href="#">一覧でもっと見る</a></div>
+			</div>
+		</div>
+		<div class="sec06">
+			<div class="content clearfix">
+				<div class="facebook">
+					<h2><img src="img/index/sec06_h2_img01.png" alt=""><a href="#">FOLLOW US</a></h2>
+					<div class="face"><img src="img/index/sec06_facebook.jpg" alt=""></div>
+				</div>
+				<div class="instagram">
+					<h2><img src="img/index/sec06_h2_img02.png" alt=""><a href="#">FOLLOW US</a></h2>
+					<div class="area">
+						<ul id="instafeed">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- #BeginLibraryItem "/Library/footer.lbi" -->
+	<footer id="gFooter">
+		<div class="pageTop"><a href="#gHeader">ページトップ</a></div>
+		<div class="topBox clearfix">
+			<div class="ttlBox">
+				<div class="fLogo"><a href="index.html"><img src="img/common/f_logo.png" alt="ここすも"></a></div>
+				<div class="link"><a href="#"><span>メールでのお問い合わせ</span></a></div>
+			</div>
+			<div class="telBox">
+				<div class="tel"><span class="sml">お住まいのご相談・お問い合わせは</span>tel <span class="num">0533-75-6905</span></div>
+				<p class="time">受付時間 9:00から18:00 土日祝定休</p>
+			</div>
+			<div class="txtBox">
+				<p class="ttl">株式会社山豊工建</p>
+				<ul class="txtUl clearfix">
+					<li>ここすも豊田事業部</li>
+					<li>ここすも豊川事業部</li>
+					<li>ここすも豊橋事業部</li>
+					<li>ここすも千種事業部</li>
+					<li>ここすも高浜事業部</li>
+					<li>ここすも春日井事業部</li>
+				</ul>
+			</div>
+		</div>
+		<div class="naviBox">
+			<div class="fNavi clearfix">
+				<ul>
+					<li class="ttl wid01"><a href="#">私たちの家づくり</a></li>
+					<li class="wid02">
+						<ul class="subNavi">
+							<li><a href="about.html">ここすもハウスとは</a></li>
+							<li><a href="#">私たちの家づくり</a></li>
+							<li><a href="#">性能と構造</a></li>
+						</ul>
+					</li>
+					<li class="wid03">
+						<ul class="subNavi">
+							<li><a href="#">家づくりの流れ</a></li>
+							<li><a href="#">施工事例</a></li>
+							<li><a href="#">お客様の声</a></li>
+						</ul>
+					</li>
+					<li class="wid04">
+						<ul class="subNavi">
+							<li><a href="modelhouse.html">モデルハウス</a></li>
+						</ul>
+					</li>
+					<li class="ttl wid05"><a href="#">会社情報</a></li>
+					<li class="wid06">
+						<ul class="subNavi">
+							<li><a href="profile.html">会社概要</a></li>
+							<li><a href="#">グループ概要</a></li>
+							<li><a href="#">代表挨拶</a></li>
+						</ul>
+					</li>
+					<li class="wid07">
+						<ul class="subNavi">
+							<li><a href="#">お知らせ</a></li>
+							<li><a href="#">採用情報</a></li>
+							<li><a href="#">スタッフの紹介</a></li>
+						</ul>
+					</li>
+					<li class="wid08">
+						<ul class="subNavi">
+							<li><a href="#">事業所紹介</a></li>
+							<li><a href="contact">お問い合わせ</a></li>
+							<li><a href="#">プライバシーポリシー</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="linkBox">
+			<ul class="fLink clearfix">
+				<li><a href="#"><img src="img/common/f_link01.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link02.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link03.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link04.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link05.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link06.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link07.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link08.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link09.jpg" alt=""></a></li>
+				<li><a href="#"><img src="img/common/f_link10.jpg" alt=""></a></li>
+			</ul>
+		</div>
+		<p class="copyright">Copyrights&copy; cocosumo. All Rights Reserved.</p>
+	</footer>
+	<!-- #EndLibraryItem --></div>
+<script type="text/javascript">
+   var userFeed = new Instafeed({
+    get: 'user',
+
+    userId: '5384113212',
+    accessToken: '5384113212.ba4c844.7ba1b6fc407d43b4a4fcdba7b9c87a04',
+    resolution: 'standard_resolution',
+    template: '<li><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}"></li>',
+    sortBy: 'most-recent',
+    limit: 6,
+    links: false,
+	resolution: 'thumbnail'
+  });
+  userFeed.run();
+</script>
+</body>
+</html>

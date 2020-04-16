@@ -1,0 +1,1923 @@
+@charset "utf-8";
+
+
+/* ============================================================
+
+    style info : マイページ系画面で使用するスタイルを記述
+
+============================================================ */
+
+/* --------------------------------
+	font-size
+
+		10px ： 84%
+		11px ： 92%
+		12px ： 100%
+		13px ： 109%
+		14px ： 117%
+		15px ： 125%
+		16px ： 134%
+		17px ： 142%
+		18px ： 150%
+		19px ： 159%
+		20px ： 167%
+		22px ： 184%
+		24px ： 200%
+		26px ： 217%
+		28px ： 234%
+		30px ： 250%
+		32px ： 267%
+		36px ： 300%
+		40px ： 334%
+-------------------------------- */
+
+
+/* --------------------------------
+    background-image,
+    image substitute
+-------------------------------- */
+
+ul.centerList li,
+.bgN {
+	background: transparent url(../images/mypage_n.png) no-repeat;
+}
+.subN {
+	display: block;
+	background: transparent url(../images/mypage_n.png) no-repeat;
+	font-size: 1px;
+	text-align: left;
+	text-indent: -9999em;
+	/*\*/
+	overflow: hidden;
+	/**/
+}
+
+
+/* -----------------------------------
+    入試プランナー
+----------------------------------- */
+
+#planner #main {
+	width: 960px;
+}
+
+/* .plannerLead */
+.plannerLead {
+    margin: 0px 1px 15px 1px;
+    padding: 1px 0px;
+    background: #ff6187;
+}
+.plannerLead .inner {
+    margin: 0px -1px;
+	padding: 5px;
+	background: #ff6187;
+}
+.plannerLead .data {
+	position: relative;
+	display: inline;
+	float: left;
+	width: 190px;
+	color: #fff;
+	text-align: left;
+}
+.plannerLead .data h2 {
+	width: 190px;
+	height: 29px;
+	margin: 4px 0 2px 0;
+	background-position: 0 0;
+}
+.plannerLead .data span.num {
+	position: absolute;
+	left: 155px;
+	top: 10px;
+}
+.plannerLead .data p.name {
+	margin-left: 5px;
+}
+.plannerLead .data p.name span {
+	font-size: 84%;
+}
+.plannerLead .data p.deviation {
+	display: inline;
+	float: left;
+	margin: 0 0 3px 5px;
+}
+.plannerLead .data p.edit {
+	float: right;
+	margin-bottom: 3px;
+	font-size: 84%;
+}
+.plannerLead .data p.edit a {
+	color: #fff;	
+}
+.plannerLead .data p.switch {
+	clear: both;
+	text-align: right;
+}
+.plannerLead .data p.switch a {
+	width: 127px;
+	height: 17px;
+	margin-left: auto;
+	background-position: -200px 0;
+}
+.plannerLead .data p.switch a:hover {
+	background-position: -200px -20px;
+}
+
+.plannerLead ol.step {
+	display: inline;
+	float: right;
+	width: 710px;
+	padding: 10px 15px;
+	background: #fff;
+	text-align: left;
+}
+.plannerLead ol.step li {
+	display: inline;
+	float: left;
+	width: 340px;
+	color: #666;
+}
+.plannerLead ol.step li.step02 {
+	display: inline;
+	float: left;
+	width: 340px;
+	border-left: dotted 1px #ff6187;
+	margin-left: 15px;
+	padding-left: 14px;
+}
+.plannerLead ol.step li div {
+	margin-bottom: 3px;
+	color: #ff6187;
+	font-weight: bold;
+}
+
+
+/* #examPlanner */
+.exToday {
+	margin: 7px 0;
+	font-size: 84%;
+	text-align: right;
+}
+.exToday span {
+	padding-left: 5px;
+	border-left: solid 5px #fde8e7;
+}
+
+#calendarHead {
+	position: relative;
+	z-index: 1000;
+    margin: 0px 1px;
+    padding: 1px 0 0 0;
+    background: #838383;
+}
+#calendarFoot {
+	position: relative;
+	z-index: 900;
+    margin: 0 1px;
+    padding: 0 0 1px 0;
+    background: #838383;
+}
+#calendarHead .inner,
+#calendarFoot .inner {
+	position: relative;
+    margin: 0px -1px;
+	padding: 4px 8px;
+	background: #838383;
+	zoom: 1;
+}
+
+#calendarBody {
+	position: relative;
+	z-index: 900;
+	background: #838383;
+	padding: 0 8px;
+}
+#calendarBody .inner {
+	border: solid 2px #fff;
+	background: #fff url(../images/bg_planner_timeline.png) 0 0 repeat-y;
+	zoom: 1;
+}
+#calendarBody .today {
+	background: transparent url(../images/bg_planner_today.png) 0 0 repeat-y;
+}
+
+.calendarNav ul {
+	background: transparent url(../images/bg_planner_timeline.png) -1878px 0 repeat-y
+}
+.calendarNav ul li {
+	display: inline;
+	float: left;
+	width: 157px;
+	color: #fff;
+	font-size: 117%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.3;
+}
+#calendarHead ul li {
+	padding: 3px 0 2px 0;
+}
+#calendarFoot ul li {
+	padding: 5px 0 0 0;
+}
+.calendarNav ul li span {
+	display: block;
+	font-size: 72%;
+	font-weight: normal;
+}
+.calendarNav p.next,
+.calendarNav p.prev {
+	position: absolute;
+	top: 10px;
+	float: none;
+	width: auto;
+}
+.calendarNav p.prev {
+	left: 8px;
+}
+.calendarNav p.next {
+	right: 8px;
+}
+.calendarNav p.prev a,
+.calendarNav p.next a {
+	width: 40px;
+	height: 25px;
+}
+.calendarNav p.prev a {
+	background-position: -340px -40px;
+}
+.calendarNav p.prev a:hover {
+	background-position: -340px -70px;
+}
+.calendarNav p.next a {
+	background-position: -390px -40px;
+}
+.calendarNav p.next a:hover {
+	background-position: -390px -70px;
+}
+
+#calendarBody .target {
+	position: relative;
+}
+#calendarBody .univInfo .catch,
+#calendarBody .univInfo .catch p,
+#calendarBody .univInfo h3,
+#calendarBody .examInfo p {
+	display: inline;
+}
+#calendarBody .univInfo {
+	position: relative;
+	padding: 7px;
+	background: url(../images/bg_check_blud.png) 0 0 repeat;
+	line-height: 1.3;
+	zoom: 1;
+}
+#calendarBody .univInfo .catch {
+	display: inline-block;
+	padding: 4px 6px 2px 6px;
+	background: #fff;
+	margin-right: 15px;
+}
+#calendarBody .univInfo .catch p.rank {
+	font-size: 134%;
+	font-weight: bold;
+	color: #f66;
+}
+#calendarBody .univInfo .catch p.candidate {
+	font-size: 100%;
+	font-weight: bold;
+	color: #666;
+}
+#calendarBody .univInfo .catch p.change {
+	margin-left: 6px;
+	font-size: 84%;
+}
+#calendarBody .univInfo .catch p.change a {
+	padding-left: 6px;
+	background-position: 0 -3746px;
+	background-repeat: no-repeat;
+	color: #333;
+}
+#calendarBody .univInfo h3 {
+	font-size: 134%;
+}
+#calendarBody .univInfo h3 span {
+	font-weight: normal;
+}
+#calendarBody .univInfo p.moreLink {
+	position: absolute;
+	right: 7px;
+	bottom: 10px;
+}
+#calendarBody .univInfo p.moreLink a {
+	background-position: 0 4px;
+}
+
+#calendarBody .examInfo {
+	position: relative;
+	padding: 7px;
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px #eee;
+	background: #fff;
+}
+#calendarBody .examInfo p.type {
+	display: inline-block;
+	margin-right: 7px;
+	vertical-align: text-bottom;
+}
+#calendarBody .examInfo p.minCloseLink {
+	position: absolute;
+	right: 7px;
+	top: 10px;
+	font-size: 84%;
+}
+#calendarBody .examInfo p.minCloseLink a {
+	padding: 0 0 3px 18px;
+}
+#calendarBody .timeLine {
+	overflow: hidden;
+	width: 940px;
+	padding: 2px 0;
+}
+
+/* ▼▼2011/10/19追加・修正▼▼ */
+#calendarBody .timeLine .event {
+	overflow: hidden;
+	position: relative;
+	/* height: 16px; */
+	margin: 8px 0;
+	font-size: 84%;
+	line-height: 16px;
+	/* white-space: nowrap; */
+}
+#calendarBody .timeLine .event p {
+	position: relative;
+	overflow: hidden;
+/*
+	position: absolute;
+	left: 0;
+	top: 0;
+*/
+}
+
+#calendarBody .timeLine .event p.date {
+	padding-left: 10px;
+}
+
+#calendarBody .timeLine .event p span.point,
+#calendarBody .timeLine .event p span.bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#calendarBody .timeLine .event p span.point {
+	top: 5px;
+}
+
+#calendarBody .timeLine .event p.dateOut,
+#calendarBody .timeLine .event p.termOut {
+	position: relative;
+	height: 16px;
+}
+#calendarBody .timeLine .event p.dateOut span.point,
+#calendarBody .timeLine .event p.termOut span.bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#calendarBody .timeLine .event p.dateOut span.point {
+	top: 5px;
+}
+#calendarBody .timeLine .event p.dateOut span.desc,
+#calendarBody .timeLine .event p.termOut span.desc {
+	position: absolute;
+	left: auto;
+	right: 0;
+	top: 0;
+}
+#calendarBody .timeLine .event p.termOut span.desc {
+	top: 2px;
+}
+
+#calendarBody .timeLine .event a {
+	margin-left: 5px;
+	padding: 3px 3px 2px 10px;
+	background-color: #f7f5e8;
+	background-position: 3px 6px;
+	background-repeat: no-repeat;
+}
+
+#calendarBody .timeLine p.date span.point {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background: url(../images/common_x.png) 0 0 no-repeat;
+	/* margin-right: 1px; */
+	vertical-align: middle;
+}
+
+#calendarBody .timeLine p.term span.bar {
+	display: inline-block;
+	height: 16px;
+	/* margin-right: 1px; */
+	vertical-align: text-bottom;
+}
+/* ▲▲2011/10/19追加・修正▲▲ */
+
+#calendarBody .timeLine .entry {
+	color: #990;
+}
+#calendarBody .timeLine .entry p.date span.point {
+	background-position: 0 -4950px !important;
+}
+#calendarBody .timeLine .entry p.term span.bar {
+	background: #f1f69b;
+}
+#calendarBody .timeLine .exam {
+	color: #090;
+}
+#calendarBody .timeLine .exam p.date span.point {
+	background-position: 0 -5050px !important;
+}
+#calendarBody .timeLine .exam p.term span.bar {
+	background: #a8e291;
+}
+#calendarBody .timeLine .announce {
+	color: #f00;
+}
+#calendarBody .timeLine .announce p.date span.point {
+	background-position: 0 -5150px !important;
+}
+#calendarBody .timeLine .announce p.term span.bar {
+	background: #ffacac;
+}
+#calendarBody .timeLine .procedure {
+	color: #ffa200;
+}
+#calendarBody .timeLine .procedure p.date span.point {
+	background-position: 0 -5250px !important;
+}
+#calendarBody .timeLine .procedure p.term span.bar {
+	background: #fecd67;
+}
+
+
+/* recommend */
+#calendarBody .recommend {
+	background: #fff8e2 url(../images/bg_planner_timeline.png) -940px 0 repeat-y;
+}
+#examPlanner #calendarBody .recommend .today {
+	background: transparent url(../images/bg_planner_today_recommend.png) 0 0 repeat-y;
+}
+#calendarBody .recommend .title {
+	padding: 5px 10px;
+	background: #ff9c00;
+	color: #fff;
+}
+#calendarBody .recommend .title span {
+	font-weight: bold;
+	margin-right: 3em;
+}
+#calendarBody .recommend .univInfo {
+	background: #ffe8a1;
+}
+#calendarBody .recommend .univInfo .catch {
+	font-size: 134%;
+	font-weight: bold;
+	color: #f90;
+}
+#calendarBody .recommend .univInfo p.add {
+	position: absolute;
+	right: 7px;
+	top: 10px;
+}
+#calendarBody .recommend .examInfo {
+	border-top: solid 1px #f3e5bb;
+	border-bottom: solid 1px #f3e5bb;
+	background: #fff8e2;
+}
+
+/* unset */
+#calendarBody .unset .timeLine {
+	position: relative;
+	height: auto;
+	padding: 12px 0;
+	background: #fff;
+	color: #999;
+	font-size: 117%;
+	font-weight: bold;
+	text-align: center;
+}
+#calendarBody .unset .timeLine p.set {
+	margin-top: 5px;
+}
+#calendarBody .unset .timeLine p.set a {
+	width: 142px;
+	height: 32px;
+	margin: 0 auto;
+	background-position: -1050px 0;
+}
+#calendarBody .unset .timeLine p.set a:hover {
+	background-position: -1050px -50px;
+}
+#planner ul.actionButtons li {
+	display: inline;
+	float: left;
+	margin: 0 10px;
+}
+#planner ul.actionButtons li.search a {
+	width: 212px;
+	height: 42px;
+	background-position: -450px 0;
+	margin-left: 249px;
+}
+#planner ul.actionButtons li.search a:hover {
+	background-position: -450px -50px;
+}
+#planner ul.actionButtons li.print a {
+	width: 212px;
+	height: 42px;
+	background-position: -670px 0;
+}
+#planner ul.actionButtons li.print a:hover {
+	background-position: -670px -50px;
+}
+
+
+/* modal panel */
+#setPlanPanel table.dataTable thead th {
+	vertical-align: middle;
+	white-space: nowrap;
+}
+#setPlanPanel th.type,
+#setPlanPanel th.num {
+	width: 60px;
+}
+/* ▼▼2011/9/29追加・修正▼▼ */
+#setPlanPanel .set {
+	margin: -15px 0 30px 0;
+}
+#setPlanPanel .set a {
+	width: 222px;
+	height: 32px;
+	margin: 0 auto;
+	background-position: -1200px 0;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+#setPlanPanel .set a:hover{
+	background-position: -1200px -50px;
+}
+/* ▼▼2011/9/29追加・修正▼▼ */
+#setPlanPanel .error {
+	border: solid 1px #f00;
+	margin-bottom: 30px;
+	padding: 15px 10px;
+	color: #f00;
+	font-size: 109%;
+	font-weight: bold;
+	text-align: center;
+}
+#setPlanPanel p.addLink {
+	margin: 15px 0 12px 0;
+	font-weight: bold;
+	font-size: 109%;
+	text-align: center;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+
+/* -----------------------------------
+    センター試験
+----------------------------------- */
+
+.center #main {
+	width: 960px;
+}
+.centerPict {
+	position: absolute;
+	left: 840px;
+	top: 20px;
+	z-index: 100;
+}
+
+/* 科目設定画面 */
+.centerTest {
+	margin: 30px 0;
+	padding: 20px;
+	border: solid 1px #c1e9fe;
+	background: #effcff; 
+}
+.centerTest .basicTitle04 .title {
+	font-size: 150%;
+}
+.centerTest .lead {
+	margin-bottom: 15px;
+	font-size: 117%;
+}
+
+.centerSelect  {
+	padding: 20px 10px 10px 10px;
+	background: #fff;
+}
+.centerSelect h4  {
+	text-align: center;
+	font-size: 150%;
+	margin-bottom: 20px; 
+}
+.centerSelect ul  {
+	margin: 0 auto;
+	width: 865px;
+}
+.centerSelect ul li {
+	text-align: center;
+	float: left;
+	width: 115px;
+	margin: 0 10px 10px 0;
+	background: #e0f0ff;
+	font-size: 150%;
+	font-weight: bold;
+}
+.centerSelect ul li.over,
+.centerSelect ul li.checked {
+	background: #bbe0ff;
+}
+.centerSelect ul li label {
+	padding: 15px 0 0 0;
+	width: 115px;
+	height: 90px;
+	display: block;
+}
+.centerSelect ul li input {
+	margin-bottom: 15px;
+}
+.centerSelect ul li.last {
+	margin-right: 0;
+}
+.centerSelect input.set {
+	background-position: -1450px 0;
+	width: 152px;
+	height: 42px;
+	margin: 10px auto;
+}
+.centerSelect input.set:hover {
+	background-position: -1450px -50px;
+	cursor: pointer;
+}
+.centerSelect p.note {
+	text-align: right;
+	margin-top: -40px;
+	width: 350px;
+	float: right;
+}
+
+/* 科目、分野選択画面、正答率画面 */
+#centerTestSelect .basicTitle05 .title {
+	font-size: 100%;
+}
+#centerTestSelect .basicTitle05 .title h2 {
+	display: inline;
+	font-size: 167%;
+}
+#centerTestSelect .basicTitle05 .title span {
+	margin-left: 30px;
+}
+#centerTestSelect .basicTitle05 p {
+	line-height: 1.8;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+#centerTestSelect .basicTitle05 span {
+	color: #333;
+	font-size: 117%;
+	font-weight: bold;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+p.selectSubject {
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.subjectSet {
+	margin-bottom: 25px;
+}
+.subjectSet .subjectTitle {
+	float: left;
+	width: 60px;
+	padding: 5px 4px;
+	background: #666;
+	border: solid 1px #666;
+	border-right: solid 1px #ccc;
+	color: #fff;
+	text-align: center;
+	line-height: 1.3;
+}
+.subjectSet .subjectTitle h3 {
+	min-height: 2.8em;
+	height: auto !important;
+	height: 2.8em;
+	padding-top: 5px;
+	font-size: 134%;
+}
+.subjectSet .subjectTitle p {
+	margin-top: 6px;
+	color: #ccc;
+	font-size: 75%;
+}
+.subjectSet .subjectTitle p.perTitle {
+	width: 49px;
+	height: 18px;
+	background-position: -970px -100px;
+	margin: 0 auto -4px auto;
+}
+.subjectSet .subjectTitle p.per {
+	margin-top: 0;
+	color: #fff;
+	font-family: Arial;
+	font-size: 109%;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+ul.centerList {
+	margin: 0;
+	padding: 0;
+}
+ul.centerList li {
+	float: left;
+	width: 78px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	border-top: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	font-weight: bold;
+	line-height: 1.3;
+}
+ul.centerList li.try {
+	background-position: -2500px bottom;
+	background-color: #fff;
+}
+/* ▼▼2011/09/06 Rで独自追加・修正▼▼ */
+ul.centerList li.blank {
+	background-position: -2500px bottom;
+	background-color: #fff;
+}
+
+ul.centerList li.blankOver {
+	background-position: -2600px bottom;
+	background-color: #f0f0ef;
+	cursor: pointer;
+}
+/* ▲▲2011/09/06 Rで独自追加・修正▲▲ */
+ul.centerList li.tryOver {
+	background-position: -2600px bottom;
+	background-color: #f0f0ef;
+	cursor: pointer;
+}
+ul.centerList li.allClear {
+	background-position: -2700px bottom;
+	background-color: #fff0f0;
+}
+ul.centerList li.allClearOver {
+	background-position: -2800px bottom;
+	background-color: #fed7db;
+	cursor: pointer;
+}
+ul.centerList li.retry {
+	background-position: -2900px bottom;
+	background-color: #f1fcff;
+}
+ul.centerList li.retryOver {
+	background-position: -3000px bottom;
+	background-color: #f1fcff;
+	cursor: pointer;
+}
+
+ul.centerList li .mode {
+	margin-bottom: 10px;
+	text-align: center;
+}
+ul.centerList li .mode span,
+ul.centerList li .mode a {
+	margin: 0 auto;
+	height: 21px;
+}
+ul.centerList li.try .mode span {
+	width: 71px;
+	background-position: -1030px -100px;
+}
+/* ▼▼2011/09/06 Rで独自追加・修正▼▼ */
+ul.centerList li.blank .mode span {
+	width: 71px;
+	background: none;
+}
+/* ▲▲2011/09/06 Rで独自追加・修正▲▲ */
+ul.centerList li.allClear .mode span {
+	width: 71px;
+	background-position: -1110px -100px;
+}
+ul.centerList li.retry .mode a {
+	width: 78px;
+	background-position: -1190px -100px;
+}
+ul.centerList li.retry .mode a:hover {
+	background-position: -1270px -100px;
+}
+ul.centerList li p.title {
+	min-height: 4em;
+	height: auto !important;
+	height: 4em;
+	text-align: center;
+}
+ul.centerList li p.userPer,
+ul.centerList li p.memberPer {
+	padding: 5px 0;
+	color: #666;
+	font-family: Arial;
+	font-size: 109%;
+}
+ul.centerList li.try p.userPer {
+	border-bottom: solid 1px #dfdfdd;
+}
+/* ▼▼2011/09/06 Rで独自追加・修正▼▼ */
+ul.centerList li.blank p.userPer {
+	border-bottom: solid 1px #dfdfdd;
+}
+/* ▲▲2011/09/06 Rで独自追加・修正▲▲ */
+ul.centerList li.allClear p.userPer {
+	border-bottom: solid 1px #f0c9ce;
+}
+ul.centerList li.retry p.userPer {
+	border-bottom: solid 1px #c5def2;
+}
+ul.centerList li.try p.memberPer {
+	border-top: solid 1px #fff;
+}
+/* ▼▼2011/09/06 Rで独自追加・修正▼▼ */
+ul.centerList li.blank p.memberPer {
+	border-top: solid 1px #fff;
+}
+/* ▲▲2011/09/06 Rで独自追加・修正▲▲ */
+ul.centerList li.allClear p.memberPer {
+	border-top: solid 1px #ffe1e3;
+}
+ul.centerList li.retry p.memberPer {
+	border-top: solid 1px #daf0ff;
+}
+ul.centerList li .userPer span {
+	color: #999;
+	font-size: 72%;
+	font-weight: normal;
+}
+.centerListHowto {
+	margin-bottom: 45px;
+	border: solid 3px #dbecf7;
+	background: #dbecf7;
+}
+.centerListHowto div {
+	display: inline;
+	float: left;
+	width: 128px;
+	height: 16px;
+	background-position: -1360px -100px;
+	margin: 80px 0 0 11px;
+}
+.centerListHowto p {
+	float: right;
+}
+
+/* 問題画面 */
+.centerBox {
+	padding: 0 10px 10px 10px;
+	border-top: solid 4px #cfe9fe;
+	/* background: url(../images/bg_check_blu.png) 0 0 repeat; */
+	background: #dceffe;
+}
+.centerBox h2 {
+	padding: 10px 0;
+	font-size: 167%;
+}
+#centerBoxInner {
+	background-position: -6850px 0;
+}
+.centerBox div.title {
+	margin-bottom: 2px;
+	padding-bottom: 10px;
+	border-bottom: solid 3px #e1e1e1;
+	line-height: 1.3;
+}
+.centerBox .title h3 {
+	display: inline;
+	margin-right: 30px;
+	font-size: 134%;
+}
+.centerBox .title p.mode {
+	display: inline-block;
+	padding: 3px;	
+	font-size: 84%;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.centerBox .title p.try {
+	background: #999;
+	color: #fff;
+}
+.centerBox .title p.retry {
+	background: #e2f3ff;
+	color: #333;
+}
+
+#centerQuestion {
+	float: left;
+	width: 600px;
+	padding: 15px;
+}
+#centerQuestion .lead {
+	padding-top: 28px;
+	background-position: -6200px 0;
+	background-repeat: no-repeat;
+}
+#centerQuestion ul {
+	margin-bottom: 10px;
+}
+#centerQuestion ul li {
+	margin-top: 20px;
+	padding-top: 30px;
+	border-top: dotted 1px #69c;
+}
+
+#centerQuestion .answer {
+	margin: 10px 0 10px 60px;
+	border: solid 5px #fff0f0;
+}
+#centerQuestion .answer .summary {
+	padding: 15px 10px;
+	border-bottom: solid 2px #fff0f0;
+}
+#centerQuestion .answer .summary p {
+	display: inline;
+	margin-left: 30px;
+}
+#centerQuestion .answer .summary .result {
+	font-size: 150%;
+	font-weight: bold;
+}
+#centerQuestion .answer .summary .result,
+#centerQuestion .answer .summary p {
+	display: inline;
+}
+#centerQuestion .answer .summary p span {
+	color: #f33;
+}
+#centerQuestion .answer .summary p.icon {
+	display: inline-block;
+	margin-left: 15px;
+}
+#centerQuestion .answer .ex {
+	padding: 10px;
+}
+#centerQuestion .answer .ex p.title {
+	display: inline;
+	padding: 3px 6px;
+	background: #fff0f0;
+	font-weight: bold;
+}
+#centerQuestion .answer .ex p.desc {
+	padding-top: 5px;
+}
+
+
+#markSheet {
+	float: right;
+	width: 300px;
+	padding: 15px 0;
+	text-align: left;
+}
+#markSheet h3 {
+	padding: 0 5px 10px 5px;
+	font-size: 134%;
+	text-align: center;
+}
+#markSheet h3.input {
+	border-bottom: dotted 1px #69c;
+}
+#markSheet .question {
+	padding: 10px 5px;
+	border-bottom: dotted 1px #69c;
+}
+#markSheet .question .number {
+	display: inline;
+	float: left;
+	width: 49px;
+	background: #f6f6f6;
+	text-align: center;
+	line-height: 1.3;
+}
+#markSheet .question .number span {
+	display: block;
+	padding: 6px 0 2px 0;
+	color: #666;
+	font-size: 134%;
+	font-weight: bold;
+}
+#markSheet .question .number p.mode {
+	width: 49px;
+	height: 12px;
+}
+#markSheet .question .number p.try {
+	background-position: -1500px -100px;
+}
+#markSheet .question .number p.clear {
+	background-position: -1560px -100px;
+}
+#markSheet .question .number p.retry {
+	background-position: -1620px -100px;
+}
+
+#markSheet .question ul.sheet {
+	display: inline;
+	float: right;
+	width: 225px;
+	text-align: left;
+}
+#markSheet .question ul.sheet li {
+	display: inline;
+	float: left;
+	width: 45px;
+	margin-bottom: 2px;
+	color: #666;
+}
+#markSheet .resultTable {
+	margin: 0 7px;
+}
+#markSheet .resultTable table th,
+#markSheet .resultTable table td {
+	vertical-align: middle;
+	text-align: center;
+}
+#markSheet .resultTable table th {
+	width: 33%;
+	padding: 5px 10px;
+	border-top: dotted 1px #ccc;
+	border-bottom: dotted 1px #ccc;
+	background: #f7f7f7;
+	font-size: 84%;
+}
+#markSheet .resultTable table td {
+	padding: 10px;
+	border-bottom: dotted 1px #ccc;
+	color: #666;
+	font-size: 134%;
+	font-weight: bold;
+}
+#markSheet .resultTable table td.memberPer {
+	padding-right: 20px;
+	text-align: right;
+}
+#markSheet .mainAction {
+	margin: 30px 0;
+	text-align: center;
+}
+#markSheet .mainAction input {
+	width: 162px;
+	height: 32px;
+	margin: 0 auto;
+}
+#markSheet .mainAction input.score {
+	background-position: -3100px 0;
+}
+#markSheet .mainAction input.score:hover {
+	background-position: -3100px -50px;
+	cursor: pointer;
+}
+#markSheet .mainAction input.next {
+	background-position: -3270px 0;
+}
+#markSheet .mainAction input.next:hover {
+	background-position: -3270px -50px;
+	cursor: pointer;
+}
+#markSheet .subAction {
+	color: #666;
+	text-align: center;
+}
+#markSheet .subAction a {
+	background-repeat: no-repeat;
+	margin: 0 20px;
+	font-size: 117%;
+	line-height: 1.3;
+}
+#markSheet .subAction a.skip {
+	padding-left: 10px;
+	background-position: 0 -294px;
+}
+#markSheet .subAction a.finish {
+	padding-left: 12px;
+	background-position: 0 -4844px;
+}
+
+#centerTest p.icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+#centerTest p.clearIcon {
+	background-position: -1700px -100px;
+}
+#centerTest p.missIcon {
+	background-position: -1730px -100px;
+}
+
+.centerPanel {
+	width: 540px;
+	padding: 0 20px 20px 20px;
+}
+.centerPanel h2 {
+	margin: 0 -20px 20px -20px;
+	padding: 20px 20px 15px 20px;
+	border-bottom: dotted 1px #ccc;
+	font-size: 134%;
+}
+.centerPanel h3.basicTitle03 {
+	margin: 40px 0 10px 0;
+	font-size: 100%;
+}
+.centerPanel ul.basicInlineList {
+	margin-left: 15px;
+}
+.centerPanel .message {
+	margin-bottom: 60px;
+	font-size: 117%;
+}
+.centerPanel .cf {
+	margin-bottom: 0;
+}
+.centerPanel .message span {
+	font-weight: bold;
+	margin: 0 5px;
+}
+.centerPanel .image {
+	display: inline;
+	float: left;
+	margin-right: 15px;
+}
+.centerPanel .desc {
+	overflow: hidden;
+}
+
+
+/* -----------------------------------
+    マイページトップ
+----------------------------------- */
+
+/* #mypage */
+#mypage {
+	padding: 0 0 65px 0;
+}
+
+#mypage #main {
+	float: right;
+	width: 730px;
+}
+
+/* #sub */
+#mypage #sub {
+	float: left;
+	width: 210px;
+	padding: 0;
+	background: none;
+}
+
+#mypage #sub .subInner {
+	width: 209px;
+}
+
+#mypage #sub .areaTop {
+	width: 200px;
+	padding: 8px 0 0 0;
+	background-repeat: no-repeat;
+	background-position: -5050px 0;
+}
+
+#mypage #sub .areaTop,
+#mypage #sub .areaTop .inner a {
+	color: #fff;
+}
+
+#mypage #sub .ttl {
+	width: 200px;
+	height: 36px;
+	background-position: 0 -40px;
+}
+
+#mypage #sub .num {
+	margin: -30px 0 0 0;
+	padding: 0 0 8px 130px;
+}
+
+#mypage #sub .areaTop .inner {
+	padding: 5px;
+	background: #ff6283;
+}
+
+#mypage #sub .areaTop .inner a {
+	font-size: 84%;
+}
+
+#mypage #sub .areaTop .inner .info {
+	margin: -15px 0 0 0;
+	text-align: right;
+}
+
+#mypage #sub .areaTop .inner .info a {
+	padding: 0 0 0 8px;
+	background-repeat: no-repeat;
+	background-position: 0 -597px;
+}
+
+#mypage #sub .areaTop .inner p.switchButton {
+	float: right;
+	margin: 5px 0 0 0;
+	text-align: right;
+}
+
+#mypage #sub .areaTop .inner p.switchButton .switchButton {
+	width: 127px;
+	height: 17px;
+	background-position: -200px -50px;
+}
+
+#mypage #sub .areaTop .inner p.switchButton .switchButton:hover {
+	background-position: -200px -70px;
+	cursor: pointer;
+}
+
+#mypage #sub .selected {
+	background: url(../images/arw_pnk.png) no-repeat right center;
+}
+
+#mypage #sub .infoChoiceInner {
+	width: 190px;
+	background: #fff;
+	border-left: 5px solid #FF6283;
+	border-right: 5px solid #FF6283;
+	border-bottom: 5px solid #FF6283;
+}
+
+#mypage #sub .over .infoChoiceInner,
+#mypage #sub .selected .infoChoiceInner {
+	background: #fff3f3;
+	cursor: pointer;
+}
+#mypage #sub .over .others {
+	background: #efefef;
+	cursor: pointer;
+}
+
+#mypage #sub .infoChoice span.ttl {
+	width: auto;
+	height: auto;
+	float: left;
+	font-size: 117%;
+	font-weight: bold;
+	color: #ff6666;
+}
+#mypage #sub .others span.ttl {
+	font-size: 100%;
+	color: #666;
+}
+
+#mypage #sub .infoChoice span.option {
+	float: right;
+	padding: 1px 0 0 0;
+	font-size: 84%;
+}
+
+#mypage #sub .infoChoice span.option,
+#mypage #sub .infoChoice span.option a {
+	color: #666;
+}
+
+#mypage #sub .infoChoice span.option a.change {
+	padding: 0 0 0 8px;
+	background-repeat: no-repeat;
+	background-position: 0 -3746px;
+}
+
+#mypage #sub .infoChoice .top {
+	padding: 5px 8px;
+	border-bottom: 1px solid #ffd1c1;
+	background-position: -5260px 0;
+	background-repeat: no-repeat;
+}
+#mypage #sub .infoChoice .others .top {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#mypage #sub .infoChoice .inner {
+	padding: 8px 3px 3px 8px;
+}
+
+#mypage #sub .infoChoice .inner .name {
+	font-weight: bold;
+}
+
+#mypage #sub .infoChoice .inner .link {
+	float: right;
+	margin: 4px 0 0 0;
+}
+
+#mypage #sub .infoChoice .inner .link .checkLink {
+	display: none;
+	padding: 0 0 0 10px;
+	background-repeat: no-repeat;
+	background-position: 0 -4246px;
+}
+
+#mypage #sub .infoChoice .inner .link .scheButton {
+	display: none;
+	width: 97px;
+	height: 17px;
+	background-position: -340px 0;
+}
+
+#mypage #sub .infoChoice .inner .link .scheButton:hover {
+	background-position: -340px -20px;
+	cursor: pointer;
+}
+
+#mypage #sub .infoChoice .inner .link .on {
+	display: block;
+}
+
+#mypage #sub .searchMore {
+	width: 200px;
+	padding: 20px 0;
+	background: #ff6283;
+}
+
+#mypage #sub .searchMore .searchButton {
+	width: 152px;
+	height: 32px;
+	margin: 0 auto;
+	background-position: -890px 0;
+}
+
+#mypage #sub .searchMore .searchButton:hover {
+	background-position: -890px -50px;
+	cursor: pointer;
+}
+
+/* .areaAd */
+.areaAd {
+	width: 728px;
+	height: 20px;
+	margin: 0 0 25px 0;
+	padding: 35px 0;
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #f6f6f6;
+}
+
+/* #choicePanel */
+p.choicePanelOpen {
+	margin-bottom: 40px;
+	text-align: right;
+}
+#choicePanel {
+	margin: 0 0 40px 0;
+	border: 2px solid #ff3333;
+}
+
+#choicePanel .inner {
+	padding: 15px 10px;
+	border-bottom: 1px dotted #ff9999;
+}
+
+#choicePanel .inner p.mark {
+	float: left;
+	width: 84px;
+	height: 15px;
+	margin: 0 19px 0 0;
+	padding: 37px 0;
+	text-align: center;
+	background: url(../images/bg_check_pnk.png) repeat left top;
+}
+
+#choicePanel .inner .infoArea {
+	float: left;
+	width: 520px;
+	margin: 7px 0 0 0;
+}
+
+#choicePanel .inner .infoArea p.name {
+	margin: 0 0 8px 0;
+	font-size: 117%;
+	font-weight: bold;
+}
+
+#choicePanel .inner .infoArea p.info,
+#choicePanel .inner .infoArea p.term {
+	color: #666;
+}
+
+#choicePanel .inner .infoArea p.info {
+	margin: 0 0 6px 0;
+}
+
+#choicePanel .inner .infoArea p.term span {
+	color: #ff9900;
+	padding: 0 0 0 20px;
+	background: url(../images/common_x.png) 0 -4150px no-repeat;
+}
+
+#choicePanel p.close {
+	padding: 5px 10px 5px 0;
+	text-align: right;
+}
+
+#choicePanel p.close a {
+	padding: 0 0 0 18px;
+	background-repeat: no-repeat;
+	background-position: 0 -2399px;
+}
+
+#choicePanel .inner .btnArea {
+	float: right;
+	width: 72px;
+	margin: 7px 0 0 0;
+	text-align: right;
+}
+
+#choicePanel .inner .btnArea p.date {
+	margin: 0 0 17px 0;
+	font-size: 84%;
+	color: #666;
+}
+
+#choicePanel .inner .btnArea .btn a {
+	width: 72px;
+	height: 32px;
+}
+
+/* .newInfo */
+.newInfo {
+	padding: 15px;
+	border-bottom: 1px dotted #a1c7e5;
+}
+.newInfo p.date {
+	margin: 0 0 12px 0;
+}
+
+.newInfo p.date span {
+	padding: 4px 6px;
+	background: #fffada;
+}
+
+.newInfo p.txt {
+	font-size: 117%;
+}
+
+.newInfo p.txt span.school {
+	font-weight: bold;
+}
+
+.newInfo p.txt span.percent {
+	color: #ff3333;
+}
+
+/* ▼▼2011/9/29追加・修正▼▼ */
+.newInfo td.btn {
+	width: 147px;
+	padding-left: 10px;
+	vertical-align: top;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+.newInfo td.btn p a {
+	width: 147px;
+	height: 32px;
+}
+
+/* .listInfo */
+.listInfo .over {
+	background: #e7f4fe;
+	cursor: pointer;
+}
+
+
+/* #btnArrival */
+#btnArrival {
+	display: none;
+	margin: 0 0 5px 0;
+}
+#btnArrival a {
+	display: block;
+	padding: 12px 0;
+	font-size: 134%;
+	font-weight: bold;
+	color: #0066cc;
+	text-align: center;
+	background: #e7f4fe;
+}
+#btnArrival a:hover {
+	background: #ddedf8;
+}
+
+/* #btnMore */
+#btnMore {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#btnMore a {
+	width: 362px;
+	height: 42px;
+	margin: 0 auto;
+	background-position: -1620px 0;
+}
+
+#btnMore a:hover {
+	background-position: -1620px -50px;
+}
+
+#arrivalNewInfo,
+#moreNewInfo {
+	display: none;
+}
+
+
+/* .ttlData */
+.ttlData {
+	border-top: 6px solid #d8ecfe;
+	margin: 0 0 20px 0;
+	padding: 20px 0 0 0;
+}
+
+.ttlData .inner .mark {
+	float: left;
+	width: 84px;
+	height: 17px;
+	padding: 58px 0;
+	background: #dceffe;
+	text-align: center;
+	color: #666;
+	font-size: 117%;
+	font-weight: bold;
+}
+
+.ttlData .inner .cont {
+	float: right;
+	width: 630px;
+}
+
+.ttlData .inner .cont .ttl {
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 0;
+	border-bottom: 1px dotted #a1c7e5;
+}
+
+.ttlData .inner .cont h2 {
+	font-size: 200%;
+}
+
+.ttlData .inner .cont ul.levelData02 {
+	margin: 2px 0 5px 0;
+}
+
+.ttlData .inner .cont .detail .txt {
+	float: left;
+	width: 540px;
+}
+
+.ttlData .inner .cont .detail .txt p {
+	margin: 0 0 2px 0;
+}
+
+.ttlData .inner .cont .detail .txt p.term span {
+	padding: 0 0 0 20px;
+	color: #ff9900;
+	background: url(../images/common_x.png) 0 -4150px no-repeat;
+}
+
+.ttlData .inner .cont .detail .btn {
+	float: right;
+	width: 72px;
+}
+
+.ttlData .inner .cont .detailUnset {
+	margin-top: 10px;
+}
+.ttlData .inner .cont .detailUnset .term {
+	display: inline;
+	float: left;
+	margin-top: 8px;
+}
+.ttlData .inner .cont .detailUnset .btn {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+}
+.ttlData .inner .cont .detailUnset .moreLink {
+	clear: both;
+}
+
+
+
+/* .rankArea */
+.rankArea {
+	margin: 0 0 10px 0;
+	padding: 7px 0 0 0;
+	background-position: -5465px 0;
+}
+
+.rankArea .rankList {
+	float: left;
+	width: 219px;
+}
+
+.rankArea .rankList .mark {
+	min-height:112px;
+	margin: 0 0 5px 0;
+	text-align:center;
+}
+
+.rankArea .rankList .mark .num {
+	font-size: 167%;
+	font-weight: bold;
+	color: #ff9933;
+}
+
+.rankArea .rankList p.icnLevel01 {
+	width: 90px;
+	height: 77px;
+	margin: 0 auto 5px;
+	background-position: -2400px 0;
+}
+
+.rankArea .rankList p.icnLevel02 {
+	width: 77px;
+	height: 77px;
+	margin: 0 auto 5px;
+	background-position: -2310px 0;
+}
+
+.rankArea .rankList p.icnLevel03 {
+	width: 77px;
+	height: 77px;
+	margin: 0 auto 5px;
+	background-position: -2220px 0;
+}
+
+.rankArea .rankListLeft {
+	padding: 0 20px 0 0;
+}
+
+.rankArea .rankListMid {
+	padding: 0 15px;
+}
+
+.rankArea .rankListRight {
+	padding: 0 0 0 20px;
+}
+
+.rankArea .rankList .info {
+	padding: 8px 0 8px;
+	border-top: 1px dotted #b2dafd;
+}
+
+.rankArea .rankList .over {
+	background: #e7f4fe;
+	cursor: pointer;
+}
+
+.rankArea .rankList .info p {
+	padding: 0 0 0 22px;
+}
+
+.rankArea .rankList .info p.stage {
+	margin: 0 0 3px 0;
+	font-size: 84%;
+	font-weight: bold;
+}
+
+.rankArea .rankList .first p.stage {
+	background: url(../images/common_x.png) 0 -4348px no-repeat;
+}
+
+.rankArea .rankList .second p.stage {
+	background: url(../images/common_x.png) 0 -4448px no-repeat;
+}
+
+.rankArea .rankList .third p.stage {
+	background: url(../images/common_x.png) 0 -4548px no-repeat;
+}
+
+.rankArea .rankList .fourth p.stage {
+	background: url(../images/common_x.png) 0 -4648px no-repeat;
+}
+
+.rankArea .rankList .fifth p.stage {
+	background: url(../images/common_x.png) 0 -4748px no-repeat;
+}
+
+.rankArea .rankList .info p.ttl{
+	font-size: 117%;
+	font-weight: bold;
+}
+
+.rankArea .rankList .info p.stage span {
+	color: #ff6600;
+}
+
+.rankArea p.txtExp {
+	padding: 15px 0 0 0;
+	border-top: 1px dotted #b2dafd;
+	color: #666;
+}
+
+
+
+/* -----------------------------------
+	共通パーツ
+----------------------------------- */
+
+/* .note */
+#mypage p.note {
+	margin: 0 0 15px 0;
+	text-align: right;
+	font-size: 84%;
+	color: #666;
+}
+
+/* .decideScheButton */
+.decideScheButton {
+    background-position: -2000px 0;
+    height: 42px;
+    width: 202px;
+}
+
+.decideScheButton:hover {
+    background-position: -2000px -50px;
+}
+
+/* .setScheduleButton */
+.setScheduleButton {
+    width: 142px;
+    height: 32px;
+    background-position: -1050px 0;
+}
+.setScheduleButton:hover {
+	background-position: -1050px -50px;
+}
+
+/* ▼▼2011/9/29削除▼▼
+.requestSet .requestDocButton:hover {
+    background-position: -2480px -50px;
+}
+.requestSet .requestAppButton:hover {
+    background-position: -2700px -50px;
+}
+▲▲2011/9/29削除▲▲ */
+
+/* .switchLink */
+.switchLink a {
+    background-position: 0 -595px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+
+
+
+/* ▼▼2011/11/25追加・修正▼▼ */
+/* -----------------------------------
+    入試プランナー 印刷用
+----------------------------------- */
+
+@media print {
+
+	#header,
+	#topicPath,
+	#footer,
+	.plannerLead,
+	.actionButtons,
+	#calendarBody .univInfo p.moreLink,
+	#calendarBody .examInfo p.minCloseLink,
+	#calendarBody .univInfo .catch p.change,
+	#calendarBody .timeLine .event a,
+	#calendarBody .recommend .univInfo p.add,
+	#calendarBody .recommend .title,
+	.calendarNav p.next,
+	.calendarNav p.prev,
+	.exToday {
+		display: none;
+	}
+
+	body {
+		background: #fff;
+	}
+	#contents {
+		background: none;
+		font-size: 117%;
+	}
+	#main {
+		padding: 20px 0 5px 0;
+	}
+
+	#calendarHead {
+		top: 0 !important;
+	}
+	/* ▼▼2011/12/15追加・修正▼▼ */
+	#calendarBody {
+		overflow: hidden;
+		padding: 0;
+		border: solid 10px #838383;
+		border-top: solid 6px #838383;
+		background: none;
+	}
+	/* ▲▲2011/12/15追加・修正▼▼ */
+	#calendarBody .inner {
+		border: none;
+	}
+
+	#calendarBody .target {
+		border-top: solid 4px #838383;
+	}
+	#calendarBody .examInfo,
+	#calendarBody .recommend .examInfo {
+		border-top: solid 1px #838383;
+		border-bottom: solid 1px #ccc;
+	}
+
+	#calendarBody .unset .univInfo {
+		border-bottom: solid 1px #838383 !important;
+	}
+	#calendarBody .univInfo .catch {
+		border: solid 1px #f00;
+	}
+	#calendarBody .univInfo .catch p.rank {
+		color: #f00;
+	}
+	#calendarBody .recommend .univInfo .catch {
+		border: solid 1px #f90;
+	}
+
+	#calendarBody .examInfo p.type {
+		border: solid 1px #ccc;
+		background: #fff !important;
+		color: #333;
+		font-size: 10px !important;
+		font-weight: bold;
+		text-indent: 0 !important;
+		width: auto !important;
+		height: auto !important;
+		padding: 3px 5px;
+		vertical-align: middle;
+		line-height: 1.2;
+	}
+
+	#calendarBody .timeLine .event {
+		font-size: 100%;	
+	}
+	#calendarBody .timeLine p.date span.point {
+		width: 0;
+		height: 5px;
+		background: none;
+		border-left-style: solid;
+		border-left-width: 5px;
+	}
+	#calendarBody .timeLine p.term span.bar {
+		height: 0;
+		border-bottom-style: solid;
+		border-bottom-width: 16px;
+	}
+	#calendarBody .timeLine .entry p.date span.point {
+		border-left-color: #999900;
+	}
+	#calendarBody .timeLine .entry p.term span.bar {
+		border-bottom-color: #f1f69b;
+	}
+	#calendarBody .timeLine .exam p.date span.point {
+		border-left-color: #009900;
+	}
+	#calendarBody .timeLine .exam p.term span.bar {
+		border-bottom-color: #a8e291;
+	}
+	#calendarBody .timeLine .announce p.date span.point {
+		border-left-color: #ff0000;
+	}
+	#calendarBody .timeLine .announce p.term span.bar {
+		border-bottom-color: #ffacac;
+	}
+	#calendarBody .timeLine .procedure p.date span.point {
+		border-left-color: #ffa200;
+	}
+	#calendarBody .timeLine .procedure p.term span.bar {
+		border-bottom-color: #fecd67;
+	}
+
+}
+/* ▲▲2011/11/25追加・修正▼▼ */
+
+

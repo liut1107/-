@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+#main .outer .boBtm ul.ul01 {
+	float: right;
+	margin-top: 9px;
+}
+
+#main .outer .boBtm ul li {
+	float: left;
+}
+
+#main .outer ul li a,
+#main .outer ul li img {
+	display: block;
+}
+
+#main .outer p {
+	font-size: 14px;
+	line-height: 1.7;
+	margin-bottom: 7px;
+}
+
+#main .outer .bgBox {
+	background: url(../images/ce_bg01.jpg) no-repeat left top;
+	margin-bottom: 17px;
+	padding: 21px 0 19px 21px;
+}
+
+#main .outer .bgBox ul {
+	position: relative;
+}
+
+#main .outer .bgBox ul li {
+	left: -174px;
+	position: absolute;
+	top: -49px;
+}
+
+#main .outer .boBtm .link li {
+	margin-right: 4px;
+}
+
+#main .outer h3 {
+	background: url(../images/ce_h3_bg.gif) no-repeat left top;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding: 8px 0 8px 14px;
+}
+
+#main .outer h4 {
+	background-color: #F6F6F6;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding: 5px 0 4px;
+}
+
+#main .outer h4 span {
+	border-left: 4px solid #333;
+	display: block;
+	line-height: 1.1;
+	padding-left: 10px;
+}
+
+#main .outer p a {
+	text-decoration: underline;
+}
+
+#main .outer p a:hover {
+	text-decoration: none;
+}
+
+#main .outer table {
+	margin-bottom: 25px;
+}
+
+#main .basearea .outer .tabA thead th p {
+	font-size: 12px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	padding: 7px 0 2px !important;
+}
+
+#main .outer table tbody th {
+	border-bottom: 1px solid #E7E7E7;
+	background-color: #F6F6F6;
+	font-size: 14px;
+	padding: 1px 0 5px 11px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#main .outer table .th01 {
+	border-left: none;
+	border-right: 2px solid #E7E7E7;
+}
+
+#main .outer table td {
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	font-size: 14px;
+	padding: 8px 0px 13px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#main .outer table td.bg {
+	background: url(../images/ce_line.gif) repeat-x left bottom;
+	border-bottom: none !important;
+}
+
+#main .outer table td.td01 {
+	padding-left: 14px;
+	text-align: left;
+}
+
+#main .outer table td.red {
+	color: #FF6666;
+	font-weight: bold;
+}
+
+#main .outer table td a {
+	display: block;
+	float: right;
+}
+
+#main .outer .ul02 {
+	margin: 0 auto 18px;
+	width: 240px;
+}
+
+#main .outer .ul02 li {
+	float: left;
+}
+
+#main .outer p.special {
+	font-size: 10px;
+	line-height: 1.4;
+	margin: 0 0 47px 16px;
+}
+
+#main .outer table td.td03 {
+	border-left: none;
+	padding-left: 0px;
+	text-align: left;
+}

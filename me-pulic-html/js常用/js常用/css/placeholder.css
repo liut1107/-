@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+ul {
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+li {
+	float: left;
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+.ex2 {
+	color: #000;
+}
+
+.ex2.off {
+	color: #999;
+}
+
+
+.ex3 {
+	color: #fff;
+	background: #09F;
+}
+
+.ex3.off {
+	color: #ccc;
+	background: #FFF;
+}
+
+
+
+textarea.off {
+	color: #999;
+}

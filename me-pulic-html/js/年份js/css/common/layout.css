@@ -1,0 +1,358 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#999999;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #999999;
+	text-decoration: underline;
+}
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #5F4C3F;
+	min-width: 1000px;
+	text-align:center;
+	line-height: 1.5;
+}
+
+#container{
+	text-align: left;
+}
+
+.wrap {
+	padding-top: 24px;
+	background: url(../../img/common/wrap_bg.gif) repeat-x #FFF left top;
+}
+
+#main {
+	width: 960px;
+	margin: 0 auto 100px;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header {
+}
+
+#header .topBox {
+	margin-bottom: 15px;
+	padding: 6px 0 6px;
+	background-color: #F6F6F6;
+	zoom: 1;
+}
+
+#header .topBox .ttlBox {
+	margin: 0 auto;
+	padding-left: 23px;
+	width:  977px;
+}
+
+#header h1 {
+	margin-top: 1px;
+	width: 500px;
+	float: left;
+	color: #666666;
+	font-weight: normal;
+	font-size: 1.0em;
+	line-height: 1.2;
+}
+
+#header .topBox .ttlBox .topNavi {
+	float: right;
+}
+
+#header .topBox .ttlBox .topNavi li {
+	padding-left: 14px;
+	float: left;
+}
+
+#header .hBox {
+	width: 960px;
+	margin: 0 auto 15px;
+}
+
+#header .hBox .logo {
+	float: left;
+}
+
+#header .hBox .logo a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#header .hBox .link {
+	float: right;
+}
+
+#header .hBox .link li {
+	padding-left: 10px;
+	float: left;
+}
+
+/*------------------------------------------------------------
+	グローバルナビ
+------------------------------------------------------------*/
+#gNavi {
+	padding: 13px 0 6px;
+	background-color: #E68982;
+}
+
+#gNavi ul {
+	margin: 0 auto;
+	padding-left: 20px;
+	width: 980px;
+}
+
+#gNavi li {
+	float: left;
+}
+
+#gNavi li a {
+	display: block;
+}
+
+#gNavi li.navi01 a {
+	background: url(../../img/common/g_navi01_over.gif) no-repeat;
+}
+
+#gNavi li.navi02 a {
+	background: url(../../img/common/g_navi02_over.gif) no-repeat;
+}
+
+#gNavi li.navi03 a {
+	background: url(../../img/common/g_navi03_over.gif) no-repeat;
+}
+
+#gNavi li.navi04 a {
+	background: url(../../img/common/g_navi04_over.gif) no-repeat;
+}
+
+#gNavi li.navi05 a {
+	background: url(../../img/common/g_navi05_over.gif) no-repeat;
+}
+
+#gNavi li a:hover img {
+	opacity: 0; 	
+	filter: alpha(opacity=0);	
+}
+
+/*------------------------------------------------------------
+	パンクズリスト
+------------------------------------------------------------*/
+#pagePath {
+	width: 954px;
+	margin: 0 auto 16px;
+}
+
+#pagePath li {
+	margin-right: 4px;
+	display: inline;
+	color: #999;
+	font-size: 1.1em;
+}
+
+#pagePath .current {
+	color: #DF6C63;
+	font-weight: bold;
+}
+
+#pagePath li a {
+	margin-right: 7px;
+}
+
+/*------------------------------------------------------------
+	コンテンツ
+------------------------------------------------------------*/
+#conts {
+	width: 690px;
+	float: right;
+}
+
+/*------------------------------------------------------------
+	サイドバー
+------------------------------------------------------------*/
+#sideBar {
+	width: 240px;
+	float: left;
+}
+
+#sideBar .sBox {
+	margin-bottom: 9px;
+	padding-bottom: 9px;
+	background: url(../../img/common/s_box_bg.gif) no-repeat left bottom;
+}
+
+#sideBar .sBox .list {
+	padding: 10px 11px 1px;
+	border: 1px solid #E1E1E1;
+	border-radius: 10px;
+	background-color: #FFF;
+	behavior: url(/js/pie.htc); 
+	position: relative;
+}
+
+#sideBar .sBox .title {
+	margin: 0 -12px 3px;
+	position: relative;
+	zoom: 1;
+}
+
+#sideBar .sBox .sNavi li {
+	padding: 12px 6px 11px;
+	font-size: 1.3em;
+	background: url(../../img/common/line01.gif) repeat-x left bottom;
+}
+
+#sideBar .sBox .sNavi li a {
+	padding-left: 24px;
+	display: inline-block;
+	color: #5F4C3F;
+	text-decoration: underline;
+	background: url(../../img/common/icon/icon01.gif) no-repeat left 4px;
+}
+
+#sideBar .sBox .sNavi li a:hover {
+	color: #E06C63;
+}
+
+#sideBar .sBox .sNavi .none {
+	background: none;
+}
+
+#sideBar .sLink li {
+	margin-bottom: 3px;
+	float: left;
+}
+
+#sideBar .sLink .link {
+	margin-bottom: 9px;
+}
+
+#sideBar .sLink .contact {
+	padding: 10px 0 10px;
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	padding-top: 37px;
+	clear: both;
+	overflow: hidden;
+	background: url(../../img/common/f_bg.gif) #E68982 repeat-x left top;
+}
+
+#footer .fNavi {
+	margin: 0 auto 31px;
+	width: 960px;
+}
+
+#footer .fNavi li {
+	margin-right: 16px;
+	display: inline;
+	font-size: 1.2em;
+}
+
+#footer .fNavi li a {
+	padding-left: 15px;
+	display: inline-block;
+	color: #FFF;
+	background: url(../../img/common/icon/icon02.gif) no-repeat left 5px;
+}
+
+#footer .fNavi li a:hover {
+	color: #5A3D29;
+}
+
+#footer .copyright {
+	padding: 3px 0;
+	background-color: #F6F6F6;
+}
+
+#footer .copyright p {
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+	color: #333;
+	font-size: 1.2em;
+}

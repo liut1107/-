@@ -1,0 +1,122 @@
+/**
+ * jplayer.css
+ */
+
+/* sprites */
+.jp-volume-bar, .jp-volume-bar-value {
+	/*background-image: url(images/jplayer.png);*/
+	background-image: url(../images/video.gif);
+	background-repeat: no-repeat;
+}
+
+.jp-jplayer, .jp-audio, .jp-audio div, .jp-audio ul, .jp-audio li {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	list-style: none;
+}
+
+.jp-jplayer {
+	width: 0;
+	height: 0;
+}
+
+	.jp-jplayer img {
+		display: none;
+	}
+
+.jp-audio {
+	position: relative;
+	height: 20px;
+}
+
+.jp-controls a {
+	position: absolute;
+	display: block;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background-color: transparent;
+	cursor: pointer;
+}
+	.jp-controls .jp-play { width: 7px; height:9px;background-position: -79px -11px; left: 79px; top: 11px; }
+	.jp-play:hover { }
+	
+	.jp-controls .jp-pause {  }
+	.jp-pause:hover {  }
+	
+	.jp-controls .jp-stop { background-position: -91px -12px; width: 7px; height: 7px; left: 91px; top: 12px;}
+	.jp-stop:hover { }
+	
+    .jp-unmute {}
+	.jp-unmute:hover { }
+	
+	.jp-controls .jp-mute {  background-position: -201px -10px; left: 201px; top:10px; width: 12px; height:11px;}
+	.jp-mute:hover { background-position: -260px 0; }
+
+.jp-controls, .jp-controls li {
+	display: inline;
+}
+
+.jp-audio .jp-progress {
+	margin: 0 40px 0 104px;
+	padding: 12px 0;
+	height: 7px;
+}
+
+	.jp-progress div {
+		height: 8px;
+	}
+
+	.jp-seek-bar {
+		background-color: #398766;
+		background-position: 0 -20px;
+	}
+	.jp-progress:hover .jp-seek-bar {
+		background-color: #398766;
+		background-position: 0 -36px;
+	}
+	
+	.jp-play-bar {
+		background-color: #1F4535;
+		background-position: 0 -28px;
+	}
+	.jp-progress:hover .jp-play-bar {
+		background-color: #177BCD;
+		background-position: 0 -44px;
+	}
+
+.jp-volume-bar {
+	position: absolute;
+	left: 216px;
+	top: 12px;
+	width: 14px;
+	height: 7px;
+	background-position: 0 -52px;
+}
+.jp-audio:hover .jp-volume-bar {
+	background-color: #E6E6E6;
+	background-position: -216px -12px;
+}
+
+	.jp-volume-bar-value {
+		background-color: #BFBFC0;
+		background-position: -24px -52px;
+	}
+	.jp-volume-bar:hover .jp-volume-bar-value {
+
+	}
+
+.jp-current-time, .jp-duration {
+	display: none;
+}
+
+#player {
+	width: 238px;
+	height: 31px;
+	margin-bottom: 14px;
+	position: relative;
+	background: url(../images/video.gif) no-repeat left top;
+}

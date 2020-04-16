@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* index */
+
+#CONTAINER {
+	background-color: #45A57C !important;
+}
+
+#GNAVI {
+	height: auto;
+	margin: 12px 0 0;
+	position: relative;
+	z-index: 1000;
+}
+
+#GNAVI .rBox {
+	float: right;
+	margin-top: 53px;
+	width: 772px;
+}
+
+#GNAVI ul li{
+	float: left;
+}
+
+#GNAVI .navi07 a img {
+	visibility: hidden;
+}
+
+#GNAVI ul li a,
+#GNAVI a img {
+	display: block;
+}
+
+#GNAVI .navi01 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi01_over.gif) no-repeat;
+}
+
+#GNAVI .navi02 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi02_over.gif) no-repeat;
+}
+
+#GNAVI .navi03 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi03_over.gif) no-repeat;
+}
+
+#GNAVI .navi04 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi04_over.gif) no-repeat;
+}
+
+#GNAVI .navi05 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi05_over.gif) no-repeat;
+}
+
+#GNAVI .navi06 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi06_over.gif) no-repeat;
+}
+
+#GNAVI .navi07 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi07_over.gif) no-repeat;
+}
+
+#GNAVI .navi08 a {
+	background: url(../../../resources_shared/images/gnavi/gnavi08_over.gif) no-repeat;
+}
+
+#GNAVI ul a:hover img,
+#GNAVI ul li.on a img  {
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-moz-opacity: 0;
+}
+
+#GNAVI ul ul {
+	background-color: #45A57C;
+	display: none;
+	padding-top: 1px;
+	margin-top: -1px;
+	position: absolute;
+	width: 65px;
+	opacity: 0.90;
+	-moz-opacity: 0.90;
+	filter: alpha(opacity=90);
+}
+
+#GNAVI ul ul li {
+	background-color: #357E5F;
+	float: left;
+	margin-bottom: 1px;
+	width: 65px;
+	opacity: 0.90;
+	-moz-opacity: 0.90;
+	filter: alpha(opacity=90);
+}
+
+#GNAVI ul li ul li a {
+	background: none !important;
+	background-position: 500px 500px;
+	color: #C5E7D8 !important;
+	font-size: x-small;
+	font-weight: bold;
+	letter-spacing: -2px;
+	line-height: 22px;
+	padding: 0 3px;
+	text-align: left;
+}
+
+#GNAVI ul ul li a.hover,
+#GNAVI ul ul li a:hover {
+	background: none;
+	text-decoration: none;
+}
+
+#CONTENTSAREA .mainBox {
+	background-color: #FFF;
+	margin-bottom: 22px;
+	padding: 20px 42px 60px 26px;
+}
+
+#CONTENTSAREA .rightColumn {
+	float: right;
+	margin-top: 10px;
+	width: 680px;
+}
+
+#CONTENTSAREA .rightColumn h2 {
+	margin-bottom: 19px;
+}
+
+#CONTENTSAREA .rightColumn dl {
+	font-size: small;
+	margin-bottom: 25px;
+}
+
+#CONTENTSAREA .rightColumn dl.none {
+	margin-bottom: 21px;
+}
+
+#CONTENTSAREA .rightColumn dl.none dd,
+#CONTENTSAREA .rightColumn dd.none {
+	background: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#CONTENTSAREA .rightColumn dl dt {
+	color: #666 !important;
+	font-weight: bold;
+	margin-bottom: 8px;
+	padding: 0 0 0 14px;
+}
+
+#CONTENTSAREA .rightColumn dl dd {
+	background: url(../images/line.gif) repeat-x left bottom;
+	color: #666 !important;
+	margin-bottom: 16px;
+	padding: 0 0 20px 14px;
+}
+
+#CONTENTSAREA .leftColumn {
+	float: left;
+	height: 1345px;
+	width: 181px;
+}
+
+#scrolldiv {
+	position: relative;
+}
+
+#CONTENTSAREA .leftColumn ul li {
+	float: left;
+}
+
+#CONTENTSAREA .leftColumn ul li a,
+#CONTENTSAREA .leftColumn ul li a img,
+#CONTENTSAREA .link li a,
+#CONTENTSAREA .link li a img {
+	display: block;
+}
+
+#CONTENTSAREA .inner {
+	margin-left: 2px;
+	width: 214px;
+}
+
+#CONTENTSAREA .inner .photoBox img {
+	display: block;
+	float: left;
+	margin-right: 4px;
+}
+
+#CONTENTSAREA .link {
+	float: right;
+	width: 125px;
+}
+
+#CONTENTSAREA .link li {
+	float: left;
+}
+
+.mb7 {
+	margin-bottom: 7px !important;
+}

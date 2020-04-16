@@ -1,0 +1,185 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#container{
+	background: url(../img/hotel/bg02.jpg) repeat left bottom;
+	position: relative;
+}
+
+#main .menu {
+	position: absolute;
+	top: 100px;
+	right: 0;
+	width: 90px;
+}
+
+#main .menu li {
+	float: left;
+	margin-bottom: 1px;
+}
+
+#main .menu li a,
+#main .menu li a img {
+	display: block;
+}
+
+#footer {
+	background: none;
+	background-color: #fff;
+	padding-top: 0px;
+}
+
+#main {
+	background-color: #FFF;
+	margin: 0 auto;
+	padding: 36px 74px 40px 70px;
+	width: 1136px;
+}
+
+.mainV {
+	background: #F7F8F3 url(../img/hotel/bg03.gif) repeat-x bottom;
+	padding-bottom: 34px;
+}
+
+.mainV .info {
+	margin: 0 auto;
+	width: 1285px;
+}
+
+.mainV .info .topUl {
+	border-bottom: 1px solid #E4D9CE;
+	margin-bottom: 20px;
+	padding: 14px 84px 9px 77px;
+}
+
+#slideMain {
+	margin-bottom: 18px;
+}
+
+.mainV .info .linkBox {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1126px;
+}
+
+#slideNavi {
+	width: 1179px;
+}
+
+#slideNavi li {
+	background: url(../img/hotel/bg01.gif) no-repeat left top;
+	float: left;
+	margin-right: 53px;
+	padding-top: 9px;
+}
+
+.mainV .linkBox ul li {
+	float: left;
+}
+
+#slideMain {
+	height: 500px;
+	margin-bottom: 18px;
+	position:relative;
+}
+
+#slideMain img {
+	display: none;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#slideNavi li {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+
+#slideNavi li a,
+ul.link li a,
+.mainV .info .box ul li img,
+#slideNavi li a img,
+ul.link li img,
+ul.photo li img {
+	display: block;
+}
+
+#main .inner {
+	margin: 0 8px 47px 4px;
+}
+
+#main .inner .textBox {
+	font-size: 1.4em;
+	line-height: 1.85;
+	margin-top: 6px;
+	width: 494px;
+}
+
+#main .inner .textBox .imgtext {
+	margin-bottom: 16px;
+}
+
+#main .comSection {
+	background-color: #F0EDE4;
+	margin: 0 0 50px 4px;
+	padding: 14px 19px 31px 19px;
+	width: 1088px;
+}
+
+#main .comSection .inner01 {
+	margin: 0 0 15px 19px;
+	width: 1048px;
+}
+
+#main .comSection .inner01 .textBox {
+	margin-top: 21px;
+	font-size: 1.4em;
+	line-height: 1.85;
+	width: 418px;
+}
+
+#main .comSection ul.photo {
+	margin: 0 auto;
+	width: 1056px;
+}
+
+#main .comSection .inner02 {
+	margin: 0 0 25px 15px;
+	width: 1048px;
+}
+
+#main .comSection .inner02 .textBox {
+	font-size: 1.4em;
+	line-height: 1.85;
+	margin-top: 21px;
+	width: 449px;
+}
+
+#main .comSection .inner02 p {
+	margin-bottom: 30px;
+}
+
+#main .comSection p {
+	margin-bottom: 39px;
+}
+
+#main .comSection .special {
+	margin-bottom: 0;
+	width: 358px;
+}
+
+#main .comSection p.special01 {
+	width: 410px;
+}
+
+#main .comSection p.special02 {
+	margin-left: 36px;
+	width: 413px;
+}
+
+#main .comSection p.special03 {
+	margin: 25px 0 0 5px;
+	width: 355px;
+}

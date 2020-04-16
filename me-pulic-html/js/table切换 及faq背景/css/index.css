@@ -1,0 +1,156 @@
+@charset "euc-jp";
+/*------------------------------------------------------------
+	°¶∞‰#°¶#Œ‰#‘‰#º„£Ï
+------------------------------------------------------------*/
+#conts h2 {
+	margin-bottom: 12px;
+}
+
+#conts .comBox {
+	margin-bottom: 20px;
+}
+
+#conts .comBox .bg {
+    padding: 0 20px 14px;
+}
+
+#conts .comBox .bg p {
+	font-size: 1.4em;
+	line-height: 1.4;
+	margin-left: 11px;
+}
+
+#conts .comBox dt {
+	background: url(../img/common/icon/icon01.gif) no-repeat left center;
+	color: #52A2BD;
+	float: left;
+	font-size: 1.2em;
+	padding-left: 18px;
+}
+
+#conts .comBox dd {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 12px;
+	padding-left: 8em;
+}
+
+#conts .comBox dd a {
+	text-decoration: underline;
+}
+
+#conts .comBox dd a:hover {
+	text-decoration: none;
+}
+
+#conts .list {
+	background: url(../img/index/line.gif) repeat-x left top;
+	margin-bottom: 20px;
+}
+
+#conts .list li {
+	float: left;
+	margin-right: 1px;
+}
+
+#conts .list li a,
+#conts .list li img {
+	display: block;
+}
+
+#conts .list li.on a img {
+	visibility: hidden;
+}
+
+#conts .list .li01 a {
+	background: url(../img/index/link01_over.jpg) no-repeat;
+}
+#conts .list .li02 a {
+	background: url(../img/index/link02_over.jpg) no-repeat;
+}
+
+#conts .list .li03 a {
+	background: url(../img/index/link03_over.jpg) no-repeat;
+}
+
+#conts .list li a:hover img {
+	opacity: 0; 	
+	filter: alpha(opacity=0);	
+	-moz-opacity:0; 
+}
+
+#conts .comSection .box {
+	margin-bottom: 10px;
+}
+
+#conts .comSection .box .bgBox {
+	background: url(../img/index/box_bg02.gif) repeat-y left top;
+	padding: 1px 10px 0 11px;
+	zoom: 1;
+}
+
+#conts .comSection .box .bgBox .title {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+#conts .comSection .box .bgBox .subBox {
+	margin-bottom: 13px;
+}
+
+#conts .comSection .box .bgBox .subBox ul {
+	float: right;
+	margin-top: 2px;
+}
+
+#conts .comSection .box .bgBox .subBox li {
+	float: left;
+}
+
+#conts .comSection .box .bgBox .subBox li img {
+	display: block;
+}
+
+#conts .comSection .box .bgBox .inner .textBox {
+	float: right;
+	width: 499px;
+}
+
+#conts .comSection .box .bgBox .inner .textBox dl {
+	margin-bottom: 6px;
+}
+
+#conts .comSection .box .bgBox .inner .textBox dl img {
+	display:block;
+}
+
+#conts .comSection .box .bgBox .inner .textBox dt {
+	float: left;
+}
+
+#conts .comSection .box .bgBox .inner .textBox dd {
+	padding-left: 6em;
+}
+
+#conts .comSection .box .bgBox .inner .textBox ul.comList04 {
+	margin-bottom: 4px;
+}
+
+#conts .comSection .box .bgBox .inner .textBox .link li {
+	float: right;
+}
+
+#conts .comSection .box .bgBox .inner .textBox .link li img {
+	display: block;
+}
+
+#conts .comSection .box .bgBox .inner .textBox .link li a {
+	background: url(../img/index/link04_over.jpg) no-repeat;
+	display: block;
+}
+
+#conts .comSection .box .bgBox .inner .textBox .link li a:hover img {
+	opacity: 0; 	
+	filter: alpha(opacity=0);	
+}

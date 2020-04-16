@@ -1,0 +1,361 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #CCCCBF;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #CCCCBF;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #CCCCBF;
+	text-decoration: none;
+}
+
+a:active {
+	color: #CCCCBF;
+	text-decoration: none;
+}
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #CCCCBF;
+	text-align:center;
+	line-height: 1.5;
+	min-width: 1180px;
+	background: url(../img/main/bg_body.jpg) repeat-y center top;
+	zoom: 1;
+}
+
+#container{
+	text-align: left;
+}
+
+.wrap {
+	margin-top: -100px;
+	padding-top: 90px;
+	position: relative;
+	z-index: 100;
+	zoom: 1;
+	background: url(../img/main/bg_wrap.png) no-repeat center top;
+}
+
+#main {
+	margin: 0 auto 20px;
+	width: 960px;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header {
+	background: url(../img/header/bg_header01.jpg) repeat-x center bottom;
+}
+
+#header .hBox {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#header .hBox .hInner {
+	padding: 24px 0 0;
+	width: 780px;
+	float: left;
+}
+
+#header .hBox .hInner .topBox {
+	margin-bottom: 17px;
+}
+
+#header .hBox .hInner h1 {
+	margin-top: 13px;
+	width: 579px;
+	float: right;
+	color: #666;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+#header .hBox .hInner h2 {
+	float: left;
+}
+
+#header .hBox .contact {
+	padding: 31px 0 18px 10px;
+	width: 170px;
+	float: right;
+	position: relative;
+	z-index: 200;
+	background: url(../img/header/bg_header02.png) no-repeat left top;
+}
+
+#header .hBox .contact .link {
+	margin: 21px -4px 0 0;
+	width: 61px;
+	float: left;
+	position: relative;
+}
+
+#header .hBox .contact .link span {
+	margin: 14px 0 0 23px;
+	display: block;
+}
+
+#header .hBox .contact .link span a:hover img {
+	opacity: 0.7; 	
+	filter: alpha(opacity=70);	
+}
+
+/*------------------------------------------------------------
+	グローバルナビ
+------------------------------------------------------------*/
+#gNavi {
+	margin: 0 -30px 0 25px;
+	width: 780px;
+	clear: both;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#gNavi li {
+	margin-right: 30px;
+	width: 230px;
+	float: left;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#gNavi li span {
+	margin-top: 12px;
+	float: left;
+}
+
+#gNavi li a,
+#gNavi li img {
+	display: block;
+}
+
+#gNavi li a {
+	float: right;
+}
+
+#gNavi li a:hover img {
+	opacity: 0.7; 	
+	filter: alpha(opacity=70);
+}
+
+/*------------------------------------------------------------
+	パンクズリスト
+------------------------------------------------------------*/
+#pagePath {
+	padding: 10px 0 0 30px;
+	width: 300px;
+	float: left;
+}
+
+#pagePath li {
+	display: inline;
+	font-size: 1.1em;
+}
+
+#pagePath li a {
+	margin-right: 3px;
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	padding-top: 25px;
+	clear: both;
+	overflow: hidden;
+	zoom: 1;
+	background: url(../img/footer/bg_footer01.png) repeat-x center top;
+}
+
+#footer .fContact {
+	margin: 0 auto 11px;
+	padding-top: 4px;
+	width: 966px;
+	background: url(../img/footer/bg_footer02.png) no-repeat left top;
+}
+
+#footer .fContact ul {
+	padding: 17px 0 16px 88px;
+	background: url(../img/footer/bg_footer03.png) no-repeat left bottom;
+}
+
+#footer .fContact li {
+	float: left;
+	color: #666;
+	font-size: 1.1em;
+	line-height: 1.4;
+}
+
+#footer .fContact li img {
+	display: block;
+}
+
+#footer .fContact .txt {
+	padding-left: 18px;
+	width: 300px;
+}
+
+#footer .fBox {
+	padding-top: 4px;
+	background: url(../img/footer/bg_footer04.png) repeat-x left top;
+	zoom: 1;
+}
+
+#footer .fBox .fInner {
+	margin: 0 auto;
+	padding: 7px 0 10px;
+	width: 960px;
+	background: url(../img/footer/bg_footer05.gif) #180C00 no-repeat left top;
+}
+
+#footer .fBox .fInner .fNavi {
+	margin-bottom: 38px;
+	text-align: center;
+}
+
+#footer .fBox .fInner .fNavi li {
+	margin: 0 8px;
+	display: inline;
+	font-size: 1.2em;
+}
+
+#footer .fBox .fInner .fNavi li a {
+	padding-left: 12px;
+	text-decoration: none;
+	background: url(../img/footer/ico_footer01.gif) no-repeat left 3px;
+}
+
+#footer .fBox .fInner .fNavi li a:hover {
+	text-decoration: underline;
+}
+
+#footer .fBox .fInner .section {
+	margin: 0 69px 46px 94px;
+}
+
+#footer .fBox .fInner .section .txtBox {
+	width: 500px;
+	float: left;
+}
+
+#footer .fBox .fInner .section .txtBox .fLogo {
+	float: left;
+}
+
+#footer .fBox .fInner .section .txtBox p {
+	margin-top: 15px;
+	width: 320px;
+	float: right;
+	font-size: 1.2em;
+	line-height: 1.6;
+}
+
+#footer .fBox .fInner .section .txtBox p a {
+	text-decoration: none;
+}
+
+#footer .fBox .fInner .section .txtBox p a:hover {
+	text-decoration: underline;
+}
+
+#footer .fBox .fInner .section ul {
+	margin-top: 4px;
+	width: 280px;
+	float: right;
+}
+
+#footer .fBox .fInner .section li {
+	float: left;
+}
+
+#footer .fBox .fInner .section li img {
+	display: block;
+}
+
+#footer .fContact li a:hover img,
+#footer .fBox .fInner .section li a:hover img {
+	opacity: 0.7; 	
+	filter: alpha(opacity=70);	
+}
+
+#footer .fBox .fInner .copyright {
+	clear: both;
+	font-size: 1.1em;
+	text-align: center;
+}

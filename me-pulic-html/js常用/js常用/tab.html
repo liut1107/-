@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/tab.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+	//tab切换
+	$('.tabPanel01 .tabBox').hide();
+	$('.tabPanel01 .tabBox').eq(0).show();
+
+	$('.tabPanel01 .tabUl li a').click(function(){
+		var ind=$(this).parent('li').index();
+		$(this).parent('li').addClass('on').siblings().removeClass('on');
+		$('.tabBox').hide();		
+		$('.tabBox:eq('+ind+')').show();
+		return false;
+	});	
+	
+	
+});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="main">
+	
+		<div class="jsBox tabPanel01">
+			<p>tab切换</p>
+			<ul class="tabUl clearfix">
+				<li class="on"><a href="#">tab01</a>
+				<li><a href="#">tab02</a>
+				<li><a href="#">tab03</a>
+			</ul>
+			<div class="tabBox tabBox01">
+				tabBox01
+			</div>
+			<div class="tabBox tabBox02">
+				tabBox02
+			</div>
+			<div class="tabBox tabBox03">
+				tabBox03
+			</div>
+		</div>
+	
+	</div>
+</div>
+</body>
+</html>

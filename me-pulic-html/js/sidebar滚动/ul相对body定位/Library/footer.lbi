@@ -1,0 +1,28 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="footer" class="clear">
+	<div class="footerBox clearfix">
+		<div class="lBox clearfix floatL">
+			<div class="photoBox floatL">
+				<div class="logo"><a href="http://www.tabikobo.com/" target="_blank"><img src="../img/common/logo.jpg" alt="TABIKOBO こころ動かす、旅をもっと。旅工房" class="imgHover" width="75" height="48" /></a></div>
+				<p><a href="http://www.tabikobo.com/" target="_blank"><img src="../img/common/imgtext01.gif" class="imgHover" alt="旅工房トップへ" width="77" height="10" /></a></p>
+			</div>
+			<div class="textBox floatR">
+				<p> 〒171-0021 東京都豊島区西池袋5-14-8 東海池袋ビル4,5,6F（受付6Ｆ）</p>
+				<p class="copyright">&copy;Travel Net Studio,.CO,LTD ALL Right Reserved</p>
+			</div>
+		</div>
+		<div class="rBox floatR">
+			<p class="title"><img src="../img/common/imgtext02.gif" alt="Information" width="470" height="16" /></p>
+			<div class="clearfix">
+				<ul class="tel floatL">
+					<li><img src="../img/common/imgtext04.gif" alt="TEL" width="39" height="14" />0570-015-055<span class="special">（代表）</span></li>
+					<li><img src="../img/common/imgtext03.gif" alt="MALL" width="39" height="14" /><a href="mailto:eur@tabikobo.com">eur@tabikobo.com</a></li>
+				</ul>
+				<ul class="link floatR clearfix">
+					<li><a href="http://tour.tabikobo.com/tour/list?region_id=3&country_id=50&city_id=&region_id2=&country_id2=&city_id2=&region_id3=&country_id3=&city_id3=&condition_flg=1&departure_place_id=&y-m=&d=&duration_from=&duration_to=&hotel_id=&airline_id=&detail_flg=&stay_type_code=&bugget=&stopover_flg=&seat_code=&departure_place_time_code=&destination_time_code=&destination_arrival_time_code=&departure_place_arrival_time_code=&conductor_code=&keyword=&code=&campaign_id=&commit.x=13&commit.y=7" target="_blank"><img src="../img/common/link01.jpg" class="imgHover" alt="オーストリアツアー検索" width="170" height="21" /></a></li>
+					<li class="mb0"><a href="https://www.tabikobo.net/tns/estimate/" target="_blank"><img src="../img/common/link02.jpg" class="imgHover" alt="フォームよりお問合せ" width="170" height="22" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

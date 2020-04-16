@@ -1,0 +1,281 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+.vaTop { vertical-align: top !important; }
+.vaMiddle { vertical-align: middle !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.1em !important; }
+.fsP2 { font-size: 1.2em !important; }
+.fsP3 { font-size: 1.3em !important; }
+.fsP4 { font-size: 1.4em !important; }
+.fsP5 { font-size: 1.5em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 1em !important; }
+.fsM2 { font-size: 0.9em !important; }
+.fsM3 { font-size: 0.8em !important; }
+.fsM4 { font-size: 0.7em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.dis {
+	display: block;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+#conts .pageTop {
+	margin-bottom: 10px;
+}
+
+.pageTop a {
+	display: block;
+	background: url(../../img/common/pagetop_over.gif) no-repeat;
+	float: right;
+}
+
+.pageTop a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+}
+
+.mb4 {
+	margin-bottom: 4px !important;
+}
+
+.mb5 {
+	margin-bottom: 5px !important;
+}
+
+.mb7 {
+	margin-bottom: 7px !important;
+}
+
+.mb8 {
+	margin-bottom: 8px !important;
+}
+
+.mb9 {
+	margin-bottom: 9px !important; 
+}
+
+.mb10 {
+	margin-bottom: 10px !important; 
+}
+
+.mb11 {
+	margin-bottom: 11px !important;
+}
+
+.mb12 {
+	margin-bottom: 12px !important; 
+}
+
+.mb15 {
+	margin-bottom: 15px !important;
+}
+
+.mb16 {
+	margin-bottom: 16px !important;
+}
+
+.mb17 {
+	margin-bottom: 17px !important; 
+}
+
+.mb18{
+	margin-bottom: 18px !important;
+}
+
+.mb20 {
+	margin-bottom: 20px !important; 
+}
+
+.mb21 {
+	margin-bottom: 21px !important;
+}
+
+.mb22 {
+	margin-bottom: 22px !important;
+}
+
+.mb25 {
+	margin-bottom: 26px !important;
+}
+
+.mb27 {
+	margin-bottom: 27px !important;
+}
+
+.mb32 {
+	margin-bottom: 32px !important; 
+}
+
+.mb38 {
+	margin-bottom: 38px !important; 
+}
+
+.pb0 {
+	padding-bottom: 0 !important;
+}
+
+.pt0 {
+	padding-top: 0 !important;
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+.mt40 {
+	margin-top: 40px !important;
+}
+
+.ml7 {
+	margin-left: 7px !important;
+}
+
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+
+#conts h2 {
+	margin-bottom: 19px;
+}
+
+#conts .comTitle {
+	color: #AC9846;
+	font-size: 1.8em;
+	font-family: Meiryo, "メイリオ", "小塚ゴシック Pr6N", sans-serif;
+	margin-bottom: 0px;
+}
+
+#conts .color01 {
+	color: #AD9847;
+}
+
+#conts .color02 {
+	color: #AE9848;
+}
+
+#conts .comLink {
+	margin: 0 auto;
+	width: 440px;
+}
+
+#conts.index .comInner {
+	overflow: hidden;
+	padding: 5px 5px 15px;
+	width: 632px;
+}
+
+#conts.index .comInner .top {
+	color: #FD6492;
+	font-size: 2.0em;
+	line-height: 1.2;
+	margin-bottom: 16px;
+}
+
+#conts.index .comInner .bgBox {
+	background: url(../../img/staff/line.gif) repeat-y left top;
+	width: 642px;
+}
+
+#conts.index .comInner .bgBox ul {
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	width: 150px;
+}
+
+#conts.index .comInner .bgBox ul li {
+	font-size: 1.3em;
+	line-height: 1.3;
+}
+
+#conts.index .comInner .bgBox ul li.li01 {
+	margin-bottom: 5px;
+}
+
+/*------------------------------------------------------------
+	comSection
+------------------------------------------------------------*/
+
+#conts .comSection {
+	background: url(../../img/common/com_bg.gif) repeat left top;
+	padding: 4px;
+}
+
+#conts .comInner {	
+	background: #fff;
+}
+
+/*------------------------------------------------------------
+	dlBox
+------------------------------------------------------------*/
+#conts dl.dlBox {
+	font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 1.3em;
+	line-height: 1.8;
+	margin-bottom: 12px;
+}
+
+#conts dl.dlBox dt {
+	clear: left;
+	color: #FD6492;
+	float: left;
+	font-weight: bold;
+}
+
+#conts dl.dlBox dd {
+	padding-left: 1.1em;
+}
+
+	* html #conts dl.dlBox dd {
+		text-indent: -3px;
+	}

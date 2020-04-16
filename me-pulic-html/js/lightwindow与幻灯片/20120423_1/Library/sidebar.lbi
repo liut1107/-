@@ -1,0 +1,16 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="sideBar" class="clearfix">
+	<ul class="ulTwitter clearfix">
+		<li><a href="#"><img src="../images/com_img01.jpg" alt="t" width="20" height="20" class="imgHover" /></a> </li>
+		<li><a href="#"><img src="../images/com_img02.jpg" alt="f" width="20" height="20" class="imgHover" /></a> </li>
+		<li><a href="#"><img src="../images/com_img03.jpg" alt="f Like" width="47" height="20" class="imgHover" /></a> </li>
+	</ul>
+	<ul class="clearfix banner clear">
+		<li><a href="../Picup/"><img src="../images/com_banner01.jpg" alt="Pickup / 2012.4.30 「インドアグリーン」でオフィスのエントランスを魅力的な空間に 株式会社イデアインターナショナル 経営企画部グループリーダー 石川 康宏さん" width="250" height="250" class="imgHover" /></a></li>
+		<li><a href="../Flow_Service/index.html"><img src="../images/com_banner02.jpg" alt="PIANTA×STANZA グリーンメンテナンスについて" width="250" height="60" class="imgHover" /></a></li>
+		<li><a href="#"><img src="../images/com_banner03.jpg" alt="PIANTA×STANZA for Consumer" width="250" height="80" class="imgHover" /></a></li>
+		<li class="mb0"><a href="http://ameblo.jp/piantastanza/" target="_blank"><img src="../images/com_banner04.jpg" alt="PIANTA×STANZA STAFF BLOG" width="250" height="40" class="imgHover" /></a></li>
+	</ul>
+	<div class="twitter"><img src="../images/com_twiter.jpg" alt="" width="250" height="235" /></div>
+	<div class="faceBook"><img src="../images/com_face_book.jpg" alt="" width="250" height="500" /></div>
+</div>

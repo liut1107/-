@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/faq.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+	//手风琴1
+	$(".naviBox1 .gNavi li:has(ul) > a").click(function(){
+		$(this).toggleClass("on");
+		$(this).next("ul").toggle();
+		return false;
+	});
+	//手风琴2
+	$(".naviBox2 .gNavi li:has(ul) > a").click(function(){
+		$(this).toggleClass("on");
+		$(this).next("ul").slideToggle();
+		return false;
+	});
+	
+	//手风琴3
+	$(".naviBox3 .gNavi li:has(ul) > a").click(function(){
+		var ele=$(this).next("ul");
+		if(ele.is(':visible')){
+			$(this).removeClass('on');
+			ele.hide();
+		}else{
+			$('.naviBox3 .gNavi li:has(ul) >a').removeClass('on');
+			$('.naviBox3 .gNavi li ul').hide();
+			$(this).addClass('on');
+			ele.show();
+		};
+		return false;
+	});
+	
+	//手风琴4
+	$(".naviBox4 .gNavi li:has(ul) > a").click(function(){
+		var ele=$(this).next("ul");
+		if(ele.is(':visible')){
+			$(this).removeClass('on');
+			ele.slideUp();
+		}else{
+			$('.naviBox4 .gNavi li:has(ul) >a').removeClass('on');
+			$('.naviBox4 .gNavi li ul').slideUp();
+			$(this).addClass('on');
+			ele.slideDown();
+		};
+		return false;
+	});
+	
+	//手风琴5
+	$(".naviBox5 dt").click(function(){
+		$(this).toggleClass("on");
+		$(this).next("dd").slideToggle(300);
+		return false;
+	});
+	
+	//手风琴6
+	$(".naviBox6 dt").click(function(){
+		if($(this).next().is(":hidden")){
+			$(this).siblings(".on").next().slideUp();
+			$(this).siblings(".on").removeClass("on");
+			$(this).next().slideDown();
+			$(this).addClass("on");	
+		}
+		else {
+			$(this).next().slideUp();
+			$(this).removeClass("on");	
+		}
+	});
+	
+	
+});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="main">
+		<div class="jsBox naviBox1">
+			<p>手风琴1 ul布局 打开一个其他不关闭</p>
+			<ul class="gNavi clearfix">
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="jsBox naviBox2">
+			<p>手风琴2 ul布局 打开一个其他不关闭</p>
+			<ul class="gNavi clearfix">
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="jsBox naviBox3">
+			<p>手风琴3 ul布局 打开一个其他关闭</p>
+			<ul class="gNavi clearfix">
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<div class="jsBox naviBox4">
+			<p>手风琴4 ul布局 打开一个其他关闭</p>
+			<ul class="gNavi clearfix">
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NAVI1</a>
+					<ul class="subNavi">
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+						<li><a href="#">subNavi</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="jsBox naviBox5">
+			<p>手风琴5 dl布局 打开一个其他不关闭</p>
+			<dl>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+			</dl>
+		</div>
+		
+		<div class="jsBox naviBox6">
+			<p>手风琴6 dl布局 打开一个其他关闭</p>
+			<dl>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+				<dt>提问</dt>
+				<dd>回答</dd>
+			</dl>
+		</div>
+	
+		<div class="cl"><a href="http://www.w3school.com.cn/jquery/jquery_hide_show.asp" target="_blank">学习jquery效果</a></div>
+	</div>
+</div>
+</body>
+</html>

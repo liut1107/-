@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+body {
+	margin: -0px 0 0;
+	padding: 0;
+	text-align: center;
+	overflow-x: hidden;
+	
+	padding-bottom: 1000px;
+}
+.spImg {
+	display: none;
+}
+ @media all and (min-width: 0) and (max-width: 767px) {
+body {
+	margin: 0;
+	padding: 2px 0 0;
+	text-align: left;
+	background-color: #000;
+}
+.spImg {
+	width: 320px;
+	display: block;
+}
+.spImg img {
+	width: 320px;
+}
+.pcImg {
+	display: none;
+}
+}
+</style>
+</head>
+<body>
+<div class="pcImg"><img src="policy.jpg" alt="" /></div>
+<div class="spImg"><img src="top_sp.jpg" alt="" width="320" /></div>
+</body>
+</html>
+
+<!--
+
+
+
+以后仙台项目的视频【frameborder="0"】这个属性在代码里面都要删掉，用css清border
+
+
+
+	
+常用字体：
+	font-family: "ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3"; 
+	font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3" , sans-serif;
+	font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+	font-family: Meiryo, "小塚ゴシック Pr6N", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+	font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro","ＭＳ Ｐ明朝", "MS PMincho",  serif;
+
+中文项目常用字体：
+	font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+	font-family: "宋体", Arial;
+	
+	
+<script type="text/javascript">
+if(((navigator.userAgent.indexOf('iPhone') > 0) || (navigator.userAgent.indexOf('Android') > 0) && (navigator.userAgent.indexOf('Mobile') > 0) && (navigator.userAgent.indexOf('SC-01C') == -1))){
+document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">');
+}                                         
+</script>
+
+
+	transition: .3s;
+	-moz-transition:  .3s; /* Firefox 4 */
+	-webkit-transition:  .3s; /* Safari 和 Chrome */
+	-o-transition:  .3s; /* Opera */
+
+/*--滤镜：---*/
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+
+/*--css3兼容：---*/
+
+	.demo {
+		position: relative;
+		behavior: url(js/pie.htc);
+	}
+
+/*------------------------------------------------------------
+	渐变
+------------------------------------------------------------*/
+	.demo {
+		background: -moz-linear-gradient(top,#702C9E 0%,#58078D);
+		background: -webkit-gradient(linear, left top, left bottom, from(#702C9E),to(#58078D));
+	}
+
+/*--多种颜色渐变---*/
+	.demo {
+		background: -moz-linear-gradient(top,#F75024,#F4461F 50%,#F23D1A 51%,#F13A19);
+		background: -webkit-gradient(linear, left top, left bottom, from(#F75024),color-stop(0.50, #F4461F),color-stop(0.51, #F23D1A),to(#F13A19));
+	}
+
+
+
+/*--文字阴影------------------------------------------------*/
+
+	.demo {
+		text-shadow: 2px 2px 1px #FFEA88,-2px -2px 1px #FFEA88,-2px 2px 1px #FFEA88,2px -2px 1px #FFEA88;
+	}
+
+/*- before --*/
+	a {
+		position: relative;
+	}
+	
+	a:before {
+		width: 8px;
+		height: 11px;
+		background: url(../img/icon02.gif) no-repeat left top;
+		background-size: 8px 11px;
+		position: absolute;
+		top: 32%;
+		left: 14px;
+	  
+		content: ""; 
+	}
+
+/*------------------------------------------------------------
+	用css写input/checkbox/radio模拟
+	参考网址：http://www.frontier-home.net/sp/form/corporates.htm
+------------------------------------------------------------*/
+	input {
+		margin-top: 0;
+		padding: 13px 0 14px;
+		width: 100%;
+		color: #CCC;
+		vertical-align: middle;
+		border-top: 1px solid #CBCBCB;
+		border-left: 1px solid #CBCBCB;
+		border-right: none;
+		border-bottom: none;
+		box-shadow: 0 2px 1px #CBCBCB inset;
+		border-radius: 3px;
+	}
+	
+/*--checkbox--*/
+	.checkUl li input[type="checkbox"] {
+		display: none;
+		padding: 0;
+		height: 14px;
+		width: 14px;
+		vertical-align: middle;
+	}
+	
+	.checkUl li input[type="checkbox"] + label {
+		background: url(../img/checkbox_bg02.gif) no-repeat 6px 7px;
+		background-size: 14px 14px;
+		border-radius: 4px;
+		border: 1px solid #d6d6d6;
+		display: block;
+		line-height: 20px;
+		padding: 4px 0 4px 25px;
+	}
+	
+	.checkUl li input[type="checkbox"]:checked + label {
+		background: url(../img/checkbox_bg01.gif) no-repeat 6px 7px;
+		background-size: 14px 14px;
+		background-color: #F0F0F0;
+	}
+	
+/*--select--*/	
+	.list li select {
+		-moz-appearance: none;
+		background: url(../img/select_bg.gif) no-repeat 95.5% 50%;
+		background-size: 6px 4px;
+		height: 28px;
+		border-radius: 4px;
+		border: 1px solid #d6d6d6;
+		line-height: 25px;
+		padding: 0 0 0 5px;
+	}
+	
+	
+-webkit-appearance: none;   改变按钮在iPhone下的默认风格
+
+	摘：http://www.w3cplus.com/css3/changing-appearance-of-element-with-css3.html
+		使用“appearance”属性，来改变任何元素的浏览器默认风格
+		简单的说，你可以使用“appearance”属性将“段落p”渲染成button的风格，也可以渲染成“输入框”、“选择框”等效果。
+
+
+
+/*- 表格里面会有一条斜线，可以这样写写试试 ---------------------*/
+
+#main .swipe .empty span {
+	display: block;
+	width: 100%;
+	margin: 35px -5px 0;
+	border-bottom: 1px solid #E3E3E3;
+	transform:rotate(16deg);
+}
+
+
+/*------------------------------------------------------------
+```````````````CSS 控制容器内文字个数，超出容器后显示省略号 小技巧，大用处 
+
+注意：css3标准，ie6,  不支持firefox
+容器 {
+   width:200px;
+   white-space:nowrap;
+   text-overflow:ellipsis;
+   overflow: hidden;
+   }
+white-space:nowrap  是强制在一行内显示所有文本，不回行。
+text-overflow:ellipsis  CSS3新增的属性，IE6以上版本支持。
+参数：
+   clip        [不显示省略标记（...），而是简单的裁切]，
+   ellipsis [当对象内文本溢出时显示省略标记（...）。
+
+overflow: hidden，让多余文字在ff中隐藏。 
+
+/*-----各种宣言代码-------------------------------------------------------*/
+
+<?xml version="1.0" encoding="shift_jis"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?php echo'<?xml version="1.0" encoding="utf-8"?>'; ?>【加表单的时候用到这个】
+
+/*-----iphone下设置icon-------------------------------------------------------*/
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="shortcut icon" href="/apple-touch-icon.png">
+
+/*-----og标签-------------------------------------------------------*/
+
+<meta name="robots" content="index, follow" />
+<meta property="og:title" content="シャトルシェフCLUB" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://www.shuttlechef-club.jp/common/img/logo02.gif" />
+<meta property="og:url" content="https://www.shuttlechef-club.jp/close/" />
+<meta property="og:site_name" content="シャトルシェフCLUB" />
+<title></title>
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+
+/*------------------------------------------------------------*/
+
+
+
+
+-->

@@ -1,0 +1,33 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="header">
+	<div class="hBox clearfix">
+		<h1>新明和の中古車販売・持装車高価買取り安心の品質管理！</h1>
+		<div class="ulBox clearfix">
+			<ul class="text clearfix">
+				<li>新明和オートエンジニアリングのホームページへ</li>
+				<li class="special">新明和グループ</li>
+			</ul>
+			<ul class="fontChange clearfix">
+				<li class="text01">文字サイズ変更</li>
+				<li class="fs"><a href="#" id="fs" onclick="font('1')"><img src="../img/common/img01_out.gif" width="27" height="17" alt="小" /></a></li>
+				<li class="fm"><a href="#" id="fm" onclick="font('2')" class="on"><img src="../img/common/img02_out.gif" width="27" height="17" alt="中" /></a></li>
+				<li class="fl"><a href="#" id="fl" onclick="font('3')"><img src="../img/common/img03_out.gif" width="27" height="17" alt="大" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="innerBox">
+		<div class="box clearfix">
+			<div class="logo"><a href="../"><img src="../img/common/logo.gif" width="166" height="60" alt="ShinMaywa Brighten your Future 新明和オートエンジニアリング株式会社" class="imgHover" /></a></div>
+			<div class="link"><a href="#"><img src="../img/common/link01.jpg" width="374" height="66" alt="新明和の中古車販売" class="imgHover" /></a></div>
+			<div class="tel"><img src="../img/common/tel.gif" width="234" height="66" alt="045-582-1521 お問い合わせはこちらからお気軽にお電話ください" /></div>
+		</div>
+		<ul id="gNavi" class="clearfix">
+			<li><a href="../kanri/"><img src="../img/common/g_navi01_out.jpg" width="159" height="39" alt="品質管理" /></a></li>
+			<li><a href="../tenji/"><img src="../img/common/g_navi02_out.jpg" width="158" height="39" alt="展示場案内" /></a></li>
+			<li><a href="../flow/"><img src="../img/common/g_navi03_out.jpg" width="158" height="39" alt="購入の流れ" /></a></li>
+			<li><a href="../buy/"><img src="../img/common/g_navi04_out.jpg" width="158" height="39" alt="中古車買取" /></a></li>
+			<li><a href="../faq/"><img src="../img/common/g_navi05_out.jpg" width="158" height="39" alt="Q&amp;A" /></a></li>
+			<li><a href="#"><img src="../img/common/g_navi06_out.jpg" width="159" height="39" alt="会社概要" /></a></li>
+		</ul>
+	</div>
+</div>

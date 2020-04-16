@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<!-- TemplateEndEditable -->
+<link href="../css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/common/general.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="css" -->
+<link href="../css/item.css" rel="stylesheet" type="text/css" />
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.page-scroller.js"></script>
+<script type="text/javascript" src="../js/smartRollover.js"></script>
+<!-- TemplateBeginEditable name="js" -->
+<!-- TemplateEndEditable -->
+<script type="text/javascript">
+$('.pageTop').hide();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			$('.pageTop').fadeIn();
+		} else {
+			$('.pageTop').fadeOut();
+		}
+	});
+</script>
+</head>
+<body>
+<a name="top" id="top"></a>
+<div id="container">
+	<div id="header">
+		<div class="topBox">
+			<div class="ttlBox clearfix">
+				<h1>美容・健康サポートサプリメント販売を販売。AKヘルスケアは美容と健康をサポート.</h1>
+				<ul class="topNavi clearfix">
+					<li><a href="../guide.html#a2"><img src="../img/common/h_imgtext01_out.gif" alt="会社概要" width="64" height="13" /></a></li>
+					<li><a href="../guide.html#a1"><img src="../img/common/h_imgtext02_out.gif" alt="特定商取引法に基づく表記" width="165" height="13" /></a></li>
+					<li><a href="../privacy.html"><img src="../img/common/h_imgtext03_out.gif" alt="プライバシーポリシー" width="140" height="13" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="hBox clearfix">
+			<div class="logo"><a href="../index.html"><img src="../img/common/logo.gif" alt="AK ヘルスケア 美容・健康サプリメントのオンラインショップ" width="255" height="56" /></a></div>
+			<ul class="link clearfix">
+				<li><img src="../img/common/tel_img.gif" alt="商品に関するお問い合わせ・お電話でのご注文は 072-234-1558" width="252" height="56" /></li>
+				<li><a href="../contact/"><img src="../img/common/h_link01_out.jpg" alt="メールなら24時間受付OK お問い合わせ" width="147" height="56" /></a></li>
+				<li><a href="#"><img src="../img/common/h_link02_out.jpg" alt="カートを見る" width="95" height="56" /></a></li>
+			</ul>
+		</div>
+		<div id="gNavi">
+			<ul class="clearfix">
+				<li class="navi01"><a href="../index.html"><img src="../img/common/g_navi01_out.gif" alt="Home" width="130" height="47" /></a></li>
+				<li class="navi02"><a href="../item.html"><img src="../img/common/g_navi02_out.gif" alt="商品一覧 Item" width="200" height="47" /></a></li>
+				<li class="navi03"><a href="../beginner.html"><img src="../img/common/g_navi03_out.gif" alt="はじめての方へ Beginner" width="200" height="47" /></a></li>
+				<li class="navi04"><a href="../guide.html"><img src="../img/common/g_navi04_out.gif" alt="ショッピングガイド Guide" width="200" height="47" /></a></li>
+				<li class="navi05"><a href="../contact/"><img src="../img/common/g_navi05_out.gif" alt="お問い合わせ Contact" width="250" height="47" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- TemplateBeginEditable name="mainimg" --> <!-- TemplateEndEditable -->
+	<div class="wrap"> <!-- TemplateBeginEditable name="pagepath" --> <!-- TemplateEndEditable -->
+		<div id="main" class="clearfix">
+			<div id="conts"><!-- TemplateBeginEditable name="conts" --> <!-- TemplateEndEditable --> </div>
+			<div id="sideBar">
+				<div class="sBox">
+					<div class="list">
+						<p class="title"><img src="../img/common/s_title.png" alt="Item List 商品一覧" width="240" height="31" /></p>
+						<ul class="sNavi">
+							<li><a href="#">うるおい肌ゼリー (ジュネス)</a></li>
+							<li><a href="#">マルチビタミン&amp; ミネラル</a></li>
+							<li><a href="#">グルコサミンMX</a></li>
+							<li class="none"><a href="#">コラーゲンコンポーズ</a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="sLink clearfix">
+					<li class="link"><a href="../beginner.html"><img src="../img/common/s_link01_out.jpg" alt="はじめての方へBeginner" width="240" height="80" /></a></li>
+					<li><a href="../guide.html"><img src="../img/common/s_link02_out.gif" alt="ショッピングガイド" width="240" height="49" /></a></li>
+					<li><a href="../guide.html#a2"><img src="../img/common/s_link03_out.gif" alt="会社概要" width="240" height="49" /></a></li>
+					<li><a href="#"><img src="../img/common/s_link04_out.gif" alt="カートを見る" width="240" height="49" /></a></li>
+					<li class="contact"><a href="../contact/"><img src="../img/common/s_link05_out.jpg" alt="商品に関する お問い合わせ・ご注文 072-234-1558 受付時間 10:00～16:00(月～金曜日) メールなら24時間受け付け可能 お問い合わせはこちら" width="240" height="227" /></a></li>
+					<li class="mb0"><a href="#"><img src="../img/common/s_link06_out.jpg" alt="Health &amp;  Beauty ブログ" width="240" height="88" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="pageTop"><a href="#top"><img src="../img/common/page_top_out.png" alt="PageTop" width="72" height="72" /></a></div>
+	<div id="footer">
+		<ul class="fNavi">
+			<li><a href="../index.html">トップ</a></li>
+			<li><a href="../item.html">商品一覧</a></li>
+			<li><a href="../beginner.html">はじめての方へ</a></li>
+			<li><a href="../guide.html">ショッピングガイド</a></li>
+			<li><a href="../guide.html#a2">会社概要</a></li>
+			<li><a href="../guide.html#a1">特定商取引法に基づく表記</a></li>
+			<li><a href="privacy.html">プライバシーポリシ―</a></li>
+			<li><a href="../contact/">お問い合わせ</a></li>
+		</ul>
+		<div class="copyright">
+			<p>Copyright &copy; <script type="text/javascript">
+today=new Date();
+y=today.getFullYear();
+document.write("",y,"");
+</script> AKヘルスケア. All rights reserved.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

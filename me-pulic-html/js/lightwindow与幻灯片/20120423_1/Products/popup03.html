@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link rel="shortcut icon" href="http://www.pianta-stanza.jp/favicon.ico">
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript">
+function star(event){
+	event=event.srcElement?event.srcElement:event.target;
+	var str = jQuery(event).attr('src');
+	str = str.replace('_photo','_img');
+	jQuery('p.alt').text(jQuery(event).attr('alt'));
+	jQuery('#bigimg').attr('src',str);
+	jQuery('ul#imglist li img').css('opacity',1);
+	jQuery('ul#imglist li img').removeClass('on');
+	jQuery(event).css('opacity',0.5);
+	jQuery(event).addClass('on');
+}
+</script>
+
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-2968996-26']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = 
+
+true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+
+'.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+ 	var js, fjs = d.getElementsByTagName(s)[0];
+ 	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+ 	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+<div class="popup">
+	<p><img  id="bigimg" src="../images/pop03_img01.jpg" alt="" width="680" height="425" /></p>
+	<div class="ulBox">
+		<ul class="clearfix" id="imglist">
+			<li><a href="#" onclick="star(event)"><img src="../images/pop03_photo01.jpg" alt="[設置イメージ]　nature connect" width="128" height="80" onmouseover="imgover(event)" onmouseout="imgout(event)" /></a></li>
+			<li><a href="#" onclick="star(event)"><img src="../images/pop03_photo02.jpg" alt="[設置イメージ]　nature connect" width="128" height="80" onmouseover="imgover(event)" onmouseout="imgout(event)" /></a></li>
+			<li><a href="#" onclick="star(event)"><img src="../images/pop03_photo03.jpg" alt="[設置イメージ]　nature connect" width="128" height="80" onmouseover="imgover(event)" onmouseout="imgout(event)" /></a></li>
+			<li><a href="#" onclick="star(event)"><img src="../images/pop03_photo04.jpg" alt="[設置イメージ]　nature connect" width="96" height="80" onmouseover="imgover(event)" onmouseout="imgout(event)" /></a></li>
+		</ul>
+	</div>
+	<div class="inner clearfix clear">
+		<p class="alt">[設置イメージ]　nature connect</p>
+		<ul class="ulTwitter">
+					<li><a href="https://twitter.com/#!/piantastanzanew/" target="_blank"><img src="../images/com_img01.jpg" alt="t" width="20" height="20" class="imgHover" /></a></li>
+					<li><a href="http://www.facebook.com/PIANTASTANZA" target="_blank"><img src="../images/com_img02.jpg" alt="f" width="20" height="20" class="imgHover" /></a></li>
+					<li><!--<fb:like href="http://www.pianta-stanza.jp/business/Products/popup01.html" send="false" layout="button_count" width="40" show_faces="true" colorscheme="light" font="arial"></fb:like>-->
+<iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.pianta-stanza.jp%2Fbusiness%2FProducts%2Fpopup03.html&amp;send=false&amp;layout=button_count&amp;width=40&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></li>
+				</ul>
+	</div>
+	<ul class="link clearfix">
+		<li class="floatL"><a href="index.html"><img src="../images/pop_link.gif" alt="製品一覧" width="122" height="29" class="imgHover" /></a></li>
+	</ul>
+</div>
+</body>
+</html>

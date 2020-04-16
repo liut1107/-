@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#header {
+	margin-bottom: 0;
+	padding-bottom: 4px;
+}
+
+#main {
+	padding: 0 5px 98px;
+	width: 950px;
+}
+
+#main .mainImg {
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+#main .mainBox {
+	padding: 0 16px 0 10px;
+}
+
+#conts {
+	width: 720px;
+	float: left;
+}
+
+#conts h2 {
+	margin-bottom: 16px;
+}
+
+#conts dl {
+	margin-left: 10px;
+	font-size: 1.2em;
+}
+
+#conts dt {
+	float: left;
+	clear: left;
+}
+
+#conts dd {
+	padding: 0 0 3px 6.7em;
+}
+
+	* html #conts dd {
+		text-indent: -3px;
+	}
+
+#sideBar {
+	float: right;
+}

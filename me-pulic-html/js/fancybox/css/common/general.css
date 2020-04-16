@@ -1,0 +1,619 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+.vaTop { vertical-align: top !important; }
+.vaMiddle { vertical-align: middle !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.1em !important; }
+.fsP2 { font-size: 1.2em !important; }
+.fsP3 { font-size: 1.3em !important; }
+.fsP4 { font-size: 1.4em !important; }
+.fsP5 { font-size: 1.5em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 1em !important; }
+.fsM2 { font-size: 0.9em !important; }
+.fsM3 { font-size: 0.8em !important; }
+.fsM4 { font-size: 0.7em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.dis {
+	display: block;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+a:hover img.imgHover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	color01
+------------------------------------------------------------*/
+.color01 {
+	color: #CC0000;
+}
+
+/*------------------------------------------------------------
+	h2
+------------------------------------------------------------*/
+h2 {
+	margin-bottom: 7px;
+}
+
+/*------------------------------------------------------------
+	h3
+------------------------------------------------------------*/
+#conts h3 {
+	margin-bottom: 7px;
+}
+
+/*------------------------------------------------------------
+	pageTop
+------------------------------------------------------------*/
+.pageTop a {
+	background: url(../../img/common/icon/icon03.gif) no-repeat left 3px;
+	color: #999 !important;
+	display: block;
+	font-size: 1.2em;
+	float: right;
+	padding-left: 18px;
+}
+
+/*------------------------------------------------------------
+	 comP
+------------------------------------------------------------*/
+#main .comP {
+    font-size: 1.2em;
+    margin: 0 0 13px 2px;
+}
+
+/*------------------------------------------------------------
+	 comLink
+------------------------------------------------------------*/
+#conts .comLink {
+	background: url(../../img/common/com_link_bg.jpg) repeat-x left top;
+	padding: 8px 0 3px;
+	zoom: 1;
+}
+
+#conts .comLink li {
+	float: left;
+	padding-left: 7px;
+}
+
+#conts .comLink li a,
+#conts .comLink li img {
+	display: block;
+}
+
+/*------------------------------------------------------------
+	 comSection04
+------------------------------------------------------------*/
+#conts .comSection04 {
+	border: 1px solid #CCC;
+	margin-bottom: 17px;
+	padding-top: 6px;
+}
+
+#conts .comSection04 .box {
+	padding: 0 6px 3px;
+}
+
+#conts .comSection04 .box .lBox {
+	float: left;
+	width: 201px;
+}
+
+#conts .comSection04 .box .lBox .new {
+	border: 1px solid #CCC;
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 6px;
+	padding: 3px 0 4px 3px;
+	word-wrap: break-word;
+}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) { #conts .comSection04 .box .lBox .new {	padding: 6px 0 4px 3px;
+	} }
+	
+#conts .comSection04 .box .lBox .new dt {
+	float: left;
+}
+
+#conts .comSection04 .box .lBox .new dd {
+	line-height: 0.9;
+	padding-left: 88px;
+}
+
+	* html #conts .comSection04 .box .lBox .new dd {
+		text-indent: -3px;
+	}
+
+#conts .comSection04 .box .lBox .new dt img {
+	display: block;
+}
+
+#conts .comSection04 .box .lBox .photoBox {
+	margin-left: 1px;
+}
+
+#conts .comSection04 .box .rBox {
+	float: right;
+	width: 401px;
+}
+
+#conts .comSection04 .box .rBox table {
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+	margin-bottom: 6px;
+	font-size: 1.4em;
+	width: 100%;
+} 
+
+#conts .comSection04 .box .rBox th {
+	background-color: #E7E7E7;
+	border-right: 1px solid #CCC;
+	color: #000099;
+	font-weight: normal;
+	padding: 1px;
+	text-align: center;
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+
+#conts .comSection04 .box .rBox .special {
+	background-color: #FFFFBF;
+	color: #FF7F00;
+	font-weight: bold;
+}
+
+#conts .comSection04 .box .rBox td {
+	border-right: 1px solid #CCC;
+	padding: 1px;
+	text-align: center;
+	vertical-align: middle;
+    word-wrap: break-word;
+}
+
+#conts .comSection04 .box .rBox .special01 {
+	padding: 7px;
+}
+/*------------------------------------------------------------
+	comUl
+------------------------------------------------------------*/
+#conts .comUl {
+	background-color: #E8E8E8;
+	margin-bottom: 21px;
+	padding: 19px 0 11px 21px;
+}
+
+#conts .comUl li {
+	background: url(../../img/common/icon/icon04.gif) no-repeat left top;
+	font-size: 1.2em;
+	padding: 0 0 8px 24px;
+}
+
+#conts .comUl li a {
+	text-decoration: none;
+}
+
+#conts .comUl li a:hover {
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+	comDl
+------------------------------------------------------------*/
+#conts .comDl {
+	margin-bottom: 14px;
+}
+
+#conts .comDl dt {
+	background: #FEFEFE url(../../img/common/com_dl_bg.jpg) no-repeat left bottom;
+	border: 1px solid #9797A6;
+	border-bottom: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 15px 15px 13px 19px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#conts .comDl dt img,
+#conts .comDl dd img {
+	float: left;
+}
+
+#conts .comDl dt span,
+#conts .comDl dd span {
+	float: right;
+	width: 557px;
+}
+
+#conts .comDl dd {
+	border: 1px solid #9797A6;
+	border-top: none;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	padding: 12px 15px 17px 19px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#conts .comDl dd .special {
+	font-weight: bold;
+	float: none;
+}
+/*------------------------------------------------------------
+	comSection01
+------------------------------------------------------------*/
+#conts .comSection01 {
+	margin-bottom: 10px;
+	width: 618px;
+}
+
+#conts .comSection01 img {
+	clear: both;
+	display: block;
+}
+
+#conts .comSection01 .inner {
+	background: url(../../img/common/com_section02_bg.gif) repeat-y left top;
+	padding: 0 10px 0 35px;
+}
+
+#conts .comSection01 .inner .photoBox {
+	float: left;
+}
+
+#conts .comSection01 .inner .textBox {
+	float: right;
+	width: 462px;
+}
+
+#conts .comSection01 .inner .textBox .title01 {
+	margin-bottom: 19px;
+}
+
+#conts .comSection01 .inner .textBox .box .lBox {
+	float: left;
+	padding-top: 2px;
+}
+
+#conts .comSection01 .inner .textBox .box .lBox img {
+	border: 1px solid #9797A6;
+}
+
+#conts .comSection01 .inner .textBox .box02 {
+	margin-bottom: 20px;
+}
+
+#conts .comSection01 .inner .textBox .box .rBox {
+	float: right;
+	width: 350px;
+}
+
+#conts .comSection01 .inner .textBox .box .rBox p {
+	font-size: 1.4em;
+}
+
+#conts .comSection01 .inner .textBox .box .rBox p .special01 {
+	color: #134AA9;
+	display: block;
+	font-weight: bold;
+}
+
+#conts .comSection01 .inner .textBox .box .rBox p .special02 {
+	font-weight: bold;
+}
+
+#conts .comSection01 .inner .textBox .title02 {
+	clear: both;
+	margin-bottom: 8px;
+}
+
+#conts .comSection01 .inner .textBox .subBox {
+	margin: 0 42px 0 39px;
+}
+
+#conts .comSection01 .inner .textBox .subBox ul {
+	width: 157px;
+}
+
+#conts .comSection01 .inner .textBox .subBox ul li {
+	float: left;
+	margin-bottom: 9px;
+}
+
+#conts .comSection01 .inner .textBox .subBox ul .photo {
+	margin-bottom: 0;
+}
+
+#conts .comSection01 .inner .textBox .subBox ul .photo img {
+	border: 1px solid #9797A6;
+}
+
+/*------------------------------------------------------------
+	comSection02
+------------------------------------------------------------*/
+#conts .comSection02 {
+	border: 1px solid #CCC;
+	padding: 10px 9px;
+}
+
+/*------------------------------------------------------------
+	comBox
+------------------------------------------------------------*/
+#conts .comBox01 {
+	border: 1px solid #CCC;
+	background: #fff url(../../img/common/com_box_bg.jpg) repeat-x left bottom;
+	clear: both;
+	margin: 0 7px 10px 5px;
+	padding: 0 5px 8px 13px;
+}
+
+#conts .comBox01 .photoBox {
+	float: left;
+}
+
+#conts .comBox01 .textBox {
+	float: left;
+	margin-top: 12px;
+	width: 475px;
+}
+
+#conts .comBox01 .textBox p {
+	font-size: 1.2em;
+	line-height: 1.3;
+	margin-left: 2px;
+}
+
+#conts .comBox01 .textBox .imgText {
+	margin: 0 0 7px 0;
+}
+
+#conts .comBox02 {
+	border: 3px solid #134AA9;
+	margin-bottom: 10px;
+	padding: 0 5px 11px 11px;
+}
+
+#conts .comBox02 .textBox p {
+	margin-left: 16px;
+}
+
+#conts .comBox02 .textBox .imgText {
+	margin-bottom: 11px;
+}
+
+#conts .comBox03 {
+	margin-bottom: 19px;
+	padding-bottom: 4px;
+}
+
+/*------------------------------------------------------------
+	comSection03
+------------------------------------------------------------*/
+#conts .comSection03 {
+	background: url(../../img/common/com_section03_bg03.jpg) repeat-y left top;
+	margin-bottom: 14px;
+}
+
+#conts .comSection03 img {
+	clear: both;
+	display: block;
+}
+
+#conts .comSection03 .inner {
+	background: url(../../img/common/line02.gif) no-repeat 5px bottom;
+	clear: both;
+	margin-bottom: 20px;
+	padding: 0 13px 22px 35px;
+}
+
+#conts .comSection03 .none {
+	background: none !important;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#conts .comSection03 .inner .photoBox {
+	float: left;
+	margin-top: 14px;
+}
+
+#conts .comSection03 .inner .textBox {
+	float: right;
+	width: 468px;
+}
+
+#conts .comSection03 .inner .textBox .box {
+	padding-right: 17px;
+}
+
+#conts .comSection03 .inner .textBox .title {
+	margin-bottom: 17px;
+}
+
+#conts .comSection03 .inner .textBox .box .lBox {
+	float: left;
+}
+
+#conts .comSection03 .inner .textBox .box .rBox {
+	float: right;
+	margin-top: 9px;
+	width: 260px;
+}
+
+#conts .comSection03 .inner .textBox .box .rBox p {
+	font-size: 1.4em;
+}
+
+/*------------------------------------------------------------
+	comTable
+------------------------------------------------------------*/
+#conts .mailForm .comTable {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#conts .mailForm .comTable th {
+	background: url(../../img/common/com_th_bg.gif) repeat left top;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	font-weight: normal;
+	padding: 7px 11px 6px 12px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#conts .mailForm .comTable th label {
+	float: left;
+	width: 116px;
+}
+
+#conts .mailForm .comTable th img {
+	float: right;
+}
+
+#conts .mailForm .comTable th span {
+	font-size: 0.8em;
+}
+
+#conts .mailForm .comTable td {
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	padding: 6px 0 3px 6px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#conts .mailForm td .notes {
+	font-size: 1.0em;
+	margin: 0;
+}
+
+#conts .mailForm td .method li {
+	margin-left: 1.8em;
+	text-indent: -2em;
+}
+
+#conts .mailForm td .method li lable {
+	vertical-align: top;
+}
+
+#conts .mailForm td .method li .size {
+	font-size: 0.9em;
+	margin-left: 50px;
+}
+
+#conts .mailForm td .vehicle li {
+	float: left;
+}
+
+#fName,
+#fCompany,
+#fAddress,
+#fTel,
+#fFax,
+#fCar,
+#fChassis,
+#fProduct,
+#fBodywork,
+#fRack {
+	width: 376px;
+}
+
+#fContact01 {
+	margin: 0 0 4px 11px;
+	width: 305px;
+}
+
+#fContact02 {
+	margin: 0 0 3px 9px;
+	width: 305px;
+}
+
+#fYear {
+	width: 78px;
+}
+
+#fVehicle03,
+#fVehicle04,
+#fVehicle05 {
+	width: 40px;
+}
+
+#fDistance,
+#fMaximum,
+#fSold  {
+	width: 92px;
+}
+
+#fState01,
+#fState02 {
+	height: 65px;
+	width: 376px;
+}
+
+#conts .mailForm .submit {
+	text-align: center;
+}
+
+#conts .mailForm .submit li {
+	display: inline;
+}
+
+#main .mailForm .submit li input {
+	vertical-align: top;
+}

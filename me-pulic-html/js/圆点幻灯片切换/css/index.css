@@ -1,0 +1,141 @@
+@charset "shift_jis";
+/* CSS Document */
+
+#header {
+	padding: 23px 0 16px 1px;
+	position: relative;
+}
+
+#header h1 {
+	float: none;
+	left: 19px;
+	position: absolute;
+	top: 30px;
+	z-index: 1000;
+}
+
+#header .visual {
+	margin-bottom: 12px;
+	height: 314px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#header .visual li {
+	float: left;
+}
+
+#header .linkBox {
+	margin: 0 auto;
+	width: 760px;
+}
+
+#header .linkBox .link {
+	float: right;
+}
+
+#header .linkBox .link li {
+	float: left;
+	padding-left: 5px;
+}
+
+#header .linkBox .link li a,
+#header .linkBox .link li img {
+	display: block;
+}
+
+#header .linkBox .link li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+#header .linkBox .arrowList {
+	float: left;
+	width: 260px;
+}
+
+#header .linkBox .arrowList a {
+	float: left;
+	margin-right: 5px;
+	display: block;
+	width: 12px;
+	height: 0;
+	padding-top: 13px;
+	overflow: hidden;
+	zoom: 1;
+	background: url(../img/index/icon_out.gif) no-repeat;
+}
+
+#header .linkBox .arrowList a.selected {
+	background: url(../img/index/icon_over.gif) no-repeat;
+}
+
+#header .linkBox .arrowList li a,
+#header .linkBox .arrowList li img {
+	display: block;
+}
+
+#header .linkBox .arrowList li a:hover img {
+	opacity: 0; 	
+	filter: alpha(opacity=0);	
+Å@Å@-moz-opacity:0; 
+}
+
+#header .linkBox .arrowList li a {
+	background: url(../img/index/icon_over.gif) no-repeat;
+}
+
+#header .linkBox .arrowList .on a img {
+	visibility: hidden;
+}
+
+.photoList {
+	clear: both;
+	margin-bottom: 31px;
+}
+
+.photoList li {
+	float: left;
+	margin-right: 4px;
+	width: 129px;
+}
+
+.photoList li img {
+	display: block;
+}
+
+.photoList li span {
+	display: block;
+	padding: 8px 0 0 7px;
+}
+
+.photoList li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+#main {
+	margin-bottom: 0;
+}
+
+#sideBar .sNavi li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+#conts {
+	padding-top: 8px;
+}
+
+#conts .h2Ttl02 .lSpan {
+	font-size: 1.5em;
+}
+
+#conts .h2Ttl02 .lSpan span {
+	font-size: 0.7em;
+	margin-left: 9px;
+	vertical-align: 1px;
+}

@@ -1,0 +1,476 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3" , sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #333;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+a:active {
+	color: #333;
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	background: url(../../img/common/body_bg.gif) repeat left top;
+	color: #333;
+	text-align:center;
+	line-height: 1.5;
+	zoom: 1;
+}
+
+#container{
+	background: url(../../img/common/container_bg.jpg) repeat-x left top;
+	text-align: left;
+	zoom: 1;
+}
+
+#main {
+	background: url(../../img/common/main_bg.png) repeat-y left top;
+	margin: 0 auto;
+	padding: 15px 6px 37px;
+	width: 950px;
+	zoom: 1;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+#main .mainVisual {
+	background: url(../../img/common/main_visual_bg.jpg) no-repeat left top;
+	margin-bottom: 9px;
+	padding: 14px 10px 13px;
+	zoom: 1;
+}
+
+#main .mainVisual .title {
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+#main .mainVisual .linkList {
+	margin: 0 -1px 5px 1px;
+	overflow: hidden;
+	width: 910px;
+}
+
+#main .mainVisual .linkList li {
+	float: left;
+	padding: 0 2px 1px 0;
+}
+
+#main .mainVisual .linkList li a,
+#main .mainVisual .linkList li img {
+	display: block;
+}
+
+#main .mainVisual .section {
+	margin: 0 2px 0 1px;
+}
+
+#main .mainVisual .section .box {
+	background-color: #FFF;
+	float: left;
+	padding: 4px 5px 4px 6px;
+	width: 695px;
+}
+
+#main .mainVisual .section .box .search {
+	float: left;
+	margin-right: -8px;
+	overflow: hidden;
+	width: 366px;
+}
+
+#main .mainVisual .section .box .search li {
+	margin-right: 8px;
+	float: left;
+}
+
+#main .mainVisual .section .box .search li img {
+	display: block;
+}
+
+#main .mainVisual .section .box .search li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+#main .mainVisual .section .box .form {
+	float: right;
+	margin-top: 2px;
+	width: 326px;
+}
+
+#main .mainVisual .section .box .form li {
+	float: left;
+}
+
+#main .mainVisual .section .box .form li img {
+	display: block;
+}
+
+#main .mainVisual .section .box .form li input {
+	float: left;
+}
+
+#fSearch {
+	height: 15px;
+	width: 149px;
+	margin: 2px 6px 0 0;
+}
+
+#main .mainVisual .section .link {
+	float: right;
+	width: 194px;
+}
+
+#main .mainImg {
+	background: url(../../img/common/line01.gif) repeat-x left bottom;
+	margin-bottom: 12px;
+	padding-bottom: 11px;
+	zoom: 1;
+}
+
+#main .mainImg img {
+	border: 2px solid #CCC;
+}
+
+#main .mainBox {
+	margin-right: 2px;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header {
+	margin: 0 auto;
+	width: 962px;
+}
+
+#header .hBox {
+	padding: 5px 6px 2px 9px;
+}
+
+#header .hBox h1 {
+	color: #FFF;
+	float: left;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-top: 1px;
+	width: 400px;
+}
+
+#header .hBox .ulBox {
+	float: right;
+	width: 537px;
+}
+
+#header .hBox .ulBox .text {
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	float: left;
+	font-size: 1.1em;
+	margin: 1px 11px 0 0;
+	line-height: 1.4;
+	width: 363px;
+}
+
+#header .hBox .ulBox .text li {
+	background: url(../../img/common/icon/icon01.gif) no-repeat left top;
+	float: left;
+	padding-left: 20px;
+	width: 234px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { #header .hBox .ulBox .text li { letter-spacing: -1px; } }
+
+#header .hBox .ulBox .text .special {
+	width: 89px;
+}
+
+#header .hBox .ulBox .fontChange {
+	color: #FFF;
+	float: left;
+	width: 162px;
+}
+
+#header .hBox .ulBox .fontChange li {
+	float: left;
+}
+
+#header .hBox .ulBox .fontChange .text01 {
+	line-height: 1.2;
+	margin-top: 2px;
+	width: 81px;
+}
+
+#header .hBox .ulBox .fontChange li a,
+#header .hBox .ulBox .fontChange li img {
+	display: block;
+}
+
+#header .hBox .ulBox .fontChange .fs a {
+	background: url(../../img/common/img01_over.gif) no-repeat;
+}
+
+#header .hBox .ulBox .fontChange .fm a {
+	background: url(../../img/common/img02_over.gif) no-repeat;
+}
+
+#header .hBox .ulBox .fontChange .fl a {
+	background: url(../../img/common/img03_over.gif) no-repeat;
+}
+
+#header .hBox .ulBox .fontChange .on img {
+	visibility: hidden;
+}
+
+#header .innerBox {
+	background: url(../../img/common/inner_box_bg.png) no-repeat left top;
+	clear: both;
+	padding: 10px 6px 0;
+	zoom: 1;
+}
+
+#header .innerBox .box {
+	margin: 0 4px 10px 52px;
+}
+
+#header .logo {
+	float: left;
+	margin: 3px 72px 0 0;
+}
+
+#header .innerBox .box .link {
+	float: left;
+	margin-right: 35px;
+}
+
+#header .innerBox .box .tel {
+	float: left;
+}
+
+/*------------------------------------------------------------
+	グローバルナビ
+------------------------------------------------------------*/
+#gNavi {
+	clear: both;
+}
+
+#gNavi li {
+	float: left;
+}
+
+#gNavi li a,
+#gNavi li img {
+	display: block;
+}
+
+#gNavi li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+
+/*------------------------------------------------------------
+	パンクズリスト
+------------------------------------------------------------*/
+#pagePath {
+	margin: 0 0 3px 7px;
+}
+
+#pagePath li {
+	font-size: 1.2em;
+	display: inline;
+}
+
+#pagePath li a {
+	margin-right: 4px;
+	text-decoration: none;
+}
+
+#pagePath li a:hover {
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+	コンテンツ
+------------------------------------------------------------*/
+#conts {
+	float: left;
+	padding-left: 10px;
+	width: 622px;
+}
+
+/*------------------------------------------------------------
+	サイドバー
+------------------------------------------------------------*/
+#sideBar {
+	width: 302px;
+	float: right;
+}
+
+#sideBar .banner li {
+	float: left;
+	margin-bottom: 6px;
+}
+
+#sideBar .banner li a,
+#sideBar .banner li img {
+	display: block;
+}
+
+#sideBar .sBox {
+	border: 1px solid #CCC;
+	padding: 11px 0 6px 6px;
+}
+
+#sideBar .sBox .title {
+	margin-bottom: 12px;
+}
+
+#sideBar .sBox .sNavi li {
+	float: left;
+	margin-bottom: 5px;
+}
+
+#sideBar .sBox .sNavi li a,
+#sideBar .sBox .sNavi li img {
+	display: block;
+}
+
+#sideBar .sNavi02 {
+	margin-bottom: 14px;
+}
+
+#sideBar .sNavi02 li {
+	float: left;
+}
+
+#sideBar .sNavi02 li img {
+	display: block;
+}
+
+#sideBar .sNavi02 li a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	background: url(../../img/common/footer_bg.png) repeat-y left top;
+	clear: both;
+	margin: 0 auto;
+	padding: 0 6px 40px 8px;
+	width: 948px;
+}
+
+#footer ul {
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#footer li {
+	display: inline;
+	margin-right: 1px;
+}
+
+#footer li a {
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+#footer li a:hover {
+	text-decoration: underline;
+}
+
+#footer p {
+	background-color: #F1F1F1;
+	color: #999;
+	font-size: 1.2em;
+	padding: 1px 0 2px;
+	text-align: center;
+}

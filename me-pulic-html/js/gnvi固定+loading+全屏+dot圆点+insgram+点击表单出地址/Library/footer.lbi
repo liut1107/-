@@ -1,0 +1,88 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<footer id="gFooter">
+	<div class="pageTop"><a href="#gHeader">ページトップ</a></div>
+	<div class="topBox clearfix">
+		<div class="ttlBox">
+			<div class="fLogo"><a href="../index.html"><img src="../img/common/f_logo.png" alt="ここすも"></a></div>
+			<div class="link"><a href="#"><span>メールでのお問い合わせ</span></a></div>
+		</div>
+		<div class="telBox">
+			<div class="tel"><span class="sml">お住まいのご相談・お問い合わせは</span>tel  <span class="num">0533-75-6905</span></div>
+			<p class="time">受付時間 9:00から18:00 土日祝定休</p>
+		</div>
+		<div class="txtBox">
+			<p class="ttl">株式会社山豊工建</p>
+			<ul class="txtUl clearfix">
+				<li>ここすも豊田事業部</li>
+				<li>ここすも豊川事業部</li>
+				<li>ここすも豊橋事業部</li>
+				<li>ここすも千種事業部</li>
+				<li>ここすも高浜事業部</li>
+				<li>ここすも春日井事業部</li>
+			</ul>
+		</div>
+	</div>
+	<div class="naviBox">
+		<div class="fNavi clearfix">
+			<ul>
+				<li class="ttl wid01"><a href="#">私たちの家づくり</a></li>
+				<li class="wid02">
+					<ul class="subNavi">
+						<li><a href="../about.html">ここすもハウスとは</a></li>
+						<li><a href="#">私たちの家づくり</a></li>
+						<li><a href="#">性能と構造</a></li>
+					</ul>
+				</li>
+				<li class="wid03">
+					<ul class="subNavi">
+						<li><a href="#">家づくりの流れ</a></li>
+						<li><a href="#">施工事例</a></li>
+						<li><a href="#">お客様の声</a></li>
+					</ul>
+				</li>
+				<li class="wid04">
+					<ul class="subNavi">
+						<li><a href="../modelhouse.html">モデルハウス</a></li>
+					</ul>
+				</li>
+				<li class="ttl wid05"><a href="#">会社情報</a></li>
+				<li class="wid06">
+					<ul class="subNavi">
+						<li><a href="../profile.html">会社概要</a></li>
+						<li><a href="#">グループ概要</a></li>
+						<li><a href="#">代表挨拶</a></li>
+					</ul>
+				</li>
+				<li class="wid07">
+					<ul class="subNavi">
+						<li><a href="#">お知らせ</a></li>
+						<li><a href="#">採用情報</a></li>
+						<li><a href="#">スタッフの紹介</a></li>
+					</ul>
+				</li>
+				<li class="wid08">
+					<ul class="subNavi">
+						<li><a href="#">事業所紹介</a></li>
+						<li><a href="../contact/">お問い合わせ</a></li>
+						<li><a href="#">プライバシーポリシー</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="linkBox">
+		<ul class="fLink clearfix">
+			<li><a href="#"><img src="../img/common/f_link01.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link02.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link03.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link04.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link05.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link06.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link07.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link08.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link09.jpg" alt=""></a></li>
+			<li><a href="#"><img src="../img/common/f_link10.jpg" alt=""></a></li>
+		</ul>
+	</div>
+	<p class="copyright">Copyrights&copy; cocosumo. All Rights Reserved.</p>
+</footer>

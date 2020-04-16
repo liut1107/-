@@ -1,0 +1,1599 @@
+@charset "utf-8";
+
+
+/* ============================================================
+
+	style info : 検索系画面で使用するスタイルを記述
+
+============================================================ */
+
+/* --------------------------------
+	font-size
+
+		10px ： 84%
+		11px ： 92%
+		12px ： 100%
+		13px ： 109%
+		14px ： 117%
+		15px ： 125%
+		16px ： 134%
+		17px ： 142%
+		18px ： 150%
+		19px ： 159%
+		20px ： 167%
+		22px ： 184%
+		24px ： 200%
+		26px ： 217%
+		28px ： 234%
+		30px ： 250%
+		32px ： 267%
+		36px ： 300%
+		40px ： 334%
+-------------------------------- */
+
+
+/* --------------------------------
+	background-image,
+	image substitute
+-------------------------------- */
+
+.bgN {
+	background: transparent url(../images/search_n.png) no-repeat;
+}
+.subN {
+	display: block;
+	background: transparent url(../images/search_n.png) no-repeat;
+	font-size: 1px;
+	text-align: left;
+	text-indent: -9999em;
+	/*\*/
+	overflow: hidden;
+	/**/
+}
+
+
+/* -----------------------------------
+	style : 共通
+----------------------------------- */
+
+.searchTitle {
+	padding: 5px 0 5px 43px;
+	background-position: -3000px 0;
+	font-size: 150%;
+}
+.searchTitle02 {
+	padding: 3px 0 3px 20px;
+	background-position: -2px -1950px;
+	background-repeat: no-repeat;
+	font-size: 134%;
+	line-height: 1.3;
+}
+
+.contentsTopLink {
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+
+/* -----------------------------------
+	style : 一覧
+----------------------------------- */
+
+/* #searchPanel */
+#searchPanel {
+	margin-bottom: 20px;
+	background-position: -2980px 0;
+}
+#searchPanel dl.condition {
+	padding: 6px 8px 4px 8px;
+	background-position: -2250px 0;
+	background-repeat: no-repeat;
+}
+#searchPanel dl.condition dt {
+	display: inline;
+	float: left;
+	width: 70px;
+	height: 13px;
+	margin: 8px 12px 0 0;
+	background-position: -760px -100px;
+}
+#searchPanel dl.condition dd {
+	display: inline;
+	float: left;
+	padding-left: 10px;
+	border-left: dotted 1px #dcdcdc;
+	min-height: 27px;
+	height: auto !important;
+	height: 27px;
+}
+#searchPanel dl.condition dd ul li {
+	display: inline-block;
+	padding: 4px 6px 3px 9px;
+	border: solid 1px #f1e6a0;
+	background: #fffada;
+}
+#searchPanel dl.condition dd ul li .dialogCloseButton {
+	margin-left: 3px;
+}
+
+#searchPanel ul.methodTab {
+	margin: 0 1px;
+	border-top: dotted 1px #dcdcdc;
+	border-bottom: solid 7px #bdbdbd;
+}
+#searchPanel ul.methodTab li {
+	display: inline;
+	float: left;
+	border-right: solid 1px #ccc;
+}
+#searchPanel ul.methodTab li.exam {
+	border-right: none;
+}
+
+#searchPanel ul.methodTab li a {
+	width: 181px;
+	height: 49px;
+}
+#searchPanel ul.methodTab li.area a {
+	background-position: 0 0;
+}
+#searchPanel ul.methodTab li.area a:hover {
+	background-position: 0 -60px;
+}
+#searchPanel ul.methodTab li.area a.on {
+	background-position: 0 -120px !important;
+}
+#searchPanel ul.methodTab li.faculty a {
+	width: 182px;
+	background-position: -190px 0;
+}
+#searchPanel ul.methodTab li.faculty a:hover {
+	background-position: -190px -60px;
+}
+#searchPanel ul.methodTab li.faculty a.on {
+	background-position: -190px -120px !important;
+}
+#searchPanel ul.methodTab li.type a {
+	background-position: -380px 0;
+}
+#searchPanel ul.methodTab li.type a:hover {
+	background-position: -380px -60px;
+}
+#searchPanel ul.methodTab li.type a.on {
+	background-position: -380px -120px !important;
+}
+#searchPanel ul.methodTab li.exam a {
+	background-position: -570px 0;
+}
+#searchPanel ul.methodTab li.exam a:hover {
+	background-position: -570px -60px;
+}
+#searchPanel ul.methodTab li.exam a.on {
+	background-position: -570px -120px !important;
+}
+
+
+/* #searchPanel > .settings */
+#searchPanel .settings {
+	position: relative;
+	padding: 0 15px 15px 15px;
+	background-position: -3710px bottom;
+	background-repeat: no-repeat;
+}
+#searchPanel .settings .tabContents {
+	background: #fff;
+}
+#searchPanel .settings .dialogTitle {
+	margin-top: 15px;
+}
+
+#searchPanel .settings p.select,
+#searchPanel .settings ul.select {
+	font-size: 117%;
+	text-align: center;
+}
+#searchPanel .settings ul.select li {
+	display: inline;
+	float: left;
+	margin-right: 30px;
+}
+#searchPanel .settings .subject {
+	margin: 0 10px 10px 0;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #badffe;	
+}
+#searchPanel .settings .subject label {
+	font-size: 117%;
+	font-weight: bold;
+}
+#searchPanel .settings ul.item {
+	padding-left: 20px;
+}
+#searchPanel .settings ul.item li {
+	display: inline;
+	float: left;
+	width: 110px;
+}
+#searchPanel .settings ul.item li.long {
+	width: 180px;
+}
+#searchPanel .settings ul.item li label {
+	font-size: 100%;
+	font-weight: normal;
+}
+#searchPanel .settings .formAction {
+	margin-top: 15px;
+}
+#searchPanel .settings .formAction p {
+	display: inline;
+	float: left;
+	width: 152px;
+	margin-left: 275px;
+}
+#searchPanel .settings .formAction input.searchButton {
+	width: 152px;
+	height: 35px;
+	background-position: -970px 0px;
+	vertical-align: middle;
+}
+#searchPanel .settings .formAction input.searchButton:hover {
+	background-position: -970px -50px;
+}
+#searchPanel .settings .formAction ul {
+	display: inline;
+	float: right;
+	margin-top: 18px;
+}
+#searchPanel .settings .formAction ul li {
+	display: inline;
+}
+#searchPanel .settings .formAction ul li.reset {
+	margin-right: 8px;
+	padding-right: 10px;
+	border-right: 1px solid #9fd8f3;
+}
+#searchPanel #settingsArea,
+#searchPanel #settingsFaculty,
+#searchPanel #settingsType,
+#searchPanel #settingsExam {
+	position: absolute;
+	z-index: 1;
+}
+
+#searchPanel #settingsArea .subject {
+	display: inline;
+	float: left;
+	width: 105px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;	
+}
+#searchPanel .settings .container {
+	margin-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #badffe;	
+}
+#searchPanel #settingsFaculty .container ul {
+	display: inline;
+	float: left;
+	width: 240px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;	
+	font-size: 117%;
+}
+#searchPanel #settingsFaculty .container ul.group03 {
+	width: 220px;
+}
+/* ▼▼2011/9/29追加・修正▼▼ */
+#searchPanel p.note {
+	margin-top: 10px;
+	color: #666;
+	font-size: 84%;
+	text-align: right;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+
+/* .searchDisplayTab */
+ul.searchDisplayTab {
+	margin-bottom: 5px;
+	padding: 0 0 14px 5px;
+	background-position: 0 -3007px;
+}
+ul.searchDisplayTab li {
+	float: left;
+}
+ul.searchDisplayTab li a {
+	width: 150px;
+	height: 47px;
+}
+ul.searchDisplayTab li.univ a {
+	background-position: -1130px 0;
+}
+ul.searchDisplayTab li.univ a:hover {
+	background-position: -1130px -50px;
+}
+ul.searchDisplayTab li.univ a.on {
+	background-position: -1130px -100px !important;
+}
+ul.searchDisplayTab li.faculty a {
+	background-position: -1280px 0;
+}
+ul.searchDisplayTab li.faculty a:hover {
+	background-position: -1280px -50px;
+}
+ul.searchDisplayTab li.faculty a.on {
+	background-position: -1280px -100px !important;
+}
+ul.searchDisplayTab li.schedule a {
+	background-position: -1430px 0;
+}
+ul.searchDisplayTab li.schedule a:hover {
+	background-position: -1430px -50px;
+}
+ul.searchDisplayTab li.schedule a.on {
+	background-position: -1430px -100px !important;
+}
+
+
+/* .univSummaryInfo */
+.univSummaryInfo {
+	margin-bottom: 20px;
+	padding: 6px 10px 6px 10px;
+	border-top: solid 4px #cfe9fe;
+	background: url(../images/bg_check_blu.png) left top repeat;
+	zoom: 1;
+}
+
+
+/* .univSummaryInfo > .infoHead */
+.univSummaryInfo .infoHead {
+	position: relative;
+	zoom: 1;
+}
+.univSummaryInfo .infoHead p.popular {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #666;
+}
+/* ▼▼2011/10/26 Rで独自追加・修正▼▼ */
+.univSummaryInfo .infoHead p.popular.noNanido {
+	position: relative;
+	float: right;
+}
+/* ▲▲2011/10/26 Rで独自追加・修正▲▲ */
+.univSummaryInfo .infoHead p.popular span {
+	color: #333;
+	font-size: 117%;
+	font-weight: bold;
+}
+
+
+/* .univSummaryInfo > .infoBody */
+.univSummaryInfo .infoBody {
+	margin: 7px 0;
+	background: #fff;
+	zoom: 1;
+}
+.univSummaryInfo .general {
+	padding: 10px 15px;
+}
+.univSummaryInfo h3 {
+	font-size: 234%;
+	line-height: 1.3;
+}
+.univSummaryInfo p.data {
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	border-bottom: dotted 1px #a1c7e5;
+	color: #666;
+}
+.univSummaryInfo .general p.desc {
+	display: inline;
+	float: left;
+	width: 520px;
+	margin-top: 3px;
+	line-height: 1.6;
+}
+.univSummaryInfo .general ul {
+	display: inline;
+	float: right;
+	width: 150px;
+}
+.univSummaryInfo .particular {
+	padding: 0 15px 15px 15px;
+	background: #f9fdff;
+	border-top: solid 1px #dceffe;
+}
+.univSummaryInfo .particularMore {
+	clear: both;
+}
+.univSummaryInfo .particularMore .trigger {
+	margin-top: 8px;
+	text-align: right;
+}
+.univSummaryInfo .particularMore .facultyUnit {
+	display: none;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+/*
+.univSummaryInfo .open .trigger {
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+	border-bottom: solid 1px #dceffe;
+}
+*/
+.univSummaryInfo .open .facultyUnit {
+	display: block;
+}
+.univSummaryInfo .particular .facultyUnit {
+	overflow: hidden;
+	border-top: solid 1px #dceffe;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.univSummaryInfo .particular .facultyUnitFirst {
+	border-top: none;
+	margin-top: 15px;
+	padding-top: 0;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+.univSummaryInfo .particular .facultyColumn,
+.univSummaryInfo .particular .majorColumn {
+	display: inline;
+	float: left;
+	width: 325px;
+	margin-bottom: -10px;
+}
+.univSummaryInfo .particular .majorColumn {
+	margin-left: 14px;
+	padding-left: 15px;
+	border-left: solid 1px #cfe9fe;
+	background: url(../images/bg_dialog_blu_r.png) 0 47% no-repeat;
+}
+.univSummaryInfo .particular .examColumn {
+	clear: both;
+	padding-top: 15px;
+}
+.univSummaryInfo .particular .examColumn p.addList {
+	text-align: right;
+}
+.univSummaryInfo .particular .examColumn p.addList input {
+	margin: 0 0 0 auto;
+}
+.univSummaryInfo .particular .examColumn .type {
+	width: 310px;
+}
+.univSummaryInfo .particular .examColumn .subject {
+	width: 85px;
+	text-align: center;
+}
+.univSummaryInfo .particular .examColumn ul.subjectList li {
+	display: inline;
+	float: left;
+	margin: 0 2px 3px 1px;
+}
+.univSummaryInfo .particular .examColumn  p.icon {
+	display: inline;
+	float: left;
+	margin-right: 3px;
+}
+.univSummaryInfo .particular .examColumn  p.desc {
+	overflow: hidden;
+}
+.univSummaryInfo .particular .examColumn  p.addList {
+	clear: both;
+	margin-top: 5px;
+	text-align: right;
+}
+
+
+/* .univSummaryInfo > .infoFoot */
+dl.relatedUnivList {
+	font-size: 84%;
+}
+dl.relatedUnivList dt a {
+	padding-left: 12px;
+	background-position: 2px -598px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+dl.relatedUnivList dt a:link,
+dl.relatedUnivList dt a:visited,
+dl.relatedUnivList dt a:hover {
+	color: #666;
+}
+dl.relatedUnivList dd {
+	display: none;
+	position: relative;
+	padding: 3px 15px 0 12px;
+}
+dl.relatedUnivList dd ul li {
+	display: inline;
+	margin-right: 1em;
+}
+dl.relatedUnivList dd p {
+	position: absolute;
+	right: 0;
+	bottom: 2px;
+}
+.open dl.relatedUnivList dt a {
+	background-position: 0 -897px;
+}
+.open dl.relatedUnivList dd {
+	display: block;
+}
+
+
+/* .univExamContainer */
+.univExamContainer {
+	position: relative;
+}
+.univExamContainer .univSummaryInfo dl.relatedUnivList {
+	width: 665px;
+}
+
+/* .univExamHead */
+.univExamHead {
+	border: solid 1px #cfe9fe;
+	border-top: solid 4px #cfe9fe;
+	background: #f3fbff url(../images/bg_summary_exam.png) left bottom repeat-x;
+}
+.univExamHeadOver {
+	background: #f3fbff url(../images/bg_summary_exam.png) left top repeat-x;
+	cursor: pointer;
+}
+.univExamHead .infoBody {
+	margin: 5px 0 0 0;
+	background: none;
+}
+.univExamHead p.data {
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+.univExamHead .infoFoot {
+	position: relative;
+	min-height: 20px;
+	height: auto !important;
+	height: 20px;
+	padding: 0;
+	zoom: 1;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+.univExamHead .infoFoot p.faculty {
+	padding-top: 5px;
+	margin-right: 40px;
+}
+.univExamHead p.openTrigger {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 33px;
+	height: 20px;
+	padding: 0;
+	background-position: -1760px -40px;
+}
+.univExamHeadOver p.openTrigger {
+	background-position: -1800px -40px;
+}
+
+.univSummaryInfo p.closeTrigger a {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	width: 33px;
+	height: 20px;
+	margin: 0;
+	background-position: -1760px -70px;
+}
+.univSummaryInfo p.closeTrigger a:hover {
+	background-position: -1800px -70px;
+}
+.univExamBody {
+	display: none;
+}
+
+
+/* -----------------------------------
+	style : 学問系統から探す
+----------------------------------- */
+
+#searchFaculty #main {
+	width: 760px;
+	margin-right: -20px;
+}
+#searchFaculty .category {
+	display: inline;
+	float: left;	
+	width: 230px;
+	margin-right: 20px;
+}
+#searchFaculty .category .basicTitle {
+	margin-bottom: 0;
+	font-size: 134%;
+	text-align: center;
+}
+#searchFaculty .category ul {
+	overflow: hidden;
+}
+#searchFaculty .category ul li {
+	padding: 3px 0;
+	border-bottom: dotted 1px #69c;
+	color: #666;
+}
+#searchFaculty .category ul li div {
+	padding: 10px 5px;
+}
+#searchFaculty .category ul li div.over {
+	color: inherit;
+	background: #e7f4fe;
+	text-decoration: none;
+	cursor: pointer;
+}
+#searchFaculty .category ul li a {
+	display: block;
+	margin-bottom: 5px;
+	color: #06c;
+	font-size: 117%;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* -----------------------------------
+	style :  偏差値 詳細
+----------------------------------- */
+
+#searchDeviationDetail #main ul.basicList {
+	font-size: 117%;
+}
+#searchDeviationDetail #main ul.basicList li {
+	margin-bottom: 8px;
+	color: #999;
+}
+
+#searchDeviationDetail .filterArea h3,
+#searchDeviationDetail .filterFaculty h3,
+#searchDeviationDetail .filterType h3 {
+	margin-bottom: 15px;
+	padding: 10px 0 8px 0;
+	border-top: solid 4px #cfe9fe;
+	border-bottom: dotted 1px #69c;
+	color: #333;
+	font-size: 134%;
+	line-height: 1.3;
+}
+#searchDeviationDetail .filterFaculty,
+#searchDeviationDetail .filterArea {
+	overflow: hidden;
+	display: inline;
+	float: left;
+	width: 500px;
+	margin-bottom: 20px;
+}
+#searchDeviationDetail .filterFaculty .container {
+	position: relative;
+	width: 510px;
+	margin-right: -10px;
+}
+#searchDeviationDetail .filterFaculty ul {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+}
+#searchDeviationDetail .filterArea ul {
+	font-size: 117%;
+}
+
+#searchDeviationDetail .filterType {
+	display: inline;
+	float: right;
+	width: 180px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+#searchDeviationDetail .deviationUnivList {
+	clear: both;
+	margin: 20px 0;
+}
+#searchDeviationDetail .deviationUnivList .univSummaryInfo p.data {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#searchDeviationDetail #main .containerS ul.basicList {
+	width: 140px;
+	font-size: 100%;
+}
+#searchDeviationDetail .containerS .filterFaculty {
+    width: 420px;
+}
+#searchDeviationDetail .containerS .filterArea {
+	width: 295px;
+	margin-left: 15px;
+}
+#searchDeviationDetail .containerS .filterArea ul {
+	font-size: 100%;
+}
+
+#searchDeviationDetail .filterAnother {
+	margin-bottom: 10px;
+}
+#searchDeviationDetail .filterAnother .basicTitle03 {
+	margin-bottom: 10px;
+	font-size: 117%;
+}
+#searchDeviationDetail .filterAnother ul.relatedLinks {
+	margin: 13px 0;
+	padding: 0 15px;
+}
+#searchDeviationDetail .filterAnother ul.relatedLinks li {
+	display: inline;
+	margin-right: 20px;
+}
+/*
+#searchDeviationDetail .filterAnother .areaLinks {
+	padding-top: 13px;
+	border-top: dotted 1px #a1c7e5;
+}
+*/
+#searchDeviationDetail .filterAnother ul.basicInlineList {
+	margin-bottom: 5px;
+}
+
+
+
+/* -----------------------------------
+	style : 詳細 共通
+----------------------------------- */
+
+.univDetailInfoHead {
+	margin-bottom: 6px;
+}
+.univDetailInfoHead .headMain {
+	display: inline;
+	float: left;
+	width: 250px;
+}
+.univDetailInfoHead .headSub {
+	display: inline;
+	float: right;
+	width: 255px;
+	text-align: right;
+}
+
+.univDetailInfoHead .headSub p {
+	color: #B6BBBB;
+	font-size: 10px
+}
+
+.univDetailInfoHead p.data {
+	color: #666;
+}
+.univDetailInfoHead h2 {
+	margin: 5px 0;
+	color: #000;
+	font-size: 234%;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+.univDetailInfoHead p.comment {
+	margin: -5px 0 10px 0;
+	color: #666;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+.univDetailInfoHead p.popular {
+	color: #666;
+	font-size: 84%;
+}
+.univDetailInfoHead p.popular span {
+	margin-right: 2px;
+	padding: 3px 0 3px 12px;
+	background-position: 0 -3150px;
+	background-repeat: no-repeat;
+	color: #333;
+	font-weight: bold;
+}
+.univDetailInfo {
+	clear: both;
+}
+
+/* 詳細：２カラム */
+#detailMain {
+	display: inline;
+	float: right;
+	width: 500px;
+	text-align: left;
+}
+#detailSub {
+	display: inline;
+	float: left;
+	width: 190px;
+	padding: 5px;
+	background: #F6F6F6;
+}
+#detailSub ul {
+	zoom: 1;
+	border-bottom: solid 1px #D9D9D9;
+	position: relative;
+}
+#detailSub ul li {
+	position: relative;
+	zoom: 1;
+	border-bottom: solid 1px #D9D9D9;
+}
+#detailSub ul li a {
+	position: relative;
+	zoom: 1;
+	display: block;
+	padding: 6px 6px 6px 21px;
+	background-image: url(../images/common_x.png);
+	background-repeat: no-repeat;
+	background-position: 8px -3342px;
+	text-decoration: none;
+}
+#detailSub ul li span {
+	position: absolute;
+	top: 8px;
+	z-index: 900;
+}
+
+#detailSub ul li.gparent {
+	border-top: none;
+	background: #F6F6F6;
+}
+#detailSub ul li.gparent a {
+	padding-left: 19px;
+}
+#detailSub ul li.gparent span {
+	left: 2px;
+}
+#detailSub ul li.selected a {
+	background-color: #2898df;
+	color: #fff;
+}
+
+#detailSub ul.tree02 {
+	overflow: hidden;
+	border-bottom: none;
+}
+#detailSub ul.tree02 li {
+	border-top: dotted 1px #D9D9D9;
+	border-bottom: none;
+}
+#detailSub ul.tree02 li a {
+	padding-left: 23px;
+	background: transparent url(../images/common_x.png) 12px -3342px no-repeat;
+	color: #06c;
+}
+
+#detailSub ul.tree02 li.parent {
+	position: relative;
+}
+#detailSub ul.tree02 li.parent a {
+	position: relative;
+	z-index: 800;
+	background: none;
+}
+#detailSub ul.tree02 li.parent span {
+	left: 6px;
+}
+#detailSub ul.tree02 li.selected a {
+	background-color: #2898df;
+	color: #fff;
+}
+
+#detailSub ul.tree03 {
+	overflow: hidden;
+	border-top: dotted 1px #D9D9D9;
+	border-left: none;
+	border-bottom: none;
+}
+#detailSub ul.tree03 li {
+	margin-top: -1px;
+	margin-left: 12px;
+}
+#detailSub ul.tree03 li a,
+#detailSub ul.tree02 li.selected ul.tree03 li a,
+#detailSub ul.tree02 li.parent ul.tree03 li a,
+#detailSub ul.tree02 li ul.tree03 li.selected a {
+	padding-left: 17px;
+	background: transparent url(../images/common_x.png) 5px -3342px no-repeat;
+	color: #06c;
+}
+#detailSub ul.tree02 li ul.tree03 li.selected a {
+	background-color: #2898df;
+	color: #fff;
+}
+
+#detailSub li.close ul.tree02,
+#detailSub li.close ul.tree03 {
+	display: none !important;
+}
+
+#detailSub ul li a:hover {
+	background-color: #2898df !important;
+	color: #fff !important;	
+}
+
+.part {
+	margin-bottom: 30px;
+}
+.part .basicTitle {
+	font-size: 134%;
+	margin-bottom: 7px;
+}
+
+/* .detailDisplayTab */
+ul.detailDisplayTab {
+	margin-bottom: 5px;
+	padding: 0 0 14px 5px;
+	background-position: 0 -2997px;
+}
+ul.detailDisplayTab li {
+	float: left;
+}
+ul.detailDisplayTab li a {
+	width: 170px;
+	height: 57px;
+}
+ul.detailDisplayTab li.univ a {
+	background-position: -1590px 0;
+}
+ul.detailDisplayTab li.univ a:hover {
+	background-position: -1590px -60px;
+}
+ul.detailDisplayTab li.univ a.on {
+	background-position: -1590px -120px !important;
+}
+ul.detailDisplayTab li.faculty a {
+	background-position: -1760px 0;
+}
+ul.detailDisplayTab li.faculty a:hover {
+	background-position: -1760px -60px;
+}
+ul.detailDisplayTab li.faculty a.on {
+	background-position: -1760px -120px !important;
+}
+ul.detailDisplayTab li.exam a {
+	background-position: -1930px 0;
+}
+ul.detailDisplayTab li.exam a:hover {
+	background-position: -1930px -60px;
+}
+ul.detailDisplayTab li.exam a.on {
+	background-position: -1930px -120px !important;
+}
+ul.detailDisplayTab li.deviation a {
+	background-position: -2100px 0;
+}
+ul.detailDisplayTab li.deviation a:hover {
+	background-position: -2100px -60px;
+}
+ul.detailDisplayTab li.deviation a.on {
+	background-position: -2100px -120px !important;
+}
+
+
+/* -----------------------------------
+	style : 詳細 大学基本情報
+----------------------------------- */
+
+#detailUniv .leadPart {
+	clear: both;
+}
+#detailUniv .leadPart h3 {
+	display: inline;
+	float: right;
+	width: 260px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 167%;
+	line-height: 1.3;
+}
+#detailUniv .leadPart p.photo {
+	display: inline;
+	float: left;
+	width: 220px;
+	margin-bottom: 10px;
+}
+#detailUniv .leadPart p.desc {
+	clear: both;
+}
+#detailUniv .situationPart .data {
+	position: relative;
+	height: 300px;
+}
+#detailUniv .situationPart p.caption {
+	background: url(../images/si_line01.gif) repeat-x left bottom;
+	position: relative;
+	z-index: 100;
+	padding-bottom: 6px;
+	color: #666;
+	font-size: 117%;
+	font-weight: bold;
+	text-align: center;
+}
+#detailUniv .situationPart p.graph {
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	margin-bottom: 34px;
+}
+/*
+#detailUniv .situationPart p.guestOverlay {
+	position: absolute;
+	z-index: 200;
+	left: 0;
+	top: 0;
+}
+*/
+
+#photoGallery {
+	background: url(../images/si_bg.gif) repeat-y 3px top;
+	position: relative;
+	margin: 0 -3px 51px;
+	padding-left: 22px;
+	width: 506px;
+}
+#photoGallery ul {
+	overflow: hidden;
+	margin: 0 3px;
+}
+#photoGallery ul li {
+	display: inline;
+	float: left;
+	width: 140px;
+	margin: 0 6px;
+	text-align: center;
+}
+/* ▼▼2011/9/29追加・修正▼▼ */
+#photoGallery ul li p.title {
+	margin-top: 10px;
+	padding: 0 5px;
+	font-weight: bold;
+	text-align: left;
+}
+#photoGallery ul li p.desc {
+	padding: 5px;
+	/* border-top: solid 3px #ccc; */
+	text-align: left;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+#photoGallery p.prevButton {
+	position: absolute;
+	left: 3px;
+	top: 175px;
+}
+#photoGallery p.nextButton {
+	position: absolute;
+	left: 480px;
+	top: 175px;
+}
+#photoGallery p.prevButton a {
+	width: 24px;
+	height: 50px;
+}
+#photoGallery p.nextButton a {
+	width: 24px;
+	height: 50px;
+}
+
+/* 学部学科情報でも共通 */
+.futurePart .pathway {
+	margin-bottom: 50px;
+}
+.futurePart .job {
+	display: inline;
+	float: left;
+	width: 220px;
+}
+.futurePart .license {
+	display: inline;
+	float: right;
+	width: 220px;
+	text-align: left;
+}
+.futurePart h4 {
+	padding: 0 0 5px 26px;
+	background-position: 0 -3250px;
+	background-repeat: no-repeat;
+	color: #69a912;
+	font-size: 117%;
+}
+.futurePart dl dt,
+.futurePart dl dd {
+	display: inline;
+}
+.futurePart dl dt,
+.futurePart p {
+	font-weight: bold;
+}
+.futurePart ul li {
+	margin: 0.2em 0 0 1.5em;
+	list-style: disc outside;
+}
+.futurePart p.note {
+	margin-top: 0.2em;
+	font-weight: normal;
+}
+
+.contactPart p {
+	line-height: 1.8em;
+}
+
+.accessPart th.place {
+	width: 38%;
+}
+.accessPart p.campus {
+	font-weight: bold;
+}
+.accessPart p.address {
+	color: #666;
+	font-size: 84%;
+}
+.accessPart .mapButton {
+	margin-left: 3px;
+}
+.accessPart ul li {
+	margin: 0.2em 0 0 1.5em;
+	list-style: disc outside;
+	line-height: 1.3;
+}
+
+
+/* -----------------------------------
+	style : 詳細 入試情報
+----------------------------------- */
+
+#detailExam .scheduleList {
+	clear: both;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	background: url(../images/border_check_blu.png) left top repeat-y;
+	font-size: 117%;
+}
+#detailExam .scheduleList p {
+	color: #999;
+}
+
+.facultyInfo {
+	margin-bottom: 20px;
+	padding: 0 10px 10px 10px;
+	border-top: solid 4px #cfe9fe;
+	background: url(../images/bg_check_blu.png) left top repeat;
+}
+.facultyInfo .infoHead {
+	padding: 13px 0 10px 15px;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+.facultyInfo .infoHead .text {
+	float: left;
+	width: 530px;
+}
+.facultyInfo .infoHead h3 {
+	margin-bottom: 5px;
+	color: #000;
+	font-size: 184%;
+}
+.facultyInfo .infoHead p.comment {
+	padding-bottom: 5px;
+	color: #333;
+}
+.facultyInfo .infoHead p.button {
+	float: right;
+	width: 147px;
+}
+.facultyInfo .infoHead p.facultyList {
+	clear: both;
+	color: #999;
+	font-size: 117%;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+.facultyInfo .infoHead p.facultyList {
+	clear: both;
+	color: #999;
+	font-size: 117%;
+}
+/* ▼▼2011/9/29追加・修正▼▼ */
+.facultyInfo .infoHead .examData {
+	clear: both;
+	margin: 0 15px 10px 0;
+	padding-top: 5px;
+}
+.facultyInfo .infoBody .examData {
+	margin: 5px 0;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+.facultyInfo .infoBody {
+	padding: 0 15px 5px 15px;
+	background: #fff;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+.facultyInfo .infoBody .faculty {
+	margin: 0 -15px 15px -15px;
+	padding: 10px 15px 6px 15px;
+	border-bottom: dotted 1px #a1c7e5;
+}
+.facultyInfo .infoBody .faculty h4 {
+	color: #000;
+	font-size: 134%;
+}
+.facultyInfo .infoBody .majorUnit .basicTitle03 {
+	margin-bottom: 5px;
+	font-size: 117%;
+}
+.facultyInfo .infoBody .majorUnit p.comment {
+	margin-bottom: 5px;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+
+/* ▼▼2011/9/29追加・修正▼▼ */
+.facultyInfo th.type,
+.facultyInfo th.subject,
+.facultyInfo th.period {
+	width: 12%;
+	text-align: center;
+}
+.facultyInfo th.schedule {
+	width: 20%;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+.facultyInfo .contentsTopLink {
+	margin: 20px 0 10px 0;
+}
+
+#detailExam p.backList {
+	clear: both;
+}
+#detailExam .part .desc {
+	margin: 15px 0;
+	line-height: 1.6;
+}
+#detailExam .part .descEx {
+	margin-top: -5px;
+	padding-top: 10px;
+	border-top: dotted 1px #a1c7e5;
+}
+#detailExam .basicTitle05 {
+	margin-top: -1.6em;
+}
+#detailExam .basicTitle05 .title {
+	font-size: 100%;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+#detailExam .basicTitle05 .title span.comment {
+	display: block;
+	margin-top: 5px;
+	font-weight: normal;
+}
+#detailExam .basicTitle05 .title span.exam {
+	display: block;
+	margin-top: 5px;
+	font-size: 150%;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+#detailExam th {
+	white-space: nowrap;
+}
+#detailExam .period {
+	width: 12%;
+	text-align: center;
+}
+#detailExam .schedulePart dl dt {
+	clear: left;
+	float: left;
+}
+#detailExam .schedulePart dl dd {
+	margin-bottom: 10px;
+}
+#detailExam .part .basicTitle03 {
+	margin-bottom: 10px;
+	font-size: 117%;
+}
+
+
+/* -----------------------------------
+	style : 詳細 学部学科情報
+----------------------------------- */
+
+#detailFaculty .basicTitle03 {
+	clear: both;
+	margin-bottom: 20px;
+	font-size: 184%;
+}
+
+#detailFaculty .leadPart {
+	clear: both;
+	margin-bottom: 15px;
+	zoom: 1;
+}
+#detailFaculty .leadPart .summary {
+	margin-bottom: 15px;
+	padding-left: 5px;
+	background: url(../images/border_check_blu.png) left top repeat-y;
+	zoom: 1;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+#detailFaculty .leadPart h3 {
+	/* 
+	display: inline;
+	float: left;
+	width: 330px;
+	*/
+	margin-bottom: 5px;
+	padding-left: 15px;
+	font-size: 200%;
+	line-height: 1.3;
+}
+#detailFaculty .leadPart p.comment {
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+#detailFaculty .leadPart p.button {
+	display: inline;
+	float: right;
+	width: 145px;
+}
+/* ▼▼2011/10/5追加・修正▼▼ */
+#detailFaculty .leadPart ul.levelData {
+	clear: left;
+	margin-left: 15px;
+	margin-right: 150px;
+}
+/* ▲▲2011/10/5追加・修正▲▲ */
+#detailFaculty .leadPart .summary p.desc {
+	clear: both;
+	margin-top: 10px;
+	padding: 10px 0 0 15px;
+	border-top: dotted 1px #a1c7e5;
+}
+
+#detailFaculty .leadPart table td,
+#detailFaculty .leadPart table th {
+	padding: 8px 10px;
+	border-bottom: solid 2px #fff;
+	vertical-align: top;
+}
+#detailFaculty .leadPart table th {
+	width: 20%;
+	background: #e6e6e6;
+}
+
+/* ▼▼2011/8/2追加・修正▼▼ */
+#detailFaculty .facultyPart td.name {
+	text-align: left;
+	width: 50%;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+
+.facultySummaryInfo {
+	padding: 8px 10px 10px 10px;
+	border-top: solid 4px #cfe9fe;
+	background: url(../images/bg_check_blu.png) left top repeat;
+}
+.facultySummaryInfo .infoHead {
+	padding-bottom: 5px;
+}
+.facultySummaryInfo .infoHead ul.levelData {
+	float: left;
+}
+.facultySummaryInfo .infoHead p.button {
+	clear: none;
+	float: right;
+}
+
+.facultySummaryInfo .infoBody {
+	padding: 10px 15px;
+	background: #fff;
+}
+.facultySummaryInfo .infoBody h4 {
+	font-size: 184%;
+	line-height: 1.3;
+}
+/* ▼▼2011/8/2追加・修正▼▼ */
+.facultySummaryInfo .infoBody p.comment {
+	margin: 5px 0;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+.facultySummaryInfo .infoBody p.data {
+	color: #666;
+}
+.facultySummaryInfo .infoBody p.desc {
+	margin-top: 6px;
+	padding-top: 6px;
+	border-top: dotted 1px #a1c7e5;
+}
+.majorContainer .facultySummaryInfo .infoBody h4 {
+	font-size: 134%;
+}
+
+.facultyContainer {
+	margin-bottom: 40px;
+	padding: 5px 0 0 15px;
+	border-left: solid 5px #f5fcff;
+}
+.majorContainer {
+	padding: 1px 0 0 5px;
+	border-left: solid 5px #f5fcff;
+}
+.majorContainer .facultySummaryInfo {
+	margin-top: 10px;
+	border-top: solid 4px #dbdbdb;
+	background: url(../images/bg_check_gry.png) left top repeat;
+}
+
+
+/* -----------------------------------
+	style : 詳細 偏差値情報
+----------------------------------- */
+
+#detailDiviation .basicTitle05 .title {
+	font-size: 150%;
+}
+#detailDiviation .basicTitle03 {
+	margin-bottom: 5px;
+	font-size: 117%;
+}
+table.deviationTable {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+table.deviationTable tr th {
+	vertical-align: middle;
+}
+table.deviationTable th.faculty {
+	width: 215px;
+}
+table.deviationTable th.department {
+	width: 215px;
+}
+table.deviationTable th.date {
+	width: 80px;
+}
+table.deviationTable th.level {
+	border-bottom: solid #dddddd 1px;
+}
+table.deviationTable th.deviation {
+	width: 80px;
+}
+table.deviationTable th.score {
+	width: 140px;
+}
+table.deviationTable td.date,
+table.deviationTable td.deviation,
+table.deviationTable td.score {
+	text-align: center;
+}
+.aboutLevel p.lead {
+	margin: 10px 0 20px 0;
+}
+.aboutLevel p {
+	margin: 0 0 25px 15px;
+}
+
+/* ▼▼2011/9/29追加・修正▼▼ */
+#detailExam table.column4 th {
+	width: 25% !important;
+}
+#detailExam table.column5 th {
+	width: 20% !important;
+}
+#detailExam table.column6 th {
+	width: 16% !important;
+}
+/* feePart */
+.feePart th {
+	width: 15% !important;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+/* stepPart */
+/* ▼▼2011/8/2追加・修正▼▼ */
+.stepPart ol li {
+	padding-left: 60px;
+	background-color: #999;
+	margin: 0px;
+	border-bottom: 0;
+	line-height: 0;
+}
+/* ▲▲2011/8/2追加・修正▲▲ */
+.stepPart ol li .margin {
+	background-color: #fff;
+}
+.stepPart ol li.step01 {
+	background-position: -2290px 0;
+}
+.stepPart ol li.step02 {
+	background-position: -2360px 0;
+}
+.stepPart ol li.step03 {
+	background-position: -2430px 0;
+}
+.stepPart ol li.step04 {
+	background-position: -2500px 0;
+}
+.stepPart ol li.step05 {
+	background-position: -2570px 0;
+}
+.stepPart ol li.step06 {
+	background-position: -2640px 0;
+}
+.stepPart ol li.step07 {
+	background-position: -2710px 0;
+}
+.stepPart ol li.step08 {
+	background-position: -2780px 0;
+}
+.stepPart ol li.step09 {
+	background-position: -2850px 0;
+}
+.stepPart ol li.step10 {
+	background-position: -2920px 0;
+}
+
+/* ▼▼2011/9/29追加・修正▼▼ */
+.stepPart ol li .stepContents {
+	width: 660px;
+	margin-left: 10px;
+	padding: 14px 0px 14px 0px;
+	border-top: 1px dotted #cbcbcb;
+	border-right: none;
+	background: #fff;
+}
+.stepPart ol li.last .stepContents {
+	border-bottom: 1px dotted #cbcbcb; 
+}
+.stepPart ol li h4 {
+	display: block;
+	float: left;
+	width: 154px;
+	line-height: 1.2;
+	padding: 0px 35px 0px 5px;
+	font-size: 134%;
+}
+.stepPart ol li p {
+	float: none !important;
+	overflow: hidden !important;
+	width: 441px;
+	min-height: 60px;
+	line-height: 2;
+	padding: 0px 0px 0px 24px;
+	border-left: 1px dotted #cbcbcb;
+}
+/* ▲▲2011/9/29追加・修正▲▲ */
+
+
+/* -----------------------------------
+	地図 ポップアップ
+----------------------------------- */
+
+#map #main {
+	width: 490px;
+	margin: 0 auto;
+}
+#map .basicTitle02  {
+	margin-bottom: 2px;
+	text-align: center;
+}
+#map .mapImage {
+	margin-bottom: 10px;
+}
+#map .dataTable {
+	width: 490px;
+	margin-bottom: 20px;
+}
+#map .dataTable th {
+	text-align: left;
+}
+#map .print a {
+	margin: 0 auto 10px auto;
+}
+

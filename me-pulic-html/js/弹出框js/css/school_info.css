@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* -----------------------------------
+	index
+----------------------------------- */
+
+#main {
+	margin: 5px 0 18px;
+}
+
+#main .basearea {
+	margin-bottom: 20px;
+}
+
+#main .basearea .outer {
+	padding-top: 0;
+}
+
+#main .topBox {
+	background: url(../images/si_line01.gif) repeat-x left bottom;
+	margin-bottom: 10px;
+	padding-bottom: 4px;
+}
+
+#main .topBox h1 {
+	float: left;
+	margin: 8px 0 0;
+}
+
+#main .univDetailInfoHead p.data {
+	padding-top: 5px;
+	line-height: 1.2;
+}
+
+#main .univDetailInfoHead h2 {
+	line-height: 1.3;
+	margin: 0;
+}
+
+#topicPath {
+	float: right;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.univDetailInfoHead p span {
+	color: #333;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+#main .topNav li {
+	float: left;
+	margin-right: 3px;
+}
+
+#main .topNav li a {
+	display: block;
+}
+
+
+#main .boBtm {
+	margin-bottom: 20px;
+}
+
+#menu ul li.fzP1 {
+	font-size: 12px !important;
+	padding-bottom: 6px;
+}
+
+#menu p {
+	margin: 5px 0 17px 27px;
+	width: 160px;
+}
+
+#menu p.p01 {
+	color: #696969;
+	font-size: 10px;
+	margin: 0 0 0 27px;
+}
+
+
+/* -----------------------------------
+	pastExam
+----------------------------------- */
+#main .basearea .outer .section h3 {
+	margin-bottom: 6px;
+}
+
+#main .basearea .outer .section p.pNote {
+	color: #333;
+	font-size: 14px;
+	line-height: 1.7;
+	margin-bottom: 8px;
+}
+
+#main .basearea .outer .section table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#main .basearea .outer .section table thead th p {
+	background:#EBF0F4;
+    padding: 3px 0 2px;
+}
+
+#main .basearea .outer .section table tbody td {
+	border-bottom: 1px dotted #DFDFDF;
+	text-align: left;
+	vertical-align: middle;
+	padding: 10px 0;
+}
+
+#main .basearea .outer .section table tbody th {
+	border-bottom: 1px dotted #DFDFDF;
+	color: #333;
+	font-size: 14px;
+	line-height: 1.35;
+	text-align: left;
+	vertical-align: middle;
+	padding: 10px 0;
+}
+
+#main .basearea .outer .section table tbody td ul {
+	padding-left: 10px;
+	width: 147px;
+}
+
+#main .basearea .outer .section table tbody td ul li {
+	float: left;
+	margin-bottom: 5px;
+}
+
+#main .basearea .outer .section table tbody td  ul li a {
+	display: block;
+}

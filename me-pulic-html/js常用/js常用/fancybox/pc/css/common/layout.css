@@ -1,0 +1,265 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+img {
+	vertical-align: top;
+}
+
+a,
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'YuGothB';
+    src: url('../../fonts/YuGothB.eot'); /* IE9 Compat Modes */
+    src: url('../../fonts/YuGothB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/YuGothB.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/YuGothB.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'YuGothL';
+    src: url('../../fonts/YuGothL.eot');
+    src: url('../../fonts/YuGothL.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/YuGothL.woff') format('woff'),
+    url('../../fonts/YuGothL.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'YuGothM';
+    src: url('../../fonts/YuGothM.eot');
+    src: url('../../fonts/YuGothM.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/YuGothM.woff') format('woff'),
+    url('../../fonts/YuGothM.ttf')  format('truetype');
+}
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #000;
+	line-height: 1.5;
+	background-color: #FFF;
+	min-width: 1030px;
+}
+
+#container {
+	text-align: left;
+}
+
+#main {
+   font-family: 'YuGothM';
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#gHeader {
+	padding: 29px 0 19px;
+	width: 948px;
+	margin: 0 auto;
+}
+
+#gHeader h1 {
+	float: left;
+}
+
+/*------------------------------------------------------------
+	gNavi
+------------------------------------------------------------*/
+#gNavi {
+	padding: 40px 18px 0 0; 
+	float: right;
+	text-align: right;
+}
+
+#gNavi li {
+	margin-left: 14px;
+	display: inline;
+	font-size: 1.2em;
+}
+
+#gNavi li a {
+	padding-left: 11px;
+	display: inline-block;
+	background: url(../../img/common/icon01.gif) no-repeat left center;
+}
+
+/*------------------------------------------------------------
+	conts
+------------------------------------------------------------*/
+#conts {
+
+}
+
+/*------------------------------------------------------------
+	sideBar
+------------------------------------------------------------*/
+#sideBar {
+
+}
+
+/*------------------------------------------------------------
+	pagePath
+------------------------------------------------------------*/
+#pagePath {
+	width: 946px;
+	margin: 0 auto 7px;
+	clear: both;
+}
+
+#pagePath li {
+	margin-right: 1px;
+	display: inline;
+	color: #333;
+	font-size: 1.2em;
+}
+
+#pagePath li a {
+	margin-right: 4px;
+}
+
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#gFooter {
+	padding-top: 20px;
+	border-top: 3px solid #FFF;
+	background-color: #808080;
+}
+
+#gFooter .fBox {
+	width: 945px;
+	padding-left: 15px;
+	margin: 0 auto 20px;
+	position: relative;
+}
+
+#gFooter .fBox .pageTop {
+	position: absolute;
+	top: -73px;
+	right: 5px;
+}
+
+#gFooter .fBox .pageTop a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#gFooter .fLogo {
+	margin-top: 50px;
+	float: left;
+}
+
+#gFooter .naviBox {
+	padding: 13px 0 7px 20px;
+	width: 684px;
+	float: right;
+	border-left: 1px solid #FFF;
+}
+
+#gFooter .naviBox .fNavi {
+	width: 310px;
+	float: left;
+}
+
+#gFooter .naviBox .fNavi .ttl {
+	margin-bottom: 2px;
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#gFooter .naviBox .fNavi li a {
+	color: #FFF;
+	line-height: 2;
+}
+
+#gFooter .naviBox .wid02 {
+	width: 160px;
+}
+
+#gFooter .naviBox .wid03 {
+	width: 214px;
+}
+
+#gFooter .copyright {
+	padding: 12px 0;
+	clear: both;
+	color: #333;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: #FFF;
+}

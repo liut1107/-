@@ -1,0 +1,33 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="header">
+	<div class="inner clearfix">
+		<h1><a href="/"><img src="../img/common/logo.png" alt="建設業で働くあなたを応援します 神奈川土建一般労働組合" width="297" height="51" /></a></h1>
+		<div class="social"><img src="../img/common/social.png" alt="いいね！" width="73" height="24" /></div>
+		<div class="floatR">
+			<div class="search">
+				<input type="text" name="search" value="" id="search" />
+				<ul class="clearfix">
+					<li class="li01"><img src="../img/common/search_img.png" alt="" width="14" height="16" /></li>
+					<li>
+						<input type="image" src="../img/common/search.png" alt="検索" value="検索" />
+					</li>
+				</ul>
+			</div>
+			<div class="hNavi clearfix">
+				<ul>
+					<li>｜<a href="#">サイトマップ</a></li>
+					<li>｜<a href="#">リンク</a>｜</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<ul id="gNavi" class="clearfix">
+		<li class="navi01"><a href="/"><img src="../img/common/gnavi01_off.png" alt="HOME" width="125" height="40" /></a></li>
+		<li class="navi02"><a href="#"><img src="../img/common/gnavi02_off.png" alt="お知らせ" width="125" height="40" /></a></li>
+		<li class="navi03"><a href="../construction/"><img src="../img/common/gnavi03_off.png" alt="神奈川土建とは" width="125" height="40" /></a></li>
+		<li class="navi04"><a href="../admission/"><img src="../img/common/gnavi04_off.png" alt="加入するには" width="125" height="40" /></a></li>
+		<li class="navi05"><a href="#"><img src="../img/common/gnavi05_off.png" alt="支部事務所一覧" width="125" height="40" /></a></li>
+		<li class="navi06"><a href="#"><img src="../img/common/gnavi06_off.png" alt="資料ダウンロード" width="125" height="40" /></a></li>
+		<li class="navi07"><a href="#"><img src="../img/common/gnavi07_off.png" alt="お問合せ" width="125" height="40" /></a></li>
+	</ul>
+</div>

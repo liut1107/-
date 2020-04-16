@@ -1,0 +1,946 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#profile #main .content {
+	width: 910px;
+}
+
+#profile #main  .pTop {
+	margin-bottom: 48px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.7;
+	letter-spacing: 3.5px;
+	
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	#profile #main  .pTop {
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+}
+
+/*------------------------------------------------------------
+	contact
+------------------------------------------------------------*/
+#contact .pageTitle .pageImg {
+	background-image: url(../img/contact/page_title_bg.jpg);
+}
+
+#contact #main .pTop {
+	margin-bottom: 29px;
+}
+
+#contact #main p {
+	margin-bottom: 55px;
+	font-size: 18px;
+	line-height: 1.7;
+	text-align: center;
+	letter-spacing: 3.5px;
+}
+
+#contact #main .form {
+	padding: 61px 40px 72px;
+	border: 1px solid #CCC;
+}
+
+#contact #main .form p {
+	margin-bottom: 20px;
+	letter-spacing: normal;
+}
+
+#contact #main .form td {
+	padding: 25px 0px 7px 11px;
+}
+
+#contact #main .form th {
+	padding: 33px 0px 10px;
+	width: 25%;
+}
+
+#contact #main .form th .must {
+	margin-left: 20px;
+	display: inline-block;
+	width: 65px;
+	padding: 3px 0 2px;
+	color: #FFF;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: -2px;
+	background-color: #C30A34;
+}
+
+#contact #main .form td input[type="email"],
+#contact #main .form td input[type="tel"],
+#contact #main .form td input[type="text"] {
+	padding: 5px 8px;
+	width: 270px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+}
+
+#contact #main .form td .seachBtn {
+	margin-left: 17px;
+	width: 98px;
+	text-align: center;
+	color: #FFF;
+	font-size: 16px;
+	border: 0;
+	height: 40px;
+	box-sizing: border-box;
+	background-color: #000;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+
+#contact #main .form td input[type="text"].wid01 {
+	width: 130px;
+}
+
+#contact #main .form td input[type="text"].wid02 {
+	width: 430px;
+}
+
+#contact #main .form td input[type="tel"] {
+	width: 145px;
+}
+
+#contact #main .form td input[type="email"] {
+	width: 374px;
+}
+
+#contact #main .form td .radioList li {
+	margin-right: 20px;
+	display: inline;
+}
+
+#contact #main .form td textarea {
+	padding: 5px 8px;
+	width: 100%;
+	height: 230px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+}
+
+#contact #main .form .comTable {
+	margin-bottom: 88px;
+}
+
+#contact #main .form .text01 {
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+
+#contact #main .form .text01 span {
+	margin-top: 16px;
+	display: block;
+}
+
+#contact #main .form .text01 a {
+	text-decoration: underline;
+}
+
+#contact #main .form .text01 a:hover {
+	text-decoration: none;
+}
+
+#contact #main .agree {
+	margin-bottom: 59px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#contact #main .submit {
+	text-align: center;
+}
+
+#contact #main .submit li {
+	margin: 0 5px;
+	display: inline;
+}
+
+#contact #main .submit li input {
+	width: 390px;
+	height: 59px;
+	text-align: center;
+	border: 0;
+	color: #FFF;
+	font-size: 16px;
+	cursor: pointer;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	background-color: #000;
+	transition: all .8s;
+	-webkit-transition: all .8s;
+    font-family: 'YuGothB';
+}
+
+#contact #main .submit li input:hover {
+	background-color: #C20C34;
+}
+
+
+#contact #main .errorMsg {
+	color: #F00;
+	line-height: 1.7;
+	font-size: 14px;
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	/*------------------------------------------------------------
+		contact
+	------------------------------------------------------------*/
+	#contact #main .pTop {
+		margin-bottom: 20px;
+	}
+	
+	#contact #main p {
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+
+	#contact #main .form {
+		padding: 10px 10px 20px;
+	}
+
+	#contact #main .form p {
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+		
+	#contact #main .form td {
+		padding: 10px 10px;
+	}
+	
+	#contact #main .form th {
+		padding: 10px 10px;
+		width: 100%;
+	}
+
+	#contact #main .form th .must {
+		margin-left: 10px;
+		padding: 2px 0  2px;
+		width: 50px;
+		font-size: 14px;
+	}
+
+	#contact #main .form td input[type="email"],
+	#contact #main .form td input[type="tel"],
+	#contact #main .form td input[type="text"] {
+		width: 100%;
+		height: 35px;
+		font-size: 14px;
+	}
+
+	#contact #main .form td .seachBtn {
+		margin-left: 0px;
+		width: 40%;
+		height: 35px;
+		font-size: 14px;
+		float: right;
+	}
+
+	#contact #main .form td input[type="text"].wid01 {
+		width: 55%;
+	}
+	
+	#contact #main .form td input[type="text"].wid02 {
+		width: 100%;
+	}
+	
+	#contact #main .form td input[type="tel"] {
+		width: 55%;
+	}
+
+	#contact #main .form td input[type="email"] {
+		width: 100%;
+	}
+	
+	#contact #main .form td .radioList li {
+		margin-right: 0px;
+		display: block;
+	}
+
+	#contact #main .form td textarea {
+		width: 100%;
+		height: 150px;
+		font-size: 14px;
+	}
+
+	#contact #main .form .comTable {
+		margin-bottom: 25px;
+	}
+	
+	#contact #main .form .text01 {
+		margin-bottom: 30px;
+	}
+
+	#contact #main .form .text01 a:hover {
+		text-decoration: underline;
+	}
+	
+	#contact #main .agree {
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+		
+	#contact #main .submit li {
+		margin: 0 0 15px;
+		display: block;
+	}
+
+	#contact #main .submit li:last-child {
+		margin-bottom: 0;
+	}
+	
+	#contact #main .submit li input {
+		width: 100%;
+		height: 40px;
+		font-size: 14px;
+		border-radius: 5px;
+		transition: none;
+		-webkit-transition: none;
+	}
+
+	#contact #main .submit li input:hover {
+		background-color: #000;
+	}
+
+}
+
+/*------------------------------------------------------------
+	about
+------------------------------------------------------------*/
+#about .pageTitle {
+	margin-bottom: 0;
+}
+
+#about .pageTitle .pageImg {
+	background-image: url(../img/about/page_title_bg.jpg);
+}
+
+#about #main .sec01 {
+	padding: 83px 0 70px;
+	background: url(../img/common/main_bg.png) repeat;
+}
+
+#about #main .sec01 p {
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-family: 'YuGothB';
+	text-align: center;
+	line-height: 2.0;
+	letter-spacing: 3px;
+}
+
+#about #main .sec01 .title {
+	margin-bottom: 34px;
+	font-size: 22px;
+}
+
+#about #main .sec02 {
+	padding: 78px 0 38px;
+}
+
+#about #main .imgBox {
+	margin-bottom: 106px;
+}
+
+#about #main .imgBox .textBox {
+	width: 514px;
+	float: left;
+}
+
+#about #main .imgBox .textBox h4 {
+	margin: -4px 70px 22px 0;
+	font-size: 24px;
+	font-family: 'YuGothB';
+	color: #8cb652;
+	letter-spacing: 4px;
+}
+
+#about #main .imgBox .textBox p {
+	margin-bottom: 24px;
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.5;
+	letter-spacing: 3px;
+}
+
+#about #main .imgBox .textBox p:last-child {
+	margin-bottom: 0;
+}
+
+#about #main .imgBox .photoBox {
+	float: right;
+}
+
+#about #main .imgBox01 {
+	margin-bottom: 105px;
+}
+
+#about #main .corTxt {
+	color: #FF9900;
+	font-family: 'YuGothB';
+}
+
+#about #main .sec02 p {
+	margin-bottom: 39px;
+	font-size: 16px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+#about #main .itemList {
+	margin-bottom: 112px;
+}
+
+#about #main .itemList li {
+	width: 320px;
+	float: left;
+	margin-right: 17px;
+	border: 1px solid #000;
+}
+
+#about #main .itemList li:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+#about #main .itemList .inner {
+	padding: 21px 23px 22px;
+}
+
+#about #main .itemList .inner .photo {
+	margin-bottom: 26px;
+}
+
+#about #main .itemList .inner h5 {
+	padding: 0 10px 14px 52px;
+	position: relative;
+	font-size: 18px;
+	font-family: 'YuGothB';
+	line-height: 1.6;
+}
+
+#about #main .itemList .inner h5 .num {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	top: 7px;
+	border-radius: 20px;
+	display: inline-block;
+	text-align: center;
+	color: #FFF;
+	font-family: 'YuGothM';
+	font-size: 24px;
+	line-height: 40px;
+	background-color: #D8C442;
+}
+
+#about #main .itemList p {
+	margin-bottom: 36px;
+	font-size: 14px;
+	text-align: left;
+	letter-spacing: 0px;
+	line-height: 1.7;
+}
+
+#about #main .itemList .link a {
+	padding: 10px 0;
+	font-size: 15px;
+}
+
+#about #main .sec02 .imgBox02 {
+	margin-bottom: 138px;
+}
+
+#about #main .sec02 .headLine02 {
+	width: 637px;
+	padding: 17px 0 15px;
+	margin-bottom: 69px;
+	line-height: 1.6;
+	letter-spacing: 6px;
+}
+
+#about #main .sec02 .text01 {
+	margin-bottom: 24px;
+}
+
+#about #main .sec02 .text02 {
+	margin-bottom: 76px;
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	
+	/*------------------------------------------------------------
+		about
+	------------------------------------------------------------*/
+	#about #main .sec01 {
+		padding: 25px 0;
+	}
+	
+	#about #main .sec01 p {
+		margin-bottom: 20px;
+		font-size: 14px;
+		letter-spacing: 1px;
+		text-align: left;
+		line-height: 1.7;
+	}
+	
+	#about #main .sec01 .title {
+		margin-bottom: 20px;
+		font-size: 20px;
+		line-height: 1.3;
+	}
+	
+	#about #main .sec02 {
+		padding: 25px 0 0;
+	}
+	
+	#about #main .imgBox {
+		margin-bottom: 25px;
+	}
+
+	#about #main .imgBox .textBox {
+		width: auto;
+		float: none;
+	}
+
+	#about #main .imgBox .textBox h4 {
+		margin: -4px 0px 15px;
+		font-size: 18px;
+		letter-spacing: 2px;
+	}
+
+	#about #main .imgBox .textBox p {
+		font-size: 14px;
+	}
+	
+	#about #main .imgBox .photoBox {
+		margin-bottom: 15px;
+		float: none;
+	}
+	
+	#about #main .imgBox .photoBox img {
+		width: 100%;
+	}
+	
+	#about #main .imgBox01 {
+		margin-bottom: 25px;
+	}
+
+	#about #main .sec02 p {
+		margin-bottom: 39px;
+		font-size: 14px;
+	}
+
+	#about #main .itemList {
+		margin-bottom: 25px;
+	}
+	
+	#about #main .itemList li {
+		width: auto;
+		float: none;
+		margin: 0 0 15px;
+	}
+
+	#about #main .itemList li:last-child {
+		margin-bottom: 0;
+	}
+	
+	#about #main .itemList .inner {
+		padding: 10px 10px;
+	}
+
+	#about #main .itemList .inner .photo {
+		margin-bottom: 15px;
+	}
+	
+	#about #main .itemList .inner .photo img {
+		width: 100%;
+	}
+
+	#about #main .itemList .inner h5 {
+		padding: 0 10px 14px 50px;
+		font-size: 16px;
+	}
+
+	#about #main .itemList .inner h5 .num {
+		font-size: 20px;
+	}
+	
+	#about #main .itemList p {
+		margin-bottom: 25px;
+	}
+	
+	#about #main .itemList .link a {
+		font-size: 13px;
+	}
+	
+	#about #main .itemList .link a:hover {
+		background-color: #000;
+	}
+	
+	#about #main .sec02 .imgBox02 {
+		margin-bottom: 25px;
+	}
+
+	#about #main .sec02 .headLine02 {
+		width: auto;
+		padding: 15px 0 15px;
+		margin-bottom: 25px;
+		line-height: 1.3;
+		letter-spacing: normal;
+	}
+	
+	#about #main .sec02 .text02 {
+		margin-bottom: 30px;
+	}
+}
+
+/*------------------------------------------------------------
+	modelhouse
+------------------------------------------------------------*/
+#modelhouse .pageTitle {
+	margin-bottom: 0;
+}
+
+#modelhouse .pageTitle .pageImg {
+	background-image: url(../img/modelhouse/page_title_bg.jpg);
+}
+
+#modelhouse #main {
+	margin-bottom: 0;
+}
+
+#modelhouse #main .sec01 {
+	padding: 69px 0 122px;
+	background: url(../img/common/main_bg.png) repeat;
+}
+
+#modelhouse #main .sec01 .photo {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+#modelhouse #main .sec01 .title {
+	margin-bottom: 34px;
+	font-size: 26px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: 'YuGothB';
+}
+
+#modelhouse #main .sec01 p {
+	margin-bottom: 24px;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+#modelhouse #main .sec01 p:last-child {
+	margin-bottom: 0;
+}
+
+#modelhouse #main .sec02 {
+	padding-bottom: 148px;
+}
+
+#modelhouse #main .sec02 h3 {
+	margin-bottom: 68px;
+}
+
+#modelhouse #main .sec02 .photo {
+	margin-bottom: 68px;
+	text-align: center;
+}
+
+#modelhouse #main .sec02 .itemList {
+	margin: -40px 0 96px;
+}
+
+#modelhouse #main .sec02 .itemList li {
+	width: 447px;
+	margin-top: 40px;
+	padding: 18px 15px 17px;
+	float: left;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 2px;
+	border: 1px solid #000;	
+}
+
+#modelhouse #main .sec02 .itemList li:nth-child(2n) {
+	float: right;
+}
+
+#modelhouse #main .itemList .title {
+	padding: 0 0 6px 38px;
+	position: relative;
+	font-size: 18px;
+	font-family: 'YuGothB';
+	letter-spacing: 0;
+}
+
+#modelhouse #main .itemList .title span {
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 17px;
+	line-height: 28px;
+	font-family: Quicksand_Bold;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	background-color: #D8C442;
+}
+
+#modelhouse #main .sec02 h4 {
+	clear: both;
+}
+
+#modelhouse #main .photoList {
+	margin-top: -35px;
+}
+
+#modelhouse #main .photoList li {
+	margin: 35px 33px 0 0;
+	float: left;
+}
+
+#modelhouse #main .photoList li:nth-child(4n) {
+	margin-right: 0;
+}
+
+#modelhouse #main .photoList .pho {
+	position: relative;
+}
+
+#modelhouse #main .photoList .pho .mark {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#modelhouse #main .sec03 {
+	padding: 82px 0 87px;
+	clear: both;
+	background-color: #F1F1F1;
+}
+
+#modelhouse #main .sec03 .content h4 {
+	margin-bottom: 33px;
+}
+
+#modelhouse #main .sec03 .imgBox {
+	margin-bottom: 87px;
+}
+
+#modelhouse #main .sec03 .mapBox {
+	float: left;
+}
+
+#modelhouse #main .sec03 .textBox {
+	width: 310px;
+	padding-top: 10px;
+	float: right;
+}
+
+#modelhouse #main .sec03 .textBox h5 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #8cb652;
+	letter-spacing: 1px;
+	font-family: 'YuGothB';
+}
+
+#modelhouse #main .sec03 .textBox p {
+	margin-bottom: 23px;
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+
+#modelhouse #main .sec03 .textBox .title {
+	margin-bottom: 8px;
+	letter-spacing: 1px;
+	font-family: 'YuGothB';
+}
+
+#modelhouse #main .sec03 .textBox .tel {
+	margin: -8px 0 12px;
+	font-size: 20px;
+	line-height: 1.2;
+    font-family: 'Quicksand_Bold';
+}
+
+#modelhouse #main .sec03 .textBox .tel .num {
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+#modelhouse #main .sec03 .textBox .tel .time {
+	margin: 3px 0 0 0px;
+	display: block;
+	font-size: 12px;
+	font-family: 'YuGothB';
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#modelhouse #main .sec03 .textBox .tel .time span {
+	margin-left: 15px;
+	font-size: 14px;
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	#modelhouse #main .sec01 {
+		padding: 25px 0;
+	}
+
+	#modelhouse #main .sec01 .photo {
+		margin-bottom: 25px;
+	}
+	
+	#modelhouse #main .sec01 .photo img {
+		width: 100%;
+	}
+	
+	#modelhouse #main .sec01 .title {
+		margin-bottom: 20px;
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	
+	#modelhouse #main .sec01 p {
+		font-size: 14px;
+		text-align: left;
+	}
+
+	#modelhouse #main .sec02 {
+		padding-bottom: 25px;
+	}
+
+	#modelhouse #main .sec02 h3 {
+		margin-bottom: 20px;
+	}
+
+	#modelhouse #main .sec02 .photo {
+		margin-bottom: 25px;
+	}
+	
+	#modelhouse #main .sec02 .photo img {
+		width: 100%;
+	}
+	
+	#modelhouse #main .sec02 .itemList {
+		margin: 0px 0 20px;
+	}
+	
+	#modelhouse #main .sec02 .itemList li {
+		width: auto;
+		margin: 0 0 20px;
+		padding: 10px 10px;
+		float: none;
+		font-size: 14px;
+	}
+
+	#modelhouse #main .sec02 .itemList li:last-child {
+		margin-bottom: 0;
+	}
+	
+	#modelhouse #main .sec02 .itemList li:nth-child(2n) {
+		float: none;
+	}
+
+	#modelhouse #main .itemList .title {
+		margin-bottom: 10px;
+		padding: 0 0 0 38px;
+		font-size: 16px;
+		line-height: 1.3;
+	}
+	
+	#modelhouse #main .itemList .title span {
+		top: 50%;
+		margin-top: -14px;
+	}
+
+	#modelhouse #main .photoList {
+		margin-top: -10px;
+	}
+	
+	#modelhouse #main .photoList li {
+		margin: 10px 0 0;
+		width: 48.5%;
+	}
+	
+	#modelhouse #main .photoList li:nth-child(2n) {
+		float: right;
+	}
+
+	#modelhouse #main .photoList .pho img {
+		width: 100%;
+	}
+	
+	#modelhouse #main .photoList .pho .mark img {
+		width: 30px;
+	}
+
+	#modelhouse #main .sec03 {
+		padding: 25px 0;
+	}
+	
+	#modelhouse #main .sec03 .content h4 {
+		margin-bottom: 25px;
+	}
+	
+	#modelhouse #main .sec03 .imgBox {
+		margin-bottom: 25px;
+	}
+	
+	#modelhouse #main .sec03 .mapBox {
+		margin-bottom: 15px;
+		float: none;
+	}
+	
+	#modelhouse #main .sec03 .mapBox img {
+		width: 100%;
+	}
+
+	#modelhouse #main .sec03 .textBox {
+		width: auto;
+		padding-top: 0px;
+		float: none;
+	}
+	
+	#modelhouse #main .sec03 .textBox h5 {
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+
+	#modelhouse #main .sec03 .textBox p {
+		margin-bottom: 15px;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	
+	#modelhouse #main .sec03 .textBox .title {
+		margin-bottom: 15px;
+	}
+
+	#modelhouse #main .sec03 .textBox .tel .time {
+		text-align: left;
+	}
+
+}

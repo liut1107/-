@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title></title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/content.css">
+<script src="js/jquery.js"></script>
+<script src="js/smartphone.js"></script>
+<script src="js/jquery.page-scroller.js"></script>
+<script src="js/jquery.screwdefaultbuttonsV2.js"></script>
+<script>
+$(function(){
+	$('#main .checkboxUl input:checkbox').screwDefaultButtons({
+		image: 'url("img/index/bg_02.gif")',
+		width: 15,
+		height: 15
+	});
+});
+</script>
+</head>
+<body>
+<article id="container">
+	<header id="gHeader">
+		<div class="hBox clearfix">
+			<div class="search"><a href="#"><img src="img/common/img_search.gif" width="19" alt=""></a></div>
+			<div class="images"><img src="img/common/img_01.jpg" width="28" alt=""></div>
+			<h1><a href="./"><img src="img/common/img_logo.jpg" width="127" alt=""></a></h1>
+		</div>
+		<nav id="gNavi">
+			<ul>
+				<li><a href="#">PRODUCTS</a></li>
+				<li><a href="storelocator.html">STORE LOCATOR</a></li>
+				<li><a href="#">SIGN-IN</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="main">
+		<h2>Search near me</h2>
+		<p class="link"><a href="#"><img src="img/index/icon_01.gif" width="15">USE MY LOCATUON</a></p>
+		<h2>Search by area</h2>
+		<ul class="selectUl">
+			<li>
+				<select name="select01">
+					<option value="SINGPORE">SINGPORE</option>
+				</select>
+			</li>
+			<li>
+				<select name="select01">
+					<option value="Select area">Select area</option>
+				</select>
+			</li>
+		</ul>
+		<h2>Search by store name or zip code</h2>
+		<p>
+			<input type="text" name="text" value="Store name or zip code" onfocus="if (this.value == defaultValue) this.value = '';" onblur="if (!this.value) this.value = defaultValue;">
+		</p>
+		<h2>Dispaly stores with</h2>
+		<ul class="checkboxUl">
+			<li>
+				<input type="checkbox" value="IBUKI treatment" name="checkbox01" id="fCheckbox01">
+				<label for="fCheckbox01">IBUKI treatment</label>
+			</li>
+			<li>
+				<input type="checkbox" value="Future Solution LX" name="checkbox02" id="fCheckbox02">
+				<label for="fCheckbox02">Future Solution LX</label>
+			</li>
+			<li>
+				<input type="checkbox" value="Campaign name 1" name="checkbox03" id="fCheckbox03">
+				<label for="fCheckbox03">Campaign name 1</label>
+			</li>
+		</ul>
+		<p class="link link01"><a href="isetan_scotts.html"><img src="img/index/icon_02.gif" width="15">SEARCH</a></p>
+		<p class="pText">View all stores in Singapore</p>
+		<div class="pageTop clearfix"><a href="#gHeader"><img src="img/common/img_page_top.gif" width="11" alt=""></a></div>
+	</section>
+	<footer id="gFooter">
+		<div class="fBox">
+			<div class="subBox clearfix">
+				<div class="fLogo"><a href="./"><img src="img/common/img_f_logo.jpg" width="93" alt=""></a></div>
+				<div class="images"><img src="img/common/img_02.jpg" width="18" alt=""></div>
+			</div>
+			<nav>
+				<ul class="clearfix">
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="fInner">
+			<p class="pLink"><a href="#">View Brand List</a></p>
+			<div class="subBox clearfix">
+				<p><a href="#">View Full Site</a></p>
+				<ul>
+					<li><a href="#">SINGAPORE</a>|</li>
+					<li><a href="#">Change Country</a></li>
+				</ul>
+			</div>
+			<div class="fInfo clearfix">
+				<ul class="clearfix">
+					<li><a href="#"><img src="img/common/img_link_01.jpg" width="19" alt="f"></a></li>
+					<li><a href="#"><img src="img/common/img_link_02.jpg" width="19" alt=""></a></li>
+					<li><a href="#"><img src="img/common/img_link_03.jpg" width="19" alt="Tube"></a></li>
+				</ul>
+				<p>&copy;SHISEIDO CO.,LTD.</p>
+			</div>
+		</div>
+	</footer>
+</article>
+</body>
+</html>

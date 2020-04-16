@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* index */
+
+#CONTAINER {
+	background-color: #45A57C !important;
+}
+
+#GNAVI {
+	height: auto;
+	margin: 12px 0 0;
+	position: relative;
+	z-index: 1000;
+}
+
+#GNAVI .rBox {
+	float: right;
+	margin-top: 8px;
+	width: 772px;
+}
+
+#GNAVI ul li{
+	float: left;
+}
+
+#GNAVI ul li a,
+#GNAVI a img {
+	display: block;
+}
+
+#GNAVI .navi01 a {
+	background: url(../../resources_shared/images/gnavi/gnavi01_over.gif) no-repeat;
+}
+
+#GNAVI .navi02 a {
+	background: url(../../resources_shared/images/gnavi/gnavi02_over.gif) no-repeat;
+}
+
+#GNAVI .navi03 a {
+	background: url(../../resources_shared/images/gnavi/gnavi03_over.gif) no-repeat;
+}
+
+#GNAVI .navi04 a {
+	background: url(../../resources_shared/images/gnavi/gnavi04_over.gif) no-repeat;
+}
+
+#GNAVI .navi05 a {
+	background: url(../../resources_shared/images/gnavi/gnavi05_over.gif) no-repeat;
+}
+
+#GNAVI .navi06 a {
+	background: url(../../resources_shared/images/gnavi/gnavi06_over.gif) no-repeat;
+}
+
+#GNAVI .navi07 a {
+	background: url(../../resources_shared/images/gnavi/gnavi07_over.gif) no-repeat;
+}
+
+#GNAVI .navi08 a {
+	background: url(../../resources_shared/images/gnavi/gnavi08_over.gif) no-repeat;
+}
+
+#GNAVI ul a:hover img,
+#GNAVI ul li.on a img  {
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-moz-opacity: 0;
+}
+
+#GNAVI ul ul {
+	background-color: #45A57C;
+	display: none;
+	padding-top: 1px;
+	margin-top: -1px;
+	position: absolute;
+	width: 65px;
+	opacity: 0.90;
+	-moz-opacity:0.90;
+	filter:alpha(opacity=90);
+}
+
+#GNAVI ul ul li {
+	background-color: #357E5F;
+	float: left;
+	margin-bottom: 1px;
+	width: 65px;
+	opacity: 0.90;
+	-moz-opacity: 0.90;
+	filter: alpha(opacity=90);
+}
+
+#GNAVI ul li ul li a {
+	background: none !important;
+	background-position: 500px 500px;
+	color: #C5E7D8 !important;
+	font-size: x-small;
+	font-weight: bold;
+	letter-spacing: -2px;
+	line-height: 22px;
+	padding: 0 3px;
+	text-align: left;
+}
+
+#GNAVI ul ul li a.hover,
+#GNAVI ul ul li a:hover {
+	background: none;
+	text-decoration: none;
+}
+
+#CONTENTSAREA .leftColumn {
+	float: left;
+	width: 722px;
+}
+
+#CONTENTSAREA .rightColumn {
+	float: right;
+	margin-top: 1px;
+	width: 235px;
+}
+
+#CONTENTSAREA .rightColumn .link {
+	margin-bottom: 19px;
+}
+
+#CONTENTSAREA .rightColumn .link li {
+	float: left;
+}
+
+#CONTENTSAREA .rightColumn .link li a,
+#CONTENTSAREA .rightColumn .link li a img {
+	display: block;
+}
+
+#CONTENTSAREA .rightColumn dl {
+	margin: 0 0 34px 16px;
+}
+
+#CONTENTSAREA .rightColumn dl dt {
+	color: #C0E7D1;
+	font-size: xx-small;
+	margin-bottom: 6px;
+}
+
+#CONTENTSAREA .rightColumn dl dd {
+	line-height: 12px;
+	margin-bottom: 16px;
+}
+
+#CONTENTSAREA .rightColumn dl dd a {
+	color: #FFF !important;
+	font-size: small;
+	letter-spacing: -1px;
+}
+
+#CONTENTSAREA .rightColumn dl dd a:hover {
+	text-decoration: underline;
+}
+
+#CONTENTSAREA .rightColumn .inner {
+	border-top: 1px solid #84C4A9;
+	margin-left: 1px;
+	padding: 12px 0 0 1px;
+}
+
+#CONTENTSAREA .rightColumn .inner img {
+	display: block;
+	float: left;
+	margin-right: 1px;
+}
+
+#CONTENTSAREA .rightColumn .link02 {
+	float: right;
+	width: 125px;
+}
+
+#CONTENTSAREA .rightColumn .link02 li {
+	float: left;
+}
+
+.mb7 {
+	margin-bottom: 7px !important;
+}

@@ -1,0 +1,184 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+body{
+	padding-bottom: 300px;
+}
+
+p {
+	margin: 0 auto 15px;
+	width: 980px;
+	padding: 5px 0 0;
+}
+
+li {
+	float: left;
+}
+
+.foopage {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.foopage a {
+	margin: 0 5px;
+	display: inline-block;
+	background: url(../img/slideshow/icon02.gif) no-repeat;
+	width: 11px;
+	height: 10px;
+}
+
+.foopage a.selected {
+	background: url(../img/slideshow/icon01.gif) no-repeat;
+}
+
+.foopage a span {
+	display: none;
+}
+
+
+
+
+/*------------------------------------------------------------
+	sliderBox
+------------------------------------------------------------*/
+.sliderBox {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.sliderBox .arrow {
+	margin: 0 auto;
+	width: 1080px;
+	position: relative;
+	z-index: 20;
+}
+
+.sliderBox .arrow li {
+	position: absolute;
+	top: 120px;
+	cursor: pointer;
+}
+
+.sliderBox .arrow .prev {
+	left: 0;
+}
+
+.sliderBox .arrow .next {
+	right: 0;
+}
+
+.sliderBox .foo {
+	height: 310px;
+	overflow: hidden;
+}
+
+.sliderBox .foo li {
+	float: left;
+}
+
+
+
+.sliderBox .left,
+.sliderBox .right {
+	position: absolute;
+	top: 0;
+	width: 50%;
+	height: 310px;
+	z-index: 10;
+	background: #FFF;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.sliderBox .left {
+	left: -515px;
+}
+
+.sliderBox .right {
+	right: -515px;
+}
+
+/*------------------------------------------------------------
+	slider1
+------------------------------------------------------------*/
+.slider1 .foo li {
+	padding: 0 5px;
+}
+
+/*------------------------------------------------------------
+	slider2
+------------------------------------------------------------*/
+.slider2 {
+	margin: 0 auto 50px;
+	width: 1080px;
+}
+
+.slider2 .foo {
+	margin: 0 auto;
+	width: 1020px;
+}
+
+/*------------------------------------------------------------
+	slider3
+------------------------------------------------------------*/
+.slider3 {
+	margin: 0 auto 50px;
+	width: 1080px;
+}
+
+.slider3 .foo {
+	margin: 0 auto;
+	width: 910px;
+	height: auto;
+}
+
+.slider3 .foo li {
+	margin-right: 10px;
+}
+
+.slider3 .arrow li {
+	top: 12px;
+}
+
+/*------------------------------------------------------------
+	slider4
+------------------------------------------------------------*/
+.slider4 .foo {
+	height: auto;
+}
+
+.slider4 .arrow {
+	width: auto;
+	position: static;
+}
+
+.slider4 .arrow li {
+	top: 35%;
+	z-index: 20;
+}
+
+/*------------------------------------------------------------
+	slider5
+------------------------------------------------------------*/
+.slider5 {
+	margin: 0 auto 50px;
+	width: 1080px;
+}
+
+.slider5 .foo {
+	margin: 0 auto;
+	width: 1020px;
+}
+
+.slider5 .thumb {
+	margin: 10px auto 0;
+	width: 820px;
+}
+
+.slider5 .toolbar li {
+	margin-right: 5px;
+}

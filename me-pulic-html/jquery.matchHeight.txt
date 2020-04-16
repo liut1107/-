@@ -1,0 +1,5 @@
+<script>
+	$(function(){
+		$('.pickList li p').matchHeight();
+	});
+</script>

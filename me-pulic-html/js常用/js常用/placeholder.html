@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/placeholder.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/placeholder.js"></script>
+<script type="text/javascript">
+$(function(){
+	
+	$("li input:text").setupPlaceholder();
+	
+	$("textarea").setupPlaceholder();
+});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="main">
+		<p>input placeholder</p>
+		<ul class="clearfix">
+			<li><input type="text" value="" title="例子1" name="tel" class="ex1" /></li>
+			<li><input type="text" value="" title="例子2" name="tel" class="ex2" /></li>
+			<li><input type="text" value="" title="例子3" name="tel" class="ex3" /></li>
+		</ul>
+		<p>textarea 也一样</p>
+		<textarea cols="5" rows="5" name="body" title="例子4"></textarea>
+	</div>
+</div>
+</body>
+</html>

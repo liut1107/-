@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* 初期化 */
+@import './default.css';
+/* コンテンツエリア外パーツ（GNAVIなど） */
+@import './common.css';
+/* 汎用クラス */
+@import './general.css';
+/* モジュール */
+@import './module.css';
+

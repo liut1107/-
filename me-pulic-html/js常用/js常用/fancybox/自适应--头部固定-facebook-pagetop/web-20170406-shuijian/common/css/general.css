@@ -1,0 +1,334 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+.fr { float: right !important; }
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	pageTitle
+------------------------------------------------------------*/
+.pageTitle {
+	height: 144px;
+	background: #0c97ba url(../../img/contact/page_title_bg.jpg) no-repeat right top;
+}
+
+.pageTitle h2 {
+	margin: 0 auto;
+	padding-top: 35px;
+	max-width: 966px;
+	color: #FFF;
+	font-size: 47px;
+	font-weight: normal;
+}
+
+/*------------------------------------------------------------
+	mainNavi
+------------------------------------------------------------*/
+.mainNavi {
+	padding: 13px 0 12px;
+	font-size: 0;
+	text-align: center;
+	background-color: #FFF;
+	border-bottom: 1px solid #dedede;
+}
+
+.mainNavi li {
+	display: inline-block;
+	line-height: 1;
+}
+
+.mainNavi li:first-child {
+	border-left: 2px solid #d4d4d4;
+}
+
+.mainNavi a {
+	padding: 0 49px;
+	display: block;
+	font-size: 14px;
+	border-right: 2px solid #d4d4d4;
+}
+
+/*------------------------------------------------------------
+	content
+------------------------------------------------------------*/
+.content {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+/*------------------------------------------------------------
+	bgBox
+------------------------------------------------------------*/
+.bgBox {
+	background-color: #f2f2f2;
+}
+
+/*------------------------------------------------------------
+	headLine01
+------------------------------------------------------------*/
+.headLine01 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+/*------------------------------------------------------------
+	headLine02
+------------------------------------------------------------*/
+.headLine02 {
+	padding-left: 10px;
+	font-size: 23px;
+	font-weight: normal;
+	border-left: 5px solid #0c97ba;
+}
+
+/*------------------------------------------------------------
+	headLine03
+------------------------------------------------------------*/
+.headLine03 {
+	margin-bottom: 21px;
+	padding-bottom: 3px;
+	color: #0c97ba;
+	font-size: 20px;
+	font-weight: normal;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+/*------------------------------------------------------------
+	comTable
+------------------------------------------------------------*/
+.comTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.comTable th,
+.comTable td {
+	padding: 19px 10px 18px;
+	text-align: left;
+	vertical-align: middle;
+	line-height: 1.55;
+	border-bottom: 1px solid #dedede;
+}
+
+.comTable th {
+	width: 20.8%;
+	color: #0c97ba;
+	font-weight: normal;
+}
+
+.comTable .mapLink {
+	margin: -4px 0 0 39px;
+	width: 63px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.comTable .mapLink a {
+	padding: 4px 0;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 3px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #0c97ba;
+}
+
+.comTable .mapLink a:hover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	
+	/*------------------------------------------------------------
+		pageTitle
+	------------------------------------------------------------*/
+	.pageTitle h2 {
+		padding: 45px 5px;
+		font-size: 34px;
+	}
+
+	/*------------------------------------------------------------
+		content
+	------------------------------------------------------------*/
+	.content {
+		padding: 0 10px;
+		position: relative;
+	}
+	
+	/*------------------------------------------------------------
+		mainNavi
+	------------------------------------------------------------*/
+	.mainNavi a {
+		padding: 0 29px;
+	}
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	/*------------------------------------------------------------
+		pageTitle
+	------------------------------------------------------------*/
+	.pageTitle {
+		height: 72px;
+		background-size: auto 72px;
+	}
+	
+	.pageTitle h2 {
+		padding: 17px 17px;
+		font-size: 24px;
+	}
+	
+	/*------------------------------------------------------------
+		mainNavi
+	------------------------------------------------------------*/
+	.mainNavi {
+		padding: 0;
+		font-size: 0;
+		text-align: left;
+		border-bottom: 1px solid #5A5A5A;
+	}
+	
+	.mainNavi li {
+		display: block;
+	}
+	
+	.mainNavi li:first-child {
+		border-left: none;
+	}
+	
+	.mainNavi a {
+		padding: 10px 17px !important;
+		font-size: 12px;
+		position: relative;
+		border-right: none;
+		text-decoration: none;
+		border-top: 1px solid #5A5A5A;
+	}
+	
+	.mainNavi a:before {
+		width: 15px;  
+		height: 12px;
+		margin-top: -6px;
+		background: url(../img/icon06.png) no-repeat;
+		background-size: 15px 12px;
+		position: absolute;  
+		top: 50%;  
+		right: 14px;  
+	  
+		content: "";
+	}
+	
+	/*------------------------------------------------------------
+		content
+	------------------------------------------------------------*/
+	.content {
+		padding: 0 17px;
+	}
+	
+	/*------------------------------------------------------------
+		headLine01
+	------------------------------------------------------------*/
+	.headLine01 {
+		font-size: 17px;
+	}
+	
+	/*------------------------------------------------------------
+		headLine02
+	------------------------------------------------------------*/
+	.headLine02 {
+		padding-left: 5px;
+		font-size: 16px;
+		line-height: 1.2;
+		border-left-width: 3px;
+	}
+	
+	/*------------------------------------------------------------
+		headLine03
+	------------------------------------------------------------*/
+	.headLine03 {
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+
+	/*------------------------------------------------------------
+		comTable
+	------------------------------------------------------------*/
+	.comTable th,
+	.comTable td {
+		padding: 0px 0 9px;
+		line-height: 1.5;
+		float: left;
+		width: 100%;
+		box-sizing: border-box;
+		border-bottom: none;
+	}
+		
+	.comTable th {
+		padding: 0;
+		width: 100%;
+	}
+	
+	.comTable .mapLink {
+		margin: 0px 0 0 9px;
+		width: 45px;
+	}
+	
+	.comTable .mapLink a {
+		padding: 1px 0 2px;
+	}
+
+	.comTable .mapLink a:hover {
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+
+	
+}

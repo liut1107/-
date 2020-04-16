@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	PastExaminationQuiz
+------------------------------------------------------------*/
+#main .basearea .outer .section01 {
+	margin: 2px 0 15px 0;
+}
+
+#main .subBox .ulBox {
+	overflow: hidden;
+	width: 725px;
+}
+
+#main .basearea .outer .subBox .ulBox ul {
+	margin-bottom: 23px; 
+	width: 755px;
+}
+
+#main .basearea .outer .subBox .ulBox ul li {
+	background-color: #EDEDED;
+	color: #0066CC;
+	float: left;
+	margin-right: 18px;
+	text-align: center;
+	width: 131px;
+}
+
+#main .basearea .outer .subBox .ulBox ul li {
+	background-color: #EDEDED;
+}
+
+#main .basearea .outer .subBox .ulBox ul li a {
+	display: block;
+	font-size: 1.2em;
+	padding: 6px 6px 3px 6px;
+	text-decoration: underline;
+	width: 119px;
+	zoom: 1;
+}
+
+#main .basearea .outer .subBox .ulBox ul li:hover {
+	background-color: #DEDEDE;
+}
+
+#main .basearea .outer .subBox .ulBox ul li a:hover {
+	background-color: #DEDEDE;
+	text-decoration: none;
+}
+
+#main .basearea .outer .subBox .ulBox ul li img {
+	display: block;
+	margin-bottom: 3px;
+}

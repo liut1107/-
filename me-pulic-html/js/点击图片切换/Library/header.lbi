@@ -1,0 +1,27 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="header">
+		<div class="headerBox clearfix mb12">
+			<div class="lBox clearfix">
+				<div class="logo"><a href="../"><img src="../img/common/logo03.jpg" alt="me too datsumou-senmonten" /></a></div>
+				<h1 class="floatL"><img src="../img/common/h1_img02.gif" alt="痛くないのにスルスル抜ける大人気のミートゥー脱毛" /></h1>
+			</div>
+			<div class="rBox">
+				<ul class="comLink clearfix">
+					<li><a href="#">会社概要</a></li>
+					<li><a href="#">お問い合わせ</a></li>
+					<li><a href="#">リンク</a></li>
+					<li><a href="#">個人情報保護方針</a></li>
+					<li><a href="#">サイトマップ</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="gNavi">
+			<ul class="clearfix mb0">
+				<li class="nav01"><a href="../"><img src="../img/common/g_nav01.jpg" alt="ホーム HOME" /></a></li>
+				<li class="nav02"><a href="../about/"><img src="../img/common/g_nav02.jpg" alt="Me tooについて ABOUT Me too" /></a></li>
+				<li class="nav03"><a href="../price/"><img src="../img/common/g_nav03.jpg" alt="料金・プラン PRICE・PLAN" /></a></li>
+				<li class="nav04"><a href="../shop/"><img src="../img/common/g_nav04.jpg" alt="店舗案内 SALON GUIDE" /></a></li>
+				<li class="nav05"><a href="../staff/"><img src="../img/common/g_nav05.jpg" alt="スタッフ紹介 STAFF INTRODUCTION" /></a></li>
+				<li class="nav06"><a href="../voice/"><img src="../img/common/g_nav06.jpg" alt="お客様の声 CUSTOMER'S VOICE" /></a></li>
+			</ul>
+		</div>
+	</div>

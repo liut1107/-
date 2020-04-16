@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#header {
+	height: 150px;
+	margin-bottom: 20px;
+	background: #CCC;
+}
+
+#footer {
+	background: #CCC;
+	height: 500px;
+}
+
+#main {
+	min-height: 1000px;
+	padding: 0px;
+}
+
+#conts {
+	float: left;
+	width: 600px;
+	background: #FCC;
+	height: 700px;
+}
+
+#sideBar {
+	float: right;
+	width: 200px;
+}
+
+#sideBar p {
+	background: #CC6;
+	padding: 10px;
+}

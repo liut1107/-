@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#gNavi .navi04 a img {
+	visibility: hidden;
+}
+
+#conts h3 {
+	margin-bottom: 30px;
+}
+
+#conts .h3Head img {
+	margin-top: -3px;
+}
+
+#conts .comTable td .txtList li {
+	padding-left: 20px;
+	background: url(../img/common/icon/icon05.gif) no-repeat left 4px;
+}
+
+#conts .comTable td .txtList li a {
+	color: #DF6C63;
+	text-decoration: underline;
+}
+
+#conts .comTable td .txtList li a:hover  {
+	text-decoration: none;
+}
+
+#conts .comTable td .txtList01 li {
+	margin-right: 10px;
+	float: left;
+}
+
+#conts .comTable td .photo {
+	margin-bottom: 5px;
+}

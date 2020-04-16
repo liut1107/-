@@ -1,0 +1,36 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="HD">
+		<div class="header clearfix">
+			<div class="innerTop">
+				<p class="logo"><img src="../img/common/head_img01.gif" width="194" height="32" alt="" /> <span><a href="../index.html"><img src="../img/common/logo.gif" width="170" height="40" alt="安心と高品質の花贈り hibiyakadan.com" /></a></span></p>
+				<ul class="linkUl">
+					<li><span>こんにちは○○○ ゲストさま</span>
+						<p class="clearfix"><a href="#"><img src="../img/common/head_btn01.gif" width="77" height="27" alt="ログイン" /></a><a href="#"><img src="../img/common/head_btn02.gif" width="77" height="27" alt="新規会員登録" /></a></p>
+					</li>
+					<li class="li01"><a href="#"><img src="../img/common/head_btn03.gif" width="53" height="43" alt="マイページ" /></a><a href="#"><img src="../img/common/head_btn04.gif" width="43" height="43" alt="カート" /></a></li>
+				</ul>
+			</div>
+			<div class="subBox">
+				<ul class="imgUl clearfix">
+					<li><img src="../img/common/head_text01.gif" width="109" height="11" alt="オンラインショッピング" /></li>
+					<li><a href="#"><img src="../img/common/head_text06.gif" width="48" height="11" alt="店舗情報" /></a></li>
+					<li><a href="#"><img src="../img/common/head_text02.gif" width="63" height="11" alt="ウェディング" /></a></li>
+					<li><a href="#"><img src="../img/common/head_text03.gif" width="61" height="11" alt="フューネラル" /></a></li>
+					<li class="li01"><a href="#"><img src="../img/common/head_text04.gif" width="51" height="11" alt="アカデミー" /></a></li>
+				</ul>
+				<ul class="txtUl">
+					<li><a href="#">はじめての方へ</a></li>
+					<li><a href="#">安心お買いものガイド</a></li>
+					<li><a href="#">お問い合わせ</a></li>
+				</ul>
+				<ul class="gNavi clearfix">
+					<li class="navi01"><a href="#"><img src="../img/common/g_navi01.gif" width="214" height="36" alt="ギフトを贈る" /></a></li>
+					<li class="navi02"><a href="#"><img src="../img/common/g_navi02.gif" width="214" height="36" alt="自宅で楽しむ" /></a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<p class="clearfix"> <img src="../img/common/img01.gif" width="15" height="16" alt="" />
+					<input name="txt" type="text" value="ここにキーワードを入力" class="searchKey" />
+					<a href="#"><img src="../img/common/head_text05.gif" width="76" height="11" alt="こだわり検索" /></a></p>
+			</div>
+		</div>
+	</div>

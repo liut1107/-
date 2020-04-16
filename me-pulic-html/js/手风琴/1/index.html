@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title></title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/tab.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("#conts dt").click(function(){
+		$(this).toggleClass("block")
+			.next().slideToggle(500)
+			.siblings("block").slideUp("slow");
+		$(this).siblings(".faq").removeClass("block");	
+	});
+});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="header"><img src="img/h.jpg" alt="" /></div>
+	<div id="main">
+		<div id="conts">
+			<h2><img src="img/index/h2_img.png" width="710" height="50" alt="" /></h2>
+			<ul class="link clearfix">
+				<li class="link01 on"><a href="javascript:tab(1)"><img src="img/index/link01_out.jpg" width="238" height="48" alt="" /></a></li>
+				<li class="link02"><a href="javascript:tab(2)"><img src="img/index/link02_out.jpg" width="235" height="48" alt="" /></a></li>
+				<li class="link03"><a href="javascript:tab(3)"><img src="img/index/link03_out.jpg" width="237" height="48" alt="" /></a></li>
+			</ul>
+			<div class="subBox" id="subBox01">
+				<h3>充電器検証の重要性</h3>
+				<p>ワンセグTV、高画質カメラ、大容量ゲームアプリ、GPS機能など、携帯電話が高機能になるとともにバッテリーの消費量も多くなり、繰り返し充電して使えるリチウムイオンバッテリーや、コンビニエンスストアで購入できる乾電池式の緊急充電器などを利用するユーザーが増えています。</p>
+				<p class="pSpecial01">一方、防水仕様携帯やデザイン携帯の登場により、コネクタカバーの形状や、デザインによっては物理的に充電器の接続ができないといった問題も発生しており、実機での勘合確認や充電確認はユーザーサポートの観点からも重要度が高いと言えます。</p>
+				<p class="pSpecial02">弊社で実施したこれまでの充電器検証で確認されたエラー</p>
+				<div class="inner clearfix">
+					<div class="photoBox"><img src="img/index/photo.jpg" width="151" height="73" alt="" /></div>
+					<ul>
+						<li>電源コネクタ部分の物理的構造によって接続ができない</li>
+						<li>OSバージョンによって充電ができない</li>
+						<li>一見充電されているように見えるが実際には充電されていない</li>
+						<li>接続しても充電状態にならない</li>
+					</ul>
+				</div>
+				<p class="mb0">近年、バッテリー性能の向上により、充電器検証に必要なバッテリー放電には非常に時間がかかるようになりました。<br />
+					弊社充電器検証プランでは、事前に一定の放電作業を行ってから充電器検証を実施致します。<br />
+					またオプションとして、完全放電状態からの充電器検証も可能です。</p>
+			</div>
+			<div class="subBox" id="subBox02">
+				<h3>料金体系</h3>
+				<table cellpadding="0" cellspacing="0" summary="料金体系">
+					<col width="25%" />
+					<col width="25%" />
+					<col width="50%" />
+					<tbody>
+						<tr>
+							<th>料金項目</th>
+							<th>料金(1機種あたり)</th>
+							<th>備考</th>
+						</tr>
+						<tr>
+							<th>作業料金</th>
+							<td>&yen;1,500～</td>
+							<td><p>検証内容(モデル例)</p>
+								<ul>
+									<li>バッテリー放電<br />
+										<span>※完全放電、指定率放電は別途オプション。</span></li>
+									<li>勘合確認</li>
+									<li>接続時充電状態確認(携帯および充電器)</li>
+									<li class="pb0">10分間充電による充電状態確認(携帯および充電器)</li>
+								</ul></td>
+						</tr>
+						<tr>
+							<th>完全放電<br />
+								(オプション)</th>
+							<td>&yen;3,000</td>
+							<td>機種の空き状態によっては完全放電ができない場合があり、スケジュールの調整が必要になります。</td>
+						</tr>
+						<tr>
+							<th>任意率まで放電<br />
+								(オプション)</th>
+							<td>&yen;3,000</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<th>満充電<br />
+								(オプション)</th>
+							<td>&yen;4,000</td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<th>充電池が無くなるまでに<br />
+								何回の充電が可能か<br />
+								(オプション)</th>
+							<td>&yen;3,000～</td>
+							<td>-</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class="text">
+					<li>※上記金額は税別価格となります。</li>
+					<li>※上記金額は、充電器1台にて上記検証内容を想定した一例価格です。</li>
+					<li>※検証対象機器や検証内容等により別途御見積となります。</li>
+				</ul>
+			</div>
+			<div class="subBox" id="subBox03">
+				<h3>よくあるご質問</h3>
+				<dl>
+					<dt onclick="return false"><a href="#">サンプルテキストサンプルテキストサンプルテキスト</a></dt>
+					<dd><span><img src="img/index/icon04.gif" width="13" height="12" alt="" />サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</span></dd>
+				</dl>
+				<dl>
+					<dt onclick="return false"><a href="#">サンプルテキストサンプルテキストサンプルテキスト</a></dt>
+					<dd><span><img src="img/index/icon04.gif" width="13" height="12" alt="" />サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</span></dd>
+				</dl>
+				<dl>
+					<dt onclick="return false"><a href="#">サンプルテキストサンプルテキストサンプルテキスト</a></dt>
+					<dd><span><img src="img/index/icon04.gif" width="13" height="12" alt="" />サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</span></dd>
+				</dl>
+				<dl class="mb0">
+					<dt onclick="return false"><a href="#">サンプルテキストサンプルテキストサンプルテキスト</a></dt>
+					<dd><span><img src="img/index/icon04.gif" width="13" height="12" alt="" />サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</span></dd>
+				</dl>
+			</div>
+		</div>
+		<div id="sideBar"><img src="img/s.jpg" alt="" /></div>
+	</div>
+	<div id="footer"> フッター </div>
+</div>
+</body>
+</html>
